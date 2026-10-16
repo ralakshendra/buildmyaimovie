@@ -16,7 +16,8 @@ window.BMAI_SESSIONS=[
     "playbook": "playbook.html",
     "homework": "https://docs.google.com/document/d/1ElXCXzfTup1HubGb0KDTIzqCkbPUBWxXwqm3_HDxFmw/edit?usp=sharing",
     "description": "AI Faceless YouTube Channel Masterclass. Completed foundation session.",
-    "promptbook": "prompt-vault.html?session=week-1-day-2"
+    "promptbook": "prompt-vault.html?session=week-1-day-2",
+    "unlock": "2026-10-04T13:30:00.000Z"
   },
   {
     "id": "week-2-day-1",
@@ -32,7 +33,8 @@ window.BMAI_SESSIONS=[
     "playbook": "sessions/week-2-day-1/playbook.html",
     "homework": "https://docs.google.com/document/d/1zdEzgOX22ghpxgmNN5yQeYLprWsAUX3R7zNxuMmJQwI",
     "description": "Visual mastery, first short production, Filmora editing and channel launch.",
-    "promptbook": "prompt-vault.html?session=week-2-day-1"
+    "promptbook": "prompt-vault.html?session=week-2-day-1",
+    "unlock": "2026-10-10T13:30:00.000Z"
   },
   {
     "id": "week-2-day-2",
@@ -48,7 +50,8 @@ window.BMAI_SESSIONS=[
     "playbook": "sessions/week-2-day-2/playbook.html",
     "homework": "https://docs.google.com/document/d/1jbIb9krXCTVpHprI3tqm9V6tHL-L5Sr1NCFYQ5WHNBA",
     "description": "Create photorealistic product frames, build continuity and turn images into video.",
-    "promptbook": "prompt-vault.html?session=week-2-day-2"
+    "promptbook": "prompt-vault.html?session=week-2-day-2",
+    "unlock": "2026-10-11T13:30:00.000Z"
   },
   {
     "id": "week-3-day-1",
@@ -64,7 +67,8 @@ window.BMAI_SESSIONS=[
     "playbook": "sessions/week-3-day-1/playbook.html",
     "homework": "https://docs.google.com/document/d/1C9Txnwd_Fi2gqeHLZnfkGq5lEoqtA6WzqI4aGBCWFL4/edit?usp=sharing",
     "description": "Build the character sheet, visual direction, screenplay and structured shot shortlist before deeper generation.",
-    "promptbook": "prompt-vault.html?session=week-3-day-1"
+    "promptbook": "prompt-vault.html?session=week-3-day-1",
+    "unlock": "2026-10-17T13:30:00.000Z"
   },
   {
     "id": "week-3-day-2",
@@ -80,7 +84,8 @@ window.BMAI_SESSIONS=[
     "playbook": "sessions/week-3-day-2/playbook.html",
     "homework": "https://docs.google.com/document/d/1zj1OojpdpC8YHMYHqF2JPAvrJA78rckstWRN6wxr-MU/edit",
     "description": "Build a superhero teaser from character and location references through motion, edit, sound and final review.",
-    "promptbook": "prompt-vault.html?session=week-3-day-2"
+    "promptbook": "prompt-vault.html?session=week-3-day-2",
+    "unlock": "2026-10-18T13:30:00.000Z"
   },
   {
     "id": "week-4-day-1",
@@ -96,7 +101,8 @@ window.BMAI_SESSIONS=[
     "playbook": "sessions/week-4-day-1/playbook.html",
     "homework": "https://docs.google.com/document/d/1vIEK9NO-hJ_icVBlSQLUXVAHnlm46Gw1exPpc_42XR8/edit",
     "description": "Develop a superhero teaser with consistent references, purposeful motion and a deliberate edit.",
-    "promptbook": "prompt-vault.html?session=week-4-day-1"
+    "promptbook": "prompt-vault.html?session=week-4-day-1",
+    "unlock": "2026-10-24T13:30:00.000Z"
   },
   {
     "id": "week-4-day-2",
@@ -112,7 +118,8 @@ window.BMAI_SESSIONS=[
     "playbook": "sessions/week-4-day-2/playbook.html",
     "homework": "https://docs.google.com/document/d/1NplWrwx7vfEaAXLys4czsqwKzvm-wPwZRUsu9dhnJRY/edit",
     "description": "Plan, generate and edit a camera-focused product advertisement.",
-    "promptbook": "prompt-vault.html?session=week-4-day-2"
+    "promptbook": "prompt-vault.html?session=week-4-day-2",
+    "unlock": "2026-10-25T13:30:00.000Z"
   },
   {
     "id": "week-5-day-1",
@@ -128,7 +135,8 @@ window.BMAI_SESSIONS=[
     "playbook": "sessions/week-5-day-1/playbook.html",
     "homework": "https://docs.google.com/document/d/1qHcYXyMzjkQSD6remiUbcOcrgI9wMqELxpDtU2Oxylk/edit",
     "description": "Create one coherent real-estate walkthrough of about one minute or less as a team, using consistent property references, purposeful image-to-video movement and a Filmora edit with music.",
-    "promptbook": "prompt-vault.html?session=week-5-day-1"
+    "promptbook": "prompt-vault.html?session=week-5-day-1",
+    "unlock": "2026-10-31T13:30:00.000Z"
   },
   {
     "id": "week-5-day-2",
@@ -144,7 +152,8 @@ window.BMAI_SESSIONS=[
     "playbook": "sessions/week-5-day-2/playbook.html",
     "homework": "https://docs.google.com/document/d/1CGb4bhUlKvlzL4IrIrKtVGe1lMsYzwodJvVRnOTZWD4/edit",
     "description": "Create a detailed screenplay and a Hollywood-style production sheet that turns the assigned story into visually consistent, executable shots.",
-    "promptbook": "prompt-vault.html?session=week-5-day-2"
+    "promptbook": "prompt-vault.html?session=week-5-day-2",
+    "unlock": "2026-11-01T13:30:00.000Z"
   },
   {
     "id": "week-6-day-1",
@@ -160,7 +169,8 @@ window.BMAI_SESSIONS=[
     "playbook": "sessions/week-6-day-1/playbook.html",
     "homework": "https://docs.google.com/document/d/1NG5eCKm4gutvS5j_3CASgbH1T8XIOI-_4F2vV7DQkyU/edit",
     "description": "By the end of the session, each team will have a reviewed character sheet for the characters in its assigned film and a prop sheet for the story-critical objects, with reference images ready to support consistent image and video generation.",
-    "promptbook": "prompt-vault.html?session=week-6-day-1"
+    "promptbook": "prompt-vault.html?session=week-6-day-1",
+    "unlock": "2026-11-07T13:30:00.000Z"
   },
   {
     "id": "week-6-day-2",
@@ -176,7 +186,8 @@ window.BMAI_SESSIONS=[
     "playbook": "sessions/week-6-day-2/playbook.html",
     "homework": "https://docs.google.com/document/d/18ql4IsJL5RwCQ5jExGZxvk46kUFuxqQsptIjhfKSD2w/edit",
     "description": "Create and review one vertical AI UGC-style product ad using a consistent character, product-in-hand frame, talking A-roll, supporting B-roll, and a clean edit.",
-    "promptbook": "prompt-vault.html?session=week-6-day-2"
+    "promptbook": "prompt-vault.html?session=week-6-day-2",
+    "unlock": "2026-11-08T13:30:00.000Z"
   },
   {
     "id": "week-7-day-1",
@@ -192,7 +203,8 @@ window.BMAI_SESSIONS=[
     "playbook": "sessions/week-7-day-1/playbook.html",
     "homework": "https://docs.google.com/document/d/1ALm4BKj-6wdIDHxmhXt6DFcka-tMz-7s4sZmjjxxHZ8/edit",
     "description": "Create a short test video with Google Flow and a verified video-trained avatar, compare face and voice consistency, and record the selected results and next fixes in the Homework Doc.",
-    "promptbook": "prompt-vault.html?session=week-7-day-1"
+    "promptbook": "prompt-vault.html?session=week-7-day-1",
+    "unlock": "2026-11-14T13:30:00.000Z"
   },
   {
     "id": "week-7-day-2",
@@ -208,7 +220,8 @@ window.BMAI_SESSIONS=[
     "playbook": "sessions/week-7-day-2/playbook.html",
     "homework": "https://docs.google.com/document/d/1JWqUBGACD-YajJHTfU1GoBqmEPm2YIE6jVi-O6hWIjc",
     "description": "Tailor the supplied portfolio master prompt to one AI builder, create a three-page portfolio draft with your own available material, review its responsive behavior and interactions, and record your next revisions.",
-    "promptbook": "prompt-vault.html?session=week-7-day-2"
+    "promptbook": "prompt-vault.html?session=week-7-day-2",
+    "unlock": "2026-11-15T13:30:00.000Z"
   },
   {
     "id": "week-8-day-1",
@@ -224,7 +237,8 @@ window.BMAI_SESSIONS=[
     "playbook": "sessions/week-8-day-1/playbook.html",
     "homework": "https://docs.google.com/document/d/1pUmCjzW_iYchbUHelAkbBDYmJR2GRhBjYHf6n32_A0g/edit",
     "description": "Create and review an automobile advertisement using a chosen four-wheel vehicle, consistent visual references, a shot plan, and motion clips that preserve the vehicle's identity and move plausibly.",
-    "promptbook": "prompt-vault.html?session=week-8-day-1"
+    "promptbook": "prompt-vault.html?session=week-8-day-1",
+    "unlock": "2026-11-21T13:30:00.000Z"
   },
   {
     "id": "week-8-day-2",
@@ -240,7 +254,8 @@ window.BMAI_SESSIONS=[
     "playbook": "sessions/week-8-day-2/playbook.html",
     "homework": "https://docs.google.com/document/d/1wb2orCymuOp6zqJzsOKgieM8Pw_Sxt7KJKEkQooBDuo/edit",
     "description": "Select an advanced VFX route, prepare compatible references, generate one video transformation test, and review what changed, what stayed stable, and the first correction.",
-    "promptbook": "prompt-vault.html?session=week-8-day-2"
+    "promptbook": "prompt-vault.html?session=week-8-day-2",
+    "unlock": "2026-11-22T13:30:00.000Z"
   }
 ];
 
@@ -1411,7 +1426,7 @@ const S=window.BMAI_SESSIONS;
 
 
 
-function isUnlocked(x){return !!x&&(new Date(x.start).getTime()<=now())}
+function isUnlocked(x){return !!x&&(new Date(x.unlock).getTime()<=now())}
 function sessionIdFromHref(href){
  try{
   const u=new URL(href,location.href);
@@ -1438,13 +1453,14 @@ function byId(id){return S.find(x=>x.id===id)}
 function pageId(){return document.body.dataset.sessionId||null}
 function pageSession(){const id=pageId();return id?byId(id):null}
 function pageLabel(){return ({session:"SESSION GUIDE",playbook:"PLAYBOOK",homework:"HOMEWORK",resource:"RESOURCE"})[document.body.dataset.pageType]||"SESSION GUIDE"}
-function current(){let found=null;for(const x of S)if(x.session&&new Date(x.start).getTime()<=now())found=x;return found}
+function current(){let found=null;for(const x of S)if(x.session&&new Date(x.unlock).getTime()<=now())found=x;return found}
 function next(){return S.find(x=>new Date(x.start).getTime()>now())}
 function basePath(){return siteRoot.href}
 function dateParts(iso){return new Intl.DateTimeFormat("en-IN",{weekday:"long",day:"numeric",month:"long",year:"numeric",timeZone:"Asia/Kolkata"}).format(new Date(iso))}
 function timeParts(iso){return new Intl.DateTimeFormat("en-IN",{hour:"numeric",minute:"2-digit",hour12:true,timeZone:"Asia/Kolkata"}).format(new Date(iso))}
+function releaseLabel(x){return dateParts(x.unlock)+' · '+timeParts(x.unlock)+' IST'}
 function dateRange(x){const start=dateParts(x.start).replace(/ /g,"\u00a0"),time=timeParts(x.start),tz="\u00a0IST";return x.end?start+" · "+time+" to "+timeParts(x.end)+tz:start+" · "+time+tz}
-function countdown(iso){let d=new Date(iso).getTime()-now();if(d<=0)return"AVAILABLE NOW";const days=Math.floor(d/86400000);d%=86400000;const h=Math.floor(d/3600000);d%=3600000;const m=Math.floor(d/60000);d%=60000;const s=Math.floor(d/1000);return(days?days+"d ":"")+String(h).padStart(2,"0")+"h "+String(m).padStart(2,"0")+"m "+String(s).padStart(2,"0")+"s"}
+function countdown(iso){let d=new Date(S.find(x=>x.start===iso)?.unlock||iso).getTime()-now();if(d<=0)return"AVAILABLE NOW";const days=Math.floor(d/86400000);d%=86400000;const h=Math.floor(d/3600000);d%=3600000;const m=Math.floor(d/60000);d%=60000;const s=Math.floor(d/1000);return(days?days+"d ":"")+String(h).padStart(2,"0")+"h "+String(m).padStart(2,"0")+"m "+String(s).padStart(2,"0")+"s"}
 function sessionUrl(x){return x.session?basePath()+x.session:null}
 function lockPage(){
 if(document.body.dataset.pageType&&document.body.dataset.pageType.startsWith('prompt-vault'))return false;
@@ -1462,9 +1478,9 @@ if(!skip.isConnected)document.body.appendChild(skip);
 const main=document.createElement("main");
 main.id="main-content";
 main.className="bmai-lock-screen";
-main.innerHTML='<div class="bmai-lock-card"><div class="bmai-lock-avatars"><div class="studio-avatar ready" aria-label="Alexx ready for your next creative step"></div></div><div class="bmai-lock-kicker">BUILD MY AI MOVIE · SESSION LOCKED</div><div class="bmai-lock-week">'+esc(x.week)+'</div><div class="bmai-lock-date">'+esc(dateRange(x))+'</div><h1>'+esc(x.title)+'</h1><p>This session is scheduled to unlock at the official cohort start time.</p><div class="bmai-lock-count" id="bmaiLockCount">'+esc(countdown(x.start))+'</div><div class="bmai-lock-note">The page will unlock automatically when the countdown reaches zero. You do not need to refresh.</div><a class="btn btn-primary bmai-lock-home" aria-label="Back to Home" title="Back to home" href="'+hub+'"><svg aria-hidden="true" fill="none" height="20" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" width="20"><path d="M3 10 12 3l9 7M5 9v12h5v-7h4v7h5V9"></path></svg> Back to Home</a></div>';
+main.innerHTML='<div class="bmai-lock-card"><div class="bmai-lock-avatars"><div class="studio-avatar ready" aria-label="Alexx ready for your next creative step"></div></div><div class="bmai-lock-kicker">BUILD MY AI MOVIE · SESSION LOCKED</div><div class="bmai-lock-week">'+esc(x.week)+'</div><div class="bmai-lock-date">'+esc(dateRange(x))+'</div><h1>'+esc(x.title)+'</h1><p>All session materials unlock one hour before class so you can read ahead.</p><div class="bmai-lock-count" id="bmaiLockCount">'+esc(countdown(x.unlock))+'</div><div class="bmai-lock-note">The page will unlock automatically when the countdown reaches zero. You do not need to refresh.</div><a class="btn btn-primary bmai-lock-home" aria-label="Back to Home" title="Back to home" href="'+hub+'"><svg aria-hidden="true" fill="none" height="20" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" width="20"><path d="M3 10 12 3l9 7M5 9v12h5v-7h4v7h5V9"></path></svg> Back to Home</a></div>';
 document.body.insertBefore(main,document.querySelector(".studio-site-footer"));
-function tick(){const el=document.getElementById("bmaiLockCount");if(!el)return;el.textContent=countdown(x.start);if(new Date(x.start).getTime()<=now())location.reload()}
+function tick(){const el=document.getElementById("bmaiLockCount");if(!el)return;el.textContent=countdown(x.unlock);if(new Date(x.unlock).getTime()<=now())location.reload()}
 tick();setInterval(tick,1000);return true
 }
 function applyBrandMark(){const iconHref=basePath()+"assets/brand/build-my-ai-movie-mark.svg";if(!document.querySelector("link[data-bmai-favicon]")){const icon=document.createElement("link");icon.rel="icon";icon.type="image/svg+xml";icon.href=iconHref;icon.setAttribute("data-bmai-favicon","true");document.head.appendChild(icon)}const brand=document.querySelector("header .brand");if(!brand||brand.querySelector(".bmai-brand-mark"))return;const mark=document.createElement("img");mark.className="bmai-brand-mark";mark.src=basePath()+"assets/brand/build-my-ai-movie-mark.svg";mark.alt="";mark.setAttribute("aria-hidden","true");brand.insertBefore(mark,brand.firstChild)}
@@ -1569,7 +1585,7 @@ const guideKey=({'sessions/week-2-day-1/index.html':'w2d1-session','sessions/wee
 function renderCard(x){
 const cur=current(),unlocked=isUnlocked(x),isCurrent=cur&&cur.id===x.id,isNext=next()&&next().id===x.id;
 let action;
-if(x.session){const badge=unlocked?'':'<span class="bmai-availability">Locked · Opens '+esc(dateRange(x))+'</span>';action=badge+'<a class="btn '+(unlocked?"":"secondary")+'" href="'+esc(sessionUrl(x))+'">'+(unlocked?'Session guide':'View locked lesson')+'</a>'+(unlocked&&x.playbook?'<a class="btn secondary" href="'+esc(basePath()+x.playbook)+'">Playbook</a><a class="btn secondary" href="'+esc(basePath()+x.playbook)+'#share">Homework</a>':'');}
+if(x.session){const badge=unlocked?'':'<span class="bmai-availability">Locked · Opens '+esc(releaseLabel(x))+'</span>';action=badge+'<a class="btn '+(unlocked?"":"secondary")+'" href="'+esc(sessionUrl(x))+'">'+(unlocked?'Session guide':'View locked lesson')+'</a>'+(unlocked&&x.playbook?'<a class="btn secondary" href="'+esc(basePath()+x.playbook)+'">Playbook</a><a class="btn secondary" href="'+esc(basePath()+x.playbook)+'#share">Homework</a>':'');}
 else action='<span class="lock-label">'+(unlocked?"CONTENT COMING SOON":"CONTENT NOT RELEASED")+'</span>';
 const status=isCurrent?"CURRENT SESSION":!x.session?"UNRELEASED":new Date(x.start).getTime()>now()?(unlocked?"REVIEW OPEN":"UPCOMING"):"AVAILABLE NOW";
 const extra='';
@@ -1608,8 +1624,8 @@ const nextBox=document.getElementById("bmaiNextSession");
 if(nextBox){
  if(nxt){
   const outcomes={"week-2-day-1":"You have the idea. Next, bring it to life with your first AI movie short: generate a shot, build the sound, and make your first cut.","week-2-day-2":"Make an ad that feels real. Build a consistent product world, then turn your strongest frames into controlled motion.","week-3-day-1":"Think like a director. Build a character, a visual world, and a story blueprint before your next generation."};
-  const reviewOpen=false&&!!nxt.session;
-  const access=reviewOpen?'<div class="studio-teaser-lock"><span>REVIEW ACCESS OPEN</span></div><div class="studio-teaser-actions"><a class="btn" href="'+esc(sessionUrl(nxt))+'">OPEN SESSION</a>'+(nxt.playbook?'<a class="btn secondary" href="'+basePath()+esc(nxt.playbook)+'">OPEN PLAYBOOK</a>':'')+'</div>':'<div class="studio-teaser-lock"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="5" y="10" width="14" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg><span>CLASS LOCKED · OPENS IN <b data-teaser-countdown>'+esc(countdown(nxt.start))+'</b></span></div><small>Your next chapter unlocks automatically. Get your current project ready.</small>';
+  const reviewOpen=isUnlocked(nxt)&&!!nxt.session;
+  const access=reviewOpen?'<div class="studio-teaser-lock"><span>REVIEW ACCESS OPEN</span></div><div class="studio-teaser-actions"><a class="btn" href="'+esc(sessionUrl(nxt))+'">OPEN SESSION</a>'+(nxt.playbook?'<a class="btn secondary" href="'+basePath()+esc(nxt.playbook)+'">OPEN PLAYBOOK</a>':'')+'</div>':'<div class="studio-teaser-lock"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="5" y="10" width="14" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg><span>CLASS LOCKED · OPENS IN <b data-teaser-countdown>'+esc(countdown(nxt.unlock))+'</b></span></div><small>Your next chapter unlocks automatically. Get your current project ready.</small>';
   nextBox.className="studio-teaser-card";
   nextBox.innerHTML='<div class="studio-teaser-copy"><div class="kicker">NEXT UP / '+esc(nxt.week)+'</div><h2>'+esc(nxt.title)+'</h2><p>'+esc(outcomes[nxt.id]||nxt.description||"Your next creative challenge is on its way. Bring what you have built so far and get ready to take the next step.")+'</p><div class="studio-teaser-date">'+esc(dateRange(nxt))+'</div>'+access+'</div>'+(nxt.hero?'<div class="studio-teaser-image"><img src="'+basePath()+esc(nxt.hero)+'" alt="'+esc(nxt.title)+' - next class preview" loading="lazy"></div>':'');
  }else nextBox.closest('section').hidden=true;
@@ -1623,7 +1639,7 @@ const nextBox=document.getElementById("bmaiNextSession");
 if(nextBox){
  const nxt=next();
  if(nxt){
-  const count=nextBox.querySelector('[data-teaser-countdown]');if(count)count.textContent=countdown(nxt.start);
+  const count=nextBox.querySelector('[data-teaser-countdown]');if(count)count.textContent=countdown(nxt.unlock);
  }
 }
 }
@@ -1721,7 +1737,7 @@ function siteSearch(){
   const query=input.value.trim().toLowerCase();if(query.length<2){results.hidden=true;results.innerHTML='';status.textContent='Enter at least two letters to search sessions, playbooks, homework, prompts, and resources.';return;}
   const words=query.split(/\s+/),matches=entries.filter(entry=>(availability.value==='all'||!entry.session||isUnlocked(entry.session))&&words.every(word=>(entry.title+' '+entry.kind+' '+entry.detail+' '+(entry.text||'')).toLowerCase().includes(word))).map(entry=>({...entry,score:(entry.title.toLowerCase().includes(query)?50:0)+words.reduce((score,word)=>score+(entry.title.toLowerCase().includes(word)?4:1),0)})).sort((a,b)=>b.score-a.score||a.title.localeCompare(b.title)).slice(0,10);
   status.textContent=matches.length?matches.length+' best matches shown.':availability.value==='available'?'No available matches. Try another term or include scheduled content.':'No matches found. Try a broader term.';
-  results.innerHTML=matches.map(entry=>{const locked=entry.session&&!isUnlocked(entry.session),label=locked?'Locked · Opens '+dateRange(entry.session):'Available now';return '<a href="'+esc(entry.url)+'"><span>'+esc(entry.kind)+'</span><strong>'+esc(entry.title)+'</strong><small>'+esc(entry.detail)+'</small><small class="bmai-search-release">'+esc(label)+'</small></a>';}).join('');results.hidden=!matches.length;guardLockedLinks();document.dispatchEvent(new CustomEvent('bmai:metric',{detail:{name:'site_search',resultCount:matches.length}}));
+  results.innerHTML=matches.map(entry=>{const locked=entry.session&&!isUnlocked(entry.session),label=locked?'Locked · Opens '+releaseLabel(entry.session):'Available now';return '<a href="'+esc(entry.url)+'"><span>'+esc(entry.kind)+'</span><strong>'+esc(entry.title)+'</strong><small>'+esc(entry.detail)+'</small><small class="bmai-search-release">'+esc(label)+'</small></a>';}).join('');results.hidden=!matches.length;guardLockedLinks();document.dispatchEvent(new CustomEvent('bmai:metric',{detail:{name:'site_search',resultCount:matches.length}}));
  };
  availability.addEventListener('change',render);document.addEventListener('bmai:release-change',render);
  form.addEventListener('submit',event=>{event.preventDefault();render();results.querySelector('a')?.focus()});input.addEventListener('input',render);
@@ -1745,9 +1761,9 @@ accessibility();
 if(lockPage()){window.BMAI_VISUALS.intro();applyPageIdentity();setupHeaderActions();setupMobileHeader();usageMetrics();guardLockedLinks();return;}
 if(document.body.dataset.pageType==="home"){
  homepage();
- homepageStateId=current()?.id||null;
+ homepageStateId=(current()?.id||'')+':'+(next()?.id||'');
  setInterval(()=>{
-  const id=current()?.id||null;
+  const id=(current()?.id||'')+':'+(next()?.id||'');
   if(id!==homepageStateId){homepage();window.BMAI_VISUALS.library();homepageStateId=id;guardLockedLinks();document.dispatchEvent(new Event('bmai:release-change'))}
   updateHomepageCountdowns();guardLockedLinks();
  },1000)
@@ -1759,6 +1775,7 @@ document.querySelectorAll("a").forEach(a=>{if(a.href===location.href)a.setAttrib
 }
 if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",ready);else ready();
 })();
+
 
 ;
 

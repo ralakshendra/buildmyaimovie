@@ -8,7 +8,7 @@ const review=new URL('__review__/',base).href;
 const walk=dir=>fs.readdirSync(dir,{withFileTypes:true}).flatMap(entry=>entry.isDirectory()?walk(path.join(dir,entry.name)):[path.join(dir,entry.name)]);
 const pages=require('./public-pages.cjs')();
 const schedule=vm.runInNewContext(fs.readFileSync(path.join(root,'library/schedule.js'),'utf8')+';window.BMAI_SESSIONS',{window:{}},{timeout:1000});
-const earliest=Math.min(...schedule.filter(session=>session.session).map(session=>Date.parse(session.start)));
+const earliest=Math.min(...schedule.filter(session=>session.session).map(session=>Date.parse(session.unlock)));
 
 (async()=>{
  const browser=await chromium.launch({...(process.platform==='win32'?{channel:'chrome'}:{}),headless:true});
