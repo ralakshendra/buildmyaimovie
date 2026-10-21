@@ -4,7 +4,7 @@
   "scripts": {
     "qa:visual": "playwright test -c qa/playwright.config.js",
     "resources:build": "node scripts/build-prompt-vault.cjs && node scripts/build-resources.cjs",
-    "build": "node scripts/build-learning-paths.cjs && node scripts/build-prompt-vault.cjs && node scripts/link-prompt-vault.cjs && node scripts/build-resources.cjs && node scripts/build-site.cjs && node scripts/check-site.cjs",
+    "build": "node scripts/build-learning-paths.cjs && node scripts/build-prompt-vault.cjs && node scripts/link-prompt-vault.cjs && node scripts/build-resources.cjs && node scripts/build-site.cjs && node scripts/check-site.cjs && node scripts/build-batch-access.cjs",
     "site:check": "node scripts/check-site.cjs",
     "qa:cohesion": "node scripts/audit-site.cjs",
     "session:new": "node scripts/new-session.cjs",
@@ -17,7 +17,8 @@
     "qa:audit": "node qa/audit-fixes.cjs",
     "qa:generated": "node scripts/check-generated.cjs",
     "qa:resource-links": "node qa/resource-links.cjs",
-    "qa:numbering": "node qa/curriculum-plan.cjs"
+    "qa:numbering": "node qa/curriculum-plan.cjs",
+    "access:build": "node scripts/build-batch-access.cjs"
   },
   "devDependencies": {
     "@playwright/test": "^1.55.0",

@@ -107,6 +107,9 @@ for (const session of schedule.filter(session => session.session)) {
   session.promptbook = `prompt-vault.html?session=${session.id}`;
 }
 
-fs.writeFileSync(path.join(root, 'library', 'schedule.js'), '/* Single schedule for every page. */\nwindow.BMAI_SESSIONS=' + JSON.stringify(schedule, null, 2) + ';\n');
+// Preserve batch slots when regenerating the session catalog.
+const batchTail=fs.readFileSync(path.join(root, 'library', 'schedule.js'),'utf8').match(/window\.BMAI_BATCH_SCHEDULES\s*=[\s\S]*/)?.[0]||'';
+fs.writeFileSync(path.join(root, 'library', 'schedule.js'), '/* Single schedule for every page. */\nwindow.BMAI_SESSIONS=' + JSON.stringify(schedule, null, 2) + ';\n'+batchTail);
 console.log(`Prompt Vault rebuilt as one searchable library for ${collections.length} authored sessions.`);
+
 

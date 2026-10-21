@@ -1,0 +1,18 @@
+.bmai-batch-label {
+  margin-inline-start: auto;
+  padding: .45rem .7rem;
+  border: 1px solid var(--accent, #ff6b2c);
+  border-radius: 999px;
+  font-size: .75rem;
+  font-weight: 600;
+  color: var(--accent, #ff6b2c);
+  white-space: nowrap;
+}
+.bmai-admin-view { display:flex; gap:.35rem; align-items:center; flex-wrap:wrap; }
+.bmai-global-header .studio-nav:has(.bmai-admin-view) { flex-wrap:wrap; }
+.bmai-admin-view select,.bmai-admin-view button { font:inherit; font-size:.75rem; color:#fff; background:#171717; border:1px solid #665044; border-radius:.5rem; padding:.4rem; }
+@media (max-width: 600px) {
+  .bmai-global-header .studio-nav { flex-wrap: wrap; gap: .6rem; }
+  .bmai-batch-label { order: 5; margin-inline-start: 0; }
+  .bmai-admin-view { order:6; width:100%; }
+}
