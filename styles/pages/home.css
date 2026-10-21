@@ -400,3 +400,8 @@ body[data-page-key="home"] .layout-home-7{display:grid;grid-template-columns:rep
 body[data-page-key="home"] .studio-review-banner{margin:0 0 20px;padding:14px 18px;border:1px solid rgba(255,154,61,.5);border-radius:12px;background:rgba(255,106,0,.1);color:#ffe0bd;font-size:14px;font-weight:700}
 body[data-page-key="home"] .studio-review-banner[hidden]{display:none}
 body[data-page-key="home"] .studio-teaser-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+
+/* Orientation is separate from the 15 numbered lessons. */
+body[data-page-key="home"] .bmai-orientation-entry{padding:24px;margin:0 0 18px;border:1px solid var(--bm-line);border-left:3px solid var(--bm-orange);border-radius:14px;background:rgba(255,106,0,.05)}
+body[data-page-key="home"] .bmai-orientation-entry h3{font-size:26px;margin:8px 0}
+body[data-page-key="home"] .bmai-orientation-entry p{max-width:65ch;color:var(--bm-muted);margin:8px 0 14px}

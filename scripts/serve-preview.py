@@ -41,13 +41,14 @@ def page_label(relative):
     if relative == '404.html':
         return 'Page not found'
     if relative == 'playbook.html':
-        return 'Week 1 Day 2 · Playbook'
+        return 'Week 1 Day 1 · Playbook'
     if relative.startswith('resources/'):
-        return 'Week 1 Day 2 · Session guide'
+        return 'Week 1 Day 1 · Session guide'
     match = re.match(r'sessions/week-(\d+)-day-(\d+)/(index|playbook|homework)\.html$', relative)
     if match:
         kind = {'index': 'Session guide', 'playbook': 'Playbook', 'homework': 'Homework workspace'}[match[3]]
-        return f'Week {match[1]} Day {match[2]} · {kind}'
+        position = (int(match[1]) - 1) * 2 + int(match[2]) - 2
+        return f'Week {position // 2 + 1} Day {position % 2 + 1} · {kind}'
     return relative
 
 

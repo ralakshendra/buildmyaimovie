@@ -1,7 +1,7 @@
 window.BMAI_LESSON={
   "id": "week-5-day-2",
   "title": "Plan the Film Before the First Frame",
-  "number": 10,
+  "number": 9,
   "stage": "BLUEPRINT",
   "visual": "production",
   "objective": "Create a detailed screenplay and a Hollywood-style production sheet that turns the assigned story into visually consistent, executable shots.",

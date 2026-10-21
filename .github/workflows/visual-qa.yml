@@ -57,7 +57,7 @@ jobs:
       - name: Check all public pages and viewports
         env:
           BMAI_BASE_URL: http://127.0.0.1:4173/
-        run: npm run qa:cohesion && npm run qa:release && npm run qa:review && npm run qa:student && npm run qa:audit && npm run qa:resource-links
+        run: npm run qa:cohesion && npm run qa:release && npm run qa:review && npm run qa:student && npm run qa:audit && npm run qa:resource-links && npm run qa:numbering
 
       - name: Upload screenshots and report
         if: failure() && github.event_name == 'workflow_dispatch' && inputs.upload_artifacts

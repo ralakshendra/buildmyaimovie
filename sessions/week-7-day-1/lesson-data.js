@@ -1,7 +1,7 @@
 window.BMAI_LESSON={
   "id": "week-7-day-1",
   "title": "Build Your AI Twin for UGC Videos",
-  "number": 13,
+  "number": 12,
   "stage": "MOVIE",
   "visual": "production",
   "objective": "Create a short test video with Google Flow and a verified video-trained avatar, compare face and voice consistency, and record the selected results and next fixes in the Homework Doc.",

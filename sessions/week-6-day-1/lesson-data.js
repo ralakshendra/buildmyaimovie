@@ -1,7 +1,7 @@
 window.BMAI_LESSON={
   "id": "week-6-day-1",
   "title": "Mahabharata Production: Character, Prop & Shot Continuity",
-  "number": 11,
+  "number": 10,
   "start": "2026-11-07T20:00:00+05:30",
   "end": "2026-11-07T22:00:00+05:30",
   "stage": "SHOTS",

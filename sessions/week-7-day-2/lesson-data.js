@@ -1,7 +1,7 @@
 window.BMAI_LESSON={
   "id": "week-7-day-2",
   "title": "Build Your Portfolio Website with AI Builders",
-  "number": 14,
+  "number": 13,
   "start": "2026-11-15T20:00:00+05:30",
   "end": "2026-11-15T22:00:00+05:30",
   "stage": "MOVIE",

@@ -1,11 +1,11 @@
 window.BMAI_LESSON={
   "id": "week-4-day-1",
   "title": "Superhero Teaser Production",
-  "number": 7,
+  "number": 6,
   "stage": "EDIT",
   "visual": "short",
   "objective": "Turn the existing superhero identity into a finished cinematic 16:9 teaser by building usable references, generating and editing hero footage, then reviewing and sharing the cut.",
-  "prerequisites": "Bring the superhero identity from Week 3 Day 2 and several well-lit photos of yourself from different angles. Keep raw personal photos private.",
+  "prerequisites": "Bring the superhero identity from Week 3 Day 1 and several well-lit photos of yourself from different angles. Keep raw personal photos private.",
   "estimatedEffort": "The live session is scheduled for 20:00–22:00 IST. The source does not specify additional homework time.",
   "submission": "Publish the finished teaser as demonstrated in class and submit the finished video and proof in the official Homework document. Share only audio you own or have permission to publish.",
   "homework": [

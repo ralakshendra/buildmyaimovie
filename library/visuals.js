@@ -23,7 +23,7 @@ function addMissingCards(section,type){
  window.BMAI_SESSIONS.filter(s=>s.session&&s.playbook&&!known.has(s.id)).forEach(s=>{
   const card=document.createElement('article');card.className='card'+(type==='homework'?' featured':'');card.dataset.sessionId=s.id;
   const href=type==='homework'?s.playbook+'#share':s.playbook;
-  const heading='Week '+s.id.match(/week-(\d+)-day-(\d+)/).slice(1).join(' Day ')+' '+(type==='homework'?'Homework':'Playbook')+' · '+s.title;
+  const heading=s.week.replace(/^WEEK (\d+) · DAY (\d+)$/,'Week $1 Day $2')+' '+(type==='homework'?'Homework':'Playbook')+' · '+s.title;
   card.innerHTML='<div class="tag">'+escape(s.week)+' · '+(type==='homework'?'HOMEWORK':'PLAYBOOK')+'</div><h3>'+escape(heading)+'</h3><p>'+escape(s.description)+'</p><div class="actions"><a class="btn '+(type==='homework'?'':'secondary')+'" href="'+escape(href)+'">'+(type==='homework'?'OPEN PLAYBOOK HOMEWORK':'OPEN PLAYBOOK')+'</a></div>';
   grid.append(card);
  });

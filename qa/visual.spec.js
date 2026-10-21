@@ -86,7 +86,9 @@ async function auditPage(page, label, viewportWidth) {
       await menu.click();
     }
   }
-  await page.screenshot({path: 'qa/artifacts/' + label + '-' + viewportWidth + '.png', fullPage: true});
+  // The central Vault is very long; full-height capture can exceed Chrome's screenshot budget.
+  // DOM overflow/media checks above still cover the entire page; content-review captures top/middle/end.
+  await page.screenshot({path: 'qa/artifacts/' + label + '-' + viewportWidth + '.png', fullPage: audit.pageType !== 'prompt-vault'});
   return audit;
 }
 

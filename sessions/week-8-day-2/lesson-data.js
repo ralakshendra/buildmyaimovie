@@ -1,7 +1,7 @@
 window.BMAI_LESSON={
   "id": "week-8-day-2",
   "title": "Advanced VFX",
-  "number": 16,
+  "number": 15,
   "stage": "MOTION",
   "visual": "production",
   "objective": "Select an advanced VFX route, prepare compatible references, generate one video transformation test, and review what changed, what stayed stable, and the first correction.",

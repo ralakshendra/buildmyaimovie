@@ -1,7 +1,7 @@
 window.BMAI_LESSON={
   "id": "week-5-day-1",
   "title": "Real Estate Walkthrough Challenge",
-  "number": 9,
+  "number": 8,
   "stage": "MOTION",
   "visual": "production",
   "objective": "Create one coherent real-estate walkthrough of about one minute or less as a team, using consistent property references, purposeful image-to-video movement and a Filmora edit with music.",

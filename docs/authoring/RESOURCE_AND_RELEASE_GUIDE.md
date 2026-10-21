@@ -156,3 +156,12 @@ Use `npm run qa:student` for backup round trips, invalid-file preservation, task
 ### Resource Library card destinations
 
 Owner feedback on 2026-10-11 removes all links from tool cards: the tool name and description are enough. Keep source annotations and release metadata in the source lessons; do not turn the title into a hidden alternative link. Prompt, practice recipe and checklist cards retain one visible Open link to the exact Vault item or source checklist. Preserve stable resource IDs when correcting source attribution. Run `npm run qa:resource-links` against the preview to verify tool cards have zero links, other cards retain exact destinations and expanded cards fit mobile widths.
+
+
+### Session numbering after Orientation (21 October 2026)
+
+Orientation is a separate, unnumbered entry before Week1. The15 existing teaching sessions are numbered1–15 and labelled Week1 Day1 through Week8 Day1, two per week. `library/schedule.js` owns `week` and `number`; use those fields for display, grouping and search. Existing `id`, route names and storage keys remain compatibility identifiers attached to their original topics. Never derive the displayed week/day from a route or ID. Class start/end and the existing one-hour early `unlock` times stay attached to each topic. Existing Google Docs retain their IDs; titles and internal session labels match the new numbering. Orientation materials and dates must come from the owner’s later template.
+
+For a new lesson, use an unused stable ID and the verified teaching-session number. The shared scaffold derives its display week/day from that number. Do not reuse an occupied old route simply because its name resembles the desired new label.
+
+Run `npm run qa:numbering` for labels, grouping, original links/timing, source prompt preservation, restored progress and the Orientation entry. The review-server navigation labels follow the same teaching-session numbering.

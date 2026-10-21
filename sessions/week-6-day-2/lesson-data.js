@@ -1,7 +1,7 @@
 window.BMAI_LESSON={
   "id": "week-6-day-2",
   "title": "Create a Complete AI UGC Ad",
-  "number": 12,
+  "number": 11,
   "stage": "MOVIE",
   "visual": "advertisement",
   "objective": "Create and review one vertical AI UGC-style product ad using a consistent character, product-in-hand frame, talking A-roll, supporting B-roll, and a clean edit.",

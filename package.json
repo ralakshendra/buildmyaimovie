@@ -16,7 +16,8 @@
     "qa:student": "node qa/student-workflow.cjs",
     "qa:audit": "node qa/audit-fixes.cjs",
     "qa:generated": "node scripts/check-generated.cjs",
-    "qa:resource-links": "node qa/resource-links.cjs"
+    "qa:resource-links": "node qa/resource-links.cjs",
+    "qa:numbering": "node qa/session-numbering.cjs"
   },
   "devDependencies": {
     "@playwright/test": "^1.55.0",

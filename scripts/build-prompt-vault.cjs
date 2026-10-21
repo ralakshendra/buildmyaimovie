@@ -4,7 +4,7 @@ const vm = require('vm');
 
 const root = path.resolve(__dirname, '..');
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c]));
-const cleanText = value => String(value ?? '').replace(/[ \t]+(?=\r?$)/gm, '').trim();
+const cleanText = value => String(value ?? '').replace(/\r\n/g, '\n').replace(/[ \t]+(?=\r?$)/gm, '').trim();
 const decode = value => cleanText(String(value).replace(/<[^>]*>/g, '').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;/g, "'"));
 const normalize = value => decode(value).replace(/\s+/g, ' ').trim();
 const slug = value => String(value || 'prompt').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 70) || 'prompt';
