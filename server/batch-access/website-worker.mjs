@@ -54,7 +54,9 @@ export function websiteHandler({ identity = verifiedEmail, clock = Date.now, tra
       if(member.role!=='admin')return json({error:'Admin access required'},403);
       if(request.method!=='POST')return json({error:'Use POST'},405);
       if(request.headers.get('Origin')!==url.origin)return json({error:'Invalid request origin'},403);
-      const form=await request.formData(),batch=form.get('batch'),mode=form.get('mode');
+      const form=await request.formData(),selection=form.get('view');
+      const batch=selection==='admin'?member.batch:['B11','B12'].includes(selection)?selection:form.get('batch');
+      const mode=selection==='admin'?'admin':['B11','B12'].includes(selection)?'student':form.get('mode');
       if(!['B11','B12'].includes(batch)||!['admin','student'].includes(mode))return json({error:'Invalid preview selection'},400);
       return new Response(null,{status:303,headers:{...privateHeaders,Location:'/index.html','Set-Cookie':'bmams_admin_view='+batch+':'+mode+'; Path=/; HttpOnly; Secure; SameSite=Strict'}});
     }

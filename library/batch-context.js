@@ -14,10 +14,12 @@
     header.append(badge);
     if(context.role==='admin'){
       const form=document.createElement('form');form.className='bmai-admin-view';form.method='post';form.action='/api/admin/batch';
-      for(const [name,label,options] of [['batch','Preview batch',['B11','B12']],['mode','Access view',['admin','student']]]){
-        const select=document.createElement('select');select.name=name;select.setAttribute('aria-label',label);
-        options.forEach(value=>{const option=document.createElement('option');option.value=value;option.textContent=value==='admin'?'All materials':value==='student'?'Student locks':value;option.selected=value===context[name];select.append(option)});form.append(select);
+      const select=document.createElement('select');select.name='view';select.setAttribute('aria-label','Preview view');
+      const current=context.mode==='admin'?'admin':context.batch;
+      for(const [value,label] of [['admin','Admin view - all materials'],['B11','B11 student view'],['B12','B12 student view']]){
+        const option=document.createElement('option');option.value=value;option.textContent=label;option.selected=value===current;select.append(option);
       }
+      form.append(select);
       const button=document.createElement('button');button.type='submit';button.textContent='Apply view';form.append(button);header.append(form);
     }
     // Content removed by the server is fetched again at the next release boundary.
