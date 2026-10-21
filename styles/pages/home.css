@@ -405,3 +405,13 @@ body[data-page-key="home"] .studio-teaser-actions{display:flex;flex-wrap:wrap;ga
 body[data-page-key="home"] .bmai-orientation-entry{padding:24px;margin:0 0 18px;border:1px solid var(--bm-line);border-left:3px solid var(--bm-orange);border-radius:14px;background:rgba(255,106,0,.05)}
 body[data-page-key="home"] .bmai-orientation-entry h3{font-size:26px;margin:8px 0}
 body[data-page-key="home"] .bmai-orientation-entry p{max-width:65ch;color:var(--bm-muted);margin:8px 0 14px}
+
+/* Eight-week outcomes, independent of lesson-material availability. */
+body[data-page-key="home"] .bmai-curriculum{border:1px solid var(--bm-line);border-radius:14px;padding:20px;margin:0 0 24px}
+body[data-page-key="home"] .bmai-curriculum summary{cursor:pointer;font-weight:700}
+body[data-page-key="home"] .bmai-curriculum-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;margin-top:20px}
+body[data-page-key="home"] .bmai-curriculum article{padding:16px;border:1px solid var(--bm-line);border-radius:10px;min-width:0}
+body[data-page-key="home"] .bmai-curriculum h3{font-size:21px;margin:8px 0}
+body[data-page-key="home"] .bmai-curriculum p{color:var(--bm-muted)}
+body[data-page-key="home"] #editing-plan{margin-top:20px}
+@media(max-width:650px){body[data-page-key="home"] .bmai-curriculum-grid{grid-template-columns:1fr}}

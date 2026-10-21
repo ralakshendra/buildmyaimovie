@@ -5,6 +5,7 @@ from io import BytesIO
 from urllib.parse import urlsplit
 import argparse
 import re
+import json
 from datetime import datetime
 
 parser = argparse.ArgumentParser()
@@ -36,6 +37,12 @@ def review_access_script():
 
 
 def page_label(relative):
+    raw = (root / 'library/schedule.js').read_text(encoding='utf-8')
+    sessions = json.loads(raw.split('window.BMAI_SESSIONS=', 1)[1].strip().rstrip(';'))
+    for session in sessions:
+        for field, kind in [('session', 'Session guide'), ('playbook', 'Playbook')]:
+            if session.get(field) == relative:
+                return session['week'].title() + ' · ' + kind
     if relative == 'index.html':
         return 'Home'
     if relative == '404.html':

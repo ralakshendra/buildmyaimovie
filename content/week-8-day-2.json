@@ -1,9 +1,9 @@
 {
   "id": "week-8-day-2",
   "title": "Advanced VFX",
-  "number": 15,
-  "start": "2026-11-22T20:00:00+05:30",
-  "end": "2026-11-22T22:00:00+05:30",
+  "number": 14,
+  "start": "2026-11-21T20:00:00+05:30",
+  "end": "2026-11-21T22:00:00+05:30",
   "stage": "MOTION",
   "visual": "production",
   "objective": "Select an advanced VFX route, prepare compatible references, generate one video transformation test, and review what changed, what stayed stable, and the first correction.",

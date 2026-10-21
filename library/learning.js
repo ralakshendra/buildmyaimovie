@@ -37,7 +37,7 @@ function playbook(){
 function catchup(){
  const type=document.body.dataset.pageType;if(!['home','session','resource'].includes(type))return;
  const sessions=window.BMAI_SESSIONS,root=new URL('../',document.querySelector('script[src*="library/site.js"]').src),paths=window.BMAI_LEARNING_PATHS||{};
- const available=()=>sessions.filter(s=>Date.parse(s.unlock)<=Date.now());
+ const available=()=>sessions.filter(s=>s.session&&Date.parse(s.unlock)<=Date.now());
  const panel=document.createElement('details');panel.className='bmai-catchup';panel.id='catch-up';panel.innerHTML='<summary>Missed a class? Follow the catch-up path</summary><div class="bmai-catchup-body"></div>';const body=panel.querySelector('div');
  const render=session=>{
   const path=paths[session?.id];if(!path){body.textContent='Follow the current session guide and paired playbook when the lesson becomes available.';return;}

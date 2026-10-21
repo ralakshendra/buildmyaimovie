@@ -141,7 +141,7 @@
     "sessionId": "week-2-day-1",
     "kind": "practice",
     "id": "practice-week-2-day-1-03-assemble-a-first-timeline",
-    "title": "Assemble a First Timeline",
+    "title": "Editing Essentials: Finish One Short",
     "text": "Place the shot and audio on the timeline, adjust audio when needed, and get a complete first draft rather than waiting for perfection.",
     "source": "Practice recipe from the session homework workflow.",
     "sourceUrl": "sessions/week-2-day-1/playbook.html",
@@ -1391,186 +1391,6 @@
     ]
   },
   {
-    "sessionId": "week-7-day-2",
-    "kind": "official",
-    "id": "prompt-vault-week-7-day-2-01-portfolio-website-master-prompt",
-    "title": "Portfolio website master prompt",
-    "text": "Build a premium, multi-page portfolio website for an AI Video Creator with a modern, high-end, minimalist dark aesthetic. The site requires a dynamic content architecture (CMS/Backend capability) so that all text, categories, and project video links can be updated easily.\n\nImplement a global, persistent Navigation Bar linking the three main pages: Home, Projects, and About.\n\n### Global Interactive Feature:\n- Lead Capture Popup: Trigger a sleek modal form exactly 5 seconds after the user lands on the website. Fields required: Name, Phone, Email ID, and Query. It must include a close button and smooth fade-in animation.\n\n---\n\n### PAGE 1: Homepage (Route: `/` or Home)\n1. Hero Section: Full-screen or large aspect-ratio video/image container with a clean text overlay for a cinematic title and subtitle.\n2. Client Logo Ticker: A seamless, horizontal infinitely auto-scrolling row of client or brand logos.\n3. Brief Bio: A two-column layout featuring a professional photo on one side and a brief, elegant \"About Me\" introduction on the other.\n4. Awards & Recognitions: A minimalist section displaying industry benchmarks, awards, or feature highlights.\n5. Reviews: A high-end carousel or clean grid showcasing brief client review cards.\n\n---\n\n### PAGE 2: Projects Page (Route: `/projects`)\n1. Banner: A premium header banner with bold typography and a text description introducing the portfolio body of work.\n2. Layout System: A two-column setup for maximum utility.\n   - Left Sidebar: A clean dropdown menu to filter projects by Category.\n   - Main Grid: A responsive gallery grid displaying multiple project cards.\n3. Project Cards & Video Handling: Each card must fetch its data dynamically. The card displays a thumbnail wrapper that, when clicked, opens or plays an embedded YouTube video link (optimized for Unlisted YouTube video embeds).\n4. Metadata Toggle: Under each video, include a subtle UI toggle that reveals the technical prompt specifications or JSON metadata for that project.\n\n---\n\n### PAGE 3: About Me Page (Route: `/about`)\n1. Detailed Bio: An expanded narrative layout paired with a striking, high-fidelity profile image.\n2. Workflows Section: A dedicated, auto-sliding asset grid titled \"Workflows\" displaying behind-the-scenes proof, node structures, or generation stages.\n3. Detailed Testimonials: A deep-dive section for long-form client testimonials and quotes.\n4. Benchmarks & Accolades: A final structured grid highlighting key artistic milestones and industry recognition.\n\n---\n\n### Backend & Content Management Requirements:\n- If building in Framer: Structure this layout to perfectly map to Framer Collections (CMS) for the Projects grid and text blocks.\n- If building in Lovable / v0: Create a centralized, editable local state configuration file (or connect to a Supabase database schema) and generate a hidden or password-protected \"/admin\" dashboard view. This dashboard must allow me to:\n  1. Add, edit, or delete project cards (Fields: Title, Category, YouTube Link, and Specs JSON).\n  2. Modify the main text fields and descriptions across the Homepage, Projects page, and About page.\n\nStyling: Use Tailwind CSS, premium typography, and smooth page transitions via Framer Motion to give it an elite, cinematic production studio feel.",
-    "source": "https://docs.google.com/document/d/1VZuptSviE23csN0jOk4MyxYDOtqQ_9KmFMc7v6H2dXc",
-    "sourceUrl": "sessions/week-7-day-2/index.html#prompt-portfolio-website-master",
-    "fields": []
-  },
-  {
-    "sessionId": "week-7-day-2",
-    "kind": "practice",
-    "id": "practice-week-7-day-2-01-choose-and-tailor",
-    "title": "Choose and tailor",
-    "text": "Choose Framer, Lovable, or v0 for your needs. Personalize the source master prompt with your real identity, audience, services, projects, and visual direction. Remove conflicting platform, CMS, backend, or styling requirements. Record the builder and your key edits.",
-    "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-7-day-2/playbook.html",
-    "fields": []
-  },
-  {
-    "sessionId": "week-7-day-2",
-    "kind": "practice",
-    "id": "practice-week-7-day-2-02-plan-and-generate",
-    "title": "Plan and generate",
-    "text": "Review the proposed Home, Projects, and About pages and interactions before building when your tool offers planning. Generate a first draft and note what the tool understood or missed.",
-    "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-7-day-2/playbook.html",
-    "fields": []
-  },
-  {
-    "sessionId": "week-7-day-2",
-    "kind": "practice",
-    "id": "practice-week-7-day-2-03-add-portfolio-material",
-    "title": "Add portfolio material",
-    "text": "Replace available placeholders with accurate profile, project, media, services, and other authorized details. Keep a simple mapping from each placeholder to its replacement asset or video link.",
-    "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-7-day-2/playbook.html",
-    "fields": []
-  },
-  {
-    "sessionId": "week-7-day-2",
-    "kind": "practice",
-    "id": "practice-week-7-day-2-04-review-and-revise",
-    "title": "Review and revise",
-    "text": "Check navigation, category filtering, project video playback, requested interactions, and desktop/mobile layouts. Record the preview or published link, observed issue, first grouped correction, and what you would carry forward.",
-    "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-7-day-2/playbook.html",
-    "fields": []
-  },
-  {
-    "sessionId": "week-7-day-2",
-    "kind": "troubleshooting",
-    "id": "troubleshooting-week-7-day-2",
-    "title": "Diagnose and repair a Build Your Portfolio Website with AI Builders failure",
-    "text": "I am working on Build Your Portfolio Website with AI Builders. The visible problem is: [describe the exact failure]. The reference, shot, product, character, or scene that must remain stable is: [reference or constraint]. Check these priorities: I chose a builder and tailored the master prompt to my actual portfolio.; I reviewed the proposed pages and interactions before generating the site.; I replaced the available project, profile, video, and service placeholders with accurate material.; I checked navigation, project filtering, video playback, and the requested interactions.; I reviewed the desktop and mobile layouts and recorded anything unavailable or broken.; I saved the preview or published link and my first grouped revision priorities in the Homework Doc.. Identify the smallest useful change to the prompt, reference, setting, or edit. Explain what evidence I should inspect after the next test, and tell me when to stop repeating the same approach and choose a different route.",
-    "source": "Prompt Vault troubleshooting template — adapt to the evidence from this session.",
-    "fields": [
-      {
-        "token": "[describe the exact failure]",
-        "label": "describe the exact failure",
-        "format": "text"
-      },
-      {
-        "token": "[reference or constraint]",
-        "label": "reference or constraint",
-        "format": "text"
-      }
-    ]
-  },
-  {
-    "sessionId": "week-8-day-1",
-    "kind": "official",
-    "id": "prompt-vault-week-8-day-1-01-tata-sumo-rainy-reference-image",
-    "title": "Tata Sumo rainy reference image",
-    "text": "An ultra realistic low angle front side image of a red TATA Sumo with yellow headlights in a rainy ambience",
-    "source": "Automobile video production Google Doc, section TATA SUMO AD",
-    "sourceUrl": "sessions/week-8-day-1/index.html#resource-prompt-1",
-    "fields": []
-  },
-  {
-    "sessionId": "week-8-day-1",
-    "kind": "official",
-    "id": "prompt-vault-week-8-day-1-02-start-end-camera-descent",
-    "title": "Start/end camera descent",
-    "text": "Create an ultra realistic mocobot movement from the start frame to the end frame.\nAs the car is standing still, the camera is moving down from start frame to end frame to mimic a mocobot alike motion. Strictly do not make any sudden shift in background that breaks natural physics, also keep the parallax as it is.\nAs the car is standing still, the camera is moving down from start frame to end frame to mimic a mocobot alike motion. Strictly do not make any sudden shift in background that breaks natural physics, also keep the parallax as it is.",
-    "source": "Automobile video production Google Doc, section TATA SUMO AD; the second instruction paragraph is duplicated in the source",
-    "sourceUrl": "sessions/week-8-day-1/index.html#resource-prompt-2",
-    "fields": []
-  },
-  {
-    "sessionId": "week-8-day-1",
-    "kind": "official",
-    "id": "prompt-vault-week-8-day-1-03-rain-tracking-shot",
-    "title": "Rain tracking shot",
-    "text": "A parallel fixed focal length tracking shot of the car in the reference moving at high speed while its raining moderately, there should be motion blur for the background, and slight rainwater splash on the road. make sure the wheel movement and rotation follow real physics.",
-    "source": "Automobile video production Google Doc, section TATA SUMO AD",
-    "sourceUrl": "sessions/week-8-day-1/index.html#resource-prompt-3",
-    "fields": []
-  },
-  {
-    "sessionId": "week-8-day-1",
-    "kind": "official",
-    "id": "prompt-vault-week-8-day-1-04-short-tracking-variant",
-    "title": "Short tracking variant",
-    "text": "A tracking shot of car moving at high speed in rain, with same focal distance from camera throughout.",
-    "source": "Automobile video production Google Doc, section TATA SUMO AD",
-    "sourceUrl": "sessions/week-8-day-1/index.html#resource-prompt-4",
-    "fields": []
-  },
-  {
-    "sessionId": "week-8-day-1",
-    "kind": "official",
-    "id": "prompt-vault-week-8-day-1-05-low-angle-orbit-shot",
-    "title": "Low-angle orbit shot",
-    "text": "A low angle 180 degree rotation around the car in the same camera angle.",
-    "source": "Automobile video production Google Doc, section TATA SUMO AD",
-    "sourceUrl": "sessions/week-8-day-1/index.html#resource-prompt-5",
-    "fields": []
-  },
-  {
-    "sessionId": "week-8-day-1",
-    "kind": "official",
-    "id": "prompt-vault-week-8-day-1-06-dolly-out-drift-and-stop",
-    "title": "Dolly-out drift and stop",
-    "text": "A dolly out shot as the car performs a drift and stop. make sure all movements, including water splash and wheel rotation follows physics.",
-    "source": "Automobile video production Google Doc, section TATA SUMO AD",
-    "sourceUrl": "sessions/week-8-day-1/index.html#resource-prompt-6",
-    "fields": []
-  },
-  {
-    "sessionId": "week-8-day-1",
-    "kind": "practice",
-    "id": "practice-week-8-day-1-01-vehicle-reference-pack",
-    "title": "Vehicle reference pack",
-    "text": "Choose a four-wheel vehicle. Gather same-colour references from useful angles, note its distinctive body details, and record links to the source images. If available, capture a 3D viewer angle to guide a camera view. If the image model repeatedly changes the vehicle, strengthen the references or choose a better-supported vehicle.",
-    "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-8-day-1/playbook.html",
-    "fields": []
-  },
-  {
-    "sessionId": "week-8-day-1",
-    "kind": "practice",
-    "id": "practice-week-8-day-1-02-shot-and-motion-plan",
-    "title": "Shot and motion plan",
-    "text": "List the advertisement shots in order. For each, note the vehicle action, scene, camera move, reference image and video method you chose. If using start and end frames, check that both frames show a coherent continuation of the same vehicle and scene.",
-    "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-8-day-1/playbook.html",
-    "fields": []
-  },
-  {
-    "sessionId": "week-8-day-1",
-    "kind": "practice",
-    "id": "practice-week-8-day-1-03-clip-review-and-first-fix",
-    "title": "Clip review and first fix",
-    "text": "Record links to the generated clips and draft. Check vehicle identity, camera movement, wheel rotation, background motion, road or water behavior, transitions and sound. Identify one visible problem and the first change you made or will make.",
-    "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-8-day-1/playbook.html",
-    "fields": []
-  },
-  {
-    "sessionId": "week-8-day-1",
-    "kind": "troubleshooting",
-    "id": "troubleshooting-week-8-day-1",
-    "title": "Diagnose and repair a Automobile Advertisement Production failure",
-    "text": "I am working on Automobile Advertisement Production. The visible problem is: [describe the exact failure]. The reference, shot, product, character, or scene that must remain stable is: [reference or constraint]. Check these priorities: I chose a four-wheel vehicle and gathered same-colour references from useful angles.; I checked that the vehicle's distinguishing body details remain consistent in my generated images.; I planned an ordered set of advertisement shots with a clear camera move for each.; I used start and end frames only when they show a coherent continuation of the same vehicle and scene.; I reviewed vehicle identity, camera path, wheel rotation, background motion, and road or water behavior in each clip.; I assembled a linked advertisement draft and recorded one issue and the first next fix in the Homework Doc.. Identify the smallest useful change to the prompt, reference, setting, or edit. Explain what evidence I should inspect after the next test, and tell me when to stop repeating the same approach and choose a different route.",
-    "source": "Prompt Vault troubleshooting template — adapt to the evidence from this session.",
-    "fields": [
-      {
-        "token": "[describe the exact failure]",
-        "label": "describe the exact failure",
-        "format": "text"
-      },
-      {
-        "token": "[reference or constraint]",
-        "label": "reference or constraint",
-        "format": "text"
-      }
-    ]
-  },
-  {
     "sessionId": "week-8-day-2",
     "kind": "official",
     "id": "prompt-vault-week-8-day-2-01-candle-object-reference-image",
@@ -1758,6 +1578,186 @@
     "id": "troubleshooting-week-8-day-2",
     "title": "Diagnose and repair a Advanced VFX failure",
     "text": "I am working on Advanced VFX. The visible problem is: [describe the exact failure]. The reference, shot, product, character, or scene that must remain stable is: [reference or constraint]. Check these priorities: I chose one transformation and identified the base clip or frame.; I wrote what must change and what should remain stable in the shot.; I prepared and labelled the reference assets required by the selected workflow.; I selected a source-backed method and attached the intended video, image, prop, character or background references.; I reviewed the generated clip for subject identity, scene continuity, camera, timing, lighting and motion drift.; I saved the selected output and its source/reference links in the official Homework Doc.; I recorded one observed problem and a first correction that addresses it.. Identify the smallest useful change to the prompt, reference, setting, or edit. Explain what evidence I should inspect after the next test, and tell me when to stop repeating the same approach and choose a different route.",
+    "source": "Prompt Vault troubleshooting template — adapt to the evidence from this session.",
+    "fields": [
+      {
+        "token": "[describe the exact failure]",
+        "label": "describe the exact failure",
+        "format": "text"
+      },
+      {
+        "token": "[reference or constraint]",
+        "label": "reference or constraint",
+        "format": "text"
+      }
+    ]
+  },
+  {
+    "sessionId": "week-8-day-1",
+    "kind": "official",
+    "id": "prompt-vault-week-8-day-1-01-tata-sumo-rainy-reference-image",
+    "title": "Tata Sumo rainy reference image",
+    "text": "An ultra realistic low angle front side image of a red TATA Sumo with yellow headlights in a rainy ambience",
+    "source": "Automobile video production Google Doc, section TATA SUMO AD",
+    "sourceUrl": "sessions/week-8-day-1/index.html#resource-prompt-1",
+    "fields": []
+  },
+  {
+    "sessionId": "week-8-day-1",
+    "kind": "official",
+    "id": "prompt-vault-week-8-day-1-02-start-end-camera-descent",
+    "title": "Start/end camera descent",
+    "text": "Create an ultra realistic mocobot movement from the start frame to the end frame.\nAs the car is standing still, the camera is moving down from start frame to end frame to mimic a mocobot alike motion. Strictly do not make any sudden shift in background that breaks natural physics, also keep the parallax as it is.\nAs the car is standing still, the camera is moving down from start frame to end frame to mimic a mocobot alike motion. Strictly do not make any sudden shift in background that breaks natural physics, also keep the parallax as it is.",
+    "source": "Automobile video production Google Doc, section TATA SUMO AD; the second instruction paragraph is duplicated in the source",
+    "sourceUrl": "sessions/week-8-day-1/index.html#resource-prompt-2",
+    "fields": []
+  },
+  {
+    "sessionId": "week-8-day-1",
+    "kind": "official",
+    "id": "prompt-vault-week-8-day-1-03-rain-tracking-shot",
+    "title": "Rain tracking shot",
+    "text": "A parallel fixed focal length tracking shot of the car in the reference moving at high speed while its raining moderately, there should be motion blur for the background, and slight rainwater splash on the road. make sure the wheel movement and rotation follow real physics.",
+    "source": "Automobile video production Google Doc, section TATA SUMO AD",
+    "sourceUrl": "sessions/week-8-day-1/index.html#resource-prompt-3",
+    "fields": []
+  },
+  {
+    "sessionId": "week-8-day-1",
+    "kind": "official",
+    "id": "prompt-vault-week-8-day-1-04-short-tracking-variant",
+    "title": "Short tracking variant",
+    "text": "A tracking shot of car moving at high speed in rain, with same focal distance from camera throughout.",
+    "source": "Automobile video production Google Doc, section TATA SUMO AD",
+    "sourceUrl": "sessions/week-8-day-1/index.html#resource-prompt-4",
+    "fields": []
+  },
+  {
+    "sessionId": "week-8-day-1",
+    "kind": "official",
+    "id": "prompt-vault-week-8-day-1-05-low-angle-orbit-shot",
+    "title": "Low-angle orbit shot",
+    "text": "A low angle 180 degree rotation around the car in the same camera angle.",
+    "source": "Automobile video production Google Doc, section TATA SUMO AD",
+    "sourceUrl": "sessions/week-8-day-1/index.html#resource-prompt-5",
+    "fields": []
+  },
+  {
+    "sessionId": "week-8-day-1",
+    "kind": "official",
+    "id": "prompt-vault-week-8-day-1-06-dolly-out-drift-and-stop",
+    "title": "Dolly-out drift and stop",
+    "text": "A dolly out shot as the car performs a drift and stop. make sure all movements, including water splash and wheel rotation follows physics.",
+    "source": "Automobile video production Google Doc, section TATA SUMO AD",
+    "sourceUrl": "sessions/week-8-day-1/index.html#resource-prompt-6",
+    "fields": []
+  },
+  {
+    "sessionId": "week-8-day-1",
+    "kind": "practice",
+    "id": "practice-week-8-day-1-01-vehicle-reference-pack",
+    "title": "Vehicle reference pack",
+    "text": "Choose a four-wheel vehicle. Gather same-colour references from useful angles, note its distinctive body details, and record links to the source images. If available, capture a 3D viewer angle to guide a camera view. If the image model repeatedly changes the vehicle, strengthen the references or choose a better-supported vehicle.",
+    "source": "Practice recipe from the session homework workflow.",
+    "sourceUrl": "sessions/week-8-day-1/playbook.html",
+    "fields": []
+  },
+  {
+    "sessionId": "week-8-day-1",
+    "kind": "practice",
+    "id": "practice-week-8-day-1-02-shot-and-motion-plan",
+    "title": "Shot and motion plan",
+    "text": "List the advertisement shots in order. For each, note the vehicle action, scene, camera move, reference image and video method you chose. If using start and end frames, check that both frames show a coherent continuation of the same vehicle and scene.",
+    "source": "Practice recipe from the session homework workflow.",
+    "sourceUrl": "sessions/week-8-day-1/playbook.html",
+    "fields": []
+  },
+  {
+    "sessionId": "week-8-day-1",
+    "kind": "practice",
+    "id": "practice-week-8-day-1-03-clip-review-and-first-fix",
+    "title": "Clip review and first fix",
+    "text": "Record links to the generated clips and draft. Check vehicle identity, camera movement, wheel rotation, background motion, road or water behavior, transitions and sound. Identify one visible problem and the first change you made or will make.",
+    "source": "Practice recipe from the session homework workflow.",
+    "sourceUrl": "sessions/week-8-day-1/playbook.html",
+    "fields": []
+  },
+  {
+    "sessionId": "week-8-day-1",
+    "kind": "troubleshooting",
+    "id": "troubleshooting-week-8-day-1",
+    "title": "Diagnose and repair a Automobile Advertisement Production failure",
+    "text": "I am working on Automobile Advertisement Production. The visible problem is: [describe the exact failure]. The reference, shot, product, character, or scene that must remain stable is: [reference or constraint]. Check these priorities: I chose a four-wheel vehicle and gathered same-colour references from useful angles.; I checked that the vehicle's distinguishing body details remain consistent in my generated images.; I planned an ordered set of advertisement shots with a clear camera move for each.; I used start and end frames only when they show a coherent continuation of the same vehicle and scene.; I reviewed vehicle identity, camera path, wheel rotation, background motion, and road or water behavior in each clip.; I assembled a linked advertisement draft and recorded one issue and the first next fix in the Homework Doc.. Identify the smallest useful change to the prompt, reference, setting, or edit. Explain what evidence I should inspect after the next test, and tell me when to stop repeating the same approach and choose a different route.",
+    "source": "Prompt Vault troubleshooting template — adapt to the evidence from this session.",
+    "fields": [
+      {
+        "token": "[describe the exact failure]",
+        "label": "describe the exact failure",
+        "format": "text"
+      },
+      {
+        "token": "[reference or constraint]",
+        "label": "reference or constraint",
+        "format": "text"
+      }
+    ]
+  },
+  {
+    "sessionId": "week-7-day-2",
+    "kind": "official",
+    "id": "prompt-vault-week-7-day-2-01-portfolio-website-master-prompt",
+    "title": "Portfolio website master prompt",
+    "text": "Build a premium, multi-page portfolio website for an AI Video Creator with a modern, high-end, minimalist dark aesthetic. The site requires a dynamic content architecture (CMS/Backend capability) so that all text, categories, and project video links can be updated easily.\n\nImplement a global, persistent Navigation Bar linking the three main pages: Home, Projects, and About.\n\n### Global Interactive Feature:\n- Lead Capture Popup: Trigger a sleek modal form exactly 5 seconds after the user lands on the website. Fields required: Name, Phone, Email ID, and Query. It must include a close button and smooth fade-in animation.\n\n---\n\n### PAGE 1: Homepage (Route: `/` or Home)\n1. Hero Section: Full-screen or large aspect-ratio video/image container with a clean text overlay for a cinematic title and subtitle.\n2. Client Logo Ticker: A seamless, horizontal infinitely auto-scrolling row of client or brand logos.\n3. Brief Bio: A two-column layout featuring a professional photo on one side and a brief, elegant \"About Me\" introduction on the other.\n4. Awards & Recognitions: A minimalist section displaying industry benchmarks, awards, or feature highlights.\n5. Reviews: A high-end carousel or clean grid showcasing brief client review cards.\n\n---\n\n### PAGE 2: Projects Page (Route: `/projects`)\n1. Banner: A premium header banner with bold typography and a text description introducing the portfolio body of work.\n2. Layout System: A two-column setup for maximum utility.\n   - Left Sidebar: A clean dropdown menu to filter projects by Category.\n   - Main Grid: A responsive gallery grid displaying multiple project cards.\n3. Project Cards & Video Handling: Each card must fetch its data dynamically. The card displays a thumbnail wrapper that, when clicked, opens or plays an embedded YouTube video link (optimized for Unlisted YouTube video embeds).\n4. Metadata Toggle: Under each video, include a subtle UI toggle that reveals the technical prompt specifications or JSON metadata for that project.\n\n---\n\n### PAGE 3: About Me Page (Route: `/about`)\n1. Detailed Bio: An expanded narrative layout paired with a striking, high-fidelity profile image.\n2. Workflows Section: A dedicated, auto-sliding asset grid titled \"Workflows\" displaying behind-the-scenes proof, node structures, or generation stages.\n3. Detailed Testimonials: A deep-dive section for long-form client testimonials and quotes.\n4. Benchmarks & Accolades: A final structured grid highlighting key artistic milestones and industry recognition.\n\n---\n\n### Backend & Content Management Requirements:\n- If building in Framer: Structure this layout to perfectly map to Framer Collections (CMS) for the Projects grid and text blocks.\n- If building in Lovable / v0: Create a centralized, editable local state configuration file (or connect to a Supabase database schema) and generate a hidden or password-protected \"/admin\" dashboard view. This dashboard must allow me to:\n  1. Add, edit, or delete project cards (Fields: Title, Category, YouTube Link, and Specs JSON).\n  2. Modify the main text fields and descriptions across the Homepage, Projects page, and About page.\n\nStyling: Use Tailwind CSS, premium typography, and smooth page transitions via Framer Motion to give it an elite, cinematic production studio feel.",
+    "source": "https://docs.google.com/document/d/1VZuptSviE23csN0jOk4MyxYDOtqQ_9KmFMc7v6H2dXc",
+    "sourceUrl": "sessions/week-7-day-2/index.html#prompt-portfolio-website-master",
+    "fields": []
+  },
+  {
+    "sessionId": "week-7-day-2",
+    "kind": "practice",
+    "id": "practice-week-7-day-2-01-choose-and-tailor",
+    "title": "Choose and tailor",
+    "text": "Choose Framer, Lovable, or v0 for your needs. Personalize the source master prompt with your real identity, audience, services, projects, and visual direction. Remove conflicting platform, CMS, backend, or styling requirements. Record the builder and your key edits.",
+    "source": "Practice recipe from the session homework workflow.",
+    "sourceUrl": "sessions/week-7-day-2/playbook.html",
+    "fields": []
+  },
+  {
+    "sessionId": "week-7-day-2",
+    "kind": "practice",
+    "id": "practice-week-7-day-2-02-plan-and-generate",
+    "title": "Plan and generate",
+    "text": "Review the proposed Home, Projects, and About pages and interactions before building when your tool offers planning. Generate a first draft and note what the tool understood or missed.",
+    "source": "Practice recipe from the session homework workflow.",
+    "sourceUrl": "sessions/week-7-day-2/playbook.html",
+    "fields": []
+  },
+  {
+    "sessionId": "week-7-day-2",
+    "kind": "practice",
+    "id": "practice-week-7-day-2-03-add-portfolio-material",
+    "title": "Add portfolio material",
+    "text": "Replace available placeholders with accurate profile, project, media, services, and other authorized details. Keep a simple mapping from each placeholder to its replacement asset or video link.",
+    "source": "Practice recipe from the session homework workflow.",
+    "sourceUrl": "sessions/week-7-day-2/playbook.html",
+    "fields": []
+  },
+  {
+    "sessionId": "week-7-day-2",
+    "kind": "practice",
+    "id": "practice-week-7-day-2-04-review-and-revise",
+    "title": "Review and revise",
+    "text": "Check navigation, category filtering, project video playback, requested interactions, and desktop/mobile layouts. Record the preview or published link, observed issue, first grouped correction, and what you would carry forward.",
+    "source": "Practice recipe from the session homework workflow.",
+    "sourceUrl": "sessions/week-7-day-2/playbook.html",
+    "fields": []
+  },
+  {
+    "sessionId": "week-7-day-2",
+    "kind": "troubleshooting",
+    "id": "troubleshooting-week-7-day-2",
+    "title": "Diagnose and repair a Build Your Portfolio Website with AI Builders failure",
+    "text": "I am working on Build Your Portfolio Website with AI Builders. The visible problem is: [describe the exact failure]. The reference, shot, product, character, or scene that must remain stable is: [reference or constraint]. Check these priorities: I chose a builder and tailored the master prompt to my actual portfolio.; I reviewed the proposed pages and interactions before generating the site.; I replaced the available project, profile, video, and service placeholders with accurate material.; I checked navigation, project filtering, video playback, and the requested interactions.; I reviewed the desktop and mobile layouts and recorded anything unavailable or broken.; I saved the preview or published link and my first grouped revision priorities in the Homework Doc.. Identify the smallest useful change to the prompt, reference, setting, or edit. Explain what evidence I should inspect after the next test, and tell me when to stop repeating the same approach and choose a different route.",
     "source": "Prompt Vault troubleshooting template — adapt to the evidence from this session.",
     "fields": [
       {

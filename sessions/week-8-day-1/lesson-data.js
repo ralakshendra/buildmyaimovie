@@ -1,7 +1,7 @@
 window.BMAI_LESSON={
   "id": "week-8-day-1",
   "title": "Automobile Advertisement Production",
-  "number": 14,
+  "number": 15,
   "stage": "MOTION",
   "visual": "advertisement",
   "objective": "Create and review an automobile advertisement using a chosen four-wheel vehicle, consistent visual references, a shot plan, and motion clips that preserve the vehicle's identity and move plausibly.",

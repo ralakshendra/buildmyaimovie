@@ -32,7 +32,7 @@ window.BMAI_SESSIONS=[
     "session": "sessions/week-2-day-1/index.html",
     "playbook": "sessions/week-2-day-1/playbook.html",
     "homework": "https://docs.google.com/document/d/1zdEzgOX22ghpxgmNN5yQeYLprWsAUX3R7zNxuMmJQwI",
-    "description": "Visual mastery, first short production, Filmora editing and channel launch.",
+    "description": "Create your first AI movie short and learn Editing Essentials in Filmora: arrange and trim shots, balance sound, and export one finished short before the publishing loop.",
     "promptbook": "prompt-vault.html?session=week-2-day-1",
     "unlock": "2026-10-10T13:30:00.000Z"
   },
@@ -207,55 +207,71 @@ window.BMAI_SESSIONS=[
     "unlock": "2026-11-14T13:30:00.000Z"
   },
   {
-    "id": "week-7-day-2",
+    "id": "week-7-day-3",
     "visual": "production",
     "hero": "assets/illustrations/production.svg",
     "week": "WEEK 7 · DAY 1",
-    "title": "Build Your Portfolio Website with AI Builders",
+    "title": "Advanced Editing: Finish Your Film",
     "number": 13,
     "start": "2026-11-15T20:00:00+05:30",
     "end": "2026-11-15T22:00:00+05:30",
-    "stage": "MOVIE",
-    "session": "sessions/week-7-day-2/index.html",
-    "playbook": "sessions/week-7-day-2/playbook.html",
-    "homework": "https://docs.google.com/document/d/1JWqUBGACD-YajJHTfU1GoBqmEPm2YIE6jVi-O6hWIjc",
-    "description": "Tailor the supplied portfolio master prompt to one AI builder, create a three-page portfolio draft with your own available material, review its responsive behavior and interactions, and record your next revisions.",
-    "promptbook": "prompt-vault.html?session=week-7-day-2",
-    "unlock": "2026-11-15T13:30:00.000Z"
-  },
-  {
-    "id": "week-8-day-1",
-    "visual": "advertisement",
-    "hero": "assets/illustrations/advertisement.svg",
-    "week": "WEEK 7 · DAY 2",
-    "title": "Automobile Advertisement Production",
-    "number": 14,
-    "start": "2026-11-21T20:00:00+05:30",
-    "end": "2026-11-21T22:00:00+05:30",
-    "stage": "MOTION",
-    "session": "sessions/week-8-day-1/index.html",
-    "playbook": "sessions/week-8-day-1/playbook.html",
-    "homework": "https://docs.google.com/document/d/1pUmCjzW_iYchbUHelAkbBDYmJR2GRhBjYHf6n32_A0g/edit",
-    "description": "Create and review an automobile advertisement using a chosen four-wheel vehicle, consistent visual references, a shot plan, and motion clips that preserve the vehicle's identity and move plausibly.",
-    "promptbook": "prompt-vault.html?session=week-8-day-1",
-    "unlock": "2026-11-21T13:30:00.000Z"
+    "unlock": "2026-11-15T13:30:00.000Z",
+    "stage": "EDIT",
+    "description": "Refine an existing rough cut through shot selection, pacing, continuity, sound, colour and titles. Detailed lesson material and homework will be added after the instructor supplies them.",
+    "session": null,
+    "playbook": null,
+    "homework": null
   },
   {
     "id": "week-8-day-2",
     "visual": "production",
     "hero": "assets/illustrations/production.svg",
-    "week": "WEEK 8 · DAY 1",
+    "week": "WEEK 7 · DAY 2",
     "title": "Advanced VFX",
-    "number": 15,
-    "start": "2026-11-22T20:00:00+05:30",
-    "end": "2026-11-22T22:00:00+05:30",
+    "number": 14,
+    "start": "2026-11-21T20:00:00+05:30",
+    "end": "2026-11-21T22:00:00+05:30",
     "stage": "MOTION",
     "session": "sessions/week-8-day-2/index.html",
     "playbook": "sessions/week-8-day-2/playbook.html",
     "homework": "https://docs.google.com/document/d/1wb2orCymuOp6zqJzsOKgieM8Pw_Sxt7KJKEkQooBDuo/edit",
     "description": "Select an advanced VFX route, prepare compatible references, generate one video transformation test, and review what changed, what stayed stable, and the first correction.",
     "promptbook": "prompt-vault.html?session=week-8-day-2",
+    "unlock": "2026-11-21T13:30:00.000Z"
+  },
+  {
+    "id": "week-8-day-1",
+    "visual": "advertisement",
+    "hero": "assets/illustrations/advertisement.svg",
+    "week": "WEEK 8 · DAY 1",
+    "title": "Automobile Advertisement Production",
+    "number": 15,
+    "start": "2026-11-22T20:00:00+05:30",
+    "end": "2026-11-22T22:00:00+05:30",
+    "stage": "MOTION",
+    "session": "sessions/week-8-day-1/index.html",
+    "playbook": "sessions/week-8-day-1/playbook.html",
+    "homework": "https://docs.google.com/document/d/1pUmCjzW_iYchbUHelAkbBDYmJR2GRhBjYHf6n32_A0g/edit",
+    "description": "Bring your editing and VFX skills together in a finished automobile advertisement for your commercial portfolio.",
+    "promptbook": "prompt-vault.html?session=week-8-day-1",
     "unlock": "2026-11-22T13:30:00.000Z"
+  },
+  {
+    "id": "week-7-day-2",
+    "visual": "production",
+    "hero": "assets/illustrations/production.svg",
+    "week": "WEEK 8 · DAY 2",
+    "title": "Build Your Portfolio Website with AI Builders",
+    "number": 16,
+    "start": "2026-11-28T20:00:00+05:30",
+    "end": "2026-11-28T22:00:00+05:30",
+    "stage": "MOVIE",
+    "session": "sessions/week-7-day-2/index.html",
+    "playbook": "sessions/week-7-day-2/playbook.html",
+    "homework": "https://docs.google.com/document/d/1JWqUBGACD-YajJHTfU1GoBqmEPm2YIE6jVi-O6hWIjc",
+    "description": "Build your portfolio website around your strongest finished projects, including the automobile ad, and prepare a final showcase.",
+    "promptbook": "prompt-vault.html?session=week-7-day-2",
+    "unlock": "2026-11-28T13:30:00.000Z"
   }
 ];
 
@@ -1394,7 +1410,7 @@ function playbook(){
 function catchup(){
  const type=document.body.dataset.pageType;if(!['home','session','resource'].includes(type))return;
  const sessions=window.BMAI_SESSIONS,root=new URL('../',document.querySelector('script[src*="library/site.js"]').src),paths=window.BMAI_LEARNING_PATHS||{};
- const available=()=>sessions.filter(s=>Date.parse(s.unlock)<=Date.now());
+ const available=()=>sessions.filter(s=>s.session&&Date.parse(s.unlock)<=Date.now());
  const panel=document.createElement('details');panel.className='bmai-catchup';panel.id='catch-up';panel.innerHTML='<summary>Missed a class? Follow the catch-up path</summary><div class="bmai-catchup-body"></div>';const body=panel.querySelector('div');
  const render=session=>{
   const path=paths[session?.id];if(!path){body.textContent='Follow the current session guide and paired playbook when the lesson becomes available.';return;}
@@ -1614,7 +1630,7 @@ if(links[1]){if(cur.playbook){links[1].href=basePath()+cur.playbook;links[1].tex
 const stageWrap=document.querySelector(".bmai-production-pipeline");
 if(stageWrap){stageWrap.innerHTML=stages.map((s,i)=>'<div class="stage '+(cur&&cur.stage===s?"active":"")+'">'+String(i+1).padStart(2,"0")+'<br>'+s+'</div>').join("")}
 const sched=document.getElementById("bmaiSchedule");
-const listed=S.filter(x=>x.session);
+const listed=S;
 const unreleased=S.filter(x=>!x.session&&x.id!==nxt?.id);
 if(sched){const openWeeks=new Set([...sched.querySelectorAll('details[open]')].map(d=>d.dataset.week));const weeks=[...new Set(listed.map(s=>s.week.match(/WEEK (\d+)/i)[1]))];sched.innerHTML=weeks.map(week=>{const lessons=listed.filter(s=>s.week.match(/WEEK (\d+)/i)[1]===week);const open=openWeeks.has(week)||lessons.some(s=>s.id===cur?.id);return '<details class="bmai-week" data-week="'+week+'"'+(open?' open':'')+'><summary><strong>Week '+week+'</strong><span>'+lessons.length+' '+(lessons.length===1?'lesson':'lessons')+' · '+(lessons.every(isUnlocked)?'Available now':'Scheduled lessons')+'</span></summary><div class="bmai-week-lessons">'+lessons.map(renderCard).join('')+'</div></details>'}).join('');}
 const unreleasedList=document.getElementById("bmaiUnreleasedSessions");if(unreleasedList){const weeks=[...new Set(unreleased.map(x=>x.week.match(/WEEK (\d+)/i)[1]))];unreleasedList.innerHTML=weeks.map(week=>'<article class="studio-unreleased-week"><div class="studio-unreleased-week-head"><h3>Week '+week+'</h3><span>Materials coming soon</span></div>'+unreleased.filter(x=>x.week.match(/WEEK (\d+)/i)[1]===week).map(x=>'<div class="studio-unreleased-day"><span>Day '+x.week.match(/DAY (\d+)/i)[1]+'</span><time datetime="'+esc(x.start)+'">'+esc(new Intl.DateTimeFormat('en-IN',{day:'numeric',month:'short',timeZone:'Asia/Kolkata'}).format(new Date(x.start)))+' · '+esc(timeParts(x.start))+' IST</time></div>').join('')+'</article>').join('');}
