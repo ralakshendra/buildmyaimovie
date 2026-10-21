@@ -235,8 +235,8 @@ for (const [label, path, frozenIso] of [
   ['w2d1-unlocked', 'sessions/week-2-day-1/index.html', '2026-10-10T20:30:00+05:30'],
   ['w3d1-unlocked', 'sessions/week-3-day-1/index.html', '2026-10-17T20:30:00+05:30'],
   ['w5d1-unlocked', 'sessions/week-5-day-1/index.html', '2026-10-31T20:30:00+05:30'],
-  ['w7d2-unlocked', 'sessions/week-7-day-2/index.html', '2026-11-15T21:00:00+05:30'],
-  ['w7d2-playbook-unlocked', 'sessions/week-7-day-2/playbook.html', '2026-11-15T21:00:00+05:30']
+  ['w7d2-unlocked', 'sessions/week-7-day-2/index.html', '2026-11-28T21:00:00+05:30'],
+  ['w7d2-playbook-unlocked', 'sessions/week-7-day-2/playbook.html', '2026-11-28T21:00:00+05:30']
 ]) {
   for (const [width, height] of [[390,844],[1440,900]]) {
     test(label + ' ' + width + 'px unlocked visual', async ({browser}) => {
