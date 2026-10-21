@@ -483,7 +483,7 @@
     "id": "prompt-vault-week-4-day-2-01-macro-texture-image-1-start",
     "title": "Macro texture: image-1-start",
     "text": "Macro product photography. Extreme close-up on the brushed \"Sunset Orange\" titanium edge of a smartphone strictly matching [@refimage]. The phone rests seamlessly against pitch black background. A single, sharp volumetric studio light sweeps across the metallic texture. Cinematic depth of field, 8k resolution, photorealistic.",
-    "source": "Official Week 4 Day 2 image prompt bank, Google Doc: https://docs.google.com/document/d/1Fkx6gpAiSBFfqaiQi0k-3yCuYigb13u3fOwYpQjQRd8/edit",
+    "source": "Official Week 4 Day 1 image prompt bank, Google Doc: https://docs.google.com/document/d/1Fkx6gpAiSBFfqaiQi0k-3yCuYigb13u3fOwYpQjQRd8/edit",
     "sourceUrl": "sessions/week-4-day-2/playbook.html#image-1-start",
     "fields": []
   },
@@ -493,7 +493,7 @@
     "id": "prompt-vault-week-4-day-2-02-macro-texture-image-1-end",
     "title": "Macro texture: image-1-end",
     "text": "Macro product photography. Extreme close-up of the exact same futuristic smartphone chassis [@refimage]. The phone remains horizontal, resting flat. The frame focuses on the intersection of the flat orange titanium side rail and the frosted back glass. The dramatic studio edge lighting has moved and is now strictly at the top edge, leaving the bottom rail in soft shadow. High-resolution, photorealistic.",
-    "source": "Official Week 4 Day 2 image prompt bank, Google Doc: https://docs.google.com/document/d/1Fkx6gpAiSBFfqaiQi0k-3yCuYigb13u3fOwYpQjQRd8/edit",
+    "source": "Official Week 4 Day 1 image prompt bank, Google Doc: https://docs.google.com/document/d/1Fkx6gpAiSBFfqaiQi0k-3yCuYigb13u3fOwYpQjQRd8/edit",
     "sourceUrl": "sessions/week-4-day-2/playbook.html#image-1-end",
     "fields": []
   },
@@ -503,7 +503,7 @@
     "id": "prompt-vault-week-4-day-2-03-macro-texture-video-1",
     "title": "Macro texture: video-1",
     "text": "Slow cinematic macro tracking movement along the brushed orange titanium edge of the smartphone. The camera glides smoothly with a shallow depth of field while a narrow studio highlight travels across the metal surface. Preserve the exact phone geometry and material texture. No deformation, no extra components, no changes to color or camera hardware. Premium Apple-style product commercial, controlled motion, clean black background, subtle micro-reflections.",
-    "source": "Official Week 4 Day 2 video prompt bank, Google Doc: https://docs.google.com/document/d/1HrEnL8BjgZ-XeP_YdPiVG2CwH0quYRSmbXS4zTscR9o/edit",
+    "source": "Official Week 4 Day 1 video prompt bank, Google Doc: https://docs.google.com/document/d/1HrEnL8BjgZ-XeP_YdPiVG2CwH0quYRSmbXS4zTscR9o/edit",
     "sourceUrl": "sessions/week-4-day-2/playbook.html#video-1",
     "fields": []
   },
@@ -513,7 +513,7 @@
     "id": "prompt-vault-week-4-day-2-04-fine-detail-image-2-start",
     "title": "Fine detail: image-2-start",
     "text": "High-end tech product photography. Close-up shot of the exact same futuristic smartphone chassis, bottom-side view of [@refimage]. The phone remains in the exact same flat position, levitating in the exact center of the frame in a pitch-black background. The frame focuses on the flat orange titanium side rail and its titanium texture. Dramatic studio edge lighting is strictly at the top edge, leaving the bottom rail in soft shadow. High-resolution, photorealistic.",
-    "source": "Official Week 4 Day 2 image prompt bank, Google Doc: https://docs.google.com/document/d/1Fkx6gpAiSBFfqaiQi0k-3yCuYigb13u3fOwYpQjQRd8/edit",
+    "source": "Official Week 4 Day 1 image prompt bank, Google Doc: https://docs.google.com/document/d/1Fkx6gpAiSBFfqaiQi0k-3yCuYigb13u3fOwYpQjQRd8/edit",
     "sourceUrl": "sessions/week-4-day-2/playbook.html#image-2-start",
     "fields": []
   },
@@ -523,7 +523,7 @@
     "id": "prompt-vault-week-4-day-2-05-fine-detail-image-2-end",
     "title": "Fine detail: image-2-end",
     "text": "Extreme macro close-up of a smartphone's bottom-right corner, shot from slightly below and looking upward in a dynamic, skewed perspective. The bottom face of the phone recedes away from the lens into a shallow depth of field with soft bokeh. Moody, dramatic product-render lighting with a sharp specular highlight glowing along the top outer edge against a pure pitch-black background.\n\n\nCRITICAL DETAIL ADHERENCE: Strictly replicate the exact materials and structural components from the provided reference. Maintain the exact brushed copper metallic finish, the distinct vertical antenna band intersecting the curved edge, the central charging port, the flanking screws, and the precise symmetrical speaker grill holes. 1:1 material and component matching required. [@refimage]",
-    "source": "Official Week 4 Day 2 image prompt bank, Google Doc: https://docs.google.com/document/d/1Fkx6gpAiSBFfqaiQi0k-3yCuYigb13u3fOwYpQjQRd8/edit",
+    "source": "Official Week 4 Day 1 image prompt bank, Google Doc: https://docs.google.com/document/d/1Fkx6gpAiSBFfqaiQi0k-3yCuYigb13u3fOwYpQjQRd8/edit",
     "sourceUrl": "sessions/week-4-day-2/playbook.html#image-2-end",
     "fields": []
   },
@@ -533,7 +533,7 @@
     "id": "prompt-vault-week-4-day-2-06-fine-detail-video-2",
     "title": "Fine detail: video-2",
     "text": "Controlled push-in toward the bottom-right corner of the phone with a slight low-angle perspective shift. Maintain exact speaker holes, charging port, screws, antenna line, titanium finish, and edge curvature. The specular highlight should travel naturally along the upper edge as the depth of field becomes shallower. No geometry drift, no melting, no added ports, no texture flicker.",
-    "source": "Official Week 4 Day 2 video prompt bank, Google Doc: https://docs.google.com/document/d/1HrEnL8BjgZ-XeP_YdPiVG2CwH0quYRSmbXS4zTscR9o/edit",
+    "source": "Official Week 4 Day 1 video prompt bank, Google Doc: https://docs.google.com/document/d/1HrEnL8BjgZ-XeP_YdPiVG2CwH0quYRSmbXS4zTscR9o/edit",
     "sourceUrl": "sessions/week-4-day-2/playbook.html#video-2",
     "fields": []
   },
@@ -543,7 +543,7 @@
     "id": "prompt-vault-week-4-day-2-07-camera-assembly-image-3-start",
     "title": "Camera assembly: image-3-start",
     "text": "Exploded view of three detached smartphone camera lenses floating in mid-air directly above their empty circular sockets. The phone body must match the reference [@refimage] with 100% accuracy:\n- Wide rectangular camera bump spanning nearly the full width of the phone\n- Orange titanium matte finish\n- Exactly 3 lens openings: two lenses side by side on the top row (left and right), one large lens on the bottom-left of the bump\n- Small circular flash on the top-right of the bump\n- Small microphone dot below the flash\n- Small circular black sensor below the microphone dot\n\n\nThe floating lens modules feature brushed orange titanium outer rings and deep black glass elements with subtle reflections. High-end product macro photography, dramatic cinematic rim lighting outlining the metallic edges, dark void background, photorealistic 3D render style, sharp focus on the hovering lenses, 8k resolution, highly detailed.",
-    "source": "Official Week 4 Day 2 image prompt bank, Google Doc: https://docs.google.com/document/d/1Fkx6gpAiSBFfqaiQi0k-3yCuYigb13u3fOwYpQjQRd8/edit",
+    "source": "Official Week 4 Day 1 image prompt bank, Google Doc: https://docs.google.com/document/d/1Fkx6gpAiSBFfqaiQi0k-3yCuYigb13u3fOwYpQjQRd8/edit",
     "sourceUrl": "sessions/week-4-day-2/playbook.html#image-3-start",
     "fields": []
   },
@@ -553,7 +553,7 @@
     "id": "prompt-vault-week-4-day-2-08-camera-assembly-image-3-end",
     "title": "Camera assembly: image-3-end",
     "text": "I am attaching multiple reference photos of a phone [@refimage01, @refimage02]. Recreate ONLY the phone body in this image; do not add any exploded components or floating parts. The phone body must match the reference with 100% accuracy:\n- Wide rectangular camera bump spanning nearly the full width of the phone\n- Orange titanium matte finish\n- Exactly 3 lens openings: two lenses side by side on the top row (left and right), one large lens on the bottom-left of the bump\n- Small circular flash on the top-right of the bump\n- Small microphone dot below the flash\n\n\nPhotorealistic 3D render, pure black background, dramatic studio lighting, 9:16 portrait, angled back view from slightly above.",
-    "source": "Official Week 4 Day 2 image prompt bank, Google Doc: https://docs.google.com/document/d/1Fkx6gpAiSBFfqaiQi0k-3yCuYigb13u3fOwYpQjQRd8/edit",
+    "source": "Official Week 4 Day 1 image prompt bank, Google Doc: https://docs.google.com/document/d/1Fkx6gpAiSBFfqaiQi0k-3yCuYigb13u3fOwYpQjQRd8/edit",
     "sourceUrl": "sessions/week-4-day-2/playbook.html#image-3-end",
     "fields": []
   },
@@ -563,7 +563,7 @@
     "id": "prompt-vault-week-4-day-2-09-camera-assembly-video-3",
     "title": "Camera assembly: video-3",
     "text": "Three camera lens modules hover precisely above their matching sockets and move with clean mechanical choreography toward the camera island. Each module should remain rigid, circular, and physically consistent. The modules align and settle into position without changing size or shape. Preserve the exact rectangular camera bump, three-lens layout, flash, microphone, sensor, orange titanium finish, and phone proportions. Dramatic rim light, black void background, premium engineering visualization, no floating debris, no extra lenses.",
-    "source": "Official Week 4 Day 2 video prompt bank, Google Doc: https://docs.google.com/document/d/1HrEnL8BjgZ-XeP_YdPiVG2CwH0quYRSmbXS4zTscR9o/edit",
+    "source": "Official Week 4 Day 1 video prompt bank, Google Doc: https://docs.google.com/document/d/1HrEnL8BjgZ-XeP_YdPiVG2CwH0quYRSmbXS4zTscR9o/edit",
     "sourceUrl": "sessions/week-4-day-2/playbook.html#video-3",
     "fields": []
   },
@@ -573,7 +573,7 @@
     "id": "prompt-vault-week-4-day-2-10-camera-assembly-video-3-reverse",
     "title": "Camera assembly: video-3-reverse",
     "text": "Begin with the complete camera system and smoothly separate the three lens modules upward into an exploded technical view. Keep all components locked to the correct positions and orientation.",
-    "source": "Official Week 4 Day 2 video prompt bank, Google Doc: https://docs.google.com/document/d/1HrEnL8BjgZ-XeP_YdPiVG2CwH0quYRSmbXS4zTscR9o/edit",
+    "source": "Official Week 4 Day 1 video prompt bank, Google Doc: https://docs.google.com/document/d/1HrEnL8BjgZ-XeP_YdPiVG2CwH0quYRSmbXS4zTscR9o/edit",
     "sourceUrl": "sessions/week-4-day-2/playbook.html#video-3-reverse",
     "fields": []
   },
@@ -583,7 +583,7 @@
     "id": "prompt-vault-week-4-day-2-11-slim-side-image-4-start",
     "title": "Slim side: image-4-start",
     "text": "High-end tech product photography. Mid-level shot of the exact same futuristic smartphone chassis, side view of [@refimage]. The phone remains vertical, levitating in the exact center of the frame, covering 70% of the frame. The frame focuses on the flat orange titanium side rail. Dramatic studio edge lighting is strictly at the top edge, leaving the bottom rail in soft shadow. High-resolution, photorealistic.",
-    "source": "Official Week 4 Day 2 image prompt bank, Google Doc: https://docs.google.com/document/d/1Fkx6gpAiSBFfqaiQi0k-3yCuYigb13u3fOwYpQjQRd8/edit",
+    "source": "Official Week 4 Day 1 image prompt bank, Google Doc: https://docs.google.com/document/d/1Fkx6gpAiSBFfqaiQi0k-3yCuYigb13u3fOwYpQjQRd8/edit",
     "sourceUrl": "sessions/week-4-day-2/playbook.html#image-4-start",
     "fields": []
   },
@@ -593,7 +593,7 @@
     "id": "prompt-vault-week-4-day-2-12-slim-side-video-4",
     "title": "Slim side: video-4",
     "text": "Slow premium dolly and subtle orbital movement around the vertical phone while it remains centred and stable. Emphasize the slim orange titanium rail with a moving top-edge highlight. Keep the device rigid and perfectly proportioned. No wobble, no bending, no thickness changes, no camera bump mutation. Pitch-black studio environment, restrained luxury product-ad motion.",
-    "source": "Official Week 4 Day 2 video prompt bank, Google Doc: https://docs.google.com/document/d/1HrEnL8BjgZ-XeP_YdPiVG2CwH0quYRSmbXS4zTscR9o/edit",
+    "source": "Official Week 4 Day 1 video prompt bank, Google Doc: https://docs.google.com/document/d/1HrEnL8BjgZ-XeP_YdPiVG2CwH0quYRSmbXS4zTscR9o/edit",
     "sourceUrl": "sessions/week-4-day-2/playbook.html#video-4",
     "fields": []
   },
@@ -603,7 +603,7 @@
     "id": "prompt-vault-week-4-day-2-13-light-reveal-image-5-start",
     "title": "Light reveal: image-5-start",
     "text": "Close-up angled back view (45-degree isometric angle) of the \"Sunset Orange\" smartphone chassis [@refimage]. The camera bump island is visible. The scene is heavily shadowed, almost pitch black. Only a faint, subtle edge light strictly catches the very outermost rim of the uppermost titanium camera lens ring. The rest of the solid camera bump and phone are in complete shadow. Pitch-black background. High-end tech commercial aesthetic.",
-    "source": "Official Week 4 Day 2 image prompt bank, Google Doc: https://docs.google.com/document/d/1Fkx6gpAiSBFfqaiQi0k-3yCuYigb13u3fOwYpQjQRd8/edit",
+    "source": "Official Week 4 Day 1 image prompt bank, Google Doc: https://docs.google.com/document/d/1Fkx6gpAiSBFfqaiQi0k-3yCuYigb13u3fOwYpQjQRd8/edit",
     "sourceUrl": "sessions/week-4-day-2/playbook.html#image-5-start",
     "fields": []
   },
@@ -613,7 +613,7 @@
     "id": "prompt-vault-week-4-day-2-14-light-reveal-image-5-end",
     "title": "Light reveal: image-5-end",
     "text": "Close-up angled back view (45-degree isometric angle) of the \"Sunset Orange\" smartphone chassis [@refimage]. The camera bump island is visible. A bright, dramatic overhead studio light now fully illuminates the solid orange titanium camera bump island and the frosted glass back. The lighting perfectly catches the metallic rings of all three camera modules. High-resolution, photorealistic.",
-    "source": "Official Week 4 Day 2 image prompt bank, Google Doc: https://docs.google.com/document/d/1Fkx6gpAiSBFfqaiQi0k-3yCuYigb13u3fOwYpQjQRd8/edit",
+    "source": "Official Week 4 Day 1 image prompt bank, Google Doc: https://docs.google.com/document/d/1Fkx6gpAiSBFfqaiQi0k-3yCuYigb13u3fOwYpQjQRd8/edit",
     "sourceUrl": "sessions/week-4-day-2/playbook.html#image-5-end",
     "fields": []
   },
@@ -623,7 +623,7 @@
     "id": "prompt-vault-week-4-day-2-15-light-reveal-video-5",
     "title": "Light reveal: video-5",
     "text": "Begin almost completely black with only a faint rim of light touching the upper camera-lens ring. A controlled overhead studio light sweeps across the phone, progressively revealing the orange titanium camera island, all three metallic lens rings, and the frosted back glass. Add a very subtle cinematic push-in as the reveal completes. Preserve exact device geometry and lens positions. No flicker, no morphing, no color change. End on a clean premium hero frame.",
-    "source": "Official Week 4 Day 2 video prompt bank, Google Doc: https://docs.google.com/document/d/1HrEnL8BjgZ-XeP_YdPiVG2CwH0quYRSmbXS4zTscR9o/edit",
+    "source": "Official Week 4 Day 1 video prompt bank, Google Doc: https://docs.google.com/document/d/1HrEnL8BjgZ-XeP_YdPiVG2CwH0quYRSmbXS4zTscR9o/edit",
     "sourceUrl": "sessions/week-4-day-2/playbook.html#video-5",
     "fields": []
   },
@@ -633,7 +633,7 @@
     "id": "prompt-vault-week-4-day-2-16-optional-outro-image-6-start",
     "title": "Optional outro: image-6-start",
     "text": "Perfectly centred back view (portrait orientation) of the smartphone [@refimage]. The phone stands perfectly vertical. A soft, diffused overhead studio light highlights the design against pitch-black background. Symmetrical, bold editorial tech photography. The phone fills 60% of the frame.",
-    "source": "Official Week 4 Day 2 image prompt bank, Google Doc: https://docs.google.com/document/d/1Fkx6gpAiSBFfqaiQi0k-3yCuYigb13u3fOwYpQjQRd8/edit",
+    "source": "Official Week 4 Day 1 image prompt bank, Google Doc: https://docs.google.com/document/d/1Fkx6gpAiSBFfqaiQi0k-3yCuYigb13u3fOwYpQjQRd8/edit",
     "sourceUrl": "sessions/week-4-day-2/playbook.html#image-6-start",
     "fields": []
   },
@@ -643,7 +643,7 @@
     "id": "prompt-vault-week-4-day-2-17-optional-outro-video-6",
     "title": "Optional outro: video-6",
     "text": "Slow dolly out from the centred back view while the smartphone performs a minimal controlled rotation around its vertical axis. Keep the phone perfectly rigid, centred, symmetrical, and consistent with the reference. Soft overhead light remains stable while reflections move naturally across the titanium and glass. End with generous black negative space for a logo or copy.",
-    "source": "Official Week 4 Day 2 video prompt bank, Google Doc: https://docs.google.com/document/d/1HrEnL8BjgZ-XeP_YdPiVG2CwH0quYRSmbXS4zTscR9o/edit",
+    "source": "Official Week 4 Day 1 video prompt bank, Google Doc: https://docs.google.com/document/d/1HrEnL8BjgZ-XeP_YdPiVG2CwH0quYRSmbXS4zTscR9o/edit",
     "sourceUrl": "sessions/week-4-day-2/playbook.html#video-6",
     "fields": []
   },
