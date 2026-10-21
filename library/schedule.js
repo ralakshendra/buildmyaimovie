@@ -1,6 +1,25 @@
 /* Single schedule for every page. */
 window.BMAI_SESSIONS=[
   {
+    "kind": "orientation",
+    "access": "completed",
+    "id": "orientation",
+    "visual": "production",
+    "hero": "assets/illustrations/production.svg",
+    "week": "ORIENTATION",
+    "title": "Orientation: Learn to Read a Scene",
+    "number": null,
+    "start": null,
+    "end": null,
+    "stage": "BLUEPRINT",
+    "session": "sessions/orientation/index.html",
+    "playbook": "sessions/orientation/playbook.html",
+    "homework": "https://docs.google.com/document/d/1xlWcPc7ZiRXX15hXkJeWGatvaEE6cpnupGP32DUjvJs/edit?usp=drivesdk",
+    "description": "Analyse at least ten scenes using reference frames and precise descriptions of camera, movement, lighting, lens characteristics, colour and acting.",
+    "unlock": null,
+    "promptbook": "prompt-vault.html?session=orientation"
+  },
+  {
     "id": "week-1-day-2",
     "visual": "youtube",
     "hero": "assets/illustrations/youtube.svg",

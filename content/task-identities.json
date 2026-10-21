@@ -670,5 +670,37 @@
       "text": "I recorded any remaining issue and followed the current cohort submission instructions.",
       "legacyKey": "q2bfp4"
     }
+  ],
+  "orientation": [
+    {
+      "id": "checkpoint-1jobqq1",
+      "text": "I selected at least ten scenes and recorded the video source and timestamps.",
+      "legacyKey": "1jobqq1"
+    },
+    {
+      "id": "checkpoint-rkqdte",
+      "text": "Every scene has a reference frame and a plain-language visual description.",
+      "legacyKey": "rkqdte"
+    },
+    {
+      "id": "checkpoint-mkii6u",
+      "text": "Every breakdown covers camera, framing, movement, lighting, lens characteristics, colour and acting.",
+      "legacyKey": "mkii6u"
+    },
+    {
+      "id": "checkpoint-fx5fzx",
+      "text": "I checked terms against the God Movie Maker's Playbook and replayed movement in the clip.",
+      "legacyKey": "fx5fzx"
+    },
+    {
+      "id": "checkpoint-18a35gd",
+      "text": "I marked uncertain interpretations instead of inventing exact settings.",
+      "legacyKey": "18a35gd"
+    },
+    {
+      "id": "checkpoint-qh3yg4",
+      "text": "I saved my breakdowns in my own homework copy and checked the current submission instructions.",
+      "legacyKey": "qh3yg4"
+    }
   ]
 }

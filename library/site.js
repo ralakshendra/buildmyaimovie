@@ -3,6 +3,25 @@
 /* Single schedule for every page. */
 window.BMAI_SESSIONS=[
   {
+    "kind": "orientation",
+    "access": "completed",
+    "id": "orientation",
+    "visual": "production",
+    "hero": "assets/illustrations/production.svg",
+    "week": "ORIENTATION",
+    "title": "Orientation: Learn to Read a Scene",
+    "number": null,
+    "start": null,
+    "end": null,
+    "stage": "BLUEPRINT",
+    "session": "sessions/orientation/index.html",
+    "playbook": "sessions/orientation/playbook.html",
+    "homework": "https://docs.google.com/document/d/1xlWcPc7ZiRXX15hXkJeWGatvaEE6cpnupGP32DUjvJs/edit?usp=drivesdk",
+    "description": "Analyse at least ten scenes using reference frames and precise descriptions of camera, movement, lighting, lens characteristics, colour and acting.",
+    "unlock": null,
+    "promptbook": "prompt-vault.html?session=orientation"
+  },
+  {
     "id": "week-1-day-2",
     "visual": "youtube",
     "hero": "assets/illustrations/youtube.svg",
@@ -952,6 +971,38 @@ window.BMAI_TASK_IDENTITIES={
       "text": "I recorded any remaining issue and followed the current cohort submission instructions.",
       "legacyKey": "q2bfp4"
     }
+  ],
+  "orientation": [
+    {
+      "id": "checkpoint-1jobqq1",
+      "text": "I selected at least ten scenes and recorded the video source and timestamps.",
+      "legacyKey": "1jobqq1"
+    },
+    {
+      "id": "checkpoint-rkqdte",
+      "text": "Every scene has a reference frame and a plain-language visual description.",
+      "legacyKey": "rkqdte"
+    },
+    {
+      "id": "checkpoint-mkii6u",
+      "text": "Every breakdown covers camera, framing, movement, lighting, lens characteristics, colour and acting.",
+      "legacyKey": "mkii6u"
+    },
+    {
+      "id": "checkpoint-fx5fzx",
+      "text": "I checked terms against the God Movie Maker's Playbook and replayed movement in the clip.",
+      "legacyKey": "fx5fzx"
+    },
+    {
+      "id": "checkpoint-18a35gd",
+      "text": "I marked uncertain interpretations instead of inventing exact settings.",
+      "legacyKey": "18a35gd"
+    },
+    {
+      "id": "checkpoint-qh3yg4",
+      "text": "I saved my breakdowns in my own homework copy and checked the current submission instructions.",
+      "legacyKey": "qh3yg4"
+    }
   ]
 };
 
@@ -1154,7 +1205,7 @@ window.BMAI_LEARNING_PATHS={
   },
   "week-5-day-2": {
     "prepare": [
-      "Your assigned film or story and the teamâ€™s current production requirements."
+      "Your assigned film or story and the teamÃ¢â‚¬â„¢s current production requirements."
     ],
     "steps": [
       {
@@ -1343,6 +1394,26 @@ window.BMAI_LEARNING_PATHS={
         "anchor": "step-9"
       }
     ]
+  },
+  "orientation": {
+    "prepare": [
+      "A video you can replay and capture frames from.",
+      "The God Movie Maker's Playbook and AI Movie Script Template."
+    ],
+    "steps": [
+      {
+        "title": "Open the supporting resources",
+        "anchor": "supporting-resources"
+      },
+      {
+        "title": "Learn the visual vocabulary",
+        "anchor": "visual-vocabulary"
+      },
+      {
+        "title": "Follow the scene analysis workflow",
+        "anchor": "mission"
+      }
+    ]
   }
 };
 
@@ -1490,7 +1561,7 @@ function playbook(){
 function catchup(){
  const type=document.body.dataset.pageType;if(!['home','session','resource'].includes(type))return;
  const sessions=window.BMAI_SESSIONS,root=new URL('../',document.querySelector('script[src*="library/site.js"]').src),paths=window.BMAI_LEARNING_PATHS||{};
- const available=()=>sessions.filter(s=>s.session&&Date.parse(s.unlock)<=Date.now());
+ const available=()=>sessions.filter(s=>s.session&&((s.kind==='orientation'&&s.access==='completed')||Date.parse(s.unlock)<=Date.now()));
  const panel=document.createElement('details');panel.className='bmai-catchup';panel.id='catch-up';panel.innerHTML='<summary>Missed a class? Follow the catch-up path</summary><div class="bmai-catchup-body"></div>';const body=panel.querySelector('div');
  const render=session=>{
   const path=paths[session?.id];if(!path){body.textContent='Follow the current session guide and paired playbook when the lesson becomes available.';return;}
@@ -1522,7 +1593,7 @@ const S=window.BMAI_SESSIONS;
 
 
 
-function isUnlocked(x){return !!x&&(new Date(x.unlock).getTime()<=now())}
+function isUnlocked(x){return !!x&&((x.kind==='orientation'&&x.access==='completed')||(!!x.unlock&&new Date(x.unlock).getTime()<=now()))}
 function sessionIdFromHref(href){
  try{
   const u=new URL(href,location.href);
@@ -1549,13 +1620,13 @@ function byId(id){return S.find(x=>x.id===id)}
 function pageId(){return document.body.dataset.sessionId||null}
 function pageSession(){const id=pageId();return id?byId(id):null}
 function pageLabel(){return ({session:"SESSION GUIDE",playbook:"PLAYBOOK",homework:"HOMEWORK",resource:"RESOURCE"})[document.body.dataset.pageType]||"SESSION GUIDE"}
-function current(){let found=null;for(const x of S)if(x.session&&new Date(x.unlock).getTime()<=now())found=x;return found}
+function current(){let found=null;for(const x of S)if(x.kind!=='orientation'&&x.session&&new Date(x.unlock).getTime()<=now())found=x;return found}
 function next(){return S.find(x=>new Date(x.start).getTime()>now())}
 function basePath(){return siteRoot.href}
 function dateParts(iso){return new Intl.DateTimeFormat("en-IN",{weekday:"long",day:"numeric",month:"long",year:"numeric",timeZone:"Asia/Kolkata"}).format(new Date(iso))}
 function timeParts(iso){return new Intl.DateTimeFormat("en-IN",{hour:"numeric",minute:"2-digit",hour12:true,timeZone:"Asia/Kolkata"}).format(new Date(iso))}
 function releaseLabel(x){return dateParts(x.unlock)+' · '+timeParts(x.unlock)+' IST'}
-function dateRange(x){const start=dateParts(x.start).replace(/ /g,"\u00a0"),time=timeParts(x.start),tz="\u00a0IST";return x.end?start+" · "+time+" to "+timeParts(x.end)+tz:start+" · "+time+tz}
+function dateRange(x){if(!x.start)return '';const start=dateParts(x.start).replace(/ /g,"\u00a0"),time=timeParts(x.start),tz="\u00a0IST";return x.end?start+" · "+time+" to "+timeParts(x.end)+tz:start+" · "+time+tz}
 function countdown(iso){let d=new Date(S.find(x=>x.start===iso)?.unlock||iso).getTime()-now();if(d<=0)return"AVAILABLE NOW";const days=Math.floor(d/86400000);d%=86400000;const h=Math.floor(d/3600000);d%=3600000;const m=Math.floor(d/60000);d%=60000;const s=Math.floor(d/1000);return(days?days+"d ":"")+String(h).padStart(2,"0")+"h "+String(m).padStart(2,"0")+"m "+String(s).padStart(2,"0")+"s"}
 function sessionUrl(x){return x.session?basePath()+x.session:null}
 function lockPage(){
@@ -1710,7 +1781,7 @@ if(links[1]){if(cur.playbook){links[1].href=basePath()+cur.playbook;links[1].tex
 const stageWrap=document.querySelector(".bmai-production-pipeline");
 if(stageWrap){stageWrap.innerHTML=stages.map((s,i)=>'<div class="stage '+(cur&&cur.stage===s?"active":"")+'">'+String(i+1).padStart(2,"0")+'<br>'+s+'</div>').join("")}
 const sched=document.getElementById("bmaiSchedule");
-const listed=S;
+const listed=S.filter(x=>x.kind!=='orientation');
 const unreleased=S.filter(x=>!x.session&&x.id!==nxt?.id);
 if(sched){const openWeeks=new Set([...sched.querySelectorAll('details[open]')].map(d=>d.dataset.week));const weeks=[...new Set(listed.map(s=>s.week.match(/WEEK (\d+)/i)[1]))];sched.innerHTML=weeks.map(week=>{const lessons=listed.filter(s=>s.week.match(/WEEK (\d+)/i)[1]===week);const open=openWeeks.has(week)||lessons.some(s=>s.id===cur?.id);return '<details class="bmai-week" data-week="'+week+'"'+(open?' open':'')+'><summary><strong>Week '+week+'</strong><span>'+lessons.length+' '+(lessons.length===1?'lesson':'lessons')+' · '+(lessons.every(isUnlocked)?'Available now':'Scheduled lessons')+'</span></summary><div class="bmai-week-lessons">'+lessons.map(renderCard).join('')+'</div></details>'}).join('');}
 const unreleasedList=document.getElementById("bmaiUnreleasedSessions");if(unreleasedList){const weeks=[...new Set(unreleased.map(x=>x.week.match(/WEEK (\d+)/i)[1]))];unreleasedList.innerHTML=weeks.map(week=>'<article class="studio-unreleased-week"><div class="studio-unreleased-week-head"><h3>Week '+week+'</h3><span>Materials coming soon</span></div>'+unreleased.filter(x=>x.week.match(/WEEK (\d+)/i)[1]===week).map(x=>'<div class="studio-unreleased-day"><span>Day '+x.week.match(/DAY (\d+)/i)[1]+'</span><time datetime="'+esc(x.start)+'">'+esc(new Intl.DateTimeFormat('en-IN',{day:'numeric',month:'short',timeZone:'Asia/Kolkata'}).format(new Date(x.start)))+' · '+esc(timeParts(x.start))+' IST</time></div>').join('')+'</article>').join('');}

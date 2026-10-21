@@ -194,7 +194,7 @@ window.BMAI_LEARNING_PATHS={
   },
   "week-5-day-2": {
     "prepare": [
-      "Your assigned film or story and the teamâ€™s current production requirements."
+      "Your assigned film or story and the teamÃ¢â‚¬â„¢s current production requirements."
     ],
     "steps": [
       {
@@ -381,6 +381,26 @@ window.BMAI_LEARNING_PATHS={
       {
         "title": "Export and inspect the actual film",
         "anchor": "step-9"
+      }
+    ]
+  },
+  "orientation": {
+    "prepare": [
+      "A video you can replay and capture frames from.",
+      "The God Movie Maker's Playbook and AI Movie Script Template."
+    ],
+    "steps": [
+      {
+        "title": "Open the supporting resources",
+        "anchor": "supporting-resources"
+      },
+      {
+        "title": "Learn the visual vocabulary",
+        "anchor": "visual-vocabulary"
+      },
+      {
+        "title": "Follow the scene analysis workflow",
+        "anchor": "mission"
       }
     ]
   }

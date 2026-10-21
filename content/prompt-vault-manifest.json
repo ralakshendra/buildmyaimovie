@@ -1,5 +1,45 @@
 [
   {
+    "sessionId": "orientation",
+    "kind": "practice",
+    "id": "practice-orientation-01-decode-ten-scenes",
+    "title": "Decode ten scenes",
+    "text": "Choose a video and analyse at least ten scenes. Capture a reference frame, record its source and timestamp, and describe camera angle, framing, point of view, movement, lighting, lens characteristics, colour and acting. Use the God Movie Maker's Playbook for vocabulary and the AI Movie Script Template as a structural reference. Keep your work in your own orientation homework copy.",
+    "source": "Practice recipe from the session homework workflow.",
+    "sourceUrl": "sessions/orientation/playbook.html",
+    "fields": []
+  },
+  {
+    "sessionId": "orientation",
+    "kind": "practice",
+    "id": "practice-orientation-02-resolve-one-uncertain-observation",
+    "title": "Resolve one uncertain observation",
+    "text": "Replay the clip and consult the vocabulary reference. Search Google or YouTube for an unfamiliar term. If needed, give ChatGPT or Gemini the reference PDF and scene evidence, then compare its suggestion with the source before revising. This is a practice workflow, not a supplied copyable prompt.",
+    "source": "Practice recipe from the session homework workflow.",
+    "sourceUrl": "sessions/orientation/playbook.html",
+    "fields": []
+  },
+  {
+    "sessionId": "orientation",
+    "kind": "troubleshooting",
+    "id": "troubleshooting-orientation",
+    "title": "Diagnose and repair a Orientation: Learn to Read a Scene failure",
+    "text": "I am working on Orientation: Learn to Read a Scene. The visible problem is: [describe the exact failure]. The reference, shot, product, character, or scene that must remain stable is: [reference or constraint]. Check these priorities: I selected at least ten scenes and recorded the video source and timestamps.; Every scene has a reference frame and a plain-language visual description.; Every breakdown covers camera, framing, movement, lighting, lens characteristics, colour and acting.; I checked terms against the God Movie Maker's Playbook and replayed movement in the clip.; I marked uncertain interpretations instead of inventing exact settings.; I saved my breakdowns in my own homework copy and checked the current submission instructions.. Identify the smallest useful change to the prompt, reference, setting, or edit. Explain what evidence I should inspect after the next test, and tell me when to stop repeating the same approach and choose a different route.",
+    "source": "Prompt Vault troubleshooting template — adapt to the evidence from this session.",
+    "fields": [
+      {
+        "token": "[describe the exact failure]",
+        "label": "describe the exact failure",
+        "format": "text"
+      },
+      {
+        "token": "[reference or constraint]",
+        "label": "reference or constraint",
+        "format": "text"
+      }
+    ]
+  },
+  {
     "sessionId": "week-1-day-2",
     "kind": "official",
     "id": "prompt-vault-week-1-day-2-01-keep-the-spoken-story-natural",

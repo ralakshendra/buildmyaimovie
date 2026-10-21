@@ -6,7 +6,7 @@ const S=window.BMAI_SESSIONS;
 
 
 
-function isUnlocked(x){return !!x&&(new Date(x.unlock).getTime()<=now())}
+function isUnlocked(x){return !!x&&((x.kind==='orientation'&&x.access==='completed')||(!!x.unlock&&new Date(x.unlock).getTime()<=now()))}
 function sessionIdFromHref(href){
  try{
   const u=new URL(href,location.href);
@@ -33,13 +33,13 @@ function byId(id){return S.find(x=>x.id===id)}
 function pageId(){return document.body.dataset.sessionId||null}
 function pageSession(){const id=pageId();return id?byId(id):null}
 function pageLabel(){return ({session:"SESSION GUIDE",playbook:"PLAYBOOK",homework:"HOMEWORK",resource:"RESOURCE"})[document.body.dataset.pageType]||"SESSION GUIDE"}
-function current(){let found=null;for(const x of S)if(x.session&&new Date(x.unlock).getTime()<=now())found=x;return found}
+function current(){let found=null;for(const x of S)if(x.kind!=='orientation'&&x.session&&new Date(x.unlock).getTime()<=now())found=x;return found}
 function next(){return S.find(x=>new Date(x.start).getTime()>now())}
 function basePath(){return siteRoot.href}
 function dateParts(iso){return new Intl.DateTimeFormat("en-IN",{weekday:"long",day:"numeric",month:"long",year:"numeric",timeZone:"Asia/Kolkata"}).format(new Date(iso))}
 function timeParts(iso){return new Intl.DateTimeFormat("en-IN",{hour:"numeric",minute:"2-digit",hour12:true,timeZone:"Asia/Kolkata"}).format(new Date(iso))}
 function releaseLabel(x){return dateParts(x.unlock)+' · '+timeParts(x.unlock)+' IST'}
-function dateRange(x){const start=dateParts(x.start).replace(/ /g,"\u00a0"),time=timeParts(x.start),tz="\u00a0IST";return x.end?start+" · "+time+" to "+timeParts(x.end)+tz:start+" · "+time+tz}
+function dateRange(x){if(!x.start)return '';const start=dateParts(x.start).replace(/ /g,"\u00a0"),time=timeParts(x.start),tz="\u00a0IST";return x.end?start+" · "+time+" to "+timeParts(x.end)+tz:start+" · "+time+tz}
 function countdown(iso){let d=new Date(S.find(x=>x.start===iso)?.unlock||iso).getTime()-now();if(d<=0)return"AVAILABLE NOW";const days=Math.floor(d/86400000);d%=86400000;const h=Math.floor(d/3600000);d%=3600000;const m=Math.floor(d/60000);d%=60000;const s=Math.floor(d/1000);return(days?days+"d ":"")+String(h).padStart(2,"0")+"h "+String(m).padStart(2,"0")+"m "+String(s).padStart(2,"0")+"s"}
 function sessionUrl(x){return x.session?basePath()+x.session:null}
 function lockPage(){
@@ -194,7 +194,7 @@ if(links[1]){if(cur.playbook){links[1].href=basePath()+cur.playbook;links[1].tex
 const stageWrap=document.querySelector(".bmai-production-pipeline");
 if(stageWrap){stageWrap.innerHTML=stages.map((s,i)=>'<div class="stage '+(cur&&cur.stage===s?"active":"")+'">'+String(i+1).padStart(2,"0")+'<br>'+s+'</div>').join("")}
 const sched=document.getElementById("bmaiSchedule");
-const listed=S;
+const listed=S.filter(x=>x.kind!=='orientation');
 const unreleased=S.filter(x=>!x.session&&x.id!==nxt?.id);
 if(sched){const openWeeks=new Set([...sched.querySelectorAll('details[open]')].map(d=>d.dataset.week));const weeks=[...new Set(listed.map(s=>s.week.match(/WEEK (\d+)/i)[1]))];sched.innerHTML=weeks.map(week=>{const lessons=listed.filter(s=>s.week.match(/WEEK (\d+)/i)[1]===week);const open=openWeeks.has(week)||lessons.some(s=>s.id===cur?.id);return '<details class="bmai-week" data-week="'+week+'"'+(open?' open':'')+'><summary><strong>Week '+week+'</strong><span>'+lessons.length+' '+(lessons.length===1?'lesson':'lessons')+' · '+(lessons.every(isUnlocked)?'Available now':'Scheduled lessons')+'</span></summary><div class="bmai-week-lessons">'+lessons.map(renderCard).join('')+'</div></details>'}).join('');}
 const unreleasedList=document.getElementById("bmaiUnreleasedSessions");if(unreleasedList){const weeks=[...new Set(unreleased.map(x=>x.week.match(/WEEK (\d+)/i)[1]))];unreleasedList.innerHTML=weeks.map(week=>'<article class="studio-unreleased-week"><div class="studio-unreleased-week-head"><h3>Week '+week+'</h3><span>Materials coming soon</span></div>'+unreleased.filter(x=>x.week.match(/WEEK (\d+)/i)[1]===week).map(x=>'<div class="studio-unreleased-day"><span>Day '+x.week.match(/DAY (\d+)/i)[1]+'</span><time datetime="'+esc(x.start)+'">'+esc(new Intl.DateTimeFormat('en-IN',{day:'numeric',month:'short',timeZone:'Asia/Kolkata'}).format(new Date(x.start)))+' · '+esc(timeParts(x.start))+' IST</time></div>').join('')+'</article>').join('');}

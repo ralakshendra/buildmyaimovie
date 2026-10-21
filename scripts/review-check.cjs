@@ -8,7 +8,7 @@ const review=new URL('__review__/',base).href;
 const walk=dir=>fs.readdirSync(dir,{withFileTypes:true}).flatMap(entry=>entry.isDirectory()?walk(path.join(dir,entry.name)):[path.join(dir,entry.name)]);
 const pages=require('./public-pages.cjs')();
 const schedule=vm.runInNewContext(fs.readFileSync(path.join(root,'library/schedule.js'),'utf8')+';window.BMAI_SESSIONS',{window:{}},{timeout:1000});
-const earliest=Math.min(...schedule.filter(session=>session.session).map(session=>Date.parse(session.unlock)));
+const earliest=Math.min(...schedule.filter(session=>session.session&&session.unlock).map(session=>Date.parse(session.unlock)));
 
 (async()=>{
  const browser=await chromium.launch({...(process.platform==='win32'?{channel:'chrome'}:{}),headless:true});
@@ -25,7 +25,6 @@ const earliest=Math.min(...schedule.filter(session=>session.session).map(session
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,'Review area overflows on mobile');
   for(const link of links){
    await page.goto(new URL(link,base).href,{waitUntil:'load'});
-   await page.locator('main#main-content').waitFor({state:'attached'});
    assert.equal(await page.locator('.bmai-lock-screen').count(),0,link+' is locked in review');
    assert.equal(await page.locator('main#main-content').count(),1,link+' has no main landmark');
    assert.equal(await page.locator('.bmai-review-toolbar a').count(),1,link+' has no return link');

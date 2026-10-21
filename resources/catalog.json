@@ -1,10 +1,12 @@
 {
-  "sessions": 16,
+  "sessions": 17,
   "tools": 36,
-  "prompts": 136,
-  "checklists": 16,
+  "prompts": 138,
+  "checklists": 17,
   "sources": [
     "playbook.html",
+    "sessions/orientation/index.html",
+    "sessions/orientation/playbook.html",
     "sessions/week-2-day-1/index.html",
     "sessions/week-2-day-1/playbook.html",
     "sessions/week-2-day-2/index.html",
