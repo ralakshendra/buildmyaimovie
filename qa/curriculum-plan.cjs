@@ -7,6 +7,7 @@ const approved={'week-7-day-3':[13,'2026-11-15'],'week-8-day-2':[14,'2026-11-21'
 for(const [i,s]of numbered.entries()){
  assert.equal(s.number,i+1);assert.equal(s.week,`WEEK ${Math.floor(i/2)+1} · DAY ${i%2+1}`);
  if(approved[s.id]){assert.equal(s.number,approved[s.id][0]);assert.equal(s.start,approved[s.id][1]+'T20:00:00+05:30');assert.equal(s.end,approved[s.id][1]+'T22:00:00+05:30');assert.equal(Date.parse(s.start)-Date.parse(s.unlock),3600000);}
+ if(!s.session){assert.equal(s.id,'week-7-day-3');assert(!s.playbook&&!s.homework&&!s.promptbook);continue;}
  const previous=old.find(x=>x.id===s.id);if(!previous){assert.equal(s.id,'week-7-day-3');assert(!s.session&&!s.playbook&&!s.homework&&!s.promptbook);continue;}
  for(const key of ['id','session','playbook','homework','promptbook'])assert.equal(s[key],previous[key],s.id+' changed '+key);
  if(!approved[s.id])for(const key of ['start','end','unlock','number','week'])assert.equal(s[key],previous[key]);
