@@ -6,7 +6,7 @@ const manifest=JSON.parse(fs.readFileSync(path.join(root,'content/prompt-vault-m
 const oldManifest=JSON.parse(execFileSync('git',['show','HEAD:content/prompt-vault-manifest.json'],{cwd:root,encoding:'utf8'}));
 for(const old of oldManifest.filter(item=>item.kind==='official')){const item=manifest.find(item=>item.id===old.id);assert(item,'Lost official deep link '+old.id);assert.equal(item.text.replace(/\r\n/g,'\n'),old.text.replace(/\r\n/g,'\n'),'Changed official text '+old.id);}
 const pre=html=>[...html.matchAll(/<pre\b[^>]*>([\s\S]*?)<\/pre>/g)].map(m=>m[1].replace(/\r\n/g,'\n'));
-for(const session of schedule)for(const route of [session.session,session.playbook])assert.deepEqual(pre(fs.readFileSync(path.join(root,route),'utf8')),pre(execFileSync('git',['show','HEAD:'+route],{cwd:root,encoding:'utf8'})),route+' changed a source prompt');
+for(const session of schedule.filter(s=>s.session))for(const route of [session.session,session.playbook])assert.deepEqual(pre(fs.readFileSync(path.join(root,route),'utf8')),pre(execFileSync('git',['show','HEAD:'+route],{cwd:root,encoding:'utf8'})),route+' changed a source prompt');
 const results={checks:['Official text and deep links preserved'],screenshots:[]};
 (async()=>{const browser=await chromium.launch({...(process.platform==='win32'?{channel:'chrome'}:{}),headless:true});try{
  const context=await browser.newContext({viewport:{width:390,height:844},reducedMotion:'reduce',permissions:['clipboard-read','clipboard-write'],acceptDownloads:true});
