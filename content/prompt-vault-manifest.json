@@ -1391,6 +1391,126 @@
     ]
   },
   {
+    "sessionId": "week-7-day-3",
+    "kind": "practice",
+    "id": "practice-week-7-day-3-01-diagnose-and-protect-the-project",
+    "title": "Diagnose and protect the project",
+    "text": "Save a separate Filmora working project. Link your rough cut and identify the most useful finishing problems with timestamps. Record the intended audience, message and frame shape.",
+    "source": "Practice recipe from the session homework workflow.",
+    "sourceUrl": "sessions/week-7-day-3/playbook.html",
+    "fields": []
+  },
+  {
+    "sessionId": "week-7-day-3",
+    "kind": "practice",
+    "id": "practice-week-7-day-3-02-select-usable-frames-and-build-the-story",
+    "title": "Select usable frames and build the story",
+    "text": "Create a clean assembly from usable source ranges. Save a before/after example of a trimmed glitch or stalled movement, and explain why the new cut works.",
+    "source": "Practice recipe from the session homework workflow.",
+    "sourceUrl": "sessions/week-7-day-3/playbook.html",
+    "fields": []
+  },
+  {
+    "sessionId": "week-7-day-3",
+    "kind": "practice",
+    "id": "practice-week-7-day-3-03-repair-motion-and-connect-shots",
+    "title": "Repair motion and connect shots",
+    "text": "Repair a motion or continuity issue with a trim, alternate angle, cutaway, reverse or uniform-speed adjustment. Record the chosen technique, its reason and what you checked.",
+    "source": "Practice recipe from the session homework workflow.",
+    "sourceUrl": "sessions/week-7-day-3/playbook.html",
+    "fields": []
+  },
+  {
+    "sessionId": "week-7-day-3",
+    "kind": "practice",
+    "id": "practice-week-7-day-3-04-shape-rhythm-and-speed-ramps",
+    "title": "Shape rhythm and speed ramps",
+    "text": "Mark useful musical accents and compare a speed ramp with the original on a suitable shot. Keep the better version. For a calm scene, record why natural timing works better; do not add a ramp just to complete an exercise.",
+    "source": "Practice recipe from the session homework workflow.",
+    "sourceUrl": "sessions/week-7-day-3/playbook.html",
+    "fields": []
+  },
+  {
+    "sessionId": "week-7-day-3",
+    "kind": "practice",
+    "id": "practice-week-7-day-3-05-animate-graphics-with-purpose",
+    "title": "Animate graphics with purpose",
+    "text": "Use a title or graphic only where it helps the film. Review safe margins and readability; demonstrate a restrained keyframed change when useful, or record why a static treatment is better.",
+    "source": "Practice recipe from the session homework workflow.",
+    "sourceUrl": "sessions/week-7-day-3/playbook.html",
+    "fields": []
+  },
+  {
+    "sessionId": "week-7-day-3",
+    "kind": "practice",
+    "id": "practice-week-7-day-3-06-build-sound-in-layers",
+    "title": "Build sound in layers",
+    "text": "Build and review separate voice, music and SFX layers as your film requires. Record one sound placement, its timing, and the level/fade change that improved it. Retain the audio source and license record.",
+    "source": "Practice recipe from the session homework workflow.",
+    "sourceUrl": "sessions/week-7-day-3/playbook.html",
+    "fields": []
+  },
+  {
+    "sessionId": "week-7-day-3",
+    "kind": "practice",
+    "id": "practice-week-7-day-3-07-bridge-scenes-and-protect-dialogue",
+    "title": "Bridge scenes and protect dialogue",
+    "text": "Try a J-cut or L-cut where it improves continuity and compare it with a clean cut. Protect dialogue using volume automation or available ducking. For a film without speech, record the music/ambience transition decision instead.",
+    "source": "Practice recipe from the session homework workflow.",
+    "sourceUrl": "sessions/week-7-day-3/playbook.html",
+    "fields": []
+  },
+  {
+    "sessionId": "week-7-day-3",
+    "kind": "practice",
+    "id": "practice-week-7-day-3-08-match-colour-and-finish-text",
+    "title": "Match colour and finish text",
+    "text": "Compare a mismatched join before and after correction. Record the reference and changes. Proofread retained titles/captions, check their timing and review them at phone size.",
+    "source": "Practice recipe from the session homework workflow.",
+    "sourceUrl": "sessions/week-7-day-3/playbook.html",
+    "fields": []
+  },
+  {
+    "sessionId": "week-7-day-3",
+    "kind": "practice",
+    "id": "practice-week-7-day-3-09-export-and-inspect-the-actual-file",
+    "title": "Export and inspect the actual file",
+    "text": "Export the finished film, watch the actual file outside Filmora and record its settings and any issue corrected. Save the editable project with its source-media location.",
+    "source": "Practice recipe from the session homework workflow.",
+    "sourceUrl": "sessions/week-7-day-3/playbook.html",
+    "fields": []
+  },
+  {
+    "sessionId": "week-7-day-3",
+    "kind": "practice",
+    "id": "practice-week-7-day-3-10-compare-explain-and-hand-off",
+    "title": "Compare, explain and hand off",
+    "text": "Link the rough cut, final film and project backup. Explain the strongest before/after editing decisions, record any N/A techniques and identify one next correction. Follow the current cohort hand-in instructions.",
+    "source": "Practice recipe from the session homework workflow.",
+    "sourceUrl": "sessions/week-7-day-3/playbook.html",
+    "fields": []
+  },
+  {
+    "sessionId": "week-7-day-3",
+    "kind": "troubleshooting",
+    "id": "troubleshooting-week-7-day-3",
+    "title": "Diagnose and repair a Advanced Editing: Finish Your Film failure",
+    "text": "I am working on Advanced Editing: Finish Your Film. The visible problem is: [describe the exact failure]. The reference, shot, product, character, or scene that must remain stable is: [reference or constraint]. Check these priorities: I preserved the rough cut and saved a separate working project with linked source media.; I checked the project frame shape and retained only usable footage ranges.; I reviewed shot order, motion continuity and every repaired join.; I made a deliberate rhythm decision; ramps or natural speed support the scene.; I checked keyframed graphics or the chosen static treatment for clarity and safe placement.; I balanced the required audio layers and verified speech or ambience transitions.; I checked colour consistency and all retained titles or captions.; I watched the actual exported file from beginning to end with sound.; I saved the final film, editable project and before/after evidence in the Homework Doc.; I recorded any remaining issue and followed the current cohort submission instructions.. Identify the smallest useful change to the prompt, reference, setting, or edit. Explain what evidence I should inspect after the next test, and tell me when to stop repeating the same approach and choose a different route.",
+    "source": "Prompt Vault troubleshooting template — adapt to the evidence from this session.",
+    "fields": [
+      {
+        "token": "[describe the exact failure]",
+        "label": "describe the exact failure",
+        "format": "text"
+      },
+      {
+        "token": "[reference or constraint]",
+        "label": "reference or constraint",
+        "format": "text"
+      }
+    ]
+  },
+  {
     "sessionId": "week-8-day-2",
     "kind": "official",
     "id": "prompt-vault-week-8-day-2-01-candle-object-reference-image",

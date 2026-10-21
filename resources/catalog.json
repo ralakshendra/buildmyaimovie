@@ -1,8 +1,8 @@
 {
-  "sessions": 15,
+  "sessions": 16,
   "tools": 36,
-  "prompts": 126,
-  "checklists": 15,
+  "prompts": 136,
+  "checklists": 16,
   "sources": [
     "playbook.html",
     "sessions/week-2-day-1/index.html",
@@ -29,6 +29,8 @@
     "sessions/week-7-day-1/playbook.html",
     "sessions/week-7-day-2/index.html",
     "sessions/week-7-day-2/playbook.html",
+    "sessions/week-7-day-3/index.html",
+    "sessions/week-7-day-3/playbook.html",
     "sessions/week-8-day-1/index.html",
     "sessions/week-8-day-1/playbook.html",
     "sessions/week-8-day-2/index.html",

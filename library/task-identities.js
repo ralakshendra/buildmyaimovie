@@ -619,5 +619,57 @@ window.BMAI_TASK_IDENTITIES={
       "text": "I recorded one observed problem and a first correction that addresses it.",
       "legacyKey": "hg1a0v"
     }
+  ],
+  "week-7-day-3": [
+    {
+      "id": "checkpoint-10sy7xm",
+      "text": "I preserved the rough cut and saved a separate working project with linked source media.",
+      "legacyKey": "10sy7xm"
+    },
+    {
+      "id": "checkpoint-ijf7cf",
+      "text": "I checked the project frame shape and retained only usable footage ranges.",
+      "legacyKey": "ijf7cf"
+    },
+    {
+      "id": "checkpoint-1orowoz",
+      "text": "I reviewed shot order, motion continuity and every repaired join.",
+      "legacyKey": "1orowoz"
+    },
+    {
+      "id": "checkpoint-j77p2m",
+      "text": "I made a deliberate rhythm decision; ramps or natural speed support the scene.",
+      "legacyKey": "j77p2m"
+    },
+    {
+      "id": "checkpoint-14darjy",
+      "text": "I checked keyframed graphics or the chosen static treatment for clarity and safe placement.",
+      "legacyKey": "14darjy"
+    },
+    {
+      "id": "checkpoint-1e25y2m",
+      "text": "I balanced the required audio layers and verified speech or ambience transitions.",
+      "legacyKey": "1e25y2m"
+    },
+    {
+      "id": "checkpoint-hgci8g",
+      "text": "I checked colour consistency and all retained titles or captions.",
+      "legacyKey": "hgci8g"
+    },
+    {
+      "id": "checkpoint-1xuxpiw",
+      "text": "I watched the actual exported file from beginning to end with sound.",
+      "legacyKey": "1xuxpiw"
+    },
+    {
+      "id": "checkpoint-s6fivx",
+      "text": "I saved the final film, editable project and before/after evidence in the Homework Doc.",
+      "legacyKey": "s6fivx"
+    },
+    {
+      "id": "checkpoint-q2bfp4",
+      "text": "I recorded any remaining issue and followed the current cohort submission instructions.",
+      "legacyKey": "q2bfp4"
+    }
   ]
 };

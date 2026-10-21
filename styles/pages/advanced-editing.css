@@ -1,0 +1,38 @@
+body[data-session-id="week-7-day-3"] .editing-lesson{max-width:1120px;margin:auto;padding:32px 24px 72px}
+@media(max-width:540px){body[data-session-id="week-7-day-3"] main.editing-lesson{width:calc(100% - 24px);padding:16px 0 48px}body[data-session-id="week-7-day-3"] .editing-hero{padding:20px}}
+body[data-session-id="week-7-day-3"] .editing-hero{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:center;padding:28px}
+body[data-session-id="week-7-day-3"] #mission{padding:0;border:0;background:transparent}
+body[data-session-id="week-7-day-3"] h1{font-size:clamp(36px,4.6vw,64px);line-height:1.08;letter-spacing:-.035em}
+body[data-session-id="week-7-day-3"] .editing-hero-art{margin:0;min-width:0}
+body[data-session-id="week-7-day-3"] .editing-hero-art img{display:block;width:100%;height:auto;max-height:430px;object-fit:contain;border-radius:20px}
+body[data-session-id="week-7-day-3"] figcaption{font-size:12px;color:var(--bm-muted);margin-top:12px}
+body[data-session-id="week-7-day-3"] .actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
+body[data-session-id="week-7-day-3"] section{scroll-margin-top:120px;margin-block:40px}
+body[data-session-id="week-7-day-3"] .editing-pass-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+body[data-session-id="week-7-day-3"] .editing-pass-grid a{display:flex;align-items:center;gap:14px;padding:16px;border:1px solid var(--bm-line);background:var(--bm-panel);border-radius:12px;color:var(--bm-text);text-decoration:none;min-height:64px}
+body[data-session-id="week-7-day-3"] .editing-pass-grid span{color:var(--bm-orange-light);font-weight:800}
+body[data-session-id="week-7-day-3"] .editing-paths{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:24px}
+body[data-session-id="week-7-day-3"] .editing-paths article{padding:20px;border-top:2px solid var(--bm-orange)}
+body[data-session-id="week-7-day-3"] .editing-paths h3{font-size:20px}
+body[data-session-id="week-7-day-3"] .editing-module{padding:32px;margin-block:28px;border:1px solid var(--bm-line);border-radius:18px;background:var(--bm-panel);scroll-margin-top:125px}
+body[data-session-id="week-7-day-3"] .editing-module h2{margin-top:8px;font-size:clamp(25px,3vw,36px)}
+body[data-session-id="week-7-day-3"] p,body[data-session-id="week-7-day-3"] li{line-height:1.75;overflow-wrap:anywhere}
+body[data-session-id="week-7-day-3"] li{margin-block:10px}
+body[data-session-id="week-7-day-3"] .editing-goal{font-size:20px;color:var(--bm-text)}
+body[data-session-id="week-7-day-3"] .editing-review{border-left:3px solid var(--bm-orange);padding:2px 0 2px 20px;margin-block:24px}
+body[data-session-id="week-7-day-3"] .editing-source{font-size:12px;color:var(--bm-muted)}
+body[data-session-id="week-7-day-3"] .editing-task-link{display:inline-flex;padding:10px 0;color:var(--bm-orange-light);font-weight:700}
+body[data-session-id="week-7-day-3"] .checklist{display:grid;gap:14px}
+body[data-session-id="week-7-day-3"] .checklist label{display:flex;align-items:flex-start;gap:12px;padding:14px;border:1px solid var(--bm-line);border-radius:10px;line-height:1.6;cursor:pointer}
+body[data-session-id="week-7-day-3"] .checklist input{width:20px;height:20px;flex:none;margin-top:3px;accent-color:var(--bm-orange)}
+body[data-session-id="week-7-day-3"] [data-library-quiz] fieldset{border:1px solid var(--bm-line);border-radius:14px;margin:20px 0;padding:22px;min-width:0}
+body[data-session-id="week-7-day-3"] [data-library-quiz] legend{font-weight:750;font-size:18px;padding:0 6px}
+body[data-session-id="week-7-day-3"] [data-library-quiz] label{display:flex;gap:10px;padding:12px 0;line-height:1.6}
+body[data-session-id="week-7-day-3"] [data-library-quiz] input{flex:none;accent-color:var(--bm-orange)}
+body[data-session-id="week-7-day-3"] [data-library-quiz] button{padding:12px 18px;border:0;border-radius:8px;background:var(--bm-orange);color:var(--bm-black);font-weight:800;cursor:pointer;margin-top:10px}
+body[data-session-id="week-7-day-3"] details{padding:16px;border:1px solid var(--bm-line);border-radius:10px}
+body[data-session-id="week-7-day-3"] summary{cursor:pointer;font-weight:700}
+@media(max-width:900px){body[data-session-id="week-7-day-3"] .editing-hero{grid-template-columns:1fr}body[data-session-id="week-7-day-3"] .editing-hero-art{order:-1}body[data-session-id="week-7-day-3"] .editing-hero-art img{max-height:340px}}
+@media(max-width:760px){body[data-session-id="week-7-day-3"] .editing-paths{grid-template-columns:1fr}}
+@media(max-width:540px){body[data-session-id="week-7-day-3"] .editing-lesson{padding:20px 16px 48px}body[data-session-id="week-7-day-3"] .editing-module{padding:20px 16px}body[data-session-id="week-7-day-3"] .editing-pass-grid{grid-template-columns:1fr}body[data-session-id="week-7-day-3"] .actions{display:grid}body[data-session-id="week-7-day-3"] .actions .btn{text-align:center}body[data-session-id="week-7-day-3"] [data-library-quiz] fieldset{padding:16px 12px}}
+

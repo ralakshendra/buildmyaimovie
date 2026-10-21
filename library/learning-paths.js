@@ -194,7 +194,7 @@ window.BMAI_LEARNING_PATHS={
   },
   "week-5-day-2": {
     "prepare": [
-      "Your assigned film or story and the team’s current production requirements."
+      "Your assigned film or story and the teamâ€™s current production requirements."
     ],
     "steps": [
       {
@@ -354,6 +354,33 @@ window.BMAI_LEARNING_PATHS={
       {
         "title": "Use the matching prompt",
         "anchor": "prompts"
+      }
+    ]
+  },
+  "week-7-day-3": {
+    "prepare": [
+      "Bring an existing rough cut, its editable Filmora project and linked source media."
+    ],
+    "steps": [
+      {
+        "title": "Protect the project and diagnose the cut",
+        "anchor": "step-1"
+      },
+      {
+        "title": "Choose usable frames and repair continuity",
+        "anchor": "step-2"
+      },
+      {
+        "title": "Shape rhythm without forcing effects",
+        "anchor": "step-4"
+      },
+      {
+        "title": "Build and balance sound",
+        "anchor": "step-6"
+      },
+      {
+        "title": "Export and inspect the actual film",
+        "anchor": "step-9"
       }
     ]
   }

@@ -215,10 +215,11 @@ window.BMAI_SESSIONS=[
     "end": "2026-11-15T22:00:00+05:30",
     "unlock": "2026-11-15T13:30:00.000Z",
     "stage": "EDIT",
-    "description": "Refine an existing rough cut through shot selection, pacing, continuity, sound, colour and titles. Detailed lesson material and homework will be added after the instructor supplies them.",
-    "session": null,
-    "playbook": null,
-    "homework": null
+    "description": "Finish an existing film or advertisement in Filmora with deliberate cuts, rhythm, motion, sound, colour and titles, then compare the rough cut with a fully checked export.",
+    "session": "sessions/week-7-day-3/index.html",
+    "playbook": "sessions/week-7-day-3/playbook.html",
+    "homework": "https://docs.google.com/document/d/1WOsuhyEskgBrklSPMXyS8lxzRA4FAKsfBWpxxn814sU/edit",
+    "promptbook": "prompt-vault.html?session=week-7-day-3"
   },
   {
     "id": "week-8-day-2",

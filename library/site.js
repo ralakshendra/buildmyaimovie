@@ -217,10 +217,11 @@ window.BMAI_SESSIONS=[
     "end": "2026-11-15T22:00:00+05:30",
     "unlock": "2026-11-15T13:30:00.000Z",
     "stage": "EDIT",
-    "description": "Refine an existing rough cut through shot selection, pacing, continuity, sound, colour and titles. Detailed lesson material and homework will be added after the instructor supplies them.",
-    "session": null,
-    "playbook": null,
-    "homework": null
+    "description": "Finish an existing film or advertisement in Filmora with deliberate cuts, rhythm, motion, sound, colour and titles, then compare the rough cut with a fully checked export.",
+    "session": "sessions/week-7-day-3/index.html",
+    "playbook": "sessions/week-7-day-3/playbook.html",
+    "homework": "https://docs.google.com/document/d/1WOsuhyEskgBrklSPMXyS8lxzRA4FAKsfBWpxxn814sU/edit",
+    "promptbook": "prompt-vault.html?session=week-7-day-3"
   },
   {
     "id": "week-8-day-2",
@@ -899,6 +900,58 @@ window.BMAI_TASK_IDENTITIES={
       "text": "I recorded one observed problem and a first correction that addresses it.",
       "legacyKey": "hg1a0v"
     }
+  ],
+  "week-7-day-3": [
+    {
+      "id": "checkpoint-10sy7xm",
+      "text": "I preserved the rough cut and saved a separate working project with linked source media.",
+      "legacyKey": "10sy7xm"
+    },
+    {
+      "id": "checkpoint-ijf7cf",
+      "text": "I checked the project frame shape and retained only usable footage ranges.",
+      "legacyKey": "ijf7cf"
+    },
+    {
+      "id": "checkpoint-1orowoz",
+      "text": "I reviewed shot order, motion continuity and every repaired join.",
+      "legacyKey": "1orowoz"
+    },
+    {
+      "id": "checkpoint-j77p2m",
+      "text": "I made a deliberate rhythm decision; ramps or natural speed support the scene.",
+      "legacyKey": "j77p2m"
+    },
+    {
+      "id": "checkpoint-14darjy",
+      "text": "I checked keyframed graphics or the chosen static treatment for clarity and safe placement.",
+      "legacyKey": "14darjy"
+    },
+    {
+      "id": "checkpoint-1e25y2m",
+      "text": "I balanced the required audio layers and verified speech or ambience transitions.",
+      "legacyKey": "1e25y2m"
+    },
+    {
+      "id": "checkpoint-hgci8g",
+      "text": "I checked colour consistency and all retained titles or captions.",
+      "legacyKey": "hgci8g"
+    },
+    {
+      "id": "checkpoint-1xuxpiw",
+      "text": "I watched the actual exported file from beginning to end with sound.",
+      "legacyKey": "1xuxpiw"
+    },
+    {
+      "id": "checkpoint-s6fivx",
+      "text": "I saved the final film, editable project and before/after evidence in the Homework Doc.",
+      "legacyKey": "s6fivx"
+    },
+    {
+      "id": "checkpoint-q2bfp4",
+      "text": "I recorded any remaining issue and followed the current cohort submission instructions.",
+      "legacyKey": "q2bfp4"
+    }
   ]
 };
 
@@ -1101,7 +1154,7 @@ window.BMAI_LEARNING_PATHS={
   },
   "week-5-day-2": {
     "prepare": [
-      "Your assigned film or story and the team’s current production requirements."
+      "Your assigned film or story and the teamâ€™s current production requirements."
     ],
     "steps": [
       {
@@ -1261,6 +1314,33 @@ window.BMAI_LEARNING_PATHS={
       {
         "title": "Use the matching prompt",
         "anchor": "prompts"
+      }
+    ]
+  },
+  "week-7-day-3": {
+    "prepare": [
+      "Bring an existing rough cut, its editable Filmora project and linked source media."
+    ],
+    "steps": [
+      {
+        "title": "Protect the project and diagnose the cut",
+        "anchor": "step-1"
+      },
+      {
+        "title": "Choose usable frames and repair continuity",
+        "anchor": "step-2"
+      },
+      {
+        "title": "Shape rhythm without forcing effects",
+        "anchor": "step-4"
+      },
+      {
+        "title": "Build and balance sound",
+        "anchor": "step-6"
+      },
+      {
+        "title": "Export and inspect the actual film",
+        "anchor": "step-9"
       }
     ]
   }

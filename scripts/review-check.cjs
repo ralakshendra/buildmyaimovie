@@ -25,6 +25,7 @@ const earliest=Math.min(...schedule.filter(session=>session.session).map(session
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,'Review area overflows on mobile');
   for(const link of links){
    await page.goto(new URL(link,base).href,{waitUntil:'load'});
+   await page.locator('main#main-content').waitFor({state:'attached'});
    assert.equal(await page.locator('.bmai-lock-screen').count(),0,link+' is locked in review');
    assert.equal(await page.locator('main#main-content').count(),1,link+' has no main landmark');
    assert.equal(await page.locator('.bmai-review-toolbar a').count(),1,link+' has no return link');
