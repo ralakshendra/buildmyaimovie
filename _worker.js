@@ -18,11 +18,23 @@ function released(session, now) {
     (session.unlock !== null && Number.isFinite(Date.parse(session.unlock)) && Date.parse(session.unlock) <= now));
 }
 
-function memberFor(email, register) {
+function memberFor(email, register, additionsJson) {
   if (typeof email !== 'string' || !register || typeof register !== 'object' || Array.isArray(register)) return null;
   const key = email.trim().toLowerCase();
-  if (!Object.hasOwn(register, key)) return null;
-  const member = register[key];
+  let member;
+  if (Object.hasOwn(register, key)) {
+    // Original entries, including inactive entries, always take precedence.
+    member = register[key];
+  } else {
+    // Optional private additions never replace or expose the original register.
+    let additions;
+    try { additions = JSON.parse(additionsJson || '{}'); } catch { return null; }
+    if (!additions || typeof additions !== 'object' || Array.isArray(additions) || !Object.hasOwn(additions, key)) return null;
+    member = additions[key];
+    // This register can add students only; admin access stays in the original.
+    if (!member || (member.role !== undefined && member.role !== 'student')) return null;
+  }
+
   if (!member || member.active !== true) return null;
   if (member.role === 'admin') return { ...member, batch: ['B11','B12'].includes(member.batch) ? member.batch : 'B11', role: 'admin' };
   return ['B11', 'B12'].includes(member.batch) ? { ...member, role: 'student' } : null;
@@ -73,7 +85,7 @@ function createHandler({ sessions, batches, identity = verifiedEmail, clock = Da
     try { email = await identity(request, env); } catch { return reply({ error: 'Sign in required' }, 401); }
     let register;
     try { register = JSON.parse(env.ENROLLMENTS_JSON); } catch { return reply({ error: 'Enrollment configuration unavailable' }, 503); }
-    const member = memberFor(email, register);
+    const member = memberFor(email, register, env.ENROLLMENTS_ADDITIONS_JSON);
     if (!member) return reply({ error: 'No active batch assigned. Contact the cohort team.' }, 403);
     const schedule = scheduleFor(sessions, member.batch, batches);
     const url = new URL(request.url);
@@ -195,7 +207,7 @@ function websiteHandler({ identity = verifiedEmail, clock = Date.now, transform 
     try { email = await identity(request, env); } catch { return denied('Sign in through Cloudflare with your enrolled email, then return to the student hub.',401); }
     let register;
     try { register = JSON.parse(env.ENROLLMENTS_JSON); } catch { return denied('Cohort access is being configured. Please contact the cohort team.',503); }
-    const member = memberFor(email, register);
+    const member = memberFor(email, register, env.ENROLLMENTS_ADDITIONS_JSON);
     if (!member) return denied('Your email has no active batch assigned. Please contact the cohort team to confirm your enrollment.',403);
     if(pathname==='/api/admin/batch'){
       if(member.role!=='admin')return json({error:'Admin access required'},403);

@@ -48,7 +48,7 @@ export function websiteHandler({ identity = verifiedEmail, clock = Date.now, tra
     try { email = await identity(request, env); } catch { return denied('Sign in through Cloudflare with your enrolled email, then return to the student hub.',401); }
     let register;
     try { register = JSON.parse(env.ENROLLMENTS_JSON); } catch { return denied('Cohort access is being configured. Please contact the cohort team.',503); }
-    const member = memberFor(email, register);
+    const member = memberFor(email, register, env.ENROLLMENTS_ADDITIONS_JSON);
     if (!member) return denied('Your email has no active batch assigned. Please contact the cohort team to confirm your enrollment.',403);
     if(pathname==='/api/admin/batch'){
       if(member.role!=='admin')return json({error:'Admin access required'},403);
