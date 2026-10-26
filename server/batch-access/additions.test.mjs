@@ -1,0 +1,10 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { memberFor } from './access.mjs';
+const base = {'existing@example.test':{batch:'B12',active:true},'admin@example.test':{role:'admin',active:true},'inactive@example.test':{batch:'B11',active:false}};
+const additions=JSON.stringify({'new@example.test':{batch:'B11',active:true},'existing@example.test':{batch:'B11',active:true},'admin@example.test':{batch:'B12',active:true},'inactive@example.test':{batch:'B11',active:true}});
+test('adds an active student using normalized verified email',()=>assert.deepEqual(memberFor(' NEW@example.test ',base,additions),{batch:'B11',active:true,role:'student'}));
+test('preserves original students, admins, inactive entries and register bytes',()=>{const before=JSON.stringify(base);assert.equal(memberFor('existing@example.test',base,additions).batch,'B12');assert.equal(memberFor('admin@example.test',base,additions).role,'admin');assert.equal(memberFor('inactive@example.test',base,additions),null);assert.equal(JSON.stringify(base),before);});
+test('missing, invalid and malformed additions never affect existing members',()=>{for(const value of [undefined,'','bad','null','[]','42']){assert.equal(memberFor('existing@example.test',base,value).batch,'B12');assert.equal(memberFor('unknown@example.test',base,value),null);}});
+test('additions cannot grant admin, invalid batch or inactive access',()=>{for(const record of [{role:'admin',active:true,batch:'B11'},{role:'owner',active:true,batch:'B11'},{active:false,batch:'B11'},{active:true,batch:'B99'}])assert.equal(memberFor('new@example.test',base,JSON.stringify({'new@example.test':record})),null);});
+test('invalid original register fails closed even with valid additions',()=>{for(const register of [null,[],42])assert.equal(memberFor('new@example.test',register,additions),null);});
