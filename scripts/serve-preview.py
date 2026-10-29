@@ -38,7 +38,7 @@ def review_access_script():
 
 def page_label(relative):
     raw = (root / 'library/schedule.js').read_text(encoding='utf-8')
-    sessions = json.loads(raw.split('window.BMAI_SESSIONS=', 1)[1].strip().rstrip(';'))
+    sessions, _ = json.JSONDecoder().raw_decode(raw.split('window.BMAI_SESSIONS=', 1)[1].lstrip())
     for session in sessions:
         for field, kind in [('session', 'Session guide'), ('playbook', 'Playbook')]:
             if session.get(field) == relative:
