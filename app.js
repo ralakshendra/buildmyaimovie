@@ -3,6 +3,13 @@ const siteRoot=new URL('../',document.querySelector('script[src*="library/site.j
 const page=location.pathname.startsWith(siteRoot.pathname)?location.pathname.slice(siteRoot.pathname.length)||'index.html':'index.html';
 
 const S=window.BMAI_SESSIONS;
+// Migrate saved navigation once; overlapping old week/day paths now name different lessons.
+try{if(localStorage.getItem('bmai:route-version')!=='20261028'){
+ const last=localStorage.getItem('bmai:lastPath');
+ for(const s of S)for(const field of ['session','playbook'])if(last&&s.previousRoutes?.[field]===last)localStorage.setItem('bmai:lastPath',s[field]);
+ localStorage.setItem('bmai:route-version','20261028');
+}}catch(e){}
+
 
 
 
@@ -16,7 +23,7 @@ function sessionIdFromHref(href){
    const matched=S.find(x=>[x.session,x.playbook].filter(Boolean).includes(rel));
    if(matched)return matched.id;
    const sessionPath=rel.match(/^sessions\/(week-\d+-day-\d+)(?:\/|$)/);
-   if(sessionPath)return sessionPath[1];
+   if(sessionPath){const directory='sessions/'+sessionPath[1]+'/';return S.find(x=>x.session?.startsWith(directory))?.id||null;}
   }
   const external=u.href.replace(/\/$/,"");
   const docId=u.hostname==="docs.google.com"?u.pathname.match(/^\/document\/d\/([^/]+)/)?.[1]:null;
@@ -160,7 +167,7 @@ const guideFill=document.getElementById('pb')||document.getElementById('prog'),g
 }
 const legacyBoxes=[...document.querySelectorAll('.checklist input[type="checkbox"], input[type="checkbox"][data-index]')];
 const key=isPlaybook?'bmai-tasks:'+session:'bmai-page-tasks:'+page;
-const guideKey=({'sessions/week-2-day-1/index.html':'w2d1-session','sessions/week-2-day-2/index.html':'w2d2'})[page];state.bind(boxes,{key,legacyKey:guideKey||'bmai-progress:'+page,legacyBoxes:guideKey?boxes:legacyBoxes,update});
+const guideKey=({'sessions/week-1-day-2/index.html':'w2d1-session','sessions/week-2-day-1/index.html':'w2d2'})[page];state.bind(boxes,{key,legacyKey:guideKey||'bmai-progress:'+(pageSession()?.previousRoutes?.[isPlaybook?'playbook':'session']||page),legacyBoxes:guideKey?boxes:legacyBoxes,update});
 }
 function renderCard(x){
 const cur=current(),unlocked=isUnlocked(x),isCurrent=cur&&cur.id===x.id,isNext=next()&&next().id===x.id;

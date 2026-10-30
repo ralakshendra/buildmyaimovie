@@ -1,154 +1,122 @@
 window.BMAI_LESSON={
-  "id": "week-6-day-2",
-  "title": "Create a Complete AI UGC Ad",
-  "number": 11,
+  "id": "week-7-day-1",
+  "title": "Build Your AI Twin for UGC Videos",
+  "number": 12,
   "stage": "MOVIE",
-  "visual": "advertisement",
-  "objective": "Create and review one vertical AI UGC-style product ad using a consistent character, product-in-hand frame, talking A-roll, supporting B-roll, and a clean edit.",
-  "homeworkUrl": "https://docs.google.com/document/d/18ql4IsJL5RwCQ5jExGZxvk46kUFuxqQsptIjhfKSD2w/edit",
-  "submission": "Export the final 9:16 advertisement and share it using the current cohort submission instructions. Confirm the approved destination and deadline with the cohort.",
+  "visual": "production",
+  "objective": "Create a short test video with Google Flow and a verified video-trained avatar, compare face and voice consistency, and record the selected results and next fixes in the Homework Doc.",
+  "homeworkUrl": "https://docs.google.com/document/d/1ALm4BKj-6wdIDHxmhXt6DFcka-tMz-7s4sZmjjxxHZ8/edit",
+  "submission": "Record asset links and review notes in the official Homework Doc. The session source gives no separate submission route. Keep the videos organized in Drive for the later portfolio session.",
   "steps": [
     {
-      "title": "Build a reusable character",
-      "instruction": "Create an original creator character for the intended audience. Describe the appearance, wardrobe, setting, and camera framing; generate a small set of variations; choose one and save it as a reusable character. Use only references you have permission to use.",
-      "review": "One saved character has a clear identity, fits the audience, and can be reused consistently.",
-      "goal": "Build one reusable creator identity.",
-      "inputs": "Your intended audience and character description; any reference images you are authorized to use.",
-      "output": "One named saved character selected for reuse.",
-      "firstFix": "Compare the chosen face and appearance with your brief or authorized reference. Revise the mismatched trait before creating more variations.",
-      "next": "Use this saved character with the product reference in Task 2."
+      "title": "Prepare a clean face reference",
+      "instruction": "Bring the three or four photos from different angles that you prepared in the previous session. Use the instructor-shared image prompt to create a clean front-facing portrait with a simple background. The full prompt was shared separately and is not included in the source packet.",
+      "review": "The selected portrait has a clear, well-lit face, a quiet background, and a recognizable likeness."
     },
     {
-      "title": "Create the product-in-hand image",
-      "instruction": "Create a 9:16 product hero frame with the saved character and an approved product reference. Keep the product shape and printed label faithful to the supplied reference, then review face, hands, framing, and lighting before selecting a frame.",
-      "review": "The chosen frame shows the same creator holding or using the product, with accurate packaging and readable supplied label details.",
-      "goal": "Put the saved character and product into one usable frame.",
-      "inputs": "The saved character from Task 1, a clear authorized product image, and the exact approved label text.",
-      "output": "One selected 9:16 product-in-hand hero frame.",
-      "firstFix": "Compare the image against the references. Identify the visible face, packaging, hand or label mismatch and change one relevant input before the next test.",
-      "next": "Use the selected hero frame as Task 3’s start frame."
+      "title": "Create a Flow character and agent video",
+      "instruction": "In a new Google Flow project, upload the portrait under Characters and select Nano Banana Pro. Attach a template voice, test its preview, tune its speed or tempo if useful, and add it to the character. Name the character; its description is optional. Tag the saved character in your prompt. Turn on Agent and use Always ask, Omni Flash, 9:16 portrait, and one variation as shown in class. Review the scene breakdown and approve generation only after checking the plan and credit request.",
+      "review": "The character and voice remain consistent across scenes, the dialogue is understandable, and generated text does not distract."
     },
     {
-      "title": "Generate the talking A-roll",
-      "instruction": "Use the selected product frame as the starting image for a short talking clip. Add the approved dialogue and enable audio when available. Keep claims truthful and authorized. If the line is cut off or unclear, shorten it or split it before spending credits on another generation.",
-      "review": "The creator delivers the approved message with clear audio, stable face and hands, and continuity with the start frame.",
-      "goal": "Turn the hero frame into a clear talking message.",
-      "inputs": "The selected product-in-hand frame from Task 2 and approved dialogue with verified product claims.",
-      "output": "One selected talking A-roll clip with understandable audio.",
-      "firstFix": "If dialogue is clipped, shorten or split the line. If identity or hands drift, compare the clip with the start frame before another test.",
-      "next": "Keep this A-roll for the base layer of Task 5; prepare the product references for Task 4."
+      "title": "Build and verify a video-trained avatar",
+      "instruction": "Use the instructor-shared HeyGen link. Upload or record a well-lit training video with a visible face and mouth and modest gestures that do not cross the face. Follow the tool's current footage and consent requirements. Choose the voice from the video or record a voice sample, then verify the avatar using the tool's webcam or phone flow. Generate a short test. The class recording showed a free option limited to 15 seconds with Avatar 3; check current availability before relying on those settings.",
+      "review": "Identity, lip movement, voice, and framing are clear, and the avatar has completed the tool's consent and identity checks."
     },
     {
-      "title": "Create supporting B-roll",
-      "instruction": "Create a product close-up from the selected frame. Add a short use-case insert only when it helps explain the product. Choose a video mode supported by the current tool, test a brief clip, and check that the action and product remain accurate.",
-      "review": "Each insert adds a useful product detail or truthful demonstration with consistent packaging and lighting.",
-      "goal": "Add useful product coverage to support the message.",
-      "inputs": "The selected product-in-hand frame, product reference images, and the message established in Task 3.",
-      "output": "A selected product close-up and any useful product-use insert.",
-      "firstFix": "Check the product and lighting against the reference. If a mode is unavailable, use an available supported route and test a short clip before making more inserts.",
-      "next": "Bring the useful inserts and talking A-roll into Task 5’s edit."
-    },
-    {
-      "title": "Edit, review, and export",
-      "instruction": "Assemble the vertical edit in a suitable video editor. Keep the talking clip as the base, add useful product footage above it, keep transitions restrained, and use music or Foley only when it improves clarity. Export the final 9:16 advertisement and share it using current cohort instructions.",
-      "review": "The exported ad has clear dialogue, useful product coverage, truthful claims, consistent visuals, and no distracting effects.",
-      "goal": "Assemble and review the final vertical advertisement.",
-      "inputs": "The selected talking A-roll, useful B-roll, and any audio you have permission to publish.",
-      "output": "One reviewed 9:16 advertisement export and its production evidence links.",
-      "firstFix": "If audio and picture disagree, inspect the relevant timeline section. Recheck the exported file from beginning to end after adjusting the edit.",
-      "next": "Record the final export and review notes in the official Homework Doc, then follow its current submission instructions."
+      "title": "Compare and organize the results",
+      "instruction": "Compare the Flow character with the video-trained avatar. Check identity across every scene, voice, repeated or cut-off words, stretched framing, and generated captions. Record one first fix and the result you plan to carry into your portfolio. Keep the source photos and outputs organized in Drive.",
+      "review": "Both workflow results are linked in the Homework Doc, the comparison identifies a visible strength and issue, and the selected portfolio candidate has a next improvement recorded."
     }
   ],
   "homework": [
     {
-      "title": "Character and reference",
-      "prompt": "Record the character path, intended audience, any authorized reference-image links, the saved character name, and how you judged continuity."
+      "title": "Prepare the reference portrait",
+      "prompt": "Use the prior session's multi-angle photos to create and review a clean, front-facing portrait. Record the source and selected image links, likeness check, and first correction."
     },
     {
-      "title": "Product-in-hand frame",
-      "prompt": "Link the product reference and selected hero image. Record the exact label text and what you checked for face, product, and lighting consistency."
+      "title": "Test Google Flow",
+      "prompt": "Upload the portrait in a new Flow project, attach and preview a template voice, tag the saved character, and use the class Agent settings. Review the scene plan and credit request before approving generation. Record the character, video, voice and issue notes."
     },
     {
-      "title": "Talking A-roll",
-      "prompt": "Record the approved dialogue, the evidence or authorization for product claims, the start-frame choice, and your review of speech, face, hands, audio, and continuity."
+      "title": "Test the video-trained avatar",
+      "prompt": "Use the instructor-shared avatar tool link. Provide your own clear training footage, follow the current consent and verification steps, create a short test, and review identity, voice, lip movement and framing. Record the result link and first fix."
     },
     {
-      "title": "Supporting B-roll",
-      "prompt": "Link the close-up image and any product-use clip. Explain where each insert supports the message and note any mode or reference adjustment."
-    },
-    {
-      "title": "Edited ad and reflection",
-      "prompt": "Link the final vertical export. Record your review notes, first fix, what worked, what needed another pass, and where you shared it using the current cohort instructions."
+      "title": "Compare and save",
+      "prompt": "Compare both outputs, record which retained your face and voice more clearly, note one failure and first fix, and organize the candidate you plan to carry into the later portfolio session."
     }
   ],
   "tools": [
     {
+      "name": "Google Flow",
+      "useCase": "Build an image-based character with a selected template voice and use Agent to plan and generate a multi-scene UGC video."
+    },
+    {
       "name": "OpenArt",
-      "useCase": "Save a reusable creator character and use it as a visual reference for product images and short clips."
+      "useCase": "Optional route shown in class for generating the clean character portrait with Nano Banana Pro."
     },
     {
-      "name": "GPT Image 2",
-      "useCase": "Generate a product-in-hand still when this image model is available to you."
+      "name": "Claude",
+      "useCase": "Draft and critique a production prompt before it is used in Google Flow; the class example checks for setting and generation constraints."
     },
     {
-      "name": "Kling 3.0 Omni",
-      "useCase": "Create a short talking clip from an approved start frame when the current account supports that workflow."
-    },
-    {
-      "name": "Nano Banana Pro",
-      "useCase": "Use as an alternate image-generation option for a product frame or close-up when available."
-    },
-    {
-      "name": "Filmora",
-      "useCase": "Use as one option for assembling vertical A-roll and supporting B-roll."
+      "name": "HeyGen",
+      "useCase": "Create and verify a video-trained digital avatar, then generate a short talking test video. The class accessed it from an instructor-shared link."
     }
   ],
-  "prompts": [
-    {
-      "title": "Character reference image prompt",
-      "text": "Create an original on-camera creator for a vertical product advertisement. Audience: [intended audience]. Creator: [appearance and wardrobe]. Setting: [simple location]. Frame from mid-torso at eye level with soft practical light and a calm background. Keep the same face, hairstyle, wardrobe, and camera angle across four variations. Do not add logos, package text, unsupported claims, or additional people.",
-      "source": "BUILD MY AI MOVIE STUDIO practice prompt, written for this workflow. Replace every bracketed field before use."
-    },
-    {
-      "title": "Product-in-hand image prompt",
-      "text": "Create one 9:16 advertisement still using [saved_character_reference] and [approved_product_reference]. Show the creator holding [product] naturally at chest height with the supplied package facing camera. Preserve the product silhouette, color, and exact label from the reference. Use [setting], [lighting], and [camera framing]. Keep hands anatomically natural. Do not invent label text, logos, benefits, or claims.",
-      "source": "BUILD MY AI MOVIE STUDIO practice prompt, written for this workflow. Replace every bracketed field before use."
-    },
-    {
-      "title": "Talking A-roll prompt",
-      "text": "Use [approved_product_frame] as the first frame. The creator looks into the camera and speaks this approved script exactly: “[approved_script]”. Keep the same face, hair, clothing, room, and product details from the first frame. Use a natural conversational delivery, subtle gestures, clear dialogue, and one continuous take. Do not add dialogue, captions, logos, or product claims.",
-      "source": "BUILD MY AI MOVIE STUDIO practice prompt, written for this workflow. Replace every bracketed field before use."
-    },
-    {
-      "title": "Product close-up B-roll prompt",
-      "text": "Create a vertical close-up of [approved_product] using [product_reference] for exact packaging and [hero_frame] for lighting and color. Show [one useful product detail or action] with a steady camera and realistic hands if needed. Keep the label unchanged and readable. Do not add extra packaging, text, effects, or unsupported claims.",
-      "source": "BUILD MY AI MOVIE STUDIO practice prompt, written for this workflow. Replace every bracketed field before use."
-    },
-    {
-      "title": "Product-use B-roll prompt",
-      "text": "Create a short vertical clip showing [specific, truthful product-use action] in [setting], guided by [approved_product_reference] and [hero_frame]. Keep the package, label, lighting, and surface details consistent. Show only the action described; avoid before-and-after implications or unverified benefits. Use a stable close-up and natural motion.",
-      "source": "BUILD MY AI MOVIE STUDIO practice prompt, written for this workflow. Replace every bracketed field before use."
-    }
-  ],
+  "prompts": [],
   "checklist": [
-    "One named character is saved and selected for reuse.",
-    "The 9:16 product-in-hand frame keeps character, packaging, and label details consistent.",
-    "The A-roll uses the approved dialogue, audio, and product image as its start frame only.",
-    "The spoken claims are verified and authorized; face, teeth, hands, and product contact look stable.",
-    "B-roll adds useful product detail and keeps the product and lighting consistent.",
-    "The 9:16 edit has clear dialogue, restrained transitions, useful audio, and a reviewed export."
+    "I prepared a clean portrait from my previous multi-angle photos and checked the likeness.",
+    "I used a new Flow project and selected Nano Banana Pro for the uploaded character image.",
+    "I added a template voice to the Flow character and previewed its sample dialogue.",
+    "I tagged the saved character and checked the Agent scene breakdown before generation.",
+    "I reviewed the Agent model, aspect ratio, variation count, approval setting, and credit request.",
+    "I completed the video avatar consent and identity verification steps for my own likeness.",
+    "I reviewed identity, voice, dialogue, lip movement, framing, and generated text in both tests.",
+    "I recorded the result links, comparison, first fix, and portfolio next step in the Homework Doc."
   ],
   "quiz": [
     {
-      "question": "The dialogue is cut off at the end of the generated A-roll. What should you adjust first?",
+      "question": "Flow shows a different face in each generated scene. What should you inspect first?",
       "options": [
-        "Shorten the dialogue or split it across clips, then review the selected duration before generating again.",
-        "Add an end frame to the start-frame-only class workflow and keep the same dialogue.",
-        "Add a transition effect to conceal the missing line."
+        "Compare each scene prompt and make sure it tags the saved character consistently.",
+        "Generate again with a different voice template.",
+        "Add subtitles to every scene."
       ],
       "correct": 0,
-      "explanation": "A practical first adjustment is keeping spoken lines withwithin the selected clip duration or splitting a long message across clips, then combining them in the edit."
+      "explanation": "The instructor tied identity drift to missing or changing character details across the agent's separate scene prompts."
+    },
+    {
+      "question": "Why should Agent be set to Always ask before generating?",
+      "options": [
+        "So you can review its scene plan and credit request before generation starts.",
+        "So the agent never creates a scene breakdown.",
+        "So every variation is generated automatically."
+      ],
+      "correct": 0,
+      "explanation": "The class chose Always to inspect proposed changes and credit use before approving generation."
+    },
+    {
+      "question": "Flow voice preview is silent on your device. What is the instructor's first troubleshooting suggestion?",
+      "options": [
+        "Refresh and preview again after adding sample dialogue.",
+        "Upload an ElevenLabs audio file into the character.",
+        "Remove the voice from the character."
+      ],
+      "correct": 0,
+      "explanation": "The transcript confirms custom audio upload is unavailable in this Flow workflow and suggests refreshing when preview playback fails."
+    },
+    {
+      "question": "Generated captions contain errors. What is the most useful fix from class?",
+      "options": [
+        "Remove the generated captions and add them in an editing or captioning tool.",
+        "Generate more scenes with longer captions.",
+        "Change the avatar's clothing."
+      ],
+      "correct": 0,
+      "explanation": "The instructor said video models often render subtitles unreliably and recommended editing or a dedicated caption tool."
     }
   ],
-  "hero": "assets/illustrations/advertisement.svg"
+  "hero": "assets/illustrations/production.svg"
 };

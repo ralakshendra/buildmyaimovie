@@ -18,7 +18,10 @@
     "qa:generated": "node scripts/check-generated.cjs",
     "qa:resource-links": "node qa/resource-links.cjs",
     "qa:numbering": "node qa/curriculum-plan.cjs",
-    "access:build": "node scripts/build-batch-access.cjs"
+    "access:build": "node scripts/build-batch-access.cjs",
+    "qa:routes": "node qa/session-routes-server.mjs && node qa/offline-routes.cjs routes",
+    "qa:cohesion:offline": "node qa/offline-routes.cjs cohesion",
+    "qa:release:offline": "node qa/offline-routes.cjs release"
   },
   "devDependencies": {
     "@playwright/test": "^1.55.0",

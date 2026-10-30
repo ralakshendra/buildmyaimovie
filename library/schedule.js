@@ -17,7 +17,11 @@ window.BMAI_SESSIONS=[
     "homework": "https://docs.google.com/document/d/1xlWcPc7ZiRXX15hXkJeWGatvaEE6cpnupGP32DUjvJs/edit?usp=drivesdk",
     "description": "Analyse at least ten scenes using reference frames and precise descriptions of camera, movement, lighting, lens characteristics, colour and acting.",
     "unlock": null,
-    "promptbook": "prompt-vault.html?session=orientation"
+    "promptbook": "prompt-vault.html?lesson=orientation",
+    "previousRoutes": {
+      "session": "sessions/orientation/index.html",
+      "playbook": "sessions/orientation/playbook.html"
+    }
   },
   {
     "id": "week-1-day-2",
@@ -29,12 +33,21 @@ window.BMAI_SESSIONS=[
     "start": "2026-10-04T20:00:00+05:30",
     "end": null,
     "stage": "BLUEPRINT",
-    "session": "resources/ai-faceless-youtube-masterclass.html",
-    "playbook": "playbook.html",
+    "session": "sessions/week-1-day-1/index.html",
+    "playbook": "sessions/week-1-day-1/playbook.html",
     "homework": "https://docs.google.com/document/d/1ElXCXzfTup1HubGb0KDTIzqCkbPUBWxXwqm3_HDxFmw/edit?usp=sharing",
     "description": "AI Faceless YouTube Channel Masterclass. Completed foundation session.",
-    "promptbook": "prompt-vault.html?session=week-1-day-2",
-    "unlock": "2026-10-04T13:30:00.000Z"
+    "promptbook": "prompt-vault.html?lesson=week-1-day-1",
+    "unlock": "2026-10-04T13:30:00.000Z",
+    "route": "week-1-day-1",
+    "legacyRoutes": {
+      "resources/ai-faceless-youtube-masterclass.html": "session",
+      "playbook.html": "playbook"
+    },
+    "previousRoutes": {
+      "session": "resources/ai-faceless-youtube-masterclass.html",
+      "playbook": "playbook.html"
+    }
   },
   {
     "id": "week-2-day-1",
@@ -46,12 +59,17 @@ window.BMAI_SESSIONS=[
     "start": "2026-10-10T20:00:00+05:30",
     "end": "2026-10-10T22:00:00+05:30",
     "stage": "VISUAL WORLD",
-    "session": "sessions/week-2-day-1/index.html",
-    "playbook": "sessions/week-2-day-1/playbook.html",
+    "session": "sessions/week-1-day-2/index.html",
+    "playbook": "sessions/week-1-day-2/playbook.html",
     "homework": "https://docs.google.com/document/d/1zdEzgOX22ghpxgmNN5yQeYLprWsAUX3R7zNxuMmJQwI",
     "description": "Create your first AI movie short and learn Editing Essentials in Filmora: arrange and trim shots, balance sound, and export one finished short before the publishing loop.",
-    "promptbook": "prompt-vault.html?session=week-2-day-1",
-    "unlock": "2026-10-10T13:30:00.000Z"
+    "promptbook": "prompt-vault.html?lesson=week-1-day-2",
+    "unlock": "2026-10-10T13:30:00.000Z",
+    "route": "week-1-day-2",
+    "previousRoutes": {
+      "session": "sessions/week-2-day-1/index.html",
+      "playbook": "sessions/week-2-day-1/playbook.html"
+    }
   },
   {
     "id": "week-2-day-2",
@@ -63,12 +81,17 @@ window.BMAI_SESSIONS=[
     "start": "2026-10-11T20:00:00+05:30",
     "end": "2026-10-11T22:00:00+05:30",
     "stage": "MOTION",
-    "session": "sessions/week-2-day-2/index.html",
-    "playbook": "sessions/week-2-day-2/playbook.html",
+    "session": "sessions/week-2-day-1/index.html",
+    "playbook": "sessions/week-2-day-1/playbook.html",
     "homework": "https://docs.google.com/document/d/1jbIb9krXCTVpHprI3tqm9V6tHL-L5Sr1NCFYQ5WHNBA",
     "description": "Create photorealistic product frames, build continuity and turn images into video.",
-    "promptbook": "prompt-vault.html?session=week-2-day-2",
-    "unlock": "2026-10-11T13:30:00.000Z"
+    "promptbook": "prompt-vault.html?lesson=week-2-day-1",
+    "unlock": "2026-10-11T13:30:00.000Z",
+    "route": "week-2-day-1",
+    "previousRoutes": {
+      "session": "sessions/week-2-day-2/index.html",
+      "playbook": "sessions/week-2-day-2/playbook.html"
+    }
   },
   {
     "id": "week-3-day-1",
@@ -80,12 +103,17 @@ window.BMAI_SESSIONS=[
     "start": "2026-10-17T20:00:00+05:30",
     "end": "2026-10-17T22:00:00+05:30",
     "stage": "STORY",
-    "session": "sessions/week-3-day-1/index.html",
-    "playbook": "sessions/week-3-day-1/playbook.html",
+    "session": "sessions/week-2-day-2/index.html",
+    "playbook": "sessions/week-2-day-2/playbook.html",
     "homework": "https://docs.google.com/document/d/1C9Txnwd_Fi2gqeHLZnfkGq5lEoqtA6WzqI4aGBCWFL4/edit?usp=sharing",
     "description": "Build the character sheet, visual direction, screenplay and structured shot shortlist before deeper generation.",
-    "promptbook": "prompt-vault.html?session=week-3-day-1",
-    "unlock": "2026-10-17T13:30:00.000Z"
+    "promptbook": "prompt-vault.html?lesson=week-2-day-2",
+    "unlock": "2026-10-17T13:30:00.000Z",
+    "route": "week-2-day-2",
+    "previousRoutes": {
+      "session": "sessions/week-3-day-1/index.html",
+      "playbook": "sessions/week-3-day-1/playbook.html"
+    }
   },
   {
     "id": "week-3-day-2",
@@ -97,12 +125,17 @@ window.BMAI_SESSIONS=[
     "start": "2026-10-18T20:00:00+05:30",
     "end": "2026-10-18T22:00:00+05:30",
     "stage": "SHOTS",
-    "session": "sessions/week-3-day-2/index.html",
-    "playbook": "sessions/week-3-day-2/playbook.html",
+    "session": "sessions/week-3-day-1/index.html",
+    "playbook": "sessions/week-3-day-1/playbook.html",
     "homework": "https://docs.google.com/document/d/1zj1OojpdpC8YHMYHqF2JPAvrJA78rckstWRN6wxr-MU/edit",
     "description": "Build a superhero teaser from character and location references through motion, edit, sound and final review.",
-    "promptbook": "prompt-vault.html?session=week-3-day-2",
-    "unlock": "2026-10-18T13:30:00.000Z"
+    "promptbook": "prompt-vault.html?lesson=week-3-day-1",
+    "unlock": "2026-10-18T13:30:00.000Z",
+    "route": "week-3-day-1",
+    "previousRoutes": {
+      "session": "sessions/week-3-day-2/index.html",
+      "playbook": "sessions/week-3-day-2/playbook.html"
+    }
   },
   {
     "id": "week-4-day-1",
@@ -114,12 +147,17 @@ window.BMAI_SESSIONS=[
     "start": "2026-10-24T20:00:00+05:30",
     "end": "2026-10-24T22:00:00+05:30",
     "stage": "EDIT",
-    "session": "sessions/week-4-day-1/index.html",
-    "playbook": "sessions/week-4-day-1/playbook.html",
+    "session": "sessions/week-3-day-2/index.html",
+    "playbook": "sessions/week-3-day-2/playbook.html",
     "homework": "https://docs.google.com/document/d/1vIEK9NO-hJ_icVBlSQLUXVAHnlm46Gw1exPpc_42XR8/edit",
     "description": "Develop a superhero teaser with consistent references, purposeful motion and a deliberate edit.",
-    "promptbook": "prompt-vault.html?session=week-4-day-1",
-    "unlock": "2026-10-24T13:30:00.000Z"
+    "promptbook": "prompt-vault.html?lesson=week-3-day-2",
+    "unlock": "2026-10-24T13:30:00.000Z",
+    "route": "week-3-day-2",
+    "previousRoutes": {
+      "session": "sessions/week-4-day-1/index.html",
+      "playbook": "sessions/week-4-day-1/playbook.html"
+    }
   },
   {
     "id": "week-4-day-2",
@@ -131,12 +169,17 @@ window.BMAI_SESSIONS=[
     "start": "2026-10-25T20:00:00+05:30",
     "end": "2026-10-25T22:00:00+05:30",
     "stage": "MOTION",
-    "session": "sessions/week-4-day-2/index.html",
-    "playbook": "sessions/week-4-day-2/playbook.html",
+    "session": "sessions/week-4-day-1/index.html",
+    "playbook": "sessions/week-4-day-1/playbook.html",
     "homework": "https://docs.google.com/document/d/1NplWrwx7vfEaAXLys4czsqwKzvm-wPwZRUsu9dhnJRY/edit",
     "description": "Plan, generate and edit a camera-focused product advertisement.",
-    "promptbook": "prompt-vault.html?session=week-4-day-2",
-    "unlock": "2026-10-25T13:30:00.000Z"
+    "promptbook": "prompt-vault.html?lesson=week-4-day-1",
+    "unlock": "2026-10-25T13:30:00.000Z",
+    "route": "week-4-day-1",
+    "previousRoutes": {
+      "session": "sessions/week-4-day-2/index.html",
+      "playbook": "sessions/week-4-day-2/playbook.html"
+    }
   },
   {
     "id": "week-5-day-1",
@@ -148,12 +191,17 @@ window.BMAI_SESSIONS=[
     "start": "2026-10-31T20:00:00+05:30",
     "end": "2026-10-31T22:00:00+05:30",
     "stage": "MOTION",
-    "session": "sessions/week-5-day-1/index.html",
-    "playbook": "sessions/week-5-day-1/playbook.html",
+    "session": "sessions/week-4-day-2/index.html",
+    "playbook": "sessions/week-4-day-2/playbook.html",
     "homework": "https://docs.google.com/document/d/1qHcYXyMzjkQSD6remiUbcOcrgI9wMqELxpDtU2Oxylk/edit",
     "description": "Create one coherent real-estate walkthrough of about one minute or less as a team, using consistent property references, purposeful image-to-video movement and a Filmora edit with music.",
-    "promptbook": "prompt-vault.html?session=week-5-day-1",
-    "unlock": "2026-10-31T13:30:00.000Z"
+    "promptbook": "prompt-vault.html?lesson=week-4-day-2",
+    "unlock": "2026-10-31T13:30:00.000Z",
+    "route": "week-4-day-2",
+    "previousRoutes": {
+      "session": "sessions/week-5-day-1/index.html",
+      "playbook": "sessions/week-5-day-1/playbook.html"
+    }
   },
   {
     "id": "week-5-day-2",
@@ -165,12 +213,17 @@ window.BMAI_SESSIONS=[
     "start": "2026-11-01T20:00:00+05:30",
     "end": "2026-11-01T22:00:00+05:30",
     "stage": "BLUEPRINT",
-    "session": "sessions/week-5-day-2/index.html",
-    "playbook": "sessions/week-5-day-2/playbook.html",
+    "session": "sessions/week-5-day-1/index.html",
+    "playbook": "sessions/week-5-day-1/playbook.html",
     "homework": "https://docs.google.com/document/d/1CGb4bhUlKvlzL4IrIrKtVGe1lMsYzwodJvVRnOTZWD4/edit",
     "description": "Create a detailed screenplay and a Hollywood-style production sheet that turns the assigned story into visually consistent, executable shots.",
-    "promptbook": "prompt-vault.html?session=week-5-day-2",
-    "unlock": "2026-11-01T13:30:00.000Z"
+    "promptbook": "prompt-vault.html?lesson=week-5-day-1",
+    "unlock": "2026-11-01T13:30:00.000Z",
+    "route": "week-5-day-1",
+    "previousRoutes": {
+      "session": "sessions/week-5-day-2/index.html",
+      "playbook": "sessions/week-5-day-2/playbook.html"
+    }
   },
   {
     "id": "week-6-day-1",
@@ -182,12 +235,17 @@ window.BMAI_SESSIONS=[
     "start": "2026-11-07T20:00:00+05:30",
     "end": "2026-11-07T22:00:00+05:30",
     "stage": "SHOTS",
-    "session": "sessions/week-6-day-1/index.html",
-    "playbook": "sessions/week-6-day-1/playbook.html",
+    "session": "sessions/week-5-day-2/index.html",
+    "playbook": "sessions/week-5-day-2/playbook.html",
     "homework": "https://docs.google.com/document/d/1NG5eCKm4gutvS5j_3CASgbH1T8XIOI-_4F2vV7DQkyU/edit",
     "description": "By the end of the session, each team will have a reviewed character sheet for the characters in its assigned film and a prop sheet for the story-critical objects, with reference images ready to support consistent image and video generation.",
-    "promptbook": "prompt-vault.html?session=week-6-day-1",
-    "unlock": "2026-11-07T13:30:00.000Z"
+    "promptbook": "prompt-vault.html?lesson=week-5-day-2",
+    "unlock": "2026-11-07T13:30:00.000Z",
+    "route": "week-5-day-2",
+    "previousRoutes": {
+      "session": "sessions/week-6-day-1/index.html",
+      "playbook": "sessions/week-6-day-1/playbook.html"
+    }
   },
   {
     "id": "week-6-day-2",
@@ -199,12 +257,17 @@ window.BMAI_SESSIONS=[
     "start": "2026-11-08T20:00:00+05:30",
     "end": "2026-11-08T22:00:00+05:30",
     "stage": "MOVIE",
-    "session": "sessions/week-6-day-2/index.html",
-    "playbook": "sessions/week-6-day-2/playbook.html",
+    "session": "sessions/week-6-day-1/index.html",
+    "playbook": "sessions/week-6-day-1/playbook.html",
     "homework": "https://docs.google.com/document/d/18ql4IsJL5RwCQ5jExGZxvk46kUFuxqQsptIjhfKSD2w/edit",
     "description": "Create and review one vertical AI UGC-style product ad using a consistent character, product-in-hand frame, talking A-roll, supporting B-roll, and a clean edit.",
-    "promptbook": "prompt-vault.html?session=week-6-day-2",
-    "unlock": "2026-11-08T13:30:00.000Z"
+    "promptbook": "prompt-vault.html?lesson=week-6-day-1",
+    "unlock": "2026-11-08T13:30:00.000Z",
+    "route": "week-6-day-1",
+    "previousRoutes": {
+      "session": "sessions/week-6-day-2/index.html",
+      "playbook": "sessions/week-6-day-2/playbook.html"
+    }
   },
   {
     "id": "week-7-day-1",
@@ -216,12 +279,17 @@ window.BMAI_SESSIONS=[
     "start": "2026-11-14T20:00:00+05:30",
     "end": "2026-11-14T22:00:00+05:30",
     "stage": "MOVIE",
-    "session": "sessions/week-7-day-1/index.html",
-    "playbook": "sessions/week-7-day-1/playbook.html",
+    "session": "sessions/week-6-day-2/index.html",
+    "playbook": "sessions/week-6-day-2/playbook.html",
     "homework": "https://docs.google.com/document/d/1ALm4BKj-6wdIDHxmhXt6DFcka-tMz-7s4sZmjjxxHZ8/edit",
     "description": "Create a short test video with Google Flow and a verified video-trained avatar, compare face and voice consistency, and record the selected results and next fixes in the Homework Doc.",
-    "promptbook": "prompt-vault.html?session=week-7-day-1",
-    "unlock": "2026-11-14T13:30:00.000Z"
+    "promptbook": "prompt-vault.html?lesson=week-6-day-2",
+    "unlock": "2026-11-14T13:30:00.000Z",
+    "route": "week-6-day-2",
+    "previousRoutes": {
+      "session": "sessions/week-7-day-1/index.html",
+      "playbook": "sessions/week-7-day-1/playbook.html"
+    }
   },
   {
     "id": "week-7-day-3",
@@ -235,10 +303,20 @@ window.BMAI_SESSIONS=[
     "unlock": "2026-11-15T13:30:00.000Z",
     "stage": "EDIT",
     "description": "Finish an existing film or advertisement in Filmora with deliberate cuts, rhythm, motion, sound, colour and titles, then compare the rough cut with a fully checked export.",
-    "session": "sessions/week-7-day-3/index.html",
-    "playbook": "sessions/week-7-day-3/playbook.html",
+    "session": "sessions/week-7-day-1/index.html",
+    "playbook": "sessions/week-7-day-1/playbook.html",
     "homework": "https://docs.google.com/document/d/1WOsuhyEskgBrklSPMXyS8lxzRA4FAKsfBWpxxn814sU/edit",
-    "promptbook": "prompt-vault.html?session=week-7-day-3"
+    "promptbook": "prompt-vault.html?lesson=week-7-day-1",
+    "route": "week-7-day-1",
+    "legacyRoutes": {
+      "sessions/week-7-day-3/index.html": "session",
+      "sessions/week-7-day-3/playbook.html": "playbook",
+      "sessions/week-7-day-3/prompt-vault.html": "promptbook"
+    },
+    "previousRoutes": {
+      "session": "sessions/week-7-day-3/index.html",
+      "playbook": "sessions/week-7-day-3/playbook.html"
+    }
   },
   {
     "id": "week-8-day-2",
@@ -250,12 +328,17 @@ window.BMAI_SESSIONS=[
     "start": "2026-11-21T20:00:00+05:30",
     "end": "2026-11-21T22:00:00+05:30",
     "stage": "MOTION",
-    "session": "sessions/week-8-day-2/index.html",
-    "playbook": "sessions/week-8-day-2/playbook.html",
+    "session": "sessions/week-7-day-2/index.html",
+    "playbook": "sessions/week-7-day-2/playbook.html",
     "homework": "https://docs.google.com/document/d/1wb2orCymuOp6zqJzsOKgieM8Pw_Sxt7KJKEkQooBDuo/edit",
     "description": "Select an advanced VFX route, prepare compatible references, generate one video transformation test, and review what changed, what stayed stable, and the first correction.",
-    "promptbook": "prompt-vault.html?session=week-8-day-2",
-    "unlock": "2026-11-21T13:30:00.000Z"
+    "promptbook": "prompt-vault.html?lesson=week-7-day-2",
+    "unlock": "2026-11-21T13:30:00.000Z",
+    "route": "week-7-day-2",
+    "previousRoutes": {
+      "session": "sessions/week-8-day-2/index.html",
+      "playbook": "sessions/week-8-day-2/playbook.html"
+    }
   },
   {
     "id": "week-8-day-1",
@@ -271,8 +354,13 @@ window.BMAI_SESSIONS=[
     "playbook": "sessions/week-8-day-1/playbook.html",
     "homework": "https://docs.google.com/document/d/1pUmCjzW_iYchbUHelAkbBDYmJR2GRhBjYHf6n32_A0g/edit",
     "description": "Bring your editing and VFX skills together in a finished automobile advertisement for your commercial portfolio.",
-    "promptbook": "prompt-vault.html?session=week-8-day-1",
-    "unlock": "2026-11-22T13:30:00.000Z"
+    "promptbook": "prompt-vault.html?lesson=week-8-day-1",
+    "unlock": "2026-11-22T13:30:00.000Z",
+    "route": "week-8-day-1",
+    "previousRoutes": {
+      "session": "sessions/week-8-day-1/index.html",
+      "playbook": "sessions/week-8-day-1/playbook.html"
+    }
   },
   {
     "id": "week-7-day-2",
@@ -284,12 +372,17 @@ window.BMAI_SESSIONS=[
     "start": "2026-11-28T20:00:00+05:30",
     "end": "2026-11-28T22:00:00+05:30",
     "stage": "MOVIE",
-    "session": "sessions/week-7-day-2/index.html",
-    "playbook": "sessions/week-7-day-2/playbook.html",
+    "session": "sessions/week-8-day-2/index.html",
+    "playbook": "sessions/week-8-day-2/playbook.html",
     "homework": "https://docs.google.com/document/d/1JWqUBGACD-YajJHTfU1GoBqmEPm2YIE6jVi-O6hWIjc",
     "description": "Build your portfolio website around your strongest finished projects, including the automobile ad, and prepare a final showcase.",
-    "promptbook": "prompt-vault.html?session=week-7-day-2",
-    "unlock": "2026-11-28T13:30:00.000Z"
+    "promptbook": "prompt-vault.html?lesson=week-8-day-2",
+    "unlock": "2026-11-28T13:30:00.000Z",
+    "route": "week-8-day-2",
+    "previousRoutes": {
+      "session": "sessions/week-7-day-2/index.html",
+      "playbook": "sessions/week-7-day-2/playbook.html"
+    }
   }
 ];
 window.BMAI_BATCH_SCHEDULES = {

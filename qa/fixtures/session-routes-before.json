@@ -1,0 +1,517 @@
+{
+  "sessions": [
+    {
+      "kind": "orientation",
+      "access": "completed",
+      "id": "orientation",
+      "visual": "production",
+      "hero": "assets/illustrations/production.svg",
+      "week": "ORIENTATION",
+      "title": "Orientation: Learn to Read a Scene",
+      "number": null,
+      "start": null,
+      "end": null,
+      "stage": "BLUEPRINT",
+      "session": "sessions/orientation/index.html",
+      "playbook": "sessions/orientation/playbook.html",
+      "homework": "https://docs.google.com/document/d/1xlWcPc7ZiRXX15hXkJeWGatvaEE6cpnupGP32DUjvJs/edit?usp=drivesdk",
+      "description": "Analyse at least ten scenes using reference frames and precise descriptions of camera, movement, lighting, lens characteristics, colour and acting.",
+      "unlock": null,
+      "promptbook": "prompt-vault.html?session=orientation"
+    },
+    {
+      "id": "week-1-day-2",
+      "visual": "youtube",
+      "hero": "assets/illustrations/youtube.svg",
+      "week": "WEEK 1 · DAY 1",
+      "title": "YouTube Masterclass",
+      "number": 1,
+      "start": "2026-10-04T20:00:00+05:30",
+      "end": null,
+      "stage": "BLUEPRINT",
+      "session": "resources/ai-faceless-youtube-masterclass.html",
+      "playbook": "playbook.html",
+      "homework": "https://docs.google.com/document/d/1ElXCXzfTup1HubGb0KDTIzqCkbPUBWxXwqm3_HDxFmw/edit?usp=sharing",
+      "description": "AI Faceless YouTube Channel Masterclass. Completed foundation session.",
+      "promptbook": "prompt-vault.html?session=week-1-day-2",
+      "unlock": "2026-10-04T13:30:00.000Z"
+    },
+    {
+      "id": "week-2-day-1",
+      "visual": "short",
+      "hero": "assets/illustrations/short.svg",
+      "week": "WEEK 1 · DAY 2",
+      "title": "Build Your First AI Movie Short",
+      "number": 2,
+      "start": "2026-10-10T20:00:00+05:30",
+      "end": "2026-10-10T22:00:00+05:30",
+      "stage": "VISUAL WORLD",
+      "session": "sessions/week-2-day-1/index.html",
+      "playbook": "sessions/week-2-day-1/playbook.html",
+      "homework": "https://docs.google.com/document/d/1zdEzgOX22ghpxgmNN5yQeYLprWsAUX3R7zNxuMmJQwI",
+      "description": "Create your first AI movie short and learn Editing Essentials in Filmora: arrange and trim shots, balance sound, and export one finished short before the publishing loop.",
+      "promptbook": "prompt-vault.html?session=week-2-day-1",
+      "unlock": "2026-10-10T13:30:00.000Z"
+    },
+    {
+      "id": "week-2-day-2",
+      "visual": "advertisement",
+      "hero": "assets/illustrations/advertisement.svg",
+      "week": "WEEK 2 · DAY 1",
+      "title": "Photorealistic AI Advertisement",
+      "number": 3,
+      "start": "2026-10-11T20:00:00+05:30",
+      "end": "2026-10-11T22:00:00+05:30",
+      "stage": "MOTION",
+      "session": "sessions/week-2-day-2/index.html",
+      "playbook": "sessions/week-2-day-2/playbook.html",
+      "homework": "https://docs.google.com/document/d/1jbIb9krXCTVpHprI3tqm9V6tHL-L5Sr1NCFYQ5WHNBA",
+      "description": "Create photorealistic product frames, build continuity and turn images into video.",
+      "promptbook": "prompt-vault.html?session=week-2-day-2",
+      "unlock": "2026-10-11T13:30:00.000Z"
+    },
+    {
+      "id": "week-3-day-1",
+      "visual": "story",
+      "hero": "assets/illustrations/story.svg",
+      "week": "WEEK 2 · DAY 2",
+      "title": "Structured Brand Story Pipeline",
+      "number": 4,
+      "start": "2026-10-17T20:00:00+05:30",
+      "end": "2026-10-17T22:00:00+05:30",
+      "stage": "STORY",
+      "session": "sessions/week-3-day-1/index.html",
+      "playbook": "sessions/week-3-day-1/playbook.html",
+      "homework": "https://docs.google.com/document/d/1C9Txnwd_Fi2gqeHLZnfkGq5lEoqtA6WzqI4aGBCWFL4/edit?usp=sharing",
+      "description": "Build the character sheet, visual direction, screenplay and structured shot shortlist before deeper generation.",
+      "promptbook": "prompt-vault.html?session=week-3-day-1",
+      "unlock": "2026-10-17T13:30:00.000Z"
+    },
+    {
+      "id": "week-3-day-2",
+      "visual": "production",
+      "hero": "assets/illustrations/production.svg",
+      "week": "WEEK 3 · DAY 1",
+      "title": "Make Yourself the Hero: Superhero Teaser Production",
+      "number": 5,
+      "start": "2026-10-18T20:00:00+05:30",
+      "end": "2026-10-18T22:00:00+05:30",
+      "stage": "SHOTS",
+      "session": "sessions/week-3-day-2/index.html",
+      "playbook": "sessions/week-3-day-2/playbook.html",
+      "homework": "https://docs.google.com/document/d/1zj1OojpdpC8YHMYHqF2JPAvrJA78rckstWRN6wxr-MU/edit",
+      "description": "Build a superhero teaser from character and location references through motion, edit, sound and final review.",
+      "promptbook": "prompt-vault.html?session=week-3-day-2",
+      "unlock": "2026-10-18T13:30:00.000Z"
+    },
+    {
+      "id": "week-4-day-1",
+      "visual": "short",
+      "hero": "assets/illustrations/short.svg",
+      "week": "WEEK 3 · DAY 2",
+      "title": "Superhero Teaser Production",
+      "number": 6,
+      "start": "2026-10-24T20:00:00+05:30",
+      "end": "2026-10-24T22:00:00+05:30",
+      "stage": "EDIT",
+      "session": "sessions/week-4-day-1/index.html",
+      "playbook": "sessions/week-4-day-1/playbook.html",
+      "homework": "https://docs.google.com/document/d/1vIEK9NO-hJ_icVBlSQLUXVAHnlm46Gw1exPpc_42XR8/edit",
+      "description": "Develop a superhero teaser with consistent references, purposeful motion and a deliberate edit.",
+      "promptbook": "prompt-vault.html?session=week-4-day-1",
+      "unlock": "2026-10-24T13:30:00.000Z"
+    },
+    {
+      "id": "week-4-day-2",
+      "visual": "advertisement",
+      "hero": "assets/illustrations/advertisement.svg",
+      "week": "WEEK 4 · DAY 1",
+      "title": "Product Spec Ad: Frames, Motion and Edit",
+      "number": 7,
+      "start": "2026-10-25T20:00:00+05:30",
+      "end": "2026-10-25T22:00:00+05:30",
+      "stage": "MOTION",
+      "session": "sessions/week-4-day-2/index.html",
+      "playbook": "sessions/week-4-day-2/playbook.html",
+      "homework": "https://docs.google.com/document/d/1NplWrwx7vfEaAXLys4czsqwKzvm-wPwZRUsu9dhnJRY/edit",
+      "description": "Plan, generate and edit a camera-focused product advertisement.",
+      "promptbook": "prompt-vault.html?session=week-4-day-2",
+      "unlock": "2026-10-25T13:30:00.000Z"
+    },
+    {
+      "id": "week-5-day-1",
+      "visual": "production",
+      "hero": "assets/illustrations/production.svg",
+      "week": "WEEK 4 · DAY 2",
+      "title": "Real Estate Walkthrough Challenge",
+      "number": 8,
+      "start": "2026-10-31T20:00:00+05:30",
+      "end": "2026-10-31T22:00:00+05:30",
+      "stage": "MOTION",
+      "session": "sessions/week-5-day-1/index.html",
+      "playbook": "sessions/week-5-day-1/playbook.html",
+      "homework": "https://docs.google.com/document/d/1qHcYXyMzjkQSD6remiUbcOcrgI9wMqELxpDtU2Oxylk/edit",
+      "description": "Create one coherent real-estate walkthrough of about one minute or less as a team, using consistent property references, purposeful image-to-video movement and a Filmora edit with music.",
+      "promptbook": "prompt-vault.html?session=week-5-day-1",
+      "unlock": "2026-10-31T13:30:00.000Z"
+    },
+    {
+      "id": "week-5-day-2",
+      "visual": "production",
+      "hero": "assets/illustrations/production.svg",
+      "week": "WEEK 5 · DAY 1",
+      "title": "Plan the Film Before the First Frame",
+      "number": 9,
+      "start": "2026-11-01T20:00:00+05:30",
+      "end": "2026-11-01T22:00:00+05:30",
+      "stage": "BLUEPRINT",
+      "session": "sessions/week-5-day-2/index.html",
+      "playbook": "sessions/week-5-day-2/playbook.html",
+      "homework": "https://docs.google.com/document/d/1CGb4bhUlKvlzL4IrIrKtVGe1lMsYzwodJvVRnOTZWD4/edit",
+      "description": "Create a detailed screenplay and a Hollywood-style production sheet that turns the assigned story into visually consistent, executable shots.",
+      "promptbook": "prompt-vault.html?session=week-5-day-2",
+      "unlock": "2026-11-01T13:30:00.000Z"
+    },
+    {
+      "id": "week-6-day-1",
+      "visual": "production",
+      "hero": "assets/illustrations/production.svg",
+      "week": "WEEK 5 · DAY 2",
+      "title": "Mahabharata Production: Character, Prop & Shot Continuity",
+      "number": 10,
+      "start": "2026-11-07T20:00:00+05:30",
+      "end": "2026-11-07T22:00:00+05:30",
+      "stage": "SHOTS",
+      "session": "sessions/week-6-day-1/index.html",
+      "playbook": "sessions/week-6-day-1/playbook.html",
+      "homework": "https://docs.google.com/document/d/1NG5eCKm4gutvS5j_3CASgbH1T8XIOI-_4F2vV7DQkyU/edit",
+      "description": "By the end of the session, each team will have a reviewed character sheet for the characters in its assigned film and a prop sheet for the story-critical objects, with reference images ready to support consistent image and video generation.",
+      "promptbook": "prompt-vault.html?session=week-6-day-1",
+      "unlock": "2026-11-07T13:30:00.000Z"
+    },
+    {
+      "id": "week-6-day-2",
+      "visual": "advertisement",
+      "hero": "assets/illustrations/advertisement.svg",
+      "week": "WEEK 6 · DAY 1",
+      "title": "Create a Complete AI UGC Ad",
+      "number": 11,
+      "start": "2026-11-08T20:00:00+05:30",
+      "end": "2026-11-08T22:00:00+05:30",
+      "stage": "MOVIE",
+      "session": "sessions/week-6-day-2/index.html",
+      "playbook": "sessions/week-6-day-2/playbook.html",
+      "homework": "https://docs.google.com/document/d/18ql4IsJL5RwCQ5jExGZxvk46kUFuxqQsptIjhfKSD2w/edit",
+      "description": "Create and review one vertical AI UGC-style product ad using a consistent character, product-in-hand frame, talking A-roll, supporting B-roll, and a clean edit.",
+      "promptbook": "prompt-vault.html?session=week-6-day-2",
+      "unlock": "2026-11-08T13:30:00.000Z"
+    },
+    {
+      "id": "week-7-day-1",
+      "visual": "production",
+      "hero": "assets/illustrations/production.svg",
+      "week": "WEEK 6 · DAY 2",
+      "title": "Build Your AI Twin for UGC Videos",
+      "number": 12,
+      "start": "2026-11-14T20:00:00+05:30",
+      "end": "2026-11-14T22:00:00+05:30",
+      "stage": "MOVIE",
+      "session": "sessions/week-7-day-1/index.html",
+      "playbook": "sessions/week-7-day-1/playbook.html",
+      "homework": "https://docs.google.com/document/d/1ALm4BKj-6wdIDHxmhXt6DFcka-tMz-7s4sZmjjxxHZ8/edit",
+      "description": "Create a short test video with Google Flow and a verified video-trained avatar, compare face and voice consistency, and record the selected results and next fixes in the Homework Doc.",
+      "promptbook": "prompt-vault.html?session=week-7-day-1",
+      "unlock": "2026-11-14T13:30:00.000Z"
+    },
+    {
+      "id": "week-7-day-3",
+      "visual": "production",
+      "hero": "assets/illustrations/production.svg",
+      "week": "WEEK 7 · DAY 1",
+      "title": "Advanced Editing: Finish Your Film",
+      "number": 13,
+      "start": "2026-11-15T20:00:00+05:30",
+      "end": "2026-11-15T22:00:00+05:30",
+      "unlock": "2026-11-15T13:30:00.000Z",
+      "stage": "EDIT",
+      "description": "Finish an existing film or advertisement in Filmora with deliberate cuts, rhythm, motion, sound, colour and titles, then compare the rough cut with a fully checked export.",
+      "session": "sessions/week-7-day-3/index.html",
+      "playbook": "sessions/week-7-day-3/playbook.html",
+      "homework": "https://docs.google.com/document/d/1WOsuhyEskgBrklSPMXyS8lxzRA4FAKsfBWpxxn814sU/edit",
+      "promptbook": "prompt-vault.html?session=week-7-day-3"
+    },
+    {
+      "id": "week-8-day-2",
+      "visual": "production",
+      "hero": "assets/illustrations/production.svg",
+      "week": "WEEK 7 · DAY 2",
+      "title": "Advanced VFX",
+      "number": 14,
+      "start": "2026-11-21T20:00:00+05:30",
+      "end": "2026-11-21T22:00:00+05:30",
+      "stage": "MOTION",
+      "session": "sessions/week-8-day-2/index.html",
+      "playbook": "sessions/week-8-day-2/playbook.html",
+      "homework": "https://docs.google.com/document/d/1wb2orCymuOp6zqJzsOKgieM8Pw_Sxt7KJKEkQooBDuo/edit",
+      "description": "Select an advanced VFX route, prepare compatible references, generate one video transformation test, and review what changed, what stayed stable, and the first correction.",
+      "promptbook": "prompt-vault.html?session=week-8-day-2",
+      "unlock": "2026-11-21T13:30:00.000Z"
+    },
+    {
+      "id": "week-8-day-1",
+      "visual": "advertisement",
+      "hero": "assets/illustrations/advertisement.svg",
+      "week": "WEEK 8 · DAY 1",
+      "title": "Automobile Advertisement Production",
+      "number": 15,
+      "start": "2026-11-22T20:00:00+05:30",
+      "end": "2026-11-22T22:00:00+05:30",
+      "stage": "MOTION",
+      "session": "sessions/week-8-day-1/index.html",
+      "playbook": "sessions/week-8-day-1/playbook.html",
+      "homework": "https://docs.google.com/document/d/1pUmCjzW_iYchbUHelAkbBDYmJR2GRhBjYHf6n32_A0g/edit",
+      "description": "Bring your editing and VFX skills together in a finished automobile advertisement for your commercial portfolio.",
+      "promptbook": "prompt-vault.html?session=week-8-day-1",
+      "unlock": "2026-11-22T13:30:00.000Z"
+    },
+    {
+      "id": "week-7-day-2",
+      "visual": "production",
+      "hero": "assets/illustrations/production.svg",
+      "week": "WEEK 8 · DAY 2",
+      "title": "Build Your Portfolio Website with AI Builders",
+      "number": 16,
+      "start": "2026-11-28T20:00:00+05:30",
+      "end": "2026-11-28T22:00:00+05:30",
+      "stage": "MOVIE",
+      "session": "sessions/week-7-day-2/index.html",
+      "playbook": "sessions/week-7-day-2/playbook.html",
+      "homework": "https://docs.google.com/document/d/1JWqUBGACD-YajJHTfU1GoBqmEPm2YIE6jVi-O6hWIjc",
+      "description": "Build your portfolio website around your strongest finished projects, including the automobile ad, and prepare a final showcase.",
+      "promptbook": "prompt-vault.html?session=week-7-day-2",
+      "unlock": "2026-11-28T13:30:00.000Z"
+    }
+  ],
+  "batches": {
+    "B11": {},
+    "B12": {
+      "orientation": {
+        "start": "2026-10-21T17:00:00+05:30",
+        "end": "2026-10-21T19:00:00+05:30",
+        "zoomMeetingId": "88934651075"
+      },
+      "week-1-day-2": {
+        "start": "2026-10-24T17:00:00+05:30",
+        "end": "2026-10-24T19:00:00+05:30",
+        "zoomMeetingId": "83555589220"
+      },
+      "week-2-day-1": {
+        "start": "2026-10-25T17:00:00+05:30",
+        "end": "2026-10-25T19:00:00+05:30",
+        "zoomMeetingId": "88319223961"
+      },
+      "week-2-day-2": {
+        "start": "2026-10-31T17:00:00+05:30",
+        "end": "2026-10-31T19:00:00+05:30",
+        "zoomMeetingId": "87076487397"
+      },
+      "week-3-day-1": {
+        "start": "2026-11-01T17:00:00+05:30",
+        "end": "2026-11-01T19:00:00+05:30",
+        "zoomMeetingId": "88979763616"
+      },
+      "week-3-day-2": {
+        "start": "2026-11-07T17:00:00+05:30",
+        "end": "2026-11-07T19:00:00+05:30",
+        "zoomMeetingId": "86042205141"
+      },
+      "week-4-day-1": {
+        "start": "2026-11-08T17:00:00+05:30",
+        "end": "2026-11-08T19:00:00+05:30",
+        "zoomMeetingId": "86726178498"
+      },
+      "week-4-day-2": {
+        "start": "2026-11-14T17:00:00+05:30",
+        "end": "2026-11-14T19:00:00+05:30",
+        "zoomMeetingId": "85663791484"
+      },
+      "week-5-day-1": {
+        "start": "2026-11-15T17:00:00+05:30",
+        "end": "2026-11-15T19:00:00+05:30",
+        "zoomMeetingId": "84989301379"
+      },
+      "week-5-day-2": {
+        "start": "2026-11-21T17:00:00+05:30",
+        "end": "2026-11-21T19:00:00+05:30",
+        "zoomMeetingId": "83315688111"
+      },
+      "week-6-day-1": {
+        "start": "2026-11-22T17:00:00+05:30",
+        "end": "2026-11-22T19:00:00+05:30",
+        "zoomMeetingId": "86778854887"
+      },
+      "week-6-day-2": {
+        "start": "2026-11-28T17:00:00+05:30",
+        "end": "2026-11-28T19:00:00+05:30",
+        "zoomMeetingId": "85420236676"
+      },
+      "week-7-day-1": {
+        "start": "2026-11-29T17:00:00+05:30",
+        "end": "2026-11-29T19:00:00+05:30",
+        "zoomMeetingId": "82387528377"
+      },
+      "week-7-day-3": {
+        "start": "2026-12-05T17:00:00+05:30",
+        "end": "2026-12-05T19:00:00+05:30",
+        "zoomMeetingId": "88917813388"
+      },
+      "week-8-day-2": {
+        "start": "2026-12-06T17:00:00+05:30",
+        "end": "2026-12-06T19:00:00+05:30",
+        "zoomMeetingId": "86346182300"
+      },
+      "week-8-day-1": {
+        "start": "2026-12-12T17:00:00+05:30",
+        "end": "2026-12-12T19:00:00+05:30",
+        "zoomMeetingId": "87424340307"
+      },
+      "week-7-day-2": {
+        "start": "2026-12-13T17:00:00+05:30",
+        "end": "2026-12-13T19:00:00+05:30",
+        "zoomMeetingId": "86094261757"
+      }
+    }
+  },
+  "prompts": {
+    "prompt-vault-week-1-day-2-01-keep-the-spoken-story-natural": "94b2de212a6434b6236730e2dc6bd4d1d1275f4be5c3e90e82820e8b578abc8f",
+    "prompt-vault-week-1-day-2-02-keep-the-spoken-story-natural": "70c03924b2a8ac3f8211c31cb1d5c2ea3b921aab0bf620fd5a3c4fa7afbb282f",
+    "prompt-vault-week-4-day-2-01-macro-texture-image-1-start": "ba58fcf81c0225f476f70a8005d35adaea394b4caaaf69571638b9fc18be5b97",
+    "prompt-vault-week-4-day-2-02-macro-texture-image-1-end": "5febf62d11199f33198b54275a0642f7775e24390dfde11619ba14fc278a5cfa",
+    "prompt-vault-week-4-day-2-03-macro-texture-video-1": "a1d76d15a3842ee9d3147ea16e2373b5b346fc0de3daef745aaf898afcacd134",
+    "prompt-vault-week-4-day-2-04-fine-detail-image-2-start": "a9e5bea074975d3de03145523adcb9042e9bd785a458e9fe8e4779ef0c438b6d",
+    "prompt-vault-week-4-day-2-05-fine-detail-image-2-end": "f7668d391c69d0db987c9e1944a245c47e943939989786cd44cec0fc471508e6",
+    "prompt-vault-week-4-day-2-06-fine-detail-video-2": "105ab72764a7fe567441e208c840dc3b8a327983a6c345605786a7f0f81404e2",
+    "prompt-vault-week-4-day-2-07-camera-assembly-image-3-start": "ad541761bde41a1d602d904f5c115c8f8ba7d137a63c066fc6da140ece2d8994",
+    "prompt-vault-week-4-day-2-08-camera-assembly-image-3-end": "3c49581d8ba022a47c2775f8a773ba2b0bf61986eee87f2ff79c1cdb4b0356f4",
+    "prompt-vault-week-4-day-2-09-camera-assembly-video-3": "1c7a04997d6a23180051b190857df3c9ac07ede0ad54efd8cbc8f5f0a83a8b14",
+    "prompt-vault-week-4-day-2-10-camera-assembly-video-3-reverse": "a4c48c0c4177b68562975c9cf34e79293bae8257da8ba28a946f0b9be6459411",
+    "prompt-vault-week-4-day-2-11-slim-side-image-4-start": "d408ec785b7e90c3866473d19be518d3dc14d527184cc48063ce0bb4ee1abf47",
+    "prompt-vault-week-4-day-2-12-slim-side-video-4": "1fe8cac4c77a5bc330466bd4afecf22655dc489cc83fbd04df5bc57cfd73d5de",
+    "prompt-vault-week-4-day-2-13-light-reveal-image-5-start": "ff6ad68905b581a0f22774520ab7df7f1a1feee448abbdd3aef29e99e4c0cf00",
+    "prompt-vault-week-4-day-2-14-light-reveal-image-5-end": "149896a8fde1cc2569522f407ec08f7db6d56d74853189458a3cfae355ecf043",
+    "prompt-vault-week-4-day-2-15-light-reveal-video-5": "a869af1e493819ce0b1f4feac00c033be2398e7cc10a1459a2baa9cc08e59214",
+    "prompt-vault-week-4-day-2-16-optional-outro-image-6-start": "9a4a0eda9c24e77421c8c548daee90f13fe25db1deeb738cc4eac0a1bf97e531",
+    "prompt-vault-week-4-day-2-17-optional-outro-video-6": "24f81751bcd6652e5ca3021ae30619783ac05bd941c2bb5f36c30015fce292c9",
+    "prompt-vault-week-4-day-2-18-plan-a-product-spec-ad-universal-shot-list": "c9ee298ed7b339667cddd180b406d3a7cb46956e75f1e5fd0f408ea6c6407daf",
+    "prompt-vault-week-5-day-1-01-rough-sketch-demonstration-prompt": "c227ee570eb84dfc497b3dbca759b43d667530beb2e2f9727ab9246fb0d22ad9",
+    "prompt-vault-week-5-day-1-02-generic-fpv-walkthrough-prompt": "03e0dc4888e47c64c64498f4c6f25e70dec3720b4bb942ed141db91e3b95b9cb",
+    "prompt-vault-week-5-day-1-03-omni-flash-prompt-1-courtyard-start-frame": "132a85f14cb4b64ffff119cb391c95565e90514614f708c1772d33db5e82c65f",
+    "prompt-vault-week-5-day-1-04-omni-flash-prompt-2-generic-fpv": "9a72b62f5df15cecaea2a9afee044c2907f3becb9c192dd0d92411540d90aec3",
+    "prompt-vault-week-5-day-1-05-omni-flash-prompt-3-geotagging": "c82a41b7e6c6f84de8cc582a0b27cbbc313d2655110a71a4da1fd363cef4438f",
+    "prompt-vault-week-5-day-2-01-hero-prompt-for-script-and-screenplay": "c771de1929e676eb379aa4950f6ef898aaccad8f03e33ffe3f021d5f17685578",
+    "prompt-vault-week-5-day-2-02-arjuna-character-sheet-prompt": "0c969121eb30f39ef810960a48dbf90323a71cfd8df5c383aa58e8c3c1354d9c",
+    "prompt-vault-week-5-day-2-03-draupadi-character-sheet-prompt": "eaae03b7a8aa3cb2459549797ca31e0b81697bda744fdc49b3bd2af856e9888f",
+    "prompt-vault-week-5-day-2-04-kunti-devi-character-sheet-prompt": "f11f72f274f8537aa1022406fe6f52e8c50203e041cc3479362f7d57732ede09",
+    "prompt-vault-week-5-day-2-05-character-sheet-close-up-prompt": "ea2ad054e2c0747dd59a98e40c2ed6227bc3beb66a55d0c34d7efbb47a738a84",
+    "prompt-vault-week-6-day-1-01-hero-prompt-for-script-and-screenplay-shot-list": "c771de1929e676eb379aa4950f6ef898aaccad8f03e33ffe3f021d5f17685578",
+    "prompt-vault-week-6-day-1-02-arjuna-character-sheet-prompt": "1e2db59feb575ae4fa7371a0dd54f2f260a7d3877302f62984175be90b68d3c0",
+    "prompt-vault-week-6-day-1-03-draupadi-panchali-character-sheet-prompt": "30ebbb56612d85083afd9515f6f8015312e9a8960c40a2927ac3ce487b41e658",
+    "prompt-vault-week-6-day-1-04-kunti-devi-the-rajmata-character-sheet-prompt": "ce0b1d3d7f55c1d02a92d6e0263ae0c81961166ff756538eb6406c616267950b",
+    "prompt-vault-week-6-day-1-05-character-sheet-close-up-prompt": "ea2ad054e2c0747dd59a98e40c2ed6227bc3beb66a55d0c34d7efbb47a738a84",
+    "prompt-vault-week-6-day-2-01-character-reference-image-prompt": "736d1c266f56c7a7d23e5514c6c561b137f4bdf4e55b1d44a78e7a37d5abbd04",
+    "prompt-vault-week-6-day-2-02-product-in-hand-image-prompt": "b006be6d0e1fa7e05d2c8f1cba68cce2c5d6a62f883b6238d6c7fb70fdedc7ff",
+    "prompt-vault-week-6-day-2-03-talking-a-roll-prompt": "ed19a94c0df1d2240a2224a49326d4cde049dbadcab32e46ba3e85e495880ffd",
+    "prompt-vault-week-6-day-2-04-product-close-up-b-roll-prompt": "04b59a11a39273c6b2161b9eff471af3ad31965e67f692e000bbdb1a77521bb3",
+    "prompt-vault-week-6-day-2-05-product-use-b-roll-prompt": "de982d73f77889e25f56b4f713f2a1870abb5f8262bc20087670782e98363f90",
+    "prompt-vault-week-8-day-2-01-candle-object-reference-image": "37a919cb2cfe625fb317a2636fcb3d324845d2cff63c874fda26af21d213238e",
+    "prompt-vault-week-8-day-2-02-replace-the-pen-with-the-candle-in-the-base-video": "3899a329da0b8d96628288792030a86587a28889a28cc61effb4f034e53c79b5",
+    "prompt-vault-week-8-day-2-03-boxing-scene-reference-image": "03d8ee4e20b0d228109cad1a0292d9366bcd46a91cab3a7452bbdec3d14ec0dd",
+    "prompt-vault-week-8-day-2-04-animate-the-boxing-character-with-the-source-motion": "c4c057ae2175a7ee0b53f7cda26067827dec2f4e6b8660a35a19a7bdd4c3e22f",
+    "prompt-vault-week-8-day-2-05-scene-replacement-image-for-the-staircase-shot": "7a68ea56c2238ed53a445c5dda1609f9abc89b88b2b8532dc3fb61699a20e031",
+    "prompt-vault-week-8-day-2-06-video-to-video-scene-change-with-props": "7ba57b49421bd9f9d753905148b0a976c21158ae7506d1d41ebbf3d729805e77",
+    "prompt-vault-week-8-day-2-07-video-to-video-scene-change-with-a-reference-image": "f70673614170c6cc1d3e3981b42ebc4e7e457bf7d7cce8594911087028ea4759",
+    "prompt-vault-week-8-day-2-08-redesign-the-vehicle-interior-while-preserving-the-source-subject": "f0b5865a7b4cdad45eea6a2143e6d9e21dacf53c63ee3e6f26dcbbb58c7b51e1",
+    "prompt-vault-week-8-day-2-09-optional-motion-transfer-prompt": "960be5ff21a4259cc3efaebd2243301cc1c6caa9cab9a18dc20e070014e55fdf",
+    "prompt-vault-week-8-day-2-10-ask-gemini-to-describe-a-clip-for-vidu-q2": "2ea89b7d4b1e3b9b500060925948170c34b646dc6e2a8e13818c272643fc35b4",
+    "prompt-vault-week-8-day-2-11-enhance-a-background-without-changing-the-reference": "ec8508e96eaf1f47b13b90337316ad955a972ed28ad255431815e03ac6af4206",
+    "prompt-vault-week-8-day-2-12-sample-vidu-q2-elements-to-video-prompt": "d28fee099bb88b6d6ae5414757e46e014bf822d01f859c50e16a2f7f9519d02b",
+    "prompt-vault-week-8-day-1-01-tata-sumo-rainy-reference-image": "e4054d722fd8651956bf9a7b6702e406e12779b0bfb94caba6eaf977f9adfc0a",
+    "prompt-vault-week-8-day-1-02-start-end-camera-descent": "bd17a793f2a16bbcd4271896fab5e74ddc07b876eeef5000b407567adeba3cd2",
+    "prompt-vault-week-8-day-1-03-rain-tracking-shot": "2a73d60e38437170aadfd6b07b128db6b48aa16a4c8cd9996c2e6c776b3a7d48",
+    "prompt-vault-week-8-day-1-04-short-tracking-variant": "70cedce5d92c31801102d5af69f2287f86658b68f06ea545c94eae1fbe237071",
+    "prompt-vault-week-8-day-1-05-low-angle-orbit-shot": "8b9ea100550f4decc779006d664c0d1db3eaab767e8a9f5608a21d3ff3ee9e10",
+    "prompt-vault-week-8-day-1-06-dolly-out-drift-and-stop": "c0f620f3ca80fd7fa95ed09c695a68af989f3181d11a5808b8338031b521be57",
+    "prompt-vault-week-7-day-2-01-portfolio-website-master-prompt": "718e82364fceea1c17bf818fbf5b3aa1b0ee67612e4e54f70ebd659e124f2b1d"
+  },
+  "tasks": "beec9235ac73c809bd21974237b71e2dbaa447f72206e8d429ad5fc1ea746235",
+  "pagePrompts": {
+    "orientation": {
+      "session": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "playbook": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "week-1-day-2": {
+      "session": "a65ed5db08f1f17aa246c4624e3b7c70df102ec88e591ffa4294d901b1e729ee",
+      "playbook": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "week-2-day-1": {
+      "session": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "playbook": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "week-2-day-2": {
+      "session": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "playbook": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "week-3-day-1": {
+      "session": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "playbook": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "week-3-day-2": {
+      "session": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "playbook": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "week-4-day-1": {
+      "session": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "playbook": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "week-4-day-2": {
+      "session": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "playbook": "3af6b05e71430195ef6cad11688bbdf798e956ec53208908bb742840dc337e50"
+    },
+    "week-5-day-1": {
+      "session": "b954a534898c908e8fe9d3e71ae080f766a692984b2b5996d92c05627fad853c",
+      "playbook": "b954a534898c908e8fe9d3e71ae080f766a692984b2b5996d92c05627fad853c"
+    },
+    "week-5-day-2": {
+      "session": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "playbook": "0c88b6c3c39dc6d1f7e296beb77eaef6f86c4e65a5e1de9d02bfafe905d70812"
+    },
+    "week-6-day-1": {
+      "session": "a4a44265ec109c73e97c577f1051880cb15e226ae4fd5bccf2e0a2cff7cad3aa",
+      "playbook": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "week-6-day-2": {
+      "session": "06152f58f1ac238f8b7589a43f9cebc55949ac87f3f02a816d9d6fbc82bda48c",
+      "playbook": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "week-7-day-1": {
+      "session": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "playbook": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "week-7-day-3": {
+      "session": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "playbook": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "week-8-day-2": {
+      "session": "977e8d4985105693504311f26f80a0641b21eff92a7bbcc3fe8475e53fbbb319",
+      "playbook": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "week-8-day-1": {
+      "session": "147e6a5cefd6d26fd6166c128449a0d3943d04230baa0058fb189aabb4e5311e",
+      "playbook": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "week-7-day-2": {
+      "session": "09405e2849d9df4f7c9fcb176b1b6fd30e45edd0c108b0a387bc58bbd8d6531e",
+      "playbook": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    }
+  }
+}

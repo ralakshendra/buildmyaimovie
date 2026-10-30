@@ -1,131 +1,210 @@
 window.BMAI_LESSON={
-  "id": "week-7-day-2",
-  "title": "Build Your Portfolio Website with AI Builders",
-  "number": 16,
-  "start": "2026-11-28T20:00:00+05:30",
-  "end": "2026-11-28T22:00:00+05:30",
-  "stage": "MOVIE",
+  "id": "week-8-day-2",
+  "title": "Advanced VFX",
+  "number": 14,
+  "stage": "MOTION",
   "visual": "production",
-  "objective": "Tailor the supplied portfolio master prompt to one AI builder, create a three-page portfolio draft with your own available material, review its responsive behavior and interactions, and record your next revisions.",
-  "homeworkUrl": "https://docs.google.com/document/d/1JWqUBGACD-YajJHTfU1GoBqmEPm2YIE6jVi-O6hWIjc",
-  "submission": "Save your preview or published link and review notes in the official Homework Doc. The class recording says to share the finished link with the cohort, but gives no group URL or deadline; follow the cohort’s current instructions.",
+  "objective": "Select an advanced VFX route, prepare compatible references, generate one video transformation test, and review what changed, what stayed stable, and the first correction.",
+  "homeworkUrl": "https://docs.google.com/document/d/1wb2orCymuOp6zqJzsOKgieM8Pw_Sxt7KJKEkQooBDuo/edit",
+  "submission": "Record the selected workflow, source and reference assets, tool and mode, working prompt, result link, review notes and first correction in the official Homework Doc. Follow current cohort instructions for sharing or presenting the result; the supplied source gives no separate submission destination or deadline.",
   "steps": [
     {
-      "title": "Choose a builder and tailor the prompt",
-      "instruction": "Choose Framer, Lovable, or v0 based on how you want to work. The class described Framer as more hands-on, Lovable as more guided, and v0 as more technical; these are class observations, not current product guarantees. Customize the supplied master prompt with your own identity, services, portfolio materials, and visual direction. Remove platform requirements that conflict with the builder you chose.",
-      "review": "The prompt describes your real work and has one coherent platform approach."
+      "title": "Choose one transformation and a base shot",
+      "instruction": "Select one effect the available footage can support: object replacement, character and scene transformation, full scene redesign, motion transfer, character replacement, or reference-to-video. Identify the original clip and state what must change and what should remain stable before opening a generation tool.",
+      "review": "The chosen effect is specific, the base shot is identified, and the intended change is separated from details that should be preserved."
     },
     {
-      "title": "Plan the site before generating it",
-      "instruction": "Where your builder supports a plan or discussion step, review the proposed Home, Projects, and About structure and interactions before generation. The Lovable demonstration used this step. The source permits a detailed prompt and does not require a fixed number of messages.",
-      "review": "You can explain what pages and interactions the builder plans to create before accepting implementation."
+      "title": "Prepare the reference set",
+      "instruction": "Capture a useful frame when the source describes a screenshot workflow. Prepare only the references required by your route: subject, prop, costume, background, plain matte or other named elements. If using the reference-to-video route, the source demonstrates removing a subject from a frame, using the clip to ask Gemini for a prompt with explicit reference anchors, and attaching the prepared elements in Vidu Q2.",
+      "review": "Every reference has a clear role and agrees with the requested subject, scene, framing and motion."
     },
     {
-      "title": "Replace placeholders and review the draft",
-      "instruction": "Replace generic project, profile, services, testimonial, and recognition placeholders only with information you can use. Add your available project media or direct playback links. The instructor suggested YouTube Unlisted or Wistia for portfolio playback and noted that Drive links may not embed directly. Review desktop, tablet, and mobile views, navigation, filtering, videos, and interactive features.",
-      "review": "The site represents your actual portfolio, its links and media work where tested, and important gaps are recorded."
+      "title": "Choose the video method for the transformation",
+      "instruction": "Match the method to the job. The source pairs object replacement with Kling 1 Video-to-Video, a boxing scene with OpenArt video-to-video and Kling 3.0, scene replacement with Seedance 2.0, motion transfer with OpenArt Motion Sync and DreamActor M2.0 or Kling 3.0, character replacement with OpenArt Replace Body or Kling 01, and element-based reference-to-video with Vidu Q2. Treat the reported winners and issues as class observations rather than guarantees.",
+      "review": "The selected method supports the intended transformation and uses the references that method expects."
     },
     {
-      "title": "Record the link and next revisions",
-      "instruction": "Group related corrections into clear requests that name the section and desired result. Avoid repeated piecemeal edits when one reviewed request can describe the issue. Record the preview or published URL, media-link map, review findings, and first priorities in the Homework Doc.",
-      "review": "Your Doc has a working URL when available, concrete review evidence, and a prioritized next step."
+      "title": "Generate one test and inspect the full clip",
+      "instruction": "Use the closest complete source prompt or adapt a working copy for your own footage. Keep the transformation request focused and name the details the source says to preserve, such as face, body motion, timing, camera position, lighting, background or props. Review the clip from beginning to end instead of judging only its strongest frame.",
+      "review": "The test applies the requested change while retaining the selected identity, movement, timing and framing constraints."
+    },
+    {
+      "title": "Record the result and the first correction",
+      "instruction": "Compare the generated clip with the source. Note changes that worked, any identity or scene drift, lighting or relighting problems, unstable props, unwanted background changes, and motion that no longer matches. Save the selected clip and its source/reference links in the Homework Doc, then state the first correction supported by what you observed.",
+      "review": "A result link, selected method, source/reference links, review notes and evidence-based first correction are recorded."
     }
   ],
   "homework": [
     {
-      "title": "Choose and tailor",
-      "prompt": "Choose Framer, Lovable, or v0 for your needs. Personalize the source master prompt with your real identity, audience, services, projects, and visual direction. Remove conflicting platform, CMS, backend, or styling requirements. Record the builder and your key edits."
+      "title": "Choose and scope one effect",
+      "prompt": "Choose one demonstrated VFX use case that fits footage you can access. Record the base shot, the intended transformation, the details that must stay stable, and why the selected route fits the material."
     },
     {
-      "title": "Plan and generate",
-      "prompt": "Review the proposed Home, Projects, and About pages and interactions before building when your tool offers planning. Generate a first draft and note what the tool understood or missed."
+      "title": "Prepare a compatible reference set",
+      "prompt": "Gather and label the source video or screenshot and the subject, prop, costume, character, matte, or background references needed for your selected route. Record what each asset should control and check that the references do not conflict."
     },
     {
-      "title": "Add portfolio material",
-      "prompt": "Replace available placeholders with accurate profile, project, media, services, and other authorized details. Keep a simple mapping from each placeholder to its replacement asset or video link."
+      "title": "Run one video transformation test",
+      "prompt": "Select a source-backed tool and mode for the transformation, make a working prompt from the supplied prompt packet, attach the correct references, and generate a test. Record the exact tool, model, mode, inputs, and prompt version you used."
     },
     {
-      "title": "Review and revise",
-      "prompt": "Check navigation, category filtering, project video playback, requested interactions, and desktop/mobile layouts. Record the preview or published link, observed issue, first grouped correction, and what you would carry forward."
+      "title": "Review the full result and choose a first fix",
+      "prompt": "Compare the result with the source across identity, movement, timing, camera, lighting, scene, props, and unwanted changes. Save a link to the selected output, describe one observed problem, and record the first correction that addresses that evidence."
     }
   ],
   "tools": [
     {
-      "name": "Framer",
-      "useCase": "Build the portfolio draft with the hands-on design workflow discussed in class; adapt the supplied prompt’s project collection requirements to the builder."
+      "name": "Nano Banana Pro",
+      "useCase": "Create a transformation reference image, such as the candle or changed boxing scene, and enhance a prepared background image without changing its content."
     },
     {
-      "name": "Lovable",
-      "useCase": "Plan and generate a portfolio draft through its guided workflow; review the proposed structure before implementation."
+      "name": "Kling 1",
+      "useCase": "Apply the supplied object replacement reference to a base video with Kling 1 Video-to-Video."
     },
     {
-      "name": "v0",
-      "useCase": "Build the portfolio draft through the more technical workflow discussed in class; adapt or remove incompatible framework and backend instructions."
+      "name": "OpenArt",
+      "useCase": "Access the demonstrated video-to-video, Motion Sync, Character Replace, and reference-to-video workflows."
     },
     {
-      "name": "YouTube",
-      "useCase": "Host portfolio project videos as Unlisted playback links when appropriate; Unlisted links are shareable, not private."
+      "name": "Kling 3.0",
+      "useCase": "Use the prepared boxing reference image with the base clip in OpenArt video-to-video, or compare it in the demonstrated Motion Sync route."
     },
     {
-      "name": "Wistia",
-      "useCase": "Alternative video-hosting service named in class for portfolio project playback."
+      "name": "Seedance 2.0",
+      "useCase": "Generate the demonstrated scene replacement or scene redesign through video-to-video using the prepared reference."
+    },
+    {
+      "name": "DreamActor M2.0",
+      "useCase": "One of the motion-transfer choices demonstrated in OpenArt Motion Sync."
+    },
+    {
+      "name": "Kling 01",
+      "useCase": "One character-replacement option compared with OpenArt Replace Body; the class reported relighting issues in this comparison."
+    },
+    {
+      "name": "Adobe Firefly",
+      "useCase": "Use the linked object-removal page to remove the person from a frame used to prepare an elements-to-video background."
+    },
+    {
+      "name": "Gemini",
+      "useCase": "Turn the supplied video into a scene description prompt for Vidu Q2 Elements to Video, including explicit reference anchors."
+    },
+    {
+      "name": "Vidu Q2",
+      "useCase": "Generate the demonstrated elements-to-video result from the character image, plain matte background and original frame reference."
     }
   ],
   "prompts": [
     {
-      "title": "Portfolio website master prompt",
-      "text": "Build a premium, multi-page portfolio website for an AI Video Creator with a modern, high-end, minimalist dark aesthetic. The site requires a dynamic content architecture (CMS/Backend capability) so that all text, categories, and project video links can be updated easily.\n\nImplement a global, persistent Navigation Bar linking the three main pages: Home, Projects, and About.\n\n### Global Interactive Feature:\n- Lead Capture Popup: Trigger a sleek modal form exactly 5 seconds after the user lands on the website. Fields required: Name, Phone, Email ID, and Query. It must include a close button and smooth fade-in animation.\n\n---\n\n### PAGE 1: Homepage (Route: `/` or Home)\n1. Hero Section: Full-screen or large aspect-ratio video/image container with a clean text overlay for a cinematic title and subtitle.\n2. Client Logo Ticker: A seamless, horizontal infinitely auto-scrolling row of client or brand logos.\n3. Brief Bio: A two-column layout featuring a professional photo on one side and a brief, elegant \"About Me\" introduction on the other.\n4. Awards & Recognitions: A minimalist section displaying industry benchmarks, awards, or feature highlights.\n5. Reviews: A high-end carousel or clean grid showcasing brief client review cards.\n\n---\n\n### PAGE 2: Projects Page (Route: `/projects`)\n1. Banner: A premium header banner with bold typography and a text description introducing the portfolio body of work.\n2. Layout System: A two-column setup for maximum utility.\n   - Left Sidebar: A clean dropdown menu to filter projects by Category.\n   - Main Grid: A responsive gallery grid displaying multiple project cards.\n3. Project Cards & Video Handling: Each card must fetch its data dynamically. The card displays a thumbnail wrapper that, when clicked, opens or plays an embedded YouTube video link (optimized for Unlisted YouTube video embeds).\n4. Metadata Toggle: Under each video, include a subtle UI toggle that reveals the technical prompt specifications or JSON metadata for that project.\n\n---\n\n### PAGE 3: About Me Page (Route: `/about`)\n1. Detailed Bio: An expanded narrative layout paired with a striking, high-fidelity profile image.\n2. Workflows Section: A dedicated, auto-sliding asset grid titled \"Workflows\" displaying behind-the-scenes proof, node structures, or generation stages.\n3. Detailed Testimonials: A deep-dive section for long-form client testimonials and quotes.\n4. Benchmarks & Accolades: A final structured grid highlighting key artistic milestones and industry recognition.\n\n---\n\n### Backend & Content Management Requirements:\n- If building in Framer: Structure this layout to perfectly map to Framer Collections (CMS) for the Projects grid and text blocks.\n- If building in Lovable / v0: Create a centralized, editable local state configuration file (or connect to a Supabase database schema) and generate a hidden or password-protected \"/admin\" dashboard view. This dashboard must allow me to:\n  1. Add, edit, or delete project cards (Fields: Title, Category, YouTube Link, and Specs JSON).\n  2. Modify the main text fields and descriptions across the Homepage, Projects page, and About page.\n\nStyling: Use Tailwind CSS, premium typography, and smooth page transitions via Framer Motion to give it an elite, cinematic production studio feel.",
-      "source": "https://docs.google.com/document/d/1VZuptSviE23csN0jOk4MyxYDOtqQ_9KmFMc7v6H2dXc"
+      "title": "Candle object reference image",
+      "text": "change the pen into a flaming candle",
+      "source": "AI VFX USE CASES, Object Replacement; supplied Google Doc"
+    },
+    {
+      "title": "Replace the pen with the candle in the base video",
+      "text": "replace the pen with the candle from @Image1  and have the man move the candle around with a realistic glow from the candle. Strictly no changes to the original video other than the candle glowing.",
+      "source": "AI VFX USE CASES, Object Replacement; supplied Google Doc"
+    },
+    {
+      "title": "Boxing scene reference image",
+      "text": "Strictly without making any changes to characters face, change [main image] into a international comptetive boxing ring with lights all around and crowd in the gallery who are out of focus. Keep teh character body position as of the reference image but change the costume to make him a international mua thai boxer. change the photos x and y orientation if needed but make sure the physics is accurate. Composite the scene to perfectly blend the character into the scene. The output should be extremely photorealistic ultraHD, with color and lighting ref of movies such as CREED3",
+      "source": "AI VFX USE CASES, Advanced Scene Context & Characters; supplied Google Doc"
+    },
+    {
+      "title": "Animate the boxing character with the source motion",
+      "text": "Animate the character in @image1 with the same motion as the character in the [@Video ]",
+      "source": "AI VFX USE CASES, Advanced Scene Context & Characters; supplied Google Doc"
+    },
+    {
+      "title": "Scene replacement image for the staircase shot",
+      "text": "Change the scene in Snapshot_1.PNG character climbing stairs  of a partially destroyed building in a war zone, change the costume of the character to a modern special force themed camouflage military uniform including helmet and communication devices, replace the gun in his M7_Rifle.png. Strictly don't make any changes to the facial feature. Strictly don't change the camera angle and camera position of Snapshot_1.PNG follow the exact angle and camera postion, just change the gun, the characters costume and the background. The output must be extremely photorealistic and ultraHD with light and color reference from movies like \"the covenant\" that based ",
+      "source": "AI VFX USE CASES, Advanced Scene Context & Characters; supplied Google Doc"
+    },
+    {
+      "title": "Video-to-video scene change with props",
+      "text": "Use Video1 as the base video. Transform the subject into an Indonesian WWII soldier wearing a worn military uniform matching Image2 (mud-stained fabric, field belt, consistent texture). Replace the weapon with an M1 Garand matching Image1 (wood stock, correct scale and grip).Change the environment into a muddy WWII battlefield inspired by Image3 destroyed buildings, scattered debris, wet ground with puddles, light smoke drifting. Maintain original motion and timing from Video1. Opening frames use Image3 environment tone as initial background reference.Lighting: overcast daylight, soft shadows, diffused through smoke Style: grounded WWII realism, slightly desaturated color grading Quality: consistent character identity, stable wardrobe and weapon details Constraints: preserve original camera motion, no added cuts, no extra characters beyond source, no reflections",
+      "source": "AI VFX USE CASES, Video Prompt 1 (with props required); supplied Google Doc"
+    },
+    {
+      "title": "Video-to-video scene change with a reference image",
+      "text": "Use @ref _video as the base video. Transform the subject into an American soldier wearing a military uniform matching @image1 (consistent texture, exact facial features, exact weapon). Opening frames use @image1 environment tone as background reference. Lighting: overcast daylight, soft shadows, diffused through smoke Style: realism, slightly desaturated color grading Quality: consistent character identity, stable wardrobe and weapon details Constraints: preserve original camera motion, no added cuts, no extra characters beyond source, no reflections",
+      "source": "AI VFX USE CASES, Video prompt 2 (with ref image, no props required); supplied Google Doc"
+    },
+    {
+      "title": "Redesign the vehicle interior while preserving the source subject",
+      "text": "Keep the character from [@video] as it is, including body movements, and strictly keep the facial features as it is in [@video]. Now change the car interior to that of an ultra luxury sports car [@car interior image], relight the scene accordingly, including natural motion and parallax.",
+      "source": "AI VFX USE CASES, Entire scene change; supplied Google Doc"
+    },
+    {
+      "title": "Optional motion-transfer prompt",
+      "text": "Optional: Camera having slight handheld type motion. A POV shot an international muay thai championship in which the opponent is looking at the camera and calling for a fight. The audiences in the background are cheering them heavily, and the projection lights are moving. The background must have natural movements.",
+      "source": "AI VFX USE CASES, Day 2 - Advanced VFX, Motion Transfer; supplied Google Doc"
+    },
+    {
+      "title": "Ask Gemini to describe a clip for Vidu Q2",
+      "text": "I am recreating this scene using Vidu Q2 elements to video feature, I have created a plain background image, a new character image, and also have a screen grab of this video as reference. Now you describe the short in a prompt format so that I can copy paste it to Vidu Q2 elements to video, also include ref anchors in the prompt to attach correct ref. Describe everything 100% accurately with the video.",
+      "source": "AI VFX USE CASES, Elements/Reference to video; supplied Google Doc"
+    },
+    {
+      "title": "Enhance a background without changing the reference",
+      "text": "Give a high quality version of this same image, without any changes to actual @ref_image",
+      "source": "AI VFX USE CASES, Elements/Reference to video; supplied Google Doc"
+    },
+    {
+      "title": "Sample Vidu Q2 elements-to-video prompt",
+      "text": "Generate a cinematic action sequence combining the environment of [background_image_ref] with the exact subject from [character_image_ref], strictly adhering to the motion, timing, and framing of [screen_grab_ref]. \nSetting: A dramatic night scene filled with thick, atmospheric smoke and dust. The background features an old, gothic stone church structure outlined by draped strings of glowing yellow fairy lights. The dusty ground is scattered with distinct, intense pools of burning fire. The ambient lighting is warm, driven by flickering orange and yellow firelight against the dark night.\nCharacter: The subject is an Indian man strictly matching [character_image_ref]—it is crucial that his facial features, specifically his clear aviator glasses, mustache, and goatee, remain consistent without morphing. He wears a highly detailed, tactical full-body red armor suit with raised muscle panels, glowing red-orange light strips, and a metallic gold \"E\" emblem on the chest.\nAction & Camera: The scene begins dynamically as the character drops rapidly down from out of frame. He lands heavily in the center of the frame in a deep, bent-knee crouch, kicking up a cloud of dust on impact. From this crouch, he immediately rises and squares his shoulders directly to the camera, entering a tense, wide-legged power stance with arms slightly flared out. Once fully standing and front-facing, he aggressively uses his hands to pull a red cloth mask up to cover his mouth and nose, locking his eyes into an intense, piercing stare directly at the lens. The camera executes a smooth, continuous dolly-in (pushing forward) throughout the entire sequence, closing in on his face and upper body as the ground fires continuously burn around him.",
+      "source": "AI VFX USE CASES, Prompt sample for Vidu Q2 Elements to Video; supplied Google Doc"
     }
   ],
   "checklist": [
-    "I chose a builder and tailored the master prompt to my actual portfolio.",
-    "I reviewed the proposed pages and interactions before generating the site.",
-    "I replaced the available project, profile, video, and service placeholders with accurate material.",
-    "I checked navigation, project filtering, video playback, and the requested interactions.",
-    "I reviewed the desktop and mobile layouts and recorded anything unavailable or broken.",
-    "I saved the preview or published link and my first grouped revision priorities in the Homework Doc."
+    "I chose one transformation and identified the base clip or frame.",
+    "I wrote what must change and what should remain stable in the shot.",
+    "I prepared and labelled the reference assets required by the selected workflow.",
+    "I selected a source-backed method and attached the intended video, image, prop, character or background references.",
+    "I reviewed the generated clip for subject identity, scene continuity, camera, timing, lighting and motion drift.",
+    "I saved the selected output and its source/reference links in the official Homework Doc.",
+    "I recorded one observed problem and a first correction that addresses it."
   ],
   "quiz": [
     {
-      "question": "The prompt asks for both Framer Collections and a local admin dashboard, but you chose Framer. What should you do first?",
+      "question": "For the candle replacement, what does the source prompt explicitly ask the video model to preserve?",
       "options": [
-        "Keep both requirements to maximize features.",
-        "Adapt the prompt to a workable Framer collection approach and remove the incompatible admin requirement.",
-        "Generate the site unchanged and decide later."
+        "The original video apart from the candle transformation and glow.",
+        "Only the first frame; the other movement can be replaced.",
+        "The actor's motion should stop while the background changes."
+      ],
+      "correct": 0,
+      "explanation": "The supplied prompt says to make no changes to the original video other than the candle glowing."
+    },
+    {
+      "question": "When you use separate elements for Vidu Q2, what should the prompt describe accurately?",
+      "options": [
+        "The character image alone, without motion or framing.",
+        "The scene, subject, motion, timing and framing, with explicit reference anchors.",
+        "A new shot that ignores the screen grab."
       ],
       "correct": 1,
-      "explanation": "The source prompt contains alternatives for different platforms. Keep the architecture consistent with the builder you selected."
+      "explanation": "The source asks Gemini for a faithful clip description and reference anchors, then the sample prompt assigns the background, character and screen-grab references distinct roles."
     },
     {
-      "question": "Your builder offers a planning step. What should you check before asking it to generate the site?",
+      "question": "A scene change alters a face or camera position that should stay fixed. What is the most useful first review?",
       "options": [
-        "Whether the proposed pages and interactions match your portfolio goal.",
-        "Whether the first generated animation is polished.",
-        "Whether every optional backend feature is enabled."
+        "Check that the prompt and reference clearly identify the face and camera details to preserve.",
+        "Add unrelated scene references to make the prompt more complex.",
+        "Treat the changed face as proof the effect is complete."
       ],
       "correct": 0,
-      "explanation": "The class workflow reviews the proposed site structure before implementation."
+      "explanation": "The source prompts repeatedly call out facial features, body position and camera framing as constraints for scene changes."
     },
     {
-      "question": "A project video is a Drive link that does not play inside the portfolio. What is the useful next move?",
+      "question": "How should you choose between the demonstrated video methods?",
       "options": [
-        "Map the failed placeholder and try a direct playback link from a video host discussed in class.",
-        "Add more text to the About page.",
-        "Assume the embedded player will work after publishing."
+        "Use one model for every effect, regardless of the inputs.",
+        "Match the method to the change and references, then review its result and limitations.",
+        "Choose only from the class-reported winner labels."
       ],
-      "correct": 0,
-      "explanation": "The class noted that Drive links may not play inline and suggested YouTube Unlisted or Wistia for playback."
-    },
-    {
-      "question": "Several related sections need corrections. How should you prepare the next builder request?",
-      "options": [
-        "Name each affected section and group the desired corrections clearly.",
-        "Send one vague request to make the whole site better.",
-        "Repeat the same request until the tool changes something."
-      ],
-      "correct": 0,
-      "explanation": "The transcript recommends clear, grouped edit requests to avoid unnecessary piecemeal messages and credit use."
+      "correct": 1,
+      "explanation": "The source demonstrates different tools for object replacement, scene redesign, motion transfer, character replacement and elements-to-video. Its reported winners are class observations, not guarantees."
     }
   ],
   "hero": "assets/illustrations/production.svg"

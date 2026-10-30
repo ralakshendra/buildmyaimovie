@@ -1,162 +1,245 @@
 window.BMAI_LESSON={
-  "id": "week-4-day-1",
-  "title": "Superhero Teaser Production",
-  "number": 6,
-  "stage": "EDIT",
-  "visual": "short",
-  "objective": "Turn the existing superhero identity into a finished cinematic 16:9 teaser by building usable references, generating and editing hero footage, then reviewing and sharing the cut.",
-  "prerequisites": "Bring the superhero identity from Week 3 Day 1 and several well-lit photos of yourself from different angles. Keep raw personal photos private.",
-  "estimatedEffort": "The live session is scheduled for 20:00–22:00 IST. The source does not specify additional homework time.",
-  "submission": "Publish the finished teaser as demonstrated in class and submit the finished video and proof in the official Homework document. Share only audio you own or have permission to publish.",
+  "id": "week-4-day-2",
+  "title": "Product Spec Ad: Frames, Motion and Edit",
+  "number": 7,
+  "stage": "MOTION",
+  "visual": "advertisement",
   "homework": [
     {
-      "title": "Lock the hero reference",
-      "prompt": "Use the existing superhero identity and clean, well-lit photos from several angles to build a production character sheet with Nano Banana Pro in Flow or OpenArt. Use the official cohort prompt, which is not reproduced here because its full text was not supplied. Review: The face still looks like you, anatomy is clean, and the costume and photoreal style stay consistent across views."
+      "title": "Set the brief",
+      "prompt": "Write a one-line brief: orange iPhone 17 Pro, camera-focused, premium spec ad. Set the core deliverable to ten seconds, 9:16, no more than five shots, no added text or voiceover. Use the shot plan below to assign each beat a purpose. Review: The last beat pays off the camera feature. Use the universal shot-list helper: replace product, reference, style and duration, then save a timed table with shot size, visual action, audio cues, palette and lighting."
     },
     {
-      "title": "Build one recognizable base",
-      "prompt": "Choose one real building or structure, collect reference photos from useful angles, and use the supplied architecture-sheet prompt in the demonstrated reference workflow. Review: The same structure is obvious across angles and background buildings do not steal focus."
+      "title": "Anchor the product",
+      "prompt": "Open the reference gallery below and the full angle pool. Use the top-back image for the macro setup and clear camera references for assembly. Choose a matching bottom angle for fine detail. Save references in one project folder, with a folder for each shot. Do not upload the entire pool to every generation. Review: Lens layout, ports, antenna bands and orange finish are readable in the assigned references."
     },
     {
-      "title": "Create the title asset",
-      "prompt": "Use the character sheet as a style reference and the official class title prompt. Match the hero emblem, glow, material and typography; remove the background and save a transparent PNG. Review: The title is readable, fits the hero identity, and its PNG has clean transparent edges."
+      "title": "Approve the stills",
+      "prompt": "Create a fresh Flow project or open the image workspace in OpenArt. Select Nano Banana Pro and upload the shot’s references. Use the matching image prompt. Generate 9:16, except the macro end: 16:9, then rotate for the vertical workflow. For fine detail, approve the end frame first, then build the matching start from it. For the slim side and optional outro, generate only the start frame. For the other setups, approve both. Compare hardware, pose and finish. Download each approved frame immediately into its shot folder. Review: The product geometry agrees across each pair."
     },
     {
-      "title": "Generate the hero A-roll",
-      "prompt": "In OpenArt Video, use Text with reference and Seedance 2.0. Attach the character and, where needed, architecture sheets. Adapt the official prompt to remove instructor-specific details and retag references to your assets. Review: Establishing, rescue and action moments preserve the hero and setting; useful variations are ready for the edit."
+      "title": "Test and polish motion",
+      "prompt": "Choose the frame-based video workflow and Kling 3.0. Attach the approved start and end where the setup uses both. Use the matching motion prompt. Test at lower quality; the demonstrated setup was five seconds, 720p and audio off, where available. Use only a start frame for slim side and optional outro. The side-entry workaround animates an exit and reverses it in edit. Review the full clip for warped edges, flicker and lens drift. Keep useful seconds and retry only the failed motion. Once the move works, upscale the final approved clip with OpenArt’s upscaler. Review: Each beat has a stable part you can cut into the film. Follow the updated Canva prompts: macro tracking, fine-detail pullback, lens seating, side exit and static light reveal. Check actual endpoints before motion. The optional outro prompt body specifies a push-in despite its conflicting heading."
     },
     {
-      "title": "Generate purposeful B-roll",
-      "prompt": "List the missing editing beats first. Use the class examples for title, atmosphere or rooftop detail, with the stated tools and settings. Keep generated audio off unless a shot benefits from it. Review: Every supporting shot has a clear editing purpose, fits the hero and location, and avoids random filler."
+      "title": "Cut the ten-second core",
+      "prompt": "Set a vertical project, save it and import the approved clips. Place macro, form, technology, combining and reveal beats on the timeline. Use the plan as a guide, not a reason to keep weak frames. Trim bad entrances and exits. Use clean hard cuts rather than adding transitions to hide problems. Open Speed → Speed Ramping and tune the curve to each move. Raise overly slow sections toward 1x as demonstrated. Reverse the side-exit clip if using that workaround. Keep the optional outro outside the ten-second core. Review: The phone remains recognizable and every shot adds momentum."
     },
     {
-      "title": "Edit the teaser",
-      "prompt": "Create a 16:9 Filmora project. Import only useful fragments, build a rising reveal, place the transparent title over a strong frame, and align music and effects with the picture. Review: The edit has a clear escalation, clean cuts, legible title placement, and sound that supports the reveal."
+      "title": "Build the sound",
+      "prompt": "Audition tech-house, cyberpunk or minimal electronic tracks. Pick a useful 10 to 15-second section and mark its beats. Align macro movement, lens assembly and the reveal to those beat points. Trim the final audio to the ad. Place quiet texture on the macro, clicks on lens movement, a controlled transition whoosh and one final hit. Lower the music under key SFX, keep reverb restrained and finish with a clean tail. Confirm the platform’s current licence if you will publish the film. Review: Clicks land on visible actions and the reveal has one clear payoff."
     },
     {
-      "title": "Review, export and share",
-      "prompt": "Review once for continuity, once for pacing and cuts, and once for audio. Export the finished teaser, watch it from first frame to last, then publish and submit the proof in Homework. Review: The exported 16:9 teaser plays cleanly, the project is saved, and the submitted link points to the finished video."
+      "title": "Export and watch",
+      "prompt": "Make restrained colour and contrast adjustments for continuity. Export the ten-second vertical core using available editor settings. MP4 was demonstrated. Open the file outside the editor and watch it without skipping. Check hardware, flicker, black gaps, sync and ending. Fix anything broken, export again and repeat the complete playback. Share the finished film in the cohort group as demonstrated. Keep proof and reflection for the Homework Doc using the official Homework link on this Playbook. Review: The exported file plays cleanly from first frame to last."
     }
   ],
+  "objective": "Make a camera-focused ten-second product ad using clean stills, controlled motion, a sharp edit and sound.",
+  "quiz": [
+    {
+      "question": "The flash doubles when you add several camera references. What next?",
+      "options": [
+        "Add the entire image pool.",
+        "Remove a competing reference and refine the failed detail.",
+        "Animate now and hide it with a transition."
+      ],
+      "correct": 1,
+      "explanation": "Two references can disagree about the hardware. Fix the still before spending credits on a moving version."
+    },
+    {
+      "question": "The bottom port and antenna are difficult to match. Which order helps?",
+      "options": [
+        "Build the detailed end frame first, then guide the start from it.",
+        "Generate six motion variations first.",
+        "Keep different geometry at each endpoint."
+      ],
+      "correct": 0,
+      "explanation": "The class built the difficult end first so it could anchor the simpler matching start."
+    },
+    {
+      "question": "You need the slim phone to enter from a black void. Which taught workaround fits?",
+      "options": [
+        "Use the optional outro prompt unchanged.",
+        "Upload a blank start with no product anchor.",
+        "Animate the visible phone exiting, then reverse the usable clip."
+      ],
+      "correct": 2,
+      "explanation": "A visible phone anchors the geometry. The exit-and-reverse technique creates an entry in the edit."
+    },
+    {
+      "question": "A lens assembly has a strong middle but warped ends. What belongs in the ad?",
+      "options": [
+        "The whole five-second generation.",
+        "Only the usable seconds, trimmed into the core cut.",
+        "A dissolve over the whole clip."
+      ],
+      "correct": 1,
+      "explanation": "Generation duration gives trimming room. Keep the strongest consistent motion, then repair or replace anything unusable."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Set the brief",
+      "instruction": "Write a one-line brief: orange iPhone 17 Pro, camera-focused, premium spec ad. Set the core deliverable to ten seconds, 9:16, no more than five shots, no added text or voiceover. Use the shot plan below to assign each beat a purpose. Use the universal shot-list helper and replace its four product-detail fields.",
+      "review": "The last beat pays off the camera feature."
+    },
+    {
+      "title": "Anchor the product",
+      "instruction": "Open the reference gallery below and the full angle pool. Use the top-back image for the macro setup and clear camera references for assembly. Choose a matching bottom angle for fine detail. Save references in one project folder, with a folder for each shot. Do not upload the entire pool to every generation.",
+      "review": "Lens layout, ports, antenna bands and orange finish are readable in the assigned references."
+    },
+    {
+      "title": "Approve the stills",
+      "instruction": "Create a fresh Flow project or open the image workspace in OpenArt. Select Nano Banana Pro and upload the shot’s references. Use the matching image prompt. Generate 9:16, except the macro end: 16:9, then rotate for the vertical workflow. For fine detail, approve the end frame first, then build the matching start from it. For the slim side and optional outro, generate only the start frame. For the other setups, approve both. Compare hardware, pose and finish. Download each approved frame immediately into its shot folder.",
+      "review": "The product geometry agrees across each pair."
+    },
+    {
+      "title": "Test and polish motion",
+      "instruction": "Choose the frame-based video workflow and Kling 3.0. Attach the approved start and end where the setup uses both. Use the matching motion prompt. Test at lower quality; the demonstrated setup was five seconds, 720p and audio off, where available. Use only a start frame for slim side and optional outro. The side-entry workaround animates an exit and reverses it in edit. Review the full clip for warped edges, flicker and lens drift. Keep useful seconds and retry only the failed motion. Once the move works, upscale the final approved clip with OpenArt’s upscaler. Use the shot-routing map and updated Canva prompts. Check endpoint direction before generating; follow the optional outro prompt body rather than its heading.",
+      "review": "Each beat has a stable part you can cut into the film."
+    },
+    {
+      "title": "Cut the ten-second core",
+      "instruction": "Set a vertical project, save it and import the approved clips. Place macro, form, technology, combining and reveal beats on the timeline. Use the plan as a guide, not a reason to keep weak frames. Trim bad entrances and exits. Use clean hard cuts rather than adding transitions to hide problems. Open Speed → Speed Ramping and tune the curve to each move. Raise overly slow sections toward 1x as demonstrated. Reverse the side-exit clip if using that workaround. Keep the optional outro outside the ten-second core.",
+      "review": "The phone remains recognizable and every shot adds momentum."
+    },
+    {
+      "title": "Build the sound",
+      "instruction": "Audition tech-house, cyberpunk or minimal electronic tracks. Pick a useful 10 to 15-second section and mark its beats. Align macro movement, lens assembly and the reveal to those beat points. Trim the final audio to the ad. Place quiet texture on the macro, clicks on lens movement, a controlled transition whoosh and one final hit. Lower the music under key SFX, keep reverb restrained and finish with a clean tail. Confirm the platform’s current licence if you will publish the film.",
+      "review": "Clicks land on visible actions and the reveal has one clear payoff."
+    },
+    {
+      "title": "Export and watch",
+      "instruction": "Make restrained colour and contrast adjustments for continuity. Export the ten-second vertical core using available editor settings. MP4 was demonstrated. Open the file outside the editor and watch it without skipping. Check hardware, flicker, black gaps, sync and ending. Fix anything broken, export again and repeat the complete playback. Share the finished film in the cohort group as demonstrated. Keep proof and reflection for the Homework Doc using the official Homework link on this Playbook.",
+      "review": "The exported file plays cleanly from first frame to last."
+    }
+  ],
+  "prompts": [
+    {
+      "title": "Macro texture: image-1-start",
+      "text": "Macro product photography. Extreme close-up on the brushed \"Sunset Orange\" titanium edge of a smartphone strictly matching [@refimage]. The phone rests seamlessly against pitch black background. A single, sharp volumetric studio light sweeps across the metallic texture. Cinematic depth of field, 8k resolution, photorealistic.",
+      "source": "https://canva.link/mc32a4pth7zt23x"
+    },
+    {
+      "title": "Macro texture: image-1-end",
+      "text": "Macro product photography. Extreme close-up of the exact same futuristic smartphone chassis [ @refimage] The phone remains horizontal, resting flat. The frame focuses on the intersection of the flat orange titanium side rail and the frosted back glass. The dramatic studio edge lighting has moved and is now strictly at the top edge, leaving the bottom rail in soft shadow. High-resolution, photorealistic.",
+      "source": "https://canva.link/mc32a4pth7zt23x"
+    },
+    {
+      "title": "Macro texture: video-1",
+      "text": "High-end commercial macro product videography, signature Apple spec ad aesthetic. Extreme close-up on a sleek, brushed copper-titanium smartphone side rail, highlighting a smooth pill-shaped tactile button. Pure pitch-black background. Cinematic, slow-motion camera movement: begin with a slow, sweeping pan to the right and a slight tilt upward, gliding along the phone's contoured edge. As the camera orbits, seamlessly rack focus to reveal a massive, ultra-premium triple-lens rear camera array set in a raised metallic island. The lighting is dramatic, low-key studio lighting with narrow strip softboxes creating luxurious, gliding specular highlights that roll smoothly across the brushed metal and matte glass surfaces during the movement. Ultra-photorealistic, 8k resolution, shallow depth of field, sophisticated, sleek, and highly polished tech aesthetic.",
+      "source": "https://canva.link/ihgf909jzcap7xu"
+    },
+    {
+      "title": "Fine detail: image-2-start",
+      "text": "High end tech product photography. Close up shot of the exact same futuristic smartphone chassis bottomside view of [@refimage] The phone remain in exact same flat position, levitating in the exact center of the frame in pitch black background. The frame focuses on the intersection of the flat orange titanium side rail with has titanium texture. The dramatic studio edge lighting has moved and is now strictly at the top edge, leaving the bottom rail in soft shadow with titanium texture. High-resolution, photorealistic.",
+      "source": "https://canva.link/mc32a4pth7zt23x"
+    },
+    {
+      "title": "Fine detail: image-2-end",
+      "text": "Extreme macro close-up of a smartphone's bottom-right corner, shot from slightly below and looking upward in a dynamic, skewed perspective. The bottom face of the phone recedes away from the lens into a shallow depth of field with soft bokeh. Moody, dramatic product-render lighting with a sharp specular highlight glowing along the top outer edge against a pure pitch-black background. CRITICAL DETAIL ADHERENCE: Strictly replicate the exact materials and structural components from the provided reference. Maintain the exact brushed copper metallic finish, the distinct vertical antenna band intersecting the curved edge, the central charging port, the flanking screws, and the precise symmetrical speaker grill holes. 1:1 material and component matching required. [@refimage]",
+      "source": "https://canva.link/mc32a4pth7zt23x"
+    },
+    {
+      "title": "Fine detail: video-2",
+      "text": "High-end commercial macro product videography, signature Apple spec ad aesthetic. Begin on a dynamic, diagonally angled extreme close-up of a sleek, brushed copper-titanium smartphone's bottom edge, sharply focusing on the precision-milled speaker grills and USB-C port. Pure pitch-black background. Cinematic, slow-motion camera movement: execute a buttery-smooth dolly out (pull back) while simultaneously rotating the camera to level the z-axis. As the camera pulls back, the focal plane expands. The movement resolves seamlessly into a perfectly symmetrical, centered wide profile shot of the phone's bottom horizontal edge floating in the dark void. Dramatic, low-key studio lighting with narrow strip softboxes creates luxurious, gliding specular highlights that roll across the brushed metal during the spatial transition. Ultra-photorealistic, 8k resolution, flawless metallic textures, sophisticated and highly polished tech aesthetic.",
+      "source": "https://canva.link/ihgf909jzcap7xu"
+    },
+    {
+      "title": "Camera assembly: image-3-start",
+      "text": "Exploded view of three detached smartphone camera lenses floating in mid-air directly above their empty circular sockets, The phone body must match the reference [@refimage] with 100% accuracy: - Wide rectangular camera bump spanning nearly the full width of the phone - Orange titanium matte finish - Exactly 3 lens openings in this layout: two lenses side by side on the top row (left and right), one large lens on the bottom-left of the bump - A small circular flash on the top-right of the bump - A small microphone dot below the flash - A small circular black sensor below microphone dot [@refimage].The elements such as - The floating lens modules feature brushed orange titanium outer rings and deep black glass elements with subtle reflections. High-end product macro photography, dramatic cinematic rim lighting outlining the metallic edges, dark void background, photorealistic 3D render style, sharp focus on the hovering lenses, 8k resolution, highly detailed",
+      "source": "https://canva.link/mc32a4pth7zt23x"
+    },
+    {
+      "title": "Camera assembly: image-3-end",
+      "text": "I am attaching mutliple reference photo of a phone [@refimage01, @refimage02]. Recreate ONLY the phone body in this image — do not add any exploded components or floating parts. The phone body must match the reference with 100% accuracy: - Wide rectangular camera bump spanning nearly the full width of the phone - Orange titanium matte finish - Exactly 3 lens openings in this layout: two lenses side by side on the top row (left and right), one large lens on the bottom-left of the bump - A small circular flash on the top-right of the bump - A small microphone dot below the flash Photorealistic 3D render, pure black background, dramatic studio lighting, 9:16 portrait, angled back view from slightly above.",
+      "source": "https://canva.link/mc32a4pth7zt23x"
+    },
+    {
+      "title": "Camera assembly: video-3",
+      "text": "High-end commercial tech ad. STRONG, CONTINUOUS DOLLY OUT CAMERA MOVEMENT. The scene begins as a tight, extreme macro close-up on three detached smartphone camera lenses floating just above a copper-titanium phone body. Simultaneously, two actions occur: First, the camera continuously PULLS BACKWARD (dolly out) at a smooth, cinematic speed, progressively widening the field of view. Second, as the camera pulls back, the three floating lenses fluidly glide downward, seating perfectly into their recesses. By the end of the dolly-out movement, the frame has widened to reveal the fully assembled camera module and the upper half of the sleek orange smartphone floating in a pitch-black void. Dramatic studio softbox lighting creates moving specular highlights that roll across the brushed metal as the camera moves backwards. 8k resolution, ultra-photorealistic, flawless Apple-style aesthetic.",
+      "source": "https://canva.link/ihgf909jzcap7xu"
+    },
+    {
+      "title": "Camera assembly: video-3-reverse",
+      "text": "Begin with the complete camera system and smoothly separate the three lens modules upward into an exploded technical view. Keep all components locked to the correct positions and orientation.",
+      "source": "Official Week 4 Day 2 video prompt bank, Google Doc: https://docs.google.com/document/d/1HrEnL8BjgZ-XeP_YdPiVG2CwH0quYRSmbXS4zTscR9o/edit"
+    },
+    {
+      "title": "Slim side: image-4-start",
+      "text": "High end tech product photography. Mid level shot of the exact same futuristic smartphone chassis side view of [ @ref image] The phone remains vertical, levitating in the exact center of the frame, covering 70% of the frame. The frame focuses on the intersection of the flat orange titanium side rail. The dramatic studio edge lighting has moved and is now strictly at the top edge, leaving the bottom rail in soft shadow. High-resolution, photorealistic.",
+      "source": "https://canva.link/mc32a4pth7zt23x"
+    },
+    {
+      "title": "Slim side: video-4",
+      "text": "High-end commercial tech spec ad. Start exactly with the provided side-profile image. CONTINUOUS DOLLY OUT AND SLIDE DOWN: As the camera smoothly and continuously pulls backward (dolly out), the copper-titanium smartphone slowly and elegantly glides vertically downward, eventually exiting the bottom of the frame completely, leaving only a dark void. ENVIRONMENT: Infinite, matte black void. STRICTLY NO floor, NO glossy surfaces, and NO ground reflections beneath the phone. LIGHTING: Ultra-soft, diffused studio edge-light that fades naturally as the phone descends into the darkness. STRICTLY NO lens flares, NO hard specular highlights, and NO blooming. 8k resolution, flawless metallic textures, minimalist and highly polished Apple aesthetic.",
+      "source": "https://canva.link/ihgf909jzcap7xu"
+    },
+    {
+      "title": "Light reveal: image-5-start",
+      "text": "Close-up angled back view (45-degree isometric angle) of the 'Sunset Orange' smartphone chassis [ @ref_image]. The camera bump island is visible. The scene is heavily shadowed, almost pitch black. Only a faint, subtle edge light strictly catches the very outermost rim of the uppermost titanium camera lens ring. The rest of the solid camera bump and phone are in complete shadow. Against a pitch black background. High-end tech commercial aesthetic.",
+      "source": "https://canva.link/mc32a4pth7zt23x"
+    },
+    {
+      "title": "Light reveal: image-5-end",
+      "text": "Close-up angled back view (45-degree isometric angle) of the 'Sunset Orange' smartphone chassis [ @ref_image]. The camera bump island is visible. A bright, dramatic overhead studio light now fully illuminates the solid orange titanium camera bump island and the frosted glass back. The lighting perfectly catches the metallic rings of all three camera modules. High-resolution, photorealistic.",
+      "source": "https://canva.link/mc32a4pth7zt23x"
+    },
+    {
+      "title": "Light reveal: video-5",
+      "text": "Static camera. A luxurious, buttery-smooth transition from deep shadow to soft, elegant studio lighting. The illumination fades up globally and organically. A large, extremely soft, diffused white reflection gracefully and slowly rolls across the frosted glass and titanium camera bump, revealing the premium materials. Strictly NO harsh sweeping spotlights, absolutely NO cheap starburst lens flares, and NO laser wipe effects. Masterful, high-end tech commercial lighting design, realistic and premium.",
+      "source": "https://canva.link/ihgf909jzcap7xu"
+    },
+    {
+      "title": "Optional outro: image-6-start",
+      "text": "Perfectly centred back view (portrait orientation) of the smartphone [ @refimage]. The phone stands perfectly vertical. A soft, diffused overhead studio light highlights the design against pitch black background. Symmetrical, bold editorial tech photography. The phone fills 60% of the frame.",
+      "source": "https://canva.link/mc32a4pth7zt23x"
+    },
+    {
+      "title": "Optional outro: video-6",
+      "text": "Slow, buttery smooth, and perfectly centered camera push-in (dolly forward) towards the back of the 'Sunset Orange' smartphone. **CRITICAL ENVIRONMENT LOCK:** The phone remains suspended in an infinite pitch-black void. Strictly NO ground plane, NO floor, NO table, and NO reflective base should appear at the bottom of the frame at any point. **CINEMATIC LIGHTING TRANSITION:** As the camera slowly pushes in, a luxurious, soft overhead studio light cinematically fades up from pure darkness. It creates a beautiful, elegant, and glowing top-light reflection exclusively along the upper curved titanium edge of the phone. The lighting transition is moody and dramatic, focusing the viewer's attention purely on that premium top reflection, while the lower half of the phone remains rich and perfectly shadowed. High-end, premium Apple commercial aesthetic.",
+      "source": "https://canva.link/ihgf909jzcap7xu"
+    },
+    {
+      "title": "Plan a product spec ad: universal shot list",
+      "text": "Role: Act as an expert commercial director and cinematographer.\nTask: Please generate a highly detailed and visually compelling spec ad shot list for a product based on the information provided below.\nProduct Details:\nProduct: [Insert Product Name & Brief Description, e.g., 'Aura: A sleek, noise-canceling over-ear headphone designed for audiophiles']\nReference Link / Inspiration: [Insert Link to a mood board, reference video, or competitor ad, e.g., 'https://youtube.com/example-ad or \"Similar to the classic Apple iPod silhouette ads\"']\nStyle & Tone of Video: [Insert desired style, e.g., 'Fast-paced, neon-lit, high energy, quick cuts, cyberpunk aesthetic']\nDuration Required: [Insert duration, e.g., '30 seconds', '15 seconds', '1 minute']\nOutput Requirements: Please structure the shot list clearly in a table or structured list format. For each shot, provide the following details:\nShot Number & Duration: (e.g., Shot 1, 0:00-0:03)\nShot Size & Angle: (e.g., Extreme Close-Up, Low Angle, Tracking Shot)\nVisual Action: Exactly what is happening on screen, including lighting cues, camera movement (pan, tilt, dolly), and talent action.\nAudio / SFX / VO: Music cues, specific sound effects, and any Voiceover (VO) or on-screen text/graphics.\nEnsure the pacing matches the requested duration and the visual descriptions clearly translate the requested style and tone. Conclude with a brief summary of the overarching color palette and lighting setup required for the shoot.",
+      "source": "https://docs.google.com/document/d/1s2gyTbEztiguWZxnJR6N92hS393GReBILk3u4SEWvnc/edit"
+    }
+  ],
+  "prerequisites": "Bring the official phone reference images supplied for the session. Keep the exact device geometry consistent across approved frames and generated motion.",
+  "estimatedEffort": "The live session is scheduled for 20:00–22:00 IST. The source does not specify additional homework time.",
+  "submission": "Share the finished ten-second ad in the cohort group as demonstrated in class. Save the film link and production proof in the official Homework document.",
   "tools": [
     {
       "name": "Google Flow",
-      "useCase": "Build the character sheet and title asset with Nano Banana Pro, using the class image-reference workflow."
-    },
-    {
-      "name": "OpenArt",
-      "useCase": "Generate the architecture sheet, Seedance 2.0 A-roll, and reference-led Kling 3.0 Omni B-roll."
+      "useCase": "Generate phone reference stills and frame-led video for the camera-focused product ad."
     },
     {
       "name": "Nano Banana Pro",
-      "useCase": "Create and refine the character sheet and title artwork from visual references."
+      "useCase": "Create and refine reference images for the product ad."
     },
     {
-      "name": "Adobe Express",
-      "useCase": "Remove the title artwork background and prepare a transparent PNG."
+      "name": "Kling 3.0",
+      "useCase": "Generate controlled phone movement from approved start and end frames."
     },
     {
       "name": "Filmora",
-      "useCase": "Edit A-roll, B-roll, title artwork and sound into the 16:9 teaser."
+      "useCase": "Edit generated shots, speed ramps, music and effects into the ten-second ad."
     },
     {
-      "name": "Seedance 2.0",
-      "useCase": "Generate the main A-roll moments through OpenArt Text with reference."
-    },
-    {
-      "name": "Kling 3.0 Omni",
-      "useCase": "Generate the reference-led rooftop walking B-roll example."
-    }
-  ],
-  "prompts": [],
-  "steps": [
-    {
-      "title": "Lock the hero reference",
-      "instruction": "Use the existing superhero identity and clean, well-lit photos from several angles to build a production character sheet with Nano Banana Pro in Flow or OpenArt. Use the official cohort prompt, which is not reproduced here because its full text was not supplied.",
-      "review": "The face still looks like you, anatomy is clean, and the costume and photoreal style stay consistent across views."
-    },
-    {
-      "title": "Build one recognizable base",
-      "instruction": "Choose one real building or structure, collect reference photos from useful angles, and use the supplied architecture-sheet prompt in the demonstrated reference workflow.",
-      "review": "The same structure is obvious across angles and background buildings do not steal focus."
-    },
-    {
-      "title": "Create the title asset",
-      "instruction": "Use the character sheet as a style reference and the official class title prompt. Match the hero emblem, glow, material and typography; remove the background and save a transparent PNG.",
-      "review": "The title is readable, fits the hero identity, and its PNG has clean transparent edges."
-    },
-    {
-      "title": "Generate the hero A-roll",
-      "instruction": "In OpenArt Video, use Text with reference and Seedance 2.0. Attach the character and, where needed, architecture sheets. Adapt the official prompt to remove instructor-specific details and retag references to your assets.",
-      "review": "Establishing, rescue and action moments preserve the hero and setting; useful variations are ready for the edit."
-    },
-    {
-      "title": "Generate purposeful B-roll",
-      "instruction": "List the missing editing beats first. Use the class examples for title, atmosphere or rooftop detail, with the stated tools and settings. Keep generated audio off unless a shot benefits from it.",
-      "review": "Every supporting shot has a clear editing purpose, fits the hero and location, and avoids random filler."
-    },
-    {
-      "title": "Edit the teaser",
-      "instruction": "Create a 16:9 Filmora project. Import only useful fragments, build a rising reveal, place the transparent title over a strong frame, and align music and effects with the picture.",
-      "review": "The edit has a clear escalation, clean cuts, legible title placement, and sound that supports the reveal."
-    },
-    {
-      "title": "Review, export and share",
-      "instruction": "Review once for continuity, once for pacing and cuts, and once for audio. Export the finished teaser, watch it from first frame to last, then publish and submit the proof in Homework.",
-      "review": "The exported 16:9 teaser plays cleanly, the project is saved, and the submitted link points to the finished video."
+      "name": "OpenArt",
+      "useCase": "Upscale approved product shots after motion is approved."
     }
   ],
   "checklist": [
-    "Character face, costume and anatomy remain consistent across the approved reference sheet.",
-    "Architecture references describe one recognizable location from useful angles.",
-    "Title asset is readable and exported as a clean transparent PNG.",
-    "A-roll keeps the intended hero and location across the selected moments.",
-    "Every B-roll shot supports a specific editing need.",
-    "The saved 16:9 timeline has a clear reveal, clean cuts and intentional sound.",
-    "The exported teaser plays from beginning to end and only finished media is submitted."
+    "The approved phone references show the correct model, camera geometry, ports and proportions.",
+    "The selected still frames preserve the same phone and camera layout across the shot list.",
+    "Motion clips use the demonstrated start-frame, end-frame or start-only method for each shot.",
+    "The cut uses no more than five core shots and remains ten seconds before any optional outro.",
+    "The edit uses clean cuts and only purposeful speed changes, music and sound effects.",
+    "The exported file plays from beginning to end with consistent colour, geometry and synchronized sound.",
+    "The saved Homework record contains the final film link and supporting production proof."
   ],
-  "quiz": [
-    {
-      "question": "The character sheet has a distorted face, but you are ready to generate video. What should you do?",
-      "options": [
-        "Fix the still reference first, then continue to video",
-        "Try a wider motion shot using the same distorted face reference",
-        "Choose a short moving take before repairing the reference sheet"
-      ],
-      "correct": 0,
-      "explanation": "The class workflow checks and repairs the reference sheet before spending motion credits."
-    },
-    {
-      "question": "Which setup matches the demonstrated A-roll workflow?",
-      "options": [
-        "Flow text-to-video without references",
-        "A still-image workflow with unrelated visual anchors",
-        "OpenArt Video with Text with reference, Seedance 2.0, and the correct hero and location references"
-      ],
-      "correct": 2,
-      "explanation": "The guide identifies OpenArt Text with reference and Seedance 2.0 for A-roll."
-    },
-    {
-      "question": "A generated B-roll clip includes sound that fights the edit. What is the useful move?",
-      "options": [
-        "Keep the generated audio and reduce the music throughout the teaser",
-        "Turn generated audio off unless the shot benefits from it",
-        "Lower all generated audio equally without reviewing its purpose"
-      ],
-      "correct": 1,
-      "explanation": "The lesson says to keep B-roll audio off when it is not useful."
-    },
-    {
-      "question": "The teaser feels like a stack of full generations rather than a reveal. What should you change?",
-      "options": [
-        "Cut inside the generations, keep convincing seconds, and shape a rising sequence",
-        "Preserve the entire best generation before building the reveal",
-        "Order full clips by generation time and smooth the joins with dissolves"
-      ],
-      "correct": 0,
-      "explanation": "The editing lesson treats generations as raw material and the edit as the place where the reveal is shaped."
-    }
-  ],
-  "hero": "assets/illustrations/short.svg",
-  "homeworkUrl": "https://docs.google.com/document/d/1vIEK9NO-hJ_icVBlSQLUXVAHnlm46Gw1exPpc_42XR8/edit"
+  "hero": "assets/illustrations/advertisement.svg",
+  "homeworkUrl": "https://docs.google.com/document/d/1NplWrwx7vfEaAXLys4czsqwKzvm-wPwZRUsu9dhnJRY/edit"
 };

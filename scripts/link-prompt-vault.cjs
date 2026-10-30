@@ -11,7 +11,7 @@ const normalize = value => decode(value).replace(/\s+/g, ' ').trim();
 
 function vaultHref(file, sessionId, anchor = '') {
   const rel = path.relative(path.dirname(file), path.join(root, 'prompt-vault.html')).replaceAll('\\', '/');
-  return `${rel}?session=${sessionId}${anchor ? `#${anchor}` : ''}`;
+  return `${rel}?lesson=${sessions.find(s=>s.id===sessionId)?.route || sessionId}${anchor ? `#${anchor}` : ''}`;
 }
 
 for (const session of sessions) {

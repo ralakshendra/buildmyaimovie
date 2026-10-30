@@ -71,6 +71,12 @@ export function websiteHandler({ identity = verifiedEmail, clock = Date.now, tra
       if (!asset.ok) return json({ error: 'Site bundle unavailable' }, 503);
       return new Response(personalBundle(await asset.text(), schedule, batch, now,member.role,mode), { headers: { ...privateHeaders, 'Content-Type': 'application/javascript; charset=utf-8' } });
     }
+    // Retain unambiguous historical entry points after the curriculum route correction.
+    const legacyPath = pathname.replace(/^\//, '').replace(/\/$/, '/index.html');
+    for (const s of schedule) {
+      const field = s.legacyRoutes?.[legacyPath];
+      if (field && s[field]) return new Response(null, {status:302, headers:{...privateHeaders,Location:'/'+s[field]}});
+    }
     let file = pathname.replace(/^\//, '') || 'index.html';
     if (file.endsWith('/')) file += 'index.html';
     if (!file.includes('.') && Object.hasOwn(pages, file + '.html')) file += '.html';

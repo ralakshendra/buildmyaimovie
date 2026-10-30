@@ -1,121 +1,189 @@
 window.BMAI_LESSON={
-  "id": "week-7-day-1",
-  "title": "Build Your AI Twin for UGC Videos",
-  "number": 12,
-  "stage": "MOVIE",
+  "id": "week-7-day-3",
+  "number": 13,
+  "title": "Advanced Editing: Finish Your Film",
+  "stage": "EDIT",
   "visual": "production",
-  "objective": "Create a short test video with Google Flow and a verified video-trained avatar, compare face and voice consistency, and record the selected results and next fixes in the Homework Doc.",
-  "homeworkUrl": "https://docs.google.com/document/d/1ALm4BKj-6wdIDHxmhXt6DFcka-tMz-7s4sZmjjxxHZ8/edit",
-  "submission": "Record asset links and review notes in the official Homework Doc. The session source gives no separate submission route. Keep the videos organized in Drive for the later portfolio session.",
+  "objective": "Finish an existing film or advertisement in Filmora with deliberate cuts, rhythm, motion, sound, colour and titles, then compare the rough cut with a fully checked export.",
+  "homeworkUrl": "https://docs.google.com/document/d/1WOsuhyEskgBrklSPMXyS8lxzRA4FAKsfBWpxxn814sU/edit",
+  "submission": "Record the rough cut, checked final film, editable project location and before/after decisions in the official Homework Doc. Follow the current cohort hand-in instructions. No separate upload destination or deadline has been supplied for this session.",
   "steps": [
     {
-      "title": "Prepare a clean face reference",
-      "instruction": "Bring the three or four photos from different angles that you prepared in the previous session. Use the instructor-shared image prompt to create a clean front-facing portrait with a simple background. The full prompt was shared separately and is not included in the source packet.",
-      "review": "The selected portrait has a clear, well-lit face, a quiet background, and a recognizable likeness."
+      "title": "Diagnose and protect the project",
+      "instruction": "Watch the rough cut once without stopping. Write the intended feeling, message and ending, then mark the moments where attention, continuity or sound breaks. Save a separate working version before changing the timeline. Create media bins for footage, voice, music, SFX and graphics; keep the originals in a stable folder. Confirm the intended frame shape and project settings before importing more clips. Preserve those settings when Filmora offers to match an imported clip. Choose a layout you can work in; layout does not change the export shape.",
+      "review": "The original still opens, required media is online and the chosen project has a clear intended result."
     },
     {
-      "title": "Create a Flow character and agent video",
-      "instruction": "In a new Google Flow project, upload the portrait under Characters and select Nano Banana Pro. Attach a template voice, test its preview, tune its speed or tempo if useful, and add it to the character. Name the character; its description is optional. Tag the saved character in your prompt. Turn on Agent and use Always ask, Omni Flash, 9:16 portrait, and one variation as shown in class. Review the scene breakdown and approve generation only after checking the plan and credit request.",
-      "review": "The character and voice remain consistent across scenes, the dialogue is understandable, and generated text does not distract."
+      "title": "Select usable frames and build the story",
+      "instruction": "Preview each clip in the media bin. Mark In and Out around the usable action; discard hesitation, frozen tails and visible AI deformation. Assemble the opening, development and payoff in the order the viewer needs. Trim or split clips, then close unintended gaps. Inspect any ripple edit across the affected video and audio tracks. Cut before a camera move dies when momentum is the intention. A deliberate reaction or emotional hold may need more time; do not cut every shot to one fixed length. Play each join at normal speed, then inspect the frames either side. Check subject position, gaze, prop identity, motion direction and whether the action still makes sense.",
+      "review": "Every shot adds information or feeling; the opening moves promptly and the ending resolves the message."
     },
     {
-      "title": "Build and verify a video-trained avatar",
-      "instruction": "Use the instructor-shared HeyGen link. Upload or record a well-lit training video with a visible face and mouth and modest gestures that do not cross the face. Follow the tool's current footage and consent requirements. Choose the voice from the video or record a voice sample, then verify the avatar using the tool's webcam or phone flow. Generate a short test. The class recording showed a free option limited to 15 seconds with Avatar 3; check current availability before relying on those settings.",
-      "review": "Identity, lip movement, voice, and framing are clear, and the avatar has completed the tool's consent and identity checks."
+      "title": "Repair motion and connect shots",
+      "instruction": "Compare the end of one shot with the next shot's opening. Find a shared movement, shape, light cue or action to motivate the join. Use Reverse only when the action still looks physically plausible. The source reverses a rising coconut to make it fall; inspect the trimmed result rather than assuming reversal fixes everything. Use a small Uniform Speed adjustment for sluggish movement when it supports the scene. Preview before committing; faster can reveal shaking or unnatural gestures. For dialogue, preserve the spoken phrase and choose a compatible close-up, reaction or wide shot. If the wrong character visibly speaks, cover only with footage that preserves meaning and sync; regenerate an essential speaking shot if necessary.",
+      "review": "No backward speech, implausible physics, visible sync error or new jump in position is introduced."
     },
     {
-      "title": "Compare and organize the results",
-      "instruction": "Compare the Flow character with the video-trained avatar. Check identity across every scene, voice, repeated or cut-off words, stretched framing, and generated captions. Record one first fix and the result you plan to carry into your portfolio. Keep the source photos and outputs organized in Drive.",
-      "review": "Both workflow results are linked in the Homework Doc, the comparison identifies a visible strength and issue, and the selected portfolio candidate has a next improvement recorded."
+      "title": "Shape rhythm and speed ramps",
+      "instruction": "Listen for the musical phrase and accents. In current Filmora desktop guidance, right-click the imported music in the media library and run Beat Detection, then place the analyzed file on the timeline. Menu locations vary by version; the recording uses Smart Edit Tool. Choose meaningful cuts or reveals to align with useful markers. Check by ear; a beat marker is a timing aid, not an instruction to cut on every beat. Select a suitable moving clip and open Speed > Speed Ramping. Compare a preset with Customize. Keep the important reveal readable and use faster sections to travel between moments. Compare the ramp with the original at normal playback. Adjust neighboring joins after retiming; separate clips onto tracks when needed to prevent unwanted movement, and distinguish snapping from magnetic timeline/linkage controls.",
+      "review": "The important action reads clearly, joins feel intentional, and the edit has no new gaps or overlaps."
+    },
+    {
+      "title": "Animate graphics with purpose",
+      "instruction": "Place the graphic above the picture on its own video track. Check its scale and placement inside safe margins. Add a keyframe at the intended end state, then an earlier one at the starting state. Change scale or position to create a modest movement. For a fade-in, set the first opacity to 0 and the later opacity to 100. Preview the full entrance and hold long enough for the message to read. The source adds Color Glow sparingly to integrate a logo. Treat it as an optional effect, check whether your asset/effect is included in your plan, and compare with the clean version.",
+      "review": "No title is clipped, distorted, rushed or obscuring the subject; the design still works on a phone."
+    },
+    {
+      "title": "Build sound in layers",
+      "instruction": "Decide whether the scene needs music, SFX or both. Search for the actual action or setting, not just a generic cinematic sound; the source uses bus ambience and cinematic whooshes. Keep voice, music and SFX on separate audio tracks. Mute unwanted generated audio only after checking whether it contains useful dialogue or ambience. Trim each effect to the action and align its attack with the visible event. Use short fades where needed to avoid abrupt entries or exits; remove sound bleeding into an unrelated shot. Balance by listening, using clip volume or volume keyframes. Lower music and impacts that compete with speech. Check on headphones and an ordinary speaker.",
+      "review": "Important words remain understandable, no accidental doubled audio plays, and effects support their visible cause."
+    },
+    {
+      "title": "Bridge scenes and protect dialogue",
+      "instruction": "For a J-cut, let the incoming scene's sound start before its picture. For an L-cut, let the outgoing sound continue after the picture changes. Detach audio where independent timing is needed, then inspect sync across the remaining speaking sections. Keep a copy before changing linked media. For dialogue, lower background music with manual volume keyframes or select the main voice clip and enable Audio Ducking in its Audio properties if available. Listen to the amount and recovery; do not assume the default is right. Optional cleanup: compare mild noise reduction with bypass. Stop if speech becomes thin, metallic or loses consonants. Preserve useful room tone between lines.",
+      "review": "No words are clipped, mouth movement remains in sync and music returns naturally after speech."
+    },
+    {
+      "title": "Match colour and finish text",
+      "instruction": "Compare adjacent shots before adding a look. In Color > Basic, adjust exposure and white balance, then contrast and saturation conservatively; judge the scene as a sequence. Use a chosen reference shot when matching. If available, compare Color Match or AI Color Palette with a manual correction; reduce the effect when skin, product colour or whites shift unnaturally. Add a restrained creative look after the matching pass. Check dark detail and highlights rather than applying a strong preset to hide mismatches. Proofread titles and any captions against the actual speech. Correct names, punctuation and timing. Use captions when they serve the audience; do not add fictional speech to a silent film.",
+      "review": "Adjacent shots have a consistent intended mood, subjects retain plausible colour and all retained text is readable and accurate."
+    },
+    {
+      "title": "Export and inspect the actual file",
+      "instruction": "Scrub the full timeline for gaps, stray frames, accidental disabled clips and unwanted tails. Confirm the intended start/end range. Check audio is included, name the file clearly and choose the output folder. The source demonstrates MP4, H.264 and AAC with 1080p; use destination-appropriate resolution and the intended project frame rate rather than treating a historical example as mandatory. Check any premium media/effect warnings before export. An editor subscription does not necessarily include every creative asset. Replace unavailable items or use properly licensed alternatives. Export and open the file outside Filmora. Watch from start to finish with sound, including the first/last frames, fast motion, text and all repaired joins. Compare against the timeline.",
+      "review": "The file opens, includes its intended sound and ending, has no accidental black frames or watermark, and uses the expected frame shape."
+    },
+    {
+      "title": "Compare, explain and hand off",
+      "instruction": "Compare the rough and final versions at the same moments. Explain the editing decisions that changed clarity, emotion, rhythm or sound. Complete the applicable task fields in the Homework Doc; mark a technique N/A with a reason when your film does not need it. Save the final film, editable project and media location. Record any unresolved issue and the next useful correction. Use the current cohort submission instructions for hand-in. This session has no separately supplied upload destination or deadline. Website checkmarks record local practice, not submission receipt.",
+      "review": "Rough cut, final film and project backup are traceable; the comparison identifies concrete improvements and honest limitations."
     }
   ],
   "homework": [
     {
-      "title": "Prepare the reference portrait",
-      "prompt": "Use the prior session's multi-angle photos to create and review a clean, front-facing portrait. Record the source and selected image links, likeness check, and first correction."
+      "title": "Diagnose and protect the project",
+      "prompt": "Save a separate Filmora working project. Link your rough cut and identify the most useful finishing problems with timestamps. Record the intended audience, message and frame shape."
     },
     {
-      "title": "Test Google Flow",
-      "prompt": "Upload the portrait in a new Flow project, attach and preview a template voice, tag the saved character, and use the class Agent settings. Review the scene plan and credit request before approving generation. Record the character, video, voice and issue notes."
+      "title": "Select usable frames and build the story",
+      "prompt": "Create a clean assembly from usable source ranges. Save a before/after example of a trimmed glitch or stalled movement, and explain why the new cut works."
     },
     {
-      "title": "Test the video-trained avatar",
-      "prompt": "Use the instructor-shared avatar tool link. Provide your own clear training footage, follow the current consent and verification steps, create a short test, and review identity, voice, lip movement and framing. Record the result link and first fix."
+      "title": "Repair motion and connect shots",
+      "prompt": "Repair a motion or continuity issue with a trim, alternate angle, cutaway, reverse or uniform-speed adjustment. Record the chosen technique, its reason and what you checked."
     },
     {
-      "title": "Compare and save",
-      "prompt": "Compare both outputs, record which retained your face and voice more clearly, note one failure and first fix, and organize the candidate you plan to carry into the later portfolio session."
+      "title": "Shape rhythm and speed ramps",
+      "prompt": "Mark useful musical accents and compare a speed ramp with the original on a suitable shot. Keep the better version. For a calm scene, record why natural timing works better; do not add a ramp just to complete an exercise."
+    },
+    {
+      "title": "Animate graphics with purpose",
+      "prompt": "Use a title or graphic only where it helps the film. Review safe margins and readability; demonstrate a restrained keyframed change when useful, or record why a static treatment is better."
+    },
+    {
+      "title": "Build sound in layers",
+      "prompt": "Build and review separate voice, music and SFX layers as your film requires. Record one sound placement, its timing, and the level/fade change that improved it. Retain the audio source and license record."
+    },
+    {
+      "title": "Bridge scenes and protect dialogue",
+      "prompt": "Try a J-cut or L-cut where it improves continuity and compare it with a clean cut. Protect dialogue using volume automation or available ducking. For a film without speech, record the music/ambience transition decision instead."
+    },
+    {
+      "title": "Match colour and finish text",
+      "prompt": "Compare a mismatched join before and after correction. Record the reference and changes. Proofread retained titles/captions, check their timing and review them at phone size."
+    },
+    {
+      "title": "Export and inspect the actual file",
+      "prompt": "Export the finished film, watch the actual file outside Filmora and record its settings and any issue corrected. Save the editable project with its source-media location."
+    },
+    {
+      "title": "Compare, explain and hand off",
+      "prompt": "Link the rough cut, final film and project backup. Explain the strongest before/after editing decisions, record any N/A techniques and identify one next correction. Follow the current cohort hand-in instructions."
     }
   ],
   "tools": [
     {
-      "name": "Google Flow",
-      "useCase": "Build an image-based character with a selected template voice and use Agent to plan and generate a multi-scene UGC video."
+      "name": "Filmora",
+      "useCase": "Organize and refine an existing edit through trimming, continuity repairs, keyframes, speed ramps, layered audio, finishing and checked export."
     },
     {
-      "name": "OpenArt",
-      "useCase": "Optional route shown in class for generating the clean character portrait with Nano Banana Pro."
-    },
-    {
-      "name": "Claude",
-      "useCase": "Draft and critique a production prompt before it is used in Google Flow; the class example checks for setting and generation constraints."
-    },
-    {
-      "name": "HeyGen",
-      "useCase": "Create and verify a video-trained digital avatar, then generate a short talking test video. The class accessed it from an instructor-shared link."
+      "name": "Pixabay",
+      "useCase": "Find action-specific sound effects and suitable music as shown in the source lessons; retain the selected asset's source and applicable license."
     }
   ],
   "prompts": [],
   "checklist": [
-    "I prepared a clean portrait from my previous multi-angle photos and checked the likeness.",
-    "I used a new Flow project and selected Nano Banana Pro for the uploaded character image.",
-    "I added a template voice to the Flow character and previewed its sample dialogue.",
-    "I tagged the saved character and checked the Agent scene breakdown before generation.",
-    "I reviewed the Agent model, aspect ratio, variation count, approval setting, and credit request.",
-    "I completed the video avatar consent and identity verification steps for my own likeness.",
-    "I reviewed identity, voice, dialogue, lip movement, framing, and generated text in both tests.",
-    "I recorded the result links, comparison, first fix, and portfolio next step in the Homework Doc."
+    "I preserved the rough cut and saved a separate working project with linked source media.",
+    "I checked the project frame shape and retained only usable footage ranges.",
+    "I reviewed shot order, motion continuity and every repaired join.",
+    "I made a deliberate rhythm decision; ramps or natural speed support the scene.",
+    "I checked keyframed graphics or the chosen static treatment for clarity and safe placement.",
+    "I balanced the required audio layers and verified speech or ambience transitions.",
+    "I checked colour consistency and all retained titles or captions.",
+    "I watched the actual exported file from beginning to end with sound.",
+    "I saved the final film, editable project and before/after evidence in the Homework Doc.",
+    "I recorded any remaining issue and followed the current cohort submission instructions."
   ],
   "quiz": [
     {
-      "question": "Flow shows a different face in each generated scene. What should you inspect first?",
+      "question": "The end of an AI clip freezes and then deforms. What should you try first?",
       "options": [
-        "Compare each scene prompt and make sure it tags the saved character consistently.",
-        "Generate again with a different voice template.",
-        "Add subtitles to every scene."
+        "Trim to the last usable movement and inspect the next join.",
+        "Add a long dissolve over the whole clip.",
+        "Export at a higher frame rate."
       ],
       "correct": 0,
-      "explanation": "The instructor tied identity drift to missing or changing character details across the agent's separate scene prompts."
+      "explanation": "The source demonstrates choosing usable ranges and cutting before motion stalls or hallucination begins."
     },
     {
-      "question": "Why should Agent be set to Always ask before generating?",
+      "question": "A calm brand film becomes frantic after a ramp preset. What is the best decision?",
       "options": [
-        "So you can review its scene plan and credit request before generation starts.",
-        "So the agent never creates a scene breakdown.",
-        "So every variation is generated automatically."
+        "Apply the same preset to every shot.",
+        "Compare natural speed and keep the timing that serves the mood.",
+        "Add louder music."
       ],
-      "correct": 0,
-      "explanation": "The class chose Always to inspect proposed changes and credit use before approving generation."
+      "correct": 1,
+      "explanation": "The Week 3 Day 2 demonstration rejects a ramp because it does not suit the calm scene. A technique is optional when it weakens the edit."
     },
     {
-      "question": "Flow voice preview is silent on your device. What is the instructor's first troubleshooting suggestion?",
+      "question": "What defines a J-cut?",
       "options": [
-        "Refresh and preview again after adding sample dialogue.",
-        "Upload an ElevenLabs audio file into the character.",
-        "Remove the voice from the character."
+        "The outgoing sound continues after its picture changes.",
+        "Incoming scene audio begins before its picture appears.",
+        "Picture and audio always cut on the same frame."
       ],
-      "correct": 0,
-      "explanation": "The transcript confirms custom audio upload is unavailable in this Flow workflow and suggests refreshing when preview playback fails."
+      "correct": 1,
+      "explanation": "A J-cut introduces the incoming scene through sound first. An L-cut carries outgoing sound into the next picture."
     },
     {
-      "question": "Generated captions contain errors. What is the most useful fix from class?",
+      "question": "A slowdown of 24 fps AI footage stutters. What is useful?",
       "options": [
-        "Remove the generated captions and add them in an editing or captioning tool.",
-        "Generate more scenes with longer captions.",
-        "Change the avatar's clothing."
+        "Assume exporting at 60 fps restores missing captured detail.",
+        "Add a glow effect.",
+        "Reduce the slowdown or keep natural motion, then inspect a short export."
+      ],
+      "correct": 2,
+      "explanation": "The source notes limited slowdown room in AI footage. Interpolation is optional and needs artifact review; export FPS alone is not a repair."
+    },
+    {
+      "question": "Music masks a spoken line. Which adjustment protects it?",
+      "options": [
+        "Lower music under the voice with keyframes or available ducking and listen to the recovery.",
+        "Raise every track equally.",
+        "Mute the dialogue."
       ],
       "correct": 0,
-      "explanation": "The instructor said video models often render subtitles unreliably and recommended editing or a dedicated caption tool."
+      "explanation": "Manual level changes are demonstrated. Supplementary ducking guidance lowers competing background audio around the main voice."
+    },
+    {
+      "question": "Filmora preview looks finished. When is export review complete?",
+      "options": [
+        "When the progress bar reaches 100%.",
+        "When every effect is enabled.",
+        "After you watch the actual exported file with sound from first to last frame."
+      ],
+      "correct": 2,
+      "explanation": "The source reviews the exported result and identifies an SFX problem. Export success is not proof of playback quality."
     }
   ],
   "hero": "assets/illustrations/production.svg"

@@ -13,3 +13,7 @@ const crypto=require('crypto');const versions={};for(const file of ['library/sit
 const excludedDirs=new Set(['.git','node_modules','qa','templates','test-results','dist','tmp']);
 const walk=d=>fs.readdirSync(d,{withFileTypes:true}).flatMap(e=>e.isDirectory()?(excludedDirs.has(e.name)?[]:walk(path.join(d,e.name))):[path.join(d,e.name)]);
 for(const file of walk(root).filter(p=>p.endsWith('.html')&&!/(^|[\\/])(qa|templates|node_modules|test-results|dist)[\\/]/.test(path.relative(root,p))&&!p.endsWith('hero-approval.html'))){let html=fs.readFileSync(file,'utf8');for(const [asset,version] of Object.entries(versions)){const escaped=asset.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');html=html.replace(new RegExp('('+escaped+')(?:\\?v=[^"\\s]+)?','g'),'$1?v='+version);}fs.writeFileSync(file,versionLocalAssets(html,file));}
+
+// Keep the sitemap aligned with the same registered public pages as navigation and QA.
+const sitemapPages=require('./public-pages.cjs')().filter(p=>p!=='404.html'&&!p.endsWith('/prompt-vault.html'));
+fs.writeFileSync(path.join(root,'sitemap.xml'),'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+[...new Set(sitemapPages)].map(p=>'  <url><loc>https://build-my-ai-movie-cohort.pages.dev/'+p+'</loc></url>').join('\n')+'\n</urlset>\n');

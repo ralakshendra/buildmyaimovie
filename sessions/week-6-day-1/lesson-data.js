@@ -1,221 +1,154 @@
 window.BMAI_LESSON={
-  "id": "week-6-day-1",
-  "title": "Mahabharata Production: Character, Prop & Shot Continuity",
-  "number": 10,
-  "start": "2026-11-07T20:00:00+05:30",
-  "end": "2026-11-07T22:00:00+05:30",
-  "stage": "SHOTS",
-  "objective": "By the end of the session, each team will have a reviewed character sheet for the characters in its assigned film and a prop sheet for the story-critical objects, with reference images ready to support consistent image and video generation.",
-  "submission": "The transcript says the Mahabharata project deadline is two weeks after this session. It does not identify a calendar date or submission destination. Keep the team sheets and chosen generations with the project until the cohort confirms where to submit them.",
-  "estimatedTime": "Class practice plus team production between sessions",
-  "difficulty": "Intermediate",
-  "goal": "Deliver a source-grounded character sheet and prop sheet for the team’s assigned Mahabharata film, with selected reference images and a documented review pass.",
-  "learningObjectives": [
-    {
-      "title": "Lock the character references",
-      "body": "Use the supplied face and outfit references to build a consistent character sheet with turnaround views and useful expressions."
-    },
-    {
-      "title": "Inventory story-critical props",
-      "body": "Use the project shot list and team assignment to identify each prop that must be represented consistently."
-    },
-    {
-      "title": "Iterate with evidence",
-      "body": "Compare generations to the reference, name the specific failure, and change one meaningful variable at a time."
-    },
-    {
-      "title": "Choose shots as a team",
-      "body": "Compare visual quality, source fit and motion potential before approving a version for the film."
-    }
-  ],
+  "id": "week-6-day-2",
+  "title": "Create a Complete AI UGC Ad",
+  "number": 11,
+  "stage": "MOVIE",
+  "visual": "advertisement",
+  "objective": "Create and review one vertical AI UGC-style product ad using a consistent character, product-in-hand frame, talking A-roll, supporting B-roll, and a clean edit.",
+  "homeworkUrl": "https://docs.google.com/document/d/18ql4IsJL5RwCQ5jExGZxvk46kUFuxqQsptIjhfKSD2w/edit",
+  "submission": "Export the final 9:16 advertisement and share it using the current cohort submission instructions. Confirm the approved destination and deadline with the cohort.",
   "steps": [
     {
-      "title": "Confirm your team and assigned film",
-      "instruction": "Check the Mahabharatha project team sheet. Confirm your team’s film/topic and the image-generation and video-generation leads. Ask the team for a recap if you joined after the earlier planning session.",
-      "review": "Your team name, assigned film, and responsible image/video leads agree with the team sheet."
+      "title": "Build a reusable character",
+      "instruction": "Create an original creator character for the intended audience. Describe the appearance, wardrobe, setting, and camera framing; generate a small set of variations; choose one and save it as a reusable character. Use only references you have permission to use.",
+      "review": "One saved character has a clear identity, fits the audience, and can be reused consistently.",
+      "goal": "Build one reusable creator identity.",
+      "inputs": "Your intended audience and character description; any reference images you are authorized to use.",
+      "output": "One named saved character selected for reuse.",
+      "firstFix": "Compare the chosen face and appearance with your brief or authorized reference. Revise the mismatched trait before creating more variations.",
+      "next": "Use this saved character with the product reference in Task 2."
     },
     {
-      "title": "Build the character sheet",
-      "instruction": "List the characters that actually appear in your assigned film. For each one, gather the approved face and costume references, then adapt the Canva character-sheet prompt. Keep identity references separate from costume references and retain clear placeholders for the supplied images.",
-      "review": "The sheet shows the needed characters with consistent faces, costume details, turnaround views, and expressions that match the supplied references."
+      "title": "Create the product-in-hand image",
+      "instruction": "Create a 9:16 product hero frame with the saved character and an approved product reference. Keep the product shape and printed label faithful to the supplied reference, then review face, hands, framing, and lighting before selecting a frame.",
+      "review": "The chosen frame shows the same creator holding or using the product, with accurate packaging and readable supplied label details.",
+      "goal": "Put the saved character and product into one usable frame.",
+      "inputs": "The saved character from Task 1, a clear authorized product image, and the exact approved label text.",
+      "output": "One selected 9:16 product-in-hand hero frame.",
+      "firstFix": "Compare the image against the references. Identify the visible face, packaging, hand or label mismatch and change one relevant input before the next test.",
+      "next": "Use the selected hero frame as Task 3’s start frame."
     },
     {
-      "title": "Build the prop sheet",
-      "instruction": "Identify story-critical objects from the shot list and the team’s assigned scenes. Use the Mahabharatha Project (BMAM) sheet’s character and prop columns as an inventory aid. Create reference images from the official materials or instructor-shared prompt; no complete official prop-sheet prompt was supplied in this source packet.",
-      "review": "Each selected prop has a clear name, reference, visual details, and the scene or character it belongs to. Unverified designs are marked for review."
+      "title": "Generate the talking A-roll",
+      "instruction": "Use the selected product frame as the starting image for a short talking clip. Add the approved dialogue and enable audio when available. Keep claims truthful and authorized. If the line is cut off or unclear, shorten it or split it before spending credits on another generation.",
+      "review": "The creator delivers the approved message with clear audio, stable face and hands, and continuity with the start frame.",
+      "goal": "Turn the hero frame into a clear talking message.",
+      "inputs": "The selected product-in-hand frame from Task 2 and approved dialogue with verified product claims.",
+      "output": "One selected talking A-roll clip with understandable audio.",
+      "firstFix": "If dialogue is clipped, shorten or split the line. If identity or hands drift, compare the clip with the start frame before another test.",
+      "next": "Keep this A-roll for the base layer of Task 5; prepare the product references for Task 4."
     },
     {
-      "title": "Generate, compare, and revise",
-      "instruction": "Use the character and prop references while generating the assigned frames. For each failed pass, describe the visible mismatch (identity, scale, formation, anatomy, movement, or texture), choose the smallest useful change, and compare the new result with the reference. After repeated failure, change the approach instead of issuing the same prompt again.",
-      "review": "The team can point to the reference, identify what changed between versions, and explain why the selected frame is the strongest usable match."
+      "title": "Create supporting B-roll",
+      "instruction": "Create a product close-up from the selected frame. Add a short use-case insert only when it helps explain the product. Choose a video mode supported by the current tool, test a brief clip, and check that the action and product remain accurate.",
+      "review": "Each insert adds a useful product detail or truthful demonstration with consistent packaging and lighting.",
+      "goal": "Add useful product coverage to support the message.",
+      "inputs": "The selected product-in-hand frame, product reference images, and the message established in Task 3.",
+      "output": "A selected product close-up and any useful product-use insert.",
+      "firstFix": "Check the product and lighting against the reference. If a mode is unavailable, use an available supported route and test a short clip before making more inserts.",
+      "next": "Bring the useful inserts and talking A-roll into Task 5’s edit."
     },
     {
-      "title": "Review motion and make a creative decision",
-      "instruction": "Generate motion only from a selected frame. Review body mechanics, scale, camera movement and the intended action. If generated movement misses the goal, consider an edit-based repair such as trimming and reversing a segment, as demonstrated in the session. Record when the shot is a deliberate approximation.",
-      "review": "The chosen clip communicates the intended action, avoids obvious physics or continuity failures, and is approved by the team."
-    },
-    {
-      "title": "Coordinate the production handoff",
-      "instruction": "Share the latest character sheet, prop sheet, selected references, and unresolved issues with the rest of the team. Invite more than one team member to review major creative decisions. Keep the mythological subject respectful; the instructor explicitly cautioned against spoof treatment.",
-      "review": "The team knows which versions are approved, who owns the next task, and which issues still need a decision."
-    }
-  ],
-  "tools": [
-    {
-      "name": "Claude",
-      "useCase": "Use the session’s Canva-referenced workflow to structure character sheets, props, and shot images from the supplied source context."
-    },
-    {
-      "name": "Gemini",
-      "useCase": "Use the session’s Canva-referenced workflow to structure character sheets, props, and shot images from the supplied source context."
-    },
-    {
-      "name": "Lemonpeel",
-      "useCase": "Generate images and video variations for the assigned film, as listed in the Canva workflow reference."
-    },
-    {
-      "name": "Google Flow",
-      "useCase": "Generate prop images and the first frame for Scene 1, as listed in the Canva workflow reference."
-    },
-    {
-      "name": "ElevenLabs",
-      "useCase": "Create voiceover and dialogue for the production, as listed in the Canva workflow reference."
-    },
-    {
-      "name": "Pixabay",
-      "useCase": "Source music and sound effects for the production, as listed in the Canva workflow reference."
-    },
-    {
-      "name": "YouTube",
-      "useCase": "Study inspiration and adapt ideas into the team’s own production; do not copy a reference film shot-for-shot."
-    }
-  ],
-  "prompts": [
-    {
-      "title": "Hero prompt for script and screenplay / shot list",
-      "source": "https://canva.link/3b9f4amvav9gwy8",
-      "text": "I have attached the script. Also ref images of the cinematic style which I want in terms of lighting and cinematogrphy. Remember this is a complete end to end AI production. Now you act as a world class Film director, and come up with a complete shot list table which also has prompts required for each shots image generations. Also remember I have character sheet for main characters. so in the prompts include placeholders whenever a main character is coming. The lighting coloring should be consistent throughout. Also individual prompts for main elemnts such as Gandiva, the game board, chariot wheel etc. The shot list should look world class like the horiziontal shot list they use in hollywood for production."
-    },
-    {
-      "title": "Arjuna character sheet prompt",
-      "source": "https://canva.link/3b9f4amvav9gwy8",
-      "text": "Ultra-photorealistic character sheet of Arjuna from the Mahabharata. CRITICAL: The character's face, facial features, and skin tone MUST strictly match ONLY @image1 @image2 @image3 @image4. Do not alter the face. The character's hairstyle should match @image6. The outfit should exactly match @image5 (use this reference for clothing and armor ONLY, ignore the face in this reference). Features realistic ancient Indian warrior attire, authentic metal armor, woven fabrics, and ornate jewelry suitable for a live-action historical epic. Neutral, heroic expression. Cinematic studio lighting, realistic shadows, hyper-detailed skin texture with visible pores, subsurface scattering, and natural imperfections. Include full character turnaround: Front view (neutral pose), Left side profile, Right side profile, 3/4 angle view. Add expression sheet: Neutral, Slight smile, Confident smile, Serious/Battle-ready, Confused. Add detail callouts: Close-up of eyes (accurate color, iris detail, and shape), realistic hair texture, and intricate armor/fabric material details. Style: 100% photorealistic, live-action cinema, 8k resolution, highly detailed photography, neutral grey background, consistent proportions across all views."
-    },
-    {
-      "title": "Draupadi (Panchali) character sheet prompt",
-      "source": "https://canva.link/3b9f4amvav9gwy8",
-      "text": "Ultra-photorealistic character sheet of Draupadi (Panchali) from the Mahabharata. CRITICAL: The character's face, facial features, and skin tone MUST strictly match ONLY [@image1 @image2 @image3]. Maintain the exact bone structure, iris detail, and facial proportions. Character Sheet Layout: Full turnaround including Front view (regal standing pose), Left side profile, Right side profile, and 3/4 angle view. Add an expression sheet: Serene/Regal, Gentle smile, Commandingly serious, Emotional/Vulnerable, and Intense/Determined. Costume & Hair (Cinematic Reconstruction): An elaborate, high-end ancient Indian royal ensemble. She wears a fine silk sari in deep crimson and gold (symbolising her birth from fire), draped elegantly in a classical Vedic style. The fabric should have visible thread-work, intricate golden embroidery, and a realistic weight. Her hair is iconic: long, thick, raven-black, and wavy, flowing down to her waist but styled with a gold Maang Tikka and pearls. Jewellery: Authentic ancient Indian temple jewellery in 22k gold, including a heavy Choker and long Haar necklaces, intricate Bajuband (armlets), Kangan (bangles), and a traditional nose ring (Nath). All jewellery must have realistic metallic reflections and gemstone inlays (rubies and pearls). Technical Style: 100% photorealistic, live-action cinema quality, hyper-detailed skin texture with visible pores and natural imperfections, subsurface scattering for realistic skin glow. 8k resolution, cinematic studio lighting with soft shadows, neutral grey background, consistent proportions across all views. Detail Callouts: Close-up of the eyes (matching the likeness reference), macro view of the golden embroidery on the silk, and a detailed view of the intricate gold jewellery."
-    },
-    {
-      "title": "Kunti Devi (The Rajmata) character sheet prompt",
-      "source": "https://canva.link/3b9f4amvav9gwy8",
-      "text": "Kunti Devi (The Rajmata) Theme: Dignity, wisdom, maternal strength, and understated royalty. Ultra-photorealistic character sheet of Kunti Devi from the Mahabharata. CRITICAL: The character's face and skin tone MUST strictly match ONLY [@image1 @image2 @image3]. Her expression should carry the weight of her history-wise and slightly sorrowful but very dignified. Costume: A sophisticated, high-end silk sari in ivory and muted gold (Rajmata style). The fabric should have a soft, realistic sheen and intricate hand-woven textures. She wears the pallu elegantly over her head. Jewelry: Sophisticated and traditional ancient Indian jewelry-a single heavy gold necklace, simple but large gold earrings (Karnaphool), and traditional bangles. No crown, but a subtle gold headpiece (Maang Tikka) visible under the sari veil. Layout: Full turnaround (Front, Side, Back, 3/4). Expression sheet: Serene/Wise, Sorrowful/Reflective, Maternal smile, Commanding presence. Style: 100% photorealistic, soft studio lighting, 8k resolution, hyper-detailed silk textures and aged, realistic skin, neutral grey background."
-    },
-    {
-      "title": "Character sheet close-up prompt",
-      "source": "https://canva.link/3b9f4amvav9gwy8",
-      "text": "Ultra-realistic professional studio portrait of the same person in the same costume, clean minimal background, soft neutral tones (white/grey), high-end fashion photography, sharp facial details, natural skin texture, soft diffused studio lighting, subtle shadows, centered composition, 85mm lens, shallow depth of field, no distractions, no props, polished and elegant look. Strictly should look like the person from the attached reference."
+      "title": "Edit, review, and export",
+      "instruction": "Assemble the vertical edit in a suitable video editor. Keep the talking clip as the base, add useful product footage above it, keep transitions restrained, and use music or Foley only when it improves clarity. Export the final 9:16 advertisement and share it using current cohort instructions.",
+      "review": "The exported ad has clear dialogue, useful product coverage, truthful claims, consistent visuals, and no distracting effects.",
+      "goal": "Assemble and review the final vertical advertisement.",
+      "inputs": "The selected talking A-roll, useful B-roll, and any audio you have permission to publish.",
+      "output": "One reviewed 9:16 advertisement export and its production evidence links.",
+      "firstFix": "If audio and picture disagree, inspect the relevant timeline section. Recheck the exported file from beginning to end after adjusting the edit.",
+      "next": "Record the final export and review notes in the official Homework Doc, then follow its current submission instructions."
     }
   ],
   "homework": [
     {
-      "title": "Prepare the character reference pack",
-      "body": "Complete or revise the character sheet for the people who appear in your team’s assigned film.",
-      "prompt": "Start from the team’s approved face and costume images. Adapt the Canva character-sheet prompt to the correct character and image references. Check the face, outfit, turnaround, and expression views against the source images."
+      "title": "Character and reference",
+      "prompt": "Record the character path, intended audience, any authorized reference-image links, the saved character name, and how you judged continuity."
     },
     {
-      "title": "Prepare the prop reference pack",
-      "body": "Make a prop inventory and reference sheet for objects needed in your assigned scenes.",
-      "prompt": "Use the production shot list and the Mahabharatha Project (BMAM) sheet’s prop entries to select only the objects used by your team. For each object, record its name, source reference, scene use, and the unresolved visual details. Do not invent an official prompt when one has not been supplied."
+      "title": "Product-in-hand frame",
+      "prompt": "Link the product reference and selected hero image. Record the exact label text and what you checked for face, product, and lighting consistency."
     },
     {
-      "title": "Revise and select image generations",
-      "body": "Generate the assigned frames and compare each version with the approved character, prop, and scene references.",
-      "prompt": "For each revision, state one visible mismatch, change the prompt or reference that addresses it, and save the before/after versions. Keep the selected version only when the reference, scale, composition, and intended story beat are clear."
+      "title": "Talking A-roll",
+      "prompt": "Record the approved dialogue, the evidence or authorization for product claims, the start-frame choice, and your review of speech, face, hands, audio, and continuity."
     },
     {
-      "title": "Test motion and repair the edit",
-      "body": "Animate a selected frame and review the motion before the team approves it.",
-      "prompt": "Check identity, anatomy, scale, direction, and physical movement. If the model misses the motion, try a focused prompt/reference change; if the result is still useful but imperfect, test a precise edit repair and label the shot as an approximation."
+      "title": "Supporting B-roll",
+      "prompt": "Link the close-up image and any product-use clip. Explain where each insert supports the message and note any mode or reference adjustment."
     },
     {
-      "title": "Hand off the team’s approved materials",
-      "body": "Make the current approved character and prop references easy for the whole team to find.",
-      "prompt": "Share the approved sheets, selected images and clips, version notes, open questions, and next owner with your team. Ask at least one teammate to review the choices before the production handoff."
+      "title": "Edited ad and reflection",
+      "prompt": "Link the final vertical export. Record your review notes, first fix, what worked, what needed another pass, and where you shared it using the current cohort instructions."
+    }
+  ],
+  "tools": [
+    {
+      "name": "OpenArt",
+      "useCase": "Save a reusable creator character and use it as a visual reference for product images and short clips."
+    },
+    {
+      "name": "GPT Image 2",
+      "useCase": "Generate a product-in-hand still when this image model is available to you."
+    },
+    {
+      "name": "Kling 3.0 Omni",
+      "useCase": "Create a short talking clip from an approved start frame when the current account supports that workflow."
+    },
+    {
+      "name": "Nano Banana Pro",
+      "useCase": "Use as an alternate image-generation option for a product frame or close-up when available."
+    },
+    {
+      "name": "Filmora",
+      "useCase": "Use as one option for assembling vertical A-roll and supporting B-roll."
+    }
+  ],
+  "prompts": [
+    {
+      "title": "Character reference image prompt",
+      "text": "Create an original on-camera creator for a vertical product advertisement. Audience: [intended audience]. Creator: [appearance and wardrobe]. Setting: [simple location]. Frame from mid-torso at eye level with soft practical light and a calm background. Keep the same face, hairstyle, wardrobe, and camera angle across four variations. Do not add logos, package text, unsupported claims, or additional people.",
+      "source": "BUILD MY AI MOVIE STUDIO practice prompt, written for this workflow. Replace every bracketed field before use."
+    },
+    {
+      "title": "Product-in-hand image prompt",
+      "text": "Create one 9:16 advertisement still using [saved_character_reference] and [approved_product_reference]. Show the creator holding [product] naturally at chest height with the supplied package facing camera. Preserve the product silhouette, color, and exact label from the reference. Use [setting], [lighting], and [camera framing]. Keep hands anatomically natural. Do not invent label text, logos, benefits, or claims.",
+      "source": "BUILD MY AI MOVIE STUDIO practice prompt, written for this workflow. Replace every bracketed field before use."
+    },
+    {
+      "title": "Talking A-roll prompt",
+      "text": "Use [approved_product_frame] as the first frame. The creator looks into the camera and speaks this approved script exactly: “[approved_script]”. Keep the same face, hair, clothing, room, and product details from the first frame. Use a natural conversational delivery, subtle gestures, clear dialogue, and one continuous take. Do not add dialogue, captions, logos, or product claims.",
+      "source": "BUILD MY AI MOVIE STUDIO practice prompt, written for this workflow. Replace every bracketed field before use."
+    },
+    {
+      "title": "Product close-up B-roll prompt",
+      "text": "Create a vertical close-up of [approved_product] using [product_reference] for exact packaging and [hero_frame] for lighting and color. Show [one useful product detail or action] with a steady camera and realistic hands if needed. Keep the label unchanged and readable. Do not add extra packaging, text, effects, or unsupported claims.",
+      "source": "BUILD MY AI MOVIE STUDIO practice prompt, written for this workflow. Replace every bracketed field before use."
+    },
+    {
+      "title": "Product-use B-roll prompt",
+      "text": "Create a short vertical clip showing [specific, truthful product-use action] in [setting], guided by [approved_product_reference] and [hero_frame]. Keep the package, label, lighting, and surface details consistent. Show only the action described; avoid before-and-after implications or unverified benefits. Use a stable close-up and natural motion.",
+      "source": "BUILD MY AI MOVIE STUDIO practice prompt, written for this workflow. Replace every bracketed field before use."
     }
   ],
   "checklist": [
-    "I confirmed my team and the film/topic assigned to us.",
-    "I listed only the characters that appear in our assigned film.",
-    "I used the supplied face and costume references when revising character sheets.",
-    "The character sheets include consistent views and useful expressions.",
-    "I checked the Mahabharatha Project (BMAM) sheet and shot list for story-critical props.",
-    "Each prop reference is tied to a character or scene, and unknown details are marked for review.",
-    "I recorded a visible mismatch before revising an image or clip.",
-    "I compared the selected generation with the supplied references.",
-    "I checked scale, anatomy, movement, and continuity before approving motion.",
-    "I shared the approved sheets, versions, open issues, and next owner with the team.",
-    "I kept the Mahabharata treatment respectful and avoided spoof framing."
+    "One named character is saved and selected for reuse.",
+    "The 9:16 product-in-hand frame keeps character, packaging, and label details consistent.",
+    "The A-roll uses the approved dialogue, audio, and product image as its start frame only.",
+    "The spoken claims are verified and authorized; face, teeth, hands, and product contact look stable.",
+    "B-roll adds useful product detail and keeps the product and lighting consistent.",
+    "The 9:16 edit has clear dialogue, restrained transitions, useful audio, and a reviewed export."
   ],
   "quiz": [
     {
-      "question": "A generated Chakravyuha looks cinematic but its spiral shape is wrong. What is the best next decision?",
+      "question": "The dialogue is cut off at the end of the generated A-roll. What should you adjust first?",
       "options": [
-        "Keep prompting with no reference until the shape changes",
-        "Use the supplied formation reference, revise toward it, and document any remaining difference before choosing the shot",
-        "Crop the image so the formation is hidden",
-        "Treat a visually pleasing result as historically exact"
-      ],
-      "correct": 1,
-      "explanation": "The session describes the formation as difficult for models to reproduce. A reference image is the useful guide; any remaining mismatch should be treated as a creative approximation, not as a source-accurate result."
-    },
-    {
-      "question": "A character sheet changes the face when you add a costume reference. What should you check first?",
-      "options": [
-        "Whether the face references and outfit reference are clearly assigned different roles",
-        "Whether you can add more decorative details",
-        "Whether to change the character’s name",
-        "Whether the image is in a wider aspect ratio"
+        "Shorten the dialogue or split it across clips, then review the selected duration before generating again.",
+        "Add an end frame to the start-frame-only class workflow and keep the same dialogue.",
+        "Add a transition effect to conceal the missing line."
       ],
       "correct": 0,
-      "explanation": "The Canva prompt explicitly separates face references from the outfit reference. Keeping those roles clear helps avoid importing the wrong face from a costume image."
-    },
-    {
-      "question": "A video model turns ground vibration into an explosion. The shot is still useful in the edit. What did the instructor demonstrate?",
-      "options": [
-        "Call the result physically correct",
-        "Use a short segment and reverse it in the edit to suggest vibration",
-        "Add more characters to the frame",
-        "Upscale before reviewing it"
-      ],
-      "correct": 1,
-      "explanation": "The transcript describes trimming and reversing part of a generated shot so it reads as vibration in the final edit, even though the model produced a blast-like motion."
-    },
-    {
-      "question": "Which source-backed deliverables were expected by the end of the class?",
-      "options": [
-        "A finished feature-length film",
-        "A character sheet for each character in the team’s film and a prop sheet",
-        "A published trailer and signed distribution agreement",
-        "A new voiceover for every character"
-      ],
-      "correct": 1,
-      "explanation": "The instructor’s stated end-of-day check was a character sheet for every character in the team’s film and a prop sheet."
-    },
-    {
-      "question": "The team disagrees about an experimental treatment of the Mahabharata story. What guidance did the instructor give?",
-      "options": [
-        "Choose the most comedic version",
-        "Follow one person’s opinion without discussion",
-        "Collaborate and experiment while avoiding spoof treatment of the sensitive subject",
-        "Copy the reference video exactly"
-      ],
-      "correct": 2,
-      "explanation": "The transcript encourages multiple opinions and experimentation, while explicitly cautioning the group against spoof treatment of the Mahabharata project."
+      "explanation": "A practical first adjustment is keeping spoken lines withwithin the selected clip duration or splitting a long message across clips, then combining them in the edit."
     }
   ],
-  "homeworkUrl": "https://docs.google.com/document/d/1NG5eCKm4gutvS5j_3CASgbH1T8XIOI-_4F2vV7DQkyU/edit",
-  "visual": "production",
-  "hero": "assets/illustrations/production.svg"
+  "hero": "assets/illustrations/advertisement.svg"
 };
-window.sessionData=window.BMAI_LESSON;

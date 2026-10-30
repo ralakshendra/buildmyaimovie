@@ -1,152 +1,148 @@
 window.BMAI_LESSON={
-  "id": "week-5-day-1",
-  "title": "Real Estate Walkthrough Challenge",
-  "number": 8,
-  "stage": "MOTION",
+  "id": "week-5-day-2",
+  "title": "Plan the Film Before the First Frame",
+  "number": 9,
+  "stage": "BLUEPRINT",
   "visual": "production",
-  "objective": "Create one coherent real-estate walkthrough of about one minute or less as a team, using consistent property references, purposeful image-to-video movement and a Filmora edit with music.",
-  "homeworkUrl": "https://docs.google.com/document/d/1qHcYXyMzjkQSD6remiUbcOcrgI9wMqELxpDtU2Oxylk/edit",
-  "submission": "Share one finished team film in the cohort group. Only one final film is required from each team. Record the final link, review notes and reflection in your Homework Doc.",
+  "objective": "Create a detailed screenplay and a Hollywood-style production sheet that turns the assigned story into visually consistent, executable shots.",
+  "homeworkUrl": "https://docs.google.com/document/d/1CGb4bhUlKvlzL4IrIrKtVGe1lMsYzwodJvVRnOTZWD4/edit",
+  "submission": "Complete the screenplay and production sheet in the official Homework Doc. Follow cohort submission instructions when provided.",
   "steps": [
     {
-      "title": "Select and prepare property references",
-      "instruction": "Choose the property images your team will use from the supplied website. Convert unsupported WebP files to PNG or JPEG when needed, verify every file opens, and agree which views anchor the walkthrough.",
-      "review": "The selected property is identifiable in every reference and the files open in the team’s production tools."
+      "title": "Confirm the story brief",
+      "instruction": "Review the assigned story topic and reference video together. Identify the characters and essential beats. Keep the topic aligned to the reference while choosing your own scenes, dialogue, pacing and production design. Aim for a 1.5–3 minute film; shorten a longer source to the clearest sequence.",
+      "review": "The team can name the story focus, key characters and sequence it will adapt."
     },
     {
-      "title": "Prepare views for motion",
-      "instruction": "Use the supplied images directly or create only the additional angles the walkthrough needs. Nano Banana or GPT Image 2 may recreate the same property at 16:9 or from another angle; the rough-sketch workflow remains a separate demonstration.",
-      "review": "The approved stills read as the same property and provide useful start or end frames without introducing a competing building or scene."
+      "title": "Write and lock the screenplay",
+      "instruction": "Draft the screenplay in WriterDuet, Google Docs or another writing tool. The team may write it directly or use an LLM when short on time; the team must review and approve it. Keep dialogue purposeful and build the story through visual choices rather than long monologues.",
+      "review": "A complete screenplay is approved before shot planning begins."
     },
     {
-      "title": "Generate the walkthrough motion",
-      "instruction": "Animate the approved stills with Kling 3.0 Omni or another image-to-video model the team understands. Use start-only or start-and-end frames as needed, and apply the supplied FPV prompt structure when it fits the selected view.",
-      "review": "The camera move clarifies the property, respects open space and keeps the architecture recognizable without visible warping or structural drift."
+      "title": "Align production roles",
+      "instruction": "Choose an image-generation lead and a video-generation lead. Have them develop the shot plan together so character references, camera choices, lighting and motion support one visual direction. Assign screenplay, direction and audio responsibilities as useful.",
+      "review": "Both generation leads agree on how the screenplay will translate into shots."
     },
     {
-      "title": "Edit one team film in Filmora",
-      "instruction": "Choose the useful motion clips, cut them into one clear property walkthrough in Filmora and add music. Keep the finished film to about one minute or less and remove decorative beauty shots that do not help the walkthrough.",
-      "review": "The team delivers one coherent walkthrough with supportive music, clear property continuity and a runtime of about one minute or less."
+      "title": "Build the shot-by-shot production sheet",
+      "instruction": "For every shot, record scene and story action, camera framing or movement, lighting and color, image-generation prompt, sound or dialogue needs, and duration. Add placeholders for main-character references and separate prompts for important props or backgrounds. Mix wide, close-up, rear and three-quarter coverage; identify the speaker clearly for dialogue shots.",
+      "review": "A teammate can execute every shot from the sheet, and visual continuity is explicit."
+    },
+    {
+      "title": "Review the handoff",
+      "instruction": "Read the screenplay and production sheet together. Check story clarity, visual continuity, character and prop references, dialogue coverage, and role alignment. Generation is the next production stage; this session completes preproduction.",
+      "review": "The approved screenplay and shot plan are ready to carry into generation."
     }
   ],
   "homework": [
     {
-      "title": "Reference preparation recipe",
-      "prompt": "Select the property images your team will use. If a file is WebP and the next tool will not accept it, convert it to PNG or JPEG and confirm the converted image opens before generation."
+      "title": "Story and screenplay",
+      "prompt": "Record the assigned story and reference, the team’s creative approach, the approved screenplay link or text, and changes made during review."
     },
     {
-      "title": "Additional-view recipe",
-      "prompt": "When the walkthrough needs another view, ask Nano Banana or GPT Image 2 to keep the same property, building and structure while creating the needed angle or a 16:9 composition. Review the result for property continuity before animation."
+      "title": "References and shared look",
+      "prompt": "Add optional character, prop and background references where they help. Record the shared visual reference and lighting or color notes."
     },
     {
-      "title": "Motion test recipe",
-      "prompt": "Choose start-only or start-and-end image-to-video based on the shot. Test a purposeful camera move, then reject or revise any result that changes the architecture, passes through solid walls or breaks the visual continuity of the property."
+      "title": "Production sheet",
+      "prompt": "Create one row per shot with scene, narrative action, camera and movement, lighting and color, image prompt, sound or dialogue, and duration. Coordinate the image-generation and video-generation leads on the same plan."
     },
     {
-      "title": "Team edit recipe",
-      "prompt": "Arrange the approved motion clips into one real-estate walkthrough in Filmora, add music and trim away beauty-shot filler. Keep the final team film to about one minute or less."
+      "title": "Review and handoff",
+      "prompt": "Use the final review checklist, note what will carry into the next production stage, and capture the team’s reflection."
     }
   ],
   "tools": [
     {
-      "name": "Chrome image-conversion extension",
-      "useCase": "Save property references as PNG or JPEG when a downloaded WebP image is unsupported by the next production tool."
+      "name": "Google Sheets",
+      "useCase": "Use the supplied shot-list workbook as a structural reference for the team production sheet."
     },
     {
-      "name": "Nano Banana",
-      "useCase": "Recreate the same property at 16:9 or generate another useful angle while keeping the building and structure consistent."
+      "name": "WriterDuet",
+      "useCase": "Draft and revise the screenplay before the shot list is finalized; the walkthrough used WriterDuet."
     },
     {
-      "name": "GPT Image 2",
-      "useCase": "Alternative image-generation route for recreating the same property or preparing an additional angle for motion."
+      "name": "Google Docs",
+      "useCase": "Draft the screenplay or maintain the official homework record."
     },
     {
-      "name": "Kling 3.0 Omni",
-      "useCase": "Demonstrated image-to-video route for start-frame and start-plus-end-frame property movement."
+      "name": "Claude",
+      "useCase": "The Canva workflow lists Claude for character sheets, props, and shot images."
+    },
+    {
+      "name": "Gemini",
+      "useCase": "The Canva workflow lists Gemini for character sheets, props, and shot images."
+    },
+    {
+      "name": "Lemonpeel",
+      "useCase": "The Canva workflow lists Lemonpeel for image generation and video generation."
+    },
+    {
+      "name": "Google Flow",
+      "useCase": "The Canva workflow lists Google Flow for prop images and Scene 1 first-frame generation."
+    },
+    {
+      "name": "ElevenLabs",
+      "useCase": "The Canva workflow lists ElevenLabs for voiceover and dialogue."
+    },
+    {
+      "name": "Pixabay",
+      "useCase": "The Canva workflow lists Pixabay for music and sound effects."
+    },
+    {
+      "name": "YouTube",
+      "useCase": "The Canva workflow lists YouTube for inspiration and idea adaptation."
     },
     {
       "name": "OpenArt",
-      "useCase": "The class recording showed the previously generated walkthrough examples and image-to-video process in this production environment."
-    },
-    {
-      "name": "Filmora",
-      "useCase": "Edit the approved motion clips into one team walkthrough and add music."
+      "useCase": "Use OpenArt for image generation when it fits the team workflow, and keep approved character and style references consistent across shots."
     }
   ],
   "prompts": [
     {
-      "title": "Rough-sketch demonstration prompt",
-      "text": "Convert this rough sketch to an ultra realistic 4K quality image of a contemporary style house with pastel color tones, also add a loan to the front garden. Strictly don’t change the structural details from the given drawing.",
-      "source": "Advanced Real estate Video production - rough-sketch demonstration"
+      "title": "Hero prompt for script and screenplay",
+      "text": "I have attached the script. Also ref images of the cinematic style which I want in terms of lighting and cinematogrphy. Remember this is a complete end to end AI production. Now you act as a world class Film director, and come up with a complete shot list table which also has prompts required for each shots image generations. Also remember I have character sheet for main characters. so in the prompts include placeholders whenever a main character is coming. The lighting coloring should be consistent throughout. Also individual prompts for main elemnts such as Gandiva, the game board, chariot wheel etc. The shot list should look world class like the horiziontal shot list they use in hollywood for production.",
+      "source": "Mahabharata workflow presentation by Mithun Palliyalil, Canva"
     },
     {
-      "title": "Generic FPV walkthrough prompt",
-      "text": "A smooth, steady and slow FPV drone moves through video of a luxury real estate property. The FPV drone starts from a wide angle into the start image and does a slow dolly in, then gradually increases the speed and enters to the end frame, then does a dollyout and a jib up to reveal a wide angle of end frame. Keep the natural parallax of objects and materials within, strictly don't change any features or objects from the reference image. there is no need to show the drone, it should be a complete FPV visual.",
-      "source": "Advanced Real estate Video production - supplied generic FPV prompt"
+      "title": "Arjuna character sheet prompt",
+      "text": "Ultra-photorealistic character sheet of Arjuna from the Mahabharata. CRITICAL: The character's face, facial features, and skin tone MUST strictly match ONLY @image1 @image2 @image3 @image4 . Do not alter the face. The character's hairstyle should match @image6 . The outfit should exactly match @image5 (use this reference for clothing and armor ONLY, ignore the face in this reference). Features realistic ancient Indian warrior attire, authentic metal armor, woven fabrics, and ornate jewelry suitable for a live-action historical epic. Neutral, heroic expression. Cinematic studio lighting, realistic shadows, hyper-detailed skin texture with visible pores, subsurface scattering, and natural imperfections. Include full character turnaround: Front view (neutral pose), Left side profile, Right side profile, 3/4 angle view. Add expression sheet: Neutral, Slight smile, Confident smile, Serious/Battle-ready, Confused. Add detail callouts: Close-up of eyes (accurate color, iris detail, and shape), realistic hair texture, and intricate armor/fabric material details. Style: 100% photorealistic, live-action cinema, 8k resolution, highly detailed photography, neutral grey background, consistent proportions across all views.",
+      "source": "Mahabharata workflow presentation by Mithun Palliyalil, Canva"
     },
     {
-      "title": "Omni Flash prompt 1 - courtyard start frame",
-      "text": "[Start Frame: Provided Image] Seamless first-person view (FPV) drone shot beginning exactly from this courtyard perspective. The camera lifts smoothly and moves along a dynamic, continuous flight path.\n\nMaintaining 100% structural and architectural consistency of the environment: the drone skims low over the circular stone fountain with cascading water, banking gently to the right. It sweeps smoothly past the active fire pit and over the manicured green lawn, maintaining the light-beige neo-classical luxury villa on the left and the lush palm trees on the right.\n\nThe flight continues through the courtyard, executing a precise cinematic curve around the modern wooden pergola and towards the circular cutout wall featuring the manicured bonsai tree.\n\nStyle and Technicals: Hyper-realistic, fluid FPV drone physics, organic motion blur during fast banks, continuous one-take sequence, volumetric golden hour morning sunlight casting long shadows, 8k resolution, photorealistic textures. No cuts, no warping.",
-      "source": "Advanced Real estate Video production - New Omni Flash prompt 1"
+      "title": "Draupadi character sheet prompt",
+      "text": "Ultra-photorealistic character sheet of Draupadi (Panchali) from the Mahabharata. CRITICAL: The character's face, facial features, and skin tone MUST strictly match ONLY [ @image1 @image2 @image3 ]. Maintain the exact bone structure, iris detail, and facial proportions. Character Sheet Layout: Full turnaround including Front view (regal standing pose), Left side profile, Right side profile, and 3/4 angle view. Add an expression sheet: Serene/Regal, Gentle smile, Commandingly serious, Emotional/Vulnerable, and Intense/Determined. Costume & Hair (Cinematic Reconstruction): An elaborate, high-end ancient Indian royal ensemble. She wears a fine silk sari in deep crimson and gold (symbolising her birth from fire), draped elegantly in a classical Vedic style. The fabric should have visible thread-work, intricate golden embroidery, and a realistic weight. Her hair is iconic: long, thick, raven-black, and wavy, flowing down to her waist but styled with a gold Maang Tikka and pearls. Jewellery: Authentic ancient Indian temple jewellery in 22k gold, including a heavy Choker and long Haar necklaces, intricate Bajuband (armlets), Kangan (bangles), and a traditional nose ring (Nath). All jewellery must have realistic metallic reflections and gemstone inlays (rubies and pearls). Technical Style: 100% photorealistic, live-action cinema quality, hyper-detailed skin texture with visible pores and natural imperfections, subsurface scattering for realistic skin glow. 8k resolution, cinematic studio lighting with soft shadows, neutral grey background, consistent proportions across all views. Detail Callouts: Close-up of the eyes (matching the likeness reference), macro view of the golden embroidery on the silk, and a detailed view of the intricate gold jewellery.",
+      "source": "Mahabharata workflow presentation by Mithun Palliyalil, Canva"
     },
     {
-      "title": "Omni Flash prompt 2 - generic FPV",
-      "text": "[Start Frame: Provided Image] Realistic, fluid first-person view (FPV) drone fly-through shot starting exactly from the perspective and geometry defined by the input image.\n\nStructural Integrity: The generation must maintain absolute architectural accuracy and geometric consistency of all buildings, structures, walls, and landscape features visible in the initial frame. All architectural elements must remain completely rigid and physically static, with zero morphing, warping, stretching, or changing shapes as the camera moves past them.\n\nMotion: The camera glides smoothly and dynamically along a continuous, stable aerial trajectory, strictly through open spaces (not passing through solid walls). Realistically simulate parallax and lens distortion appropriate for an FPV drone.\n\nExclusions & Quality: Clean cinematic output. Absolutely no visible interface elements, no red lines, no drawn path overlays, no brush strokes, and no motion trail artifacts. Professional 4k drone stabilization, crisp textures, natural lighting, and photorealistic depth of field.",
-      "source": "Advanced Real estate Video production - New Omni Flash prompt 2"
+      "title": "Kunti Devi character sheet prompt",
+      "text": "Kunti Devi (The Rajmata) Theme: Dignity, wisdom, maternal strength, and understated royalty. Ultra-photorealistic character sheet of Kunti Devi from the Mahabharata. CRITICAL: The character's face and skin tone MUST strictly match ONLY [ @image1 @image2 @image3 ]. Her expression should carry the weight of her history-wise and slightly sorrowful but very dignified. Costume: A sophisticated, high-end silk sari in ivory and muted gold (Rajmata style). The fabric should have a soft, realistic sheen and intricate hand-woven textures. She wears the pallu elegantly over her head. Jewelry: Sophisticated and traditional ancient Indian jewelry-a single heavy gold necklace, simple but large gold earrings (Karnaphool), and traditional bangles. No crown, but a subtle gold headpiece (Maang Tikka) visible under the sari veil. Layout: Full turnaround (Front, Side, Back, 3/4). Expression sheet: Serene/Wise, Sorrowful/Reflective, Maternal smile, Commanding presence. Style: 100% photorealistic, soft studio lighting, 8k resolution, hyper-detailed silk textures and aged, realistic skin, neutral grey background.",
+      "source": "Mahabharata workflow presentation by Mithun Palliyalil, Canva"
     },
     {
-      "title": "Omni Flash prompt 3 - geotagging",
-      "text": "[Start Frame: Uploaded Image/Coordinates] First-person view (FPV) drone fly-through animation sequence beginning exactly from the camera perspective, depth parameters, and spatial coordinate layout defined by the source image at coordinates [INSERT LATITUDE, LONGITUDE].\n\nCRITICAL ENVIRONMENT CONSTRAINT: The model must maintain 100% geometric, structural, and environmental fidelity to the provided start frame. The underlying terrain, layout, elements, and horizons of this [INSERT LANDSCAPE TYPE: e.g., open desert field / rocky canyon / dense forest] must remain completely rigid, unmutated, and physically static. Zero morphing, zero hallucinating of new buildings, zero warping of existing landmarks, and zero structural shifting as the camera translates through space.\n\nFLIGHT PATH & KINETICS: Execute a continuous, single-take aerial camera movement following the user-drawn trajectory path. The drone must glide smoothly over [INSERT FOCUS ELEMENT: e.g., the open dirt path / the grassy plain], simulating realistic drone aerodynamics, smooth bank compensation, subtle natural motion blur on fast turns, and real-world lens parallax.\n\nMANDATORY ARTIFACT EXCLUSION: The final video must be a clean, cinematic photographic render. Systematically eliminate all user interface overlays, brush stroke artifacts, drawn lines, colored paths, or motion path tracking indicators from the output frames.",
-      "source": "Advanced Real estate Video production - New Omni Flash prompt 3"
+      "title": "Character sheet close-up prompt",
+      "text": "Ultra-realistic professional studio portrait of the same person in the same costume, clean minimal background, soft neutral tones (white/grey), high-end fashion photography, sharp facial details, natural skin texture, soft diffused studio lighting, subtle shadows, centered composition, 85mm lens, shallow depth of field, no distractions, no props, polished and elegant look. Strictly should look like the person from the attached reference.",
+      "source": "Mahabharata workflow presentation by Mithun Palliyalil, Canva"
     }
   ],
   "checklist": [
-    "The team selected and can link the property reference images used.",
-    "The generated stills and motion clips keep the property recognizable and its architecture stable.",
-    "Image-to-video movement is purposeful; the team fixed or removed shots with visible warping or unusable transitions.",
-    "The Filmora edit forms one clear walkthrough with music and avoids unnecessary beauty-shot filler.",
-    "The team produced one final video that is about one minute or less."
+    "The screenplay follows the assigned story and is approved before shot listing.",
+    "Every shot has a clear visual action and camera choice.",
+    "Lighting and color stay consistent across the production sheet.",
+    "Main characters and important props have references where needed.",
+    "Image-generation and video-generation leads reviewed the plan together.",
+    "Dialogue and voiceover are planned without relying on long monologues."
   ],
   "quiz": [
     {
-      "question": "A selected property image downloads as WebP and your next tool will not accept it. What should you do first?",
+      "question": "The image and video leads disagree about how a scene should look. What is the best next step?",
       "options": [
-        "Convert it to PNG or JPEG and verify the saved file opens",
-        "Rename the WebP extension to PNG without converting the image",
-        "Compress the WebP further before testing the supported formats"
+        "Agree on one shot plan together, grounding camera and visual choices in the approved screenplay",
+        "Let each lead generate a different version without aligning",
+        "Start generation before the screenplay is settled"
       ],
       "correct": 0,
-      "explanation": "The instructor demonstrated using a Chrome image-conversion extension so the reference can be saved as a supported PNG or JPEG before generation."
-    },
-    {
-      "question": "When is a start frame by itself enough for image-to-video?",
-      "options": [
-        "Only when the image is a rough sketch",
-        "Never; every shot requires a start and end frame",
-        "When the planned camera move does not need a specific destination frame"
-      ],
-      "correct": 2,
-      "explanation": "The class allowed both start-only and start-plus-end-frame animation. The shot’s intended movement determines which setup is useful."
-    },
-    {
-      "question": "A generated camera move passes through a solid wall. What is the best first response?",
-      "options": [
-        "Crop the current clip first without checking the architectural path",
-        "Simplify or redirect the move through open space, then test again",
-        "Slow the same path while retaining the wall crossing"
-      ],
-      "correct": 1,
-      "explanation": "The supplied FPV structure explicitly keeps the camera in open spaces. Fixing the path protects architectural continuity before more credits are spent."
-    },
-    {
-      "question": "What is the required team output for this challenge?",
-      "options": [
-        "One real-estate walkthrough per team, about one minute or less",
-        "One video from every individual team member",
-        "A long collection of beauty-shot B-roll"
-      ],
-      "correct": 0,
-      "explanation": "The instructor clarified that each team makes one final video and should focus on the walkthrough and image-to-video technique rather than extra B-roll."
+      "explanation": "The leads must coordinate the shot plan so images, camera choices and motion carry one consistent visual direction."
     }
   ],
   "hero": "assets/illustrations/production.svg"

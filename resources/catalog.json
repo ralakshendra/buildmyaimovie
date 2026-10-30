@@ -4,9 +4,12 @@
   "prompts": 139,
   "checklists": 17,
   "sources": [
-    "playbook.html",
     "sessions/orientation/index.html",
     "sessions/orientation/playbook.html",
+    "sessions/week-1-day-1/index.html",
+    "sessions/week-1-day-1/playbook.html",
+    "sessions/week-1-day-2/index.html",
+    "sessions/week-1-day-2/playbook.html",
     "sessions/week-2-day-1/index.html",
     "sessions/week-2-day-1/playbook.html",
     "sessions/week-2-day-2/index.html",
@@ -31,13 +34,10 @@
     "sessions/week-7-day-1/playbook.html",
     "sessions/week-7-day-2/index.html",
     "sessions/week-7-day-2/playbook.html",
-    "sessions/week-7-day-3/index.html",
-    "sessions/week-7-day-3/playbook.html",
     "sessions/week-8-day-1/index.html",
     "sessions/week-8-day-1/playbook.html",
     "sessions/week-8-day-2/index.html",
     "sessions/week-8-day-2/playbook.html",
-    "resources/ai-faceless-youtube-masterclass.html",
     "resources/week-6-day-2-ugc-reference.html"
   ]
 }

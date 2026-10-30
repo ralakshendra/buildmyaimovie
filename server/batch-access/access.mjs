@@ -46,8 +46,10 @@ export function routeSession(pathname, sessions) {
   if (path.includes('\\') || path.split('/').some(x => x === '..' || x === '.')) return { invalid: true };
   const normalize = p => p.replace(/\/index\.html$/, '').replace(/\.html$/, '');
   for (const session of sessions) {
-    if (path.startsWith('sessions/' + session.id + '/') || path === 'sessions/' + session.id ||
-      [session.session, session.playbook, session.homeworkPage].filter(Boolean).some(p => normalize(p) === normalize(path))) return session;
+    const routes = [session.session, session.playbook, session.homeworkPage].filter(Boolean);
+    if (routes.some(p => normalize(p) === normalize(path))) return session;
+    const directory = session.session?.startsWith('sessions/') ? session.session.slice(0, session.session.lastIndexOf('/')) : null;
+    if (directory && (path === directory || path.startsWith(directory + '/'))) return session;
   }
   return path.startsWith('sessions/') ? { invalid: true } : null;
 }

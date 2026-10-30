@@ -31,7 +31,7 @@
   page.id='vault-results';page.setAttribute('role','tabpanel');
   const motion=()=>matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth';
   function updateUrl(){
-    const url=new URL(location.href);if(selected)url.searchParams.set('session',selected);else url.searchParams.delete('session');url.hash='';history.replaceState(null,'',url);
+    const url=new URL(location.href);url.searchParams.delete('session');if(selected)url.searchParams.set('lesson',window.BMAI_SESSIONS.find(s=>s.id===selected)?.route||selected);else url.searchParams.delete('lesson');url.hash='';history.replaceState(null,'',url);
   }
 
   function filter({updateHistory=false}={}){
@@ -76,7 +76,7 @@
 
   syncLocks();
   const target=location.hash?document.getElementById(decodeURIComponent(location.hash.slice(1))):null;
-  const requested=new URL(location.href).searchParams.get('session');
+  const params=new URL(location.href).searchParams;const requested=params.has('lesson')?window.BMAI_SESSIONS.find(s=>(s.route||s.id)===params.get('lesson'))?.id:params.get('session');
   selected=target?.closest('[data-vault-session]')?.dataset.vaultSession||((requested&&groups.some(group=>group.dataset.vaultSession===requested))?requested:'');
   filter();
   if(target){const group=target.closest('[data-vault-session]');const destination=isLocked(group)?group.querySelector('[data-vault-locked]'):target;if(!isLocked(group))target.querySelector('details')?.setAttribute('open','');requestAnimationFrame(()=>{destination.scrollIntoView({block:'center'});if(!isLocked(group)){target.tabIndex=-1;target.focus({preventScroll:true});}});}

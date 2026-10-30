@@ -1,167 +1,162 @@
 window.BMAI_LESSON={
-  "id": "week-3-day-2",
-  "title": "Make Yourself the Hero: Superhero Teaser Production",
-  "number": 5,
-  "stage": "SHOTS",
+  "id": "week-4-day-1",
+  "title": "Superhero Teaser Production",
+  "number": 6,
+  "stage": "EDIT",
   "visual": "short",
-  "objective": "Create a short superhero teaser by designing an original hero and costume, building a consistent character sheet and hero location, generating title artwork and reference-led shots, then assembling and reviewing the edit.",
-  "prerequisites": "Bring several well-lit photos of yourself from different angles and decide on an original hero identity and costume direction. Keep raw personal photos private and do not post them in the cohort group.",
+  "objective": "Turn the existing superhero identity into a finished cinematic 16:9 teaser by building usable references, generating and editing hero footage, then reviewing and sharing the cut.",
+  "prerequisites": "Bring the superhero identity from Week 3 Day 1 and several well-lit photos of yourself from different angles. Keep raw personal photos private.",
   "estimatedEffort": "The live session is scheduled for 20:00–22:00 IST. The source does not specify additional homework time.",
-  "submission": "Submit the finished teaser in the cohort group by the end of the session day. You may also share a finished public version on Instagram or Facebook. Share the finished teaser only, do not post raw personal reference photos. Use audio you own or have permission to publish.",
+  "submission": "Publish the finished teaser as demonstrated in class and submit the finished video and proof in the official Homework document. Share only audio you own or have permission to publish.",
   "homework": [
     {
-      "title": "Build the character and costume",
-      "prompt": "Choose an original hero name and personality, gather several clear photos from different angles, then use the demonstrated image workflow to build and refine a stable landscape character sheet. Keep the raw personal references private. Review: The face, costume, emblem, materials, and color palette read consistently across the useful character views."
+      "title": "Lock the hero reference",
+      "prompt": "Use the existing superhero identity and clean, well-lit photos from several angles to build a production character sheet with Nano Banana Pro in Flow or OpenArt. Use the official cohort prompt, which is not reproduced here because its full text was not supplied. Review: The face still looks like you, anatomy is clean, and the costume and photoreal style stay consistent across views."
     },
     {
-      "title": "Design the hero base",
-      "prompt": "Collect reference photos of one real building or place from multiple angles. Generate a matching base/location sheet. If the background overwhelms the hero setting, simplify the composition and refocus on the building. Review: The images represent the same recognizable location from coherent angles, with the architecture legible and useful as a teaser setting."
+      "title": "Build one recognizable base",
+      "prompt": "Choose one real building or structure, collect reference photos from useful angles, and use the supplied architecture-sheet prompt in the demonstrated reference workflow. Review: The same structure is obvious across angles and background buildings do not steal focus."
     },
     {
-      "title": "Create title artwork",
-      "prompt": "Use the character sheet as a reference to create a hero title/emblem that fits the costume. Start against a plain black background, then remove that background to make a transparent PNG for editing. Review: The hero name is readable, the lettering/emblem suits the costume, and the exported title asset has a clean transparent background."
+      "title": "Create the title asset",
+      "prompt": "Use the character sheet as a style reference and the official class title prompt. Match the hero emblem, glow, material and typography; remove the background and save a transparent PNG. Review: The title is readable, fits the hero identity, and its PNG has clean transparent edges."
     },
     {
-      "title": "Generate the A-roll",
-      "prompt": "Generate teaser shots with text plus assigned character and location references, following the reference workflow from class. Do not use start/end frames for this method. Try an establishing view, hero reveal, and hero action. Repeat a prompt for alternate takes when useful. Review: The generated takes preserve the assigned hero and location, communicate a clear sequence of teaser moments, and give you usable alternatives for the edit."
+      "title": "Generate the hero A-roll",
+      "prompt": "In OpenArt Video, use Text with reference and Seedance 2.0. Attach the character and, where needed, architecture sheets. Adapt the official prompt to remove instructor-specific details and retag references to your assets. Review: Establishing, rescue and action moments preserve the hero and setting; useful variations are ready for the edit."
     },
     {
-      "title": "Add B-roll and sound",
-      "prompt": "Create supporting details such as title animation or a close-up on the hero at the rooftop/base. Keep the shot shape consistent with the rest of the teaser. Review generated sound effects and do not rely on generated music as the background score. Review: Supporting shots add detail without breaking visual continuity. Sound effects are intentional and the edit has a deliberate audio choice."
+      "title": "Generate purposeful B-roll",
+      "prompt": "List the missing editing beats first. Use the class examples for title, atmosphere or rooftop detail, with the stated tools and settings. Keep generated audio off unless a shot benefits from it. Review: Every supporting shot has a clear editing purpose, fits the hero and location, and avoids random filler."
     },
     {
-      "title": "Edit in Filmora",
-      "prompt": "Save your Filmora project. Import and arrange the best A-roll and B-roll in a clear sequence, place the transparent title above the footage, remove black gaps, and align sound effects and publishable music to the picture. Review: The saved timeline has a clear reveal, legible title, intentional cuts, complete picture, and balanced sound."
+      "title": "Edit the teaser",
+      "prompt": "Create a 16:9 Filmora project. Import only useful fragments, build a rising reveal, place the transparent title over a strong frame, and align music and effects with the picture. Review: The edit has a clear escalation, clean cuts, legible title placement, and sound that supports the reveal."
     },
     {
-      "title": "Export, review, and share",
-      "prompt": "Export using the settings available in your workflow. Open the exported file, watch it from first frame to last, correct any issue, then submit the finished teaser to the cohort group by the end of the session day. Review: The exported teaser plays through cleanly and the submitted item is the finished video rather than raw personal references."
+      "title": "Review, export and share",
+      "prompt": "Review once for continuity, once for pacing and cuts, and once for audio. Export the finished teaser, watch it from first frame to last, then publish and submit the proof in Homework. Review: The exported 16:9 teaser plays cleanly, the project is saved, and the submitted link points to the finished video."
     }
   ],
   "tools": [
     {
       "name": "Google Flow",
-      "useCase": "Explore reference-led image or video generation as demonstrated in the lesson."
+      "useCase": "Build the character sheet and title asset with Nano Banana Pro, using the class image-reference workflow."
     },
     {
       "name": "OpenArt",
-      "useCase": "Build character and location references and generate text-with-reference teaser shots."
+      "useCase": "Generate the architecture sheet, Seedance 2.0 A-roll, and reference-led Kling 3.0 Omni B-roll."
     },
     {
       "name": "Nano Banana Pro",
-      "useCase": "Generate and refine the hero character sheet from personal reference images."
+      "useCase": "Create and refine the character sheet and title artwork from visual references."
     },
     {
       "name": "Adobe Express",
-      "useCase": "Remove the plain background from title artwork and prepare a transparent title asset."
+      "useCase": "Remove the title artwork background and prepare a transparent PNG."
     },
     {
       "name": "Filmora",
-      "useCase": "Assemble generated shots, title overlays, and sound into the teaser edit."
+      "useCase": "Edit A-roll, B-roll, title artwork and sound into the 16:9 teaser."
+    },
+    {
+      "name": "Seedance 2.0",
+      "useCase": "Generate the main A-roll moments through OpenArt Text with reference."
+    },
+    {
+      "name": "Kling 3.0 Omni",
+      "useCase": "Generate the reference-led rooftop walking B-roll example."
     }
   ],
   "prompts": [],
   "steps": [
     {
-      "title": "Build the character and costume",
-      "instruction": "Choose an original hero name and personality, gather several clear photos from different angles, then use the demonstrated image workflow to build and refine a stable landscape character sheet. Keep the raw personal references private.",
-      "review": "The face, costume, emblem, materials, and color palette read consistently across the useful character views."
+      "title": "Lock the hero reference",
+      "instruction": "Use the existing superhero identity and clean, well-lit photos from several angles to build a production character sheet with Nano Banana Pro in Flow or OpenArt. Use the official cohort prompt, which is not reproduced here because its full text was not supplied.",
+      "review": "The face still looks like you, anatomy is clean, and the costume and photoreal style stay consistent across views."
     },
     {
-      "title": "Design the hero base",
-      "instruction": "Collect reference photos of one real building or place from multiple angles. Generate a matching base/location sheet. If the background overwhelms the hero setting, simplify the composition and refocus on the building.",
-      "review": "The images represent the same recognizable location from coherent angles, with the architecture legible and useful as a teaser setting."
+      "title": "Build one recognizable base",
+      "instruction": "Choose one real building or structure, collect reference photos from useful angles, and use the supplied architecture-sheet prompt in the demonstrated reference workflow.",
+      "review": "The same structure is obvious across angles and background buildings do not steal focus."
     },
     {
-      "title": "Create title artwork",
-      "instruction": "Use the character sheet as a reference to create a hero title/emblem that fits the costume. Start against a plain black background, then remove that background to make a transparent PNG for editing.",
-      "review": "The hero name is readable, the lettering/emblem suits the costume, and the exported title asset has a clean transparent background."
+      "title": "Create the title asset",
+      "instruction": "Use the character sheet as a style reference and the official class title prompt. Match the hero emblem, glow, material and typography; remove the background and save a transparent PNG.",
+      "review": "The title is readable, fits the hero identity, and its PNG has clean transparent edges."
     },
     {
-      "title": "Generate the A-roll",
-      "instruction": "Generate teaser shots with text plus assigned character and location references, following the reference workflow from class. Do not use start/end frames for this method. Try an establishing view, hero reveal, and hero action. Repeat a prompt for alternate takes when useful.",
-      "review": "The generated takes preserve the assigned hero and location, communicate a clear sequence of teaser moments, and give you usable alternatives for the edit."
+      "title": "Generate the hero A-roll",
+      "instruction": "In OpenArt Video, use Text with reference and Seedance 2.0. Attach the character and, where needed, architecture sheets. Adapt the official prompt to remove instructor-specific details and retag references to your assets.",
+      "review": "Establishing, rescue and action moments preserve the hero and setting; useful variations are ready for the edit."
     },
     {
-      "title": "Add B-roll and sound",
-      "instruction": "Create supporting details such as title animation or a close-up on the hero at the rooftop/base. Keep the shot shape consistent with the rest of the teaser. Review generated sound effects and do not rely on generated music as the background score.",
-      "review": "Supporting shots add detail without breaking visual continuity. Sound effects are intentional and the edit has a deliberate audio choice."
+      "title": "Generate purposeful B-roll",
+      "instruction": "List the missing editing beats first. Use the class examples for title, atmosphere or rooftop detail, with the stated tools and settings. Keep generated audio off unless a shot benefits from it.",
+      "review": "Every supporting shot has a clear editing purpose, fits the hero and location, and avoids random filler."
     },
     {
-      "title": "Edit in Filmora",
-      "instruction": "Save your Filmora project. Import and arrange the best A-roll and B-roll in a clear sequence, place the transparent title above the footage, remove black gaps, and align sound effects and publishable music to the picture.",
-      "review": "The saved timeline has a clear reveal, legible title, intentional cuts, complete picture, and balanced sound."
+      "title": "Edit the teaser",
+      "instruction": "Create a 16:9 Filmora project. Import only useful fragments, build a rising reveal, place the transparent title over a strong frame, and align music and effects with the picture.",
+      "review": "The edit has a clear escalation, clean cuts, legible title placement, and sound that supports the reveal."
     },
     {
-      "title": "Export, review, and share",
-      "instruction": "Export using the settings available in your workflow. Open the exported file, watch it from first frame to last, correct any issue, then submit the finished teaser to the cohort group by the end of the session day.",
-      "review": "The exported teaser plays through cleanly and the submitted item is the finished video rather than raw personal references."
+      "title": "Review, export and share",
+      "instruction": "Review once for continuity, once for pacing and cuts, and once for audio. Export the finished teaser, watch it from first frame to last, then publish and submit the proof in Homework.",
+      "review": "The exported 16:9 teaser plays cleanly, the project is saved, and the submitted link points to the finished video."
     }
   ],
   "checklist": [
-    "Hero face and costume remain recognizable across the character sheet and chosen shots.",
-    "Raw personal reference photos are kept out of cohort-group submissions.",
-    "The hero base reads as one coherent, recognizable location.",
-    "Title artwork is legible and has a clean transparent background.",
-    "The edit includes a purposeful establishing moment, reveal, and action beat where available.",
-    "Chosen supporting shots fit the hero and location continuity.",
-    "The project is saved and the exported teaser plays with intentional title and audio choices.",
-    "Only the finished teaser is submitted, and public audio is owned or licensed for use."
+    "Character face, costume and anatomy remain consistent across the approved reference sheet.",
+    "Architecture references describe one recognizable location from useful angles.",
+    "Title asset is readable and exported as a clean transparent PNG.",
+    "A-roll keeps the intended hero and location across the selected moments.",
+    "Every B-roll shot supports a specific editing need.",
+    "The saved 16:9 timeline has a clear reveal, clean cuts and intentional sound.",
+    "The exported teaser plays from beginning to end and only finished media is submitted."
   ],
   "quiz": [
     {
-      "question": "Your generated hero looks different in each shot. What should you check first?",
+      "question": "The character sheet has a distorted face, but you are ready to generate video. What should you do?",
       "options": [
-        "Confirm that each video generation has the correct character sheet assigned as its reference",
-        "Revise the motion prompt while leaving reference assignments unchanged",
-        "Select the most similar take before checking which character sheet was assigned"
+        "Fix the still reference first, then continue to video",
+        "Try a wider motion shot using the same distorted face reference",
+        "Choose a short moving take before repairing the reference sheet"
       ],
       "correct": 0,
-      "explanation": "The lesson stresses assigning the correct character sheet as a reference for consistency."
+      "explanation": "The class workflow checks and repairs the reference sheet before spending motion credits."
     },
     {
-      "question": "Your location sheet mostly shows scenery and the building is hard to recognize. What is the useful adjustment?",
+      "question": "Which setup matches the demonstrated A-roll workflow?",
       "options": [
-        "Crop the video later while keeping the same unfocused location sheet",
-        "Increase reference detail before deciding which building should dominate",
-        "Refine the composition so the building is the focus"
+        "Flow text-to-video without references",
+        "A still-image workflow with unrelated visual anchors",
+        "OpenArt Video with Text with reference, Seedance 2.0, and the correct hero and location references"
       ],
       "correct": 2,
-      "explanation": "The instructor suggests refining the focus when background content dominates."
+      "explanation": "The guide identifies OpenArt Text with reference and Seedance 2.0 for A-roll."
     },
     {
-      "question": "You want to use the demonstrated reference-led video workflow. Which inputs fit it?",
+      "question": "A generated B-roll clip includes sound that fights the edit. What is the useful move?",
       "options": [
-        "An unreferenced clip from another film",
-        "Text plus assigned character and location references",
-        "A start frame and end frame only"
+        "Keep the generated audio and reduce the music throughout the teaser",
+        "Turn generated audio off unless the shot benefits from it",
+        "Lower all generated audio equally without reviewing its purpose"
       ],
       "correct": 1,
-      "explanation": "The demonstrated method is text-with-reference and does not use start/end frames."
+      "explanation": "The lesson says to keep B-roll audio off when it is not useful."
     },
     {
-      "question": "The first take is close but not ideal. How can you get editorial choices?",
+      "question": "The teaser feels like a stack of full generations rather than a reveal. What should you change?",
       "options": [
-        "Repeat the same prompt to generate alternate takes",
-        "Rewrite the character description for every alternate take",
-        "Lengthen the generation before testing another take"
+        "Cut inside the generations, keep convincing seconds, and shape a rising sequence",
+        "Preserve the entire best generation before building the reveal",
+        "Order full clips by generation time and smooth the joins with dissolves"
       ],
       "correct": 0,
-      "explanation": "The lesson demonstrates repeating a prompt to create varied takes for editing."
-    },
-    {
-      "question": "Your hero title has a solid black rectangle that covers the footage. What step should you take?",
-      "options": [
-        "Use an opacity fade on the black rectangle without removing it",
-        "Blend the entire title image into the footage without a transparent export",
-        "Remove the plain background and prepare a transparent PNG"
-      ],
-      "correct": 2,
-      "explanation": "The title workflow uses a plain background that is removed to create a transparent overlay."
+      "explanation": "The editing lesson treats generations as raw material and the edit as the place where the reveal is shaped."
     }
   ],
   "hero": "assets/illustrations/short.svg",
-  "lessonHero": "assets/week-3-day-2-hero-v2.webp",
-  "projectUrl": "https://canva.link/gw5yg0lc7wdlm87",
-  "homeworkUrl": "https://docs.google.com/document/d/1zj1OojpdpC8YHMYHqF2JPAvrJA78rckstWRN6wxr-MU/edit"
+  "homeworkUrl": "https://docs.google.com/document/d/1vIEK9NO-hJ_icVBlSQLUXVAHnlm46Gw1exPpc_42XR8/edit"
 };

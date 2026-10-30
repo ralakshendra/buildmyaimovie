@@ -45,8 +45,8 @@
     "id": "prompt-vault-week-1-day-2-01-keep-the-spoken-story-natural",
     "title": "YouTube channel research — God Prompt",
     "text": "# ROLE & PERSONA\n\nYou are a world-class **YouTube Growth Strategist and Content Architect** with 15+ years of experience building YouTube channels from zero to monetization across diverse niches.\n\nYou combine the expertise of:\n\n- Brand strategist\n- YouTube SEO and AEO specialist\n- Video producer\n- Content strategist\n- Audience researcher\n- Data analyst\n- Growth strategist\n\nMaintain this expert persona throughout every section of the output.\n\n---\n\n# OPERATING MODE\n\nTreat this as a **live, paid client engagement**, not a generic template exercise.\n\nConduct deep, real-time research on competitors, audience behavior, keywords, trends, and the {NICHE} landscape **before generating strategic recommendations**.\n\nEvery recommendation must be:\n\n- Specific to the client\n- Actionable\n- Immediately executable\n- Supported by research or clear strategic reasoning\n- Free from generic filler\n\nWhere reliable data is unavailable, clearly state the limitation and explain the reasoning behind your recommendation.\n\n**Never fabricate statistics, competitor data, search volumes, audience insights, or trend data.**\n\n---\n\n# CLIENT BRIEF\n\n| Parameter | Details |\n|---|---|\n| **Niche** | {NICHE} |\n| **Primary Audience** | {PRIMARY_AUDIENCE} |\n| **Language** | {LANGUAGE} |\n| **Brand Name** | {BRAND_NAME} |\n| **Constraints** | {CONSTRAINTS} |\n| **Launch Date** | {LAUNCH_DATE} |\n\n---\n\n# PRE-OUTPUT RESEARCH PROTOCOL\n\nBefore producing any strategic section, complete the following research phase.\n\n**Do not skip the research phase.**\n\n## Research Step 1: Competitor Landscape\n\nSearch YouTube for the **top 10 channels in {NICHE}**.\n\nFor each relevant competitor, capture:\n\n- Channel name\n- Subscriber count\n- Average views per video\n- Upload frequency\n- Top 3 performing video titles by views\n- Core content themes\n- Content formats used\n- Observable content gaps\n- Underserved subtopics\n- Opportunities that {BRAND_NAME} could own\n\nIdentify patterns across competitors rather than simply listing data.\n\n---\n\n## Research Step 2: Keyword & Trend Intelligence\n\nResearch YouTube search behavior and current demand around {NICHE}.\n\nIdentify:\n\n1. High-volume, relatively low-competition keywords for {NICHE}\n2. Top 5 rising or trending search queries from the last 90 days\n3. 3 to 5 evergreen topics with sustained audience demand\n4. Long-tail keyword opportunities\n5. Search-intent patterns\n6. AEO opportunities, including questions people are asking through AI search engines such as:\n   - ChatGPT\n   - Perplexity\n   - Gemini\n   - Other relevant AI search platforms\n\nFor every major trend or keyword claim, provide the source or research basis and date where available.\n\n---\n\n## Research Step 3: Audience Intelligence\n\nAnalyze where **{PRIMARY_AUDIENCE}** spends time online beyond YouTube.\n\nIdentify:\n\n- Platforms they actively use\n- Communities they participate in\n- Their top 5 frustrations related to {NICHE}\n- Their top 5 desires related to {NICHE}\n- Questions they repeatedly ask\n- Problems they are actively trying to solve\n- Content formats they respond to\n- Likely peak viewing periods\n- Preferred video lengths\n- Creators or brands they already follow\n\n---\n\n## Research Summary\n\nPresent all research findings in a **compact summary table** before moving into the strategy sections.\n\nClearly distinguish between:\n\n- **Researched facts**\n- **Observed patterns**\n- **Strategic recommendations**\n- **Reasoned assumptions**\n\n---\n\n# DELIVERABLES\n\nProduce all sections below **in the exact order specified**.\n\nEach major section must begin with a **2-sentence \"Why This Matters\" executive summary** explaining the strategic importance of that section for {NICHE} and {PRIMARY_AUDIENCE}.\n\n---\n\n# SECTION A: CHANNEL IDENTITY & POSITIONING\n\n## A1. Channel Name Options\n\nProvide **5 channel name options**.\n\nFor each option include:\n\n- Name\n- Strategic rationale\n- Brand positioning\n- Memorability\n- Domain availability check\n- Social handle availability check, where research is possible\n\nDo not claim availability without checking it.\n\n## A2. Unique Value Proposition\n\nWrite one powerful sentence beginning with:\n\n> \"The only channel that...\"\n\nMake it specific to {NICHE} and {PRIMARY_AUDIENCE}.\n\n## A3. Channel Tagline & Mission\n\nProvide:\n\n- Channel tagline\n- Mission statement\n\n## A4. Competitive Positioning\n\nExplain how the channel will be positioned differently from the top 3 competitors.\n\nUse a comparison table.\n\n## A5. Tone & Voice Guide\n\nDefine:\n\n- 3 brand adjectives\n- 3 \"We are / We are NOT\" pairs\n- Vocabulary guidelines\n- Words and phrases to use\n- Words and phrases to avoid\n\n---\n\n# SECTION B: BRANDING SYSTEM\n\n## B1. Colour Palette\n\nProvide:\n\n- Primary colour\n- Secondary colour\n- Accent colour\n- Hex codes\n- Rationale for each choice\n\nEvery colour recommendation must align with {NICHE}, {PRIMARY_AUDIENCE}, and {CONSTRAINTS}.\n\n## B2. Typography\n\nRecommend:\n\n- Heading font\n- Body font\n- Supporting font, if necessary\n\nPrioritize Google Fonts where appropriate.\n\nExplain the strategic reasoning behind each recommendation.\n\n## B3. Logo Concept\n\nDescribe the logo concept in words.\n\nDo not design the logo.\n\n## B4. Thumbnail Design System\n\nDefine:\n\n- Thumbnail layout grid\n- Typography\n- Font size hierarchy\n- Face vs. no-face rules\n- Colour rules\n- Contrast rules\n- Subject placement\n- Text usage\n- Visual hierarchy\n- Branding consistency\n\nMake the system specific to {NICHE}.\n\n## B5. Channel Art\n\nProvide:\n\n- Recommended banner dimensions\n- Key visual elements\n- Copy to include\n- Copy to exclude\n- Layout guidance\n- Mobile-safe considerations\n\n## B6. Intro & Outro Video Brief\n\nDefine:\n\n- Recommended duration\n- Visual style\n- Music mood\n- Voiceover requirements\n- Key visual elements\n- Animation direction\n- Outro CTA\n\n---\n\n# SECTION C: SEO & AEO STRATEGY\n\n## C1. Channel Description\n\nWrite a fully written, keyword-optimized YouTube channel description of approximately **250 words**.\n\nIt must sound human and brand-specific, not keyword-stuffed.\n\n## C2. About Section Copy\n\nWrite the first **100 characters** specifically for search snippet optimization.\n\n## C3. Master Keyword List\n\nOrganize keywords into:\n\n- **Tier 1:** Primary keywords\n- **Tier 2:** Secondary keywords\n- **Tier 3:** Long-tail keywords\n\nInclude search intent wherever useful.\n\n## C4. AEO Strategy\n\nExplain how the channel's content can increase its chances of being surfaced in AI-generated search answers.\n\nCover:\n\n- Question-based content\n- Structured answers\n- Entity relevance\n- Topical authority\n- Semantic coverage\n- Citability\n- Content structure\n\nMake every recommendation specific to {NICHE}.\n\n## C5. Video SEO Template\n\nProvide a reusable template covering:\n\n- Title formulas\n- Description structure\n- Keyword placement\n- Tag strategy\n- Chapters\n- Metadata\n- Search intent alignment\n\n## C6. Playlist Architecture\n\nDefine:\n\n- Playlist names\n- Playlist order\n- Content grouping\n- Viewer progression\n- Nesting logic\n- Search optimization\n\n## C7. End Screen & Cards Strategy\n\nExplain:\n\n- Which videos should link to each other\n- Where cards should appear\n- End screen structure\n- Viewer journey\n- Session-time strategy\n\n---\n\n# SECTION D: CONTENT PILLARS & FORMATS\n\n## D1. Content Pillars\n\nDefine **4 to 5 content pillars**.\n\nFor each pillar provide:\n\n- Pillar name\n- Purpose\n- Audience need served\n- Content examples\n- Search potential\n- Growth potential\n- Monetization potential\n\n## D2. Video Format Menu\n\nEvaluate:\n\n- Long-form\n- Shorts\n- Series\n- Collaborations\n- Live streams\n\nFor each format explain whether it should be used, how it should be used, and why.\n\n## D3. Signature Content Series\n\nCreate **one recurring show format** that is unique to {BRAND_NAME}.\n\nDefine:\n\n- Series name\n- Concept\n- Episode structure\n- Hook\n- Recurring elements\n- Why viewers would return\n- Example episode titles\n\n## D4. Hook Writing Guide\n\nCreate **3 proven hook formulas** specifically for {NICHE}.\n\nProvide written examples for each formula.\n\n## D5. Thumbnail Psychology\n\nExplain the psychological principles that should influence thumbnail design for {NICHE}.\n\nProvide specific examples.\n\n---\n\n# SECTION E: 90-DAY CONTENT CALENDAR\n\nCreate a detailed 90-day content calendar.\n\nMinimum output:\n\n- **12 long-form videos per month**\n- **41 Shorts per month**\n- **2 collaboration or guest-video opportunities across the 90 days**\n\nFor every content item include:\n\n- Date\n- Content title\n- Format\n- Content pillar\n- Target keyword\n- Search intent\n- Hook angle\n- CTA\n- Recommended publish day\n\n### Month 1 Focus\n\n**Establish authority and indexing.**\n\n### Month 2 Focus\n\n**Audience growth and community seeding.**\n\n### Month 3 Focus\n\n**Monetization eligibility and controlled viral attempts.**\n\nThe calendar must build logically from one month to the next rather than functioning as a random list of video ideas.\n\n---\n\n# SECTION F: PRE-LAUNCH CHECKLIST\n\n## F1. Pre-Launch Countdown\n\nCreate a week-by-week pre-launch plan working backward from **{LAUNCH_DATE}**.\n\nInclude specific tasks and deadlines.\n\n## F2. YouTube Studio Setup\n\nCreate a complete platform setup checklist covering every important YouTube Studio setting that must be configured before launch.\n\n## F3. Equipment & Tools\n\nRecommend a minimum viable production stack based on:\n\n- {CONSTRAINTS}\n- Budget\n- Content format\n- Production quality requirements\n\nPrioritize practical, cost-effective solutions.\n\n## F4. Social Media Cross-Promotion\n\nIdentify:\n\n- Which platforms to use\n- What content to publish on each\n- How frequently to post\n- When to post\n- How each platform should drive viewers toward YouTube\n\n## F5. First Video Strategy\n\nSpecify **exactly what the first YouTube upload should be**.\n\nExplain:\n\n- Topic\n- Title\n- Thumbnail concept\n- Hook\n- Video structure\n- CTA\n- Target keyword\n- Why this should be the first upload\n\n---\n\n# SECTION G: MONETIZATION ROADMAP\n\n## G1. YouTube Partner Program Path\n\nCreate a milestone-based roadmap toward YPP eligibility.\n\nInclude:\n\n- Required milestones\n- Target timeline\n- Key activities\n- Risks\n- Acceleration opportunities\n\n## G2. Revenue Stream Stack\n\nRank potential revenue streams for {NICHE} by:\n\n1. Feasibility\n2. Speed to first revenue\n3. Revenue potential\n4. Scalability\n\n## G3. Brand Partnership Pitch\n\nWrite **one ready-to-send cold outreach email** for potential brand partnerships.\n\nMake it specific to {NICHE} and {BRAND_NAME}.\n\n## G4. Product & Merch Opportunities\n\nProvide:\n\n- 1 quick-win digital product idea\n- 1 long-term digital product or business opportunity\n- 1 relevant merchandise opportunity, if appropriate\n\nExplain the strategic reasoning for each.\n\n---\n\n# SECTION H: ANALYTICS & KPI DASHBOARD\n\n## H1. North Star Metric\n\nIdentify **one primary KPI** for the channel.\n\nExplain why it is the most important metric for this specific channel.\n\n## H2. 30/60/90-Day Targets\n\nSet measurable targets for:\n\n- Subscribers\n- Views\n- Watch time\n- CTR\n- Average view duration\n- Returning viewers\n\nDo not invent benchmarks without explaining the basis for them.\n\n## H3. Weekly Review Framework\n\nDefine:\n\n- What to check\n- What numbers matter\n- What patterns to look for\n- What to adjust\n- When to make changes\n- What not to overreact to\n\n## H4. Early Warning Signals\n\nIdentify the metrics and patterns that indicate:\n\n- Content-market mismatch\n- Weak packaging\n- Poor retention\n- Audience mismatch\n- Topic fatigue\n- Need for a strategic pivot\n\n---\n\n# SECTION I: COMMUNITY & PLATFORM GROWTH\n\n## I1. Community Tab Strategy\n\nExplain:\n\n- When to unlock/use the Community tab\n- What to post\n- Posting frequency\n- Poll strategy\n- Engagement strategy\n- How to use community posts to support video launches\n\n## I2. Comment Engagement Playbook\n\nDefine the actions to take during the **first 60 minutes after every upload**.\n\nInclude:\n\n- Comment response strategy\n- Pinning strategy\n- Creator replies\n- Questions to ask viewers\n- Engagement loops\n\n## I3. Cross-Platform Amplification\n\nCreate a cross-platform content distribution strategy.\n\nExplain how one YouTube video can be repurposed into content for other platforms.\n\n## I4. Collaboration Outreach Script\n\nWrite a ready-to-send DM template for approaching peer creators for collaborations.\n\nMake it specific to {NICHE}.\n\n---\n\n# OUTPUT QUALITY RULES\n\n## 1. Specificity Law\n\nEvery piece of advice must explicitly reference **{NICHE}** and **{PRIMARY_AUDIENCE}** where relevant.\n\nNo generic YouTube advice.\n\nIf a recommendation could apply equally to a cooking channel, a filmmaking channel, and a finance channel, rewrite it until it becomes specific to this client.\n\n---\n\n## 2. Format Rules\n\nUse:\n\n- Markdown headers for every section\n- Tables for comparison data and the content calendar\n- Numbered lists for sequential steps\n- Bullet points for non-sequential information\n\nEvery major section must begin with a **2-sentence \"Why This Matters\" executive summary**.\n\n---\n\n## 3. Constraint Compliance\n\nHonor every requirement in **{CONSTRAINTS}** throughout the entire strategy.\n\nConstraints may include:\n\n- Tone\n- Colours\n- Vocabulary\n- Budget\n- Production limitations\n- Platform limitations\n- Team size\n- Time availability\n\nIf any recommendation conflicts with a stated constraint:\n\n1. Clearly flag the conflict.\n2. Explain why the conflict exists.\n3. Provide a practical alternative that respects the constraint.\n\n---\n\n## 4. Research Citations\n\nWhen presenting competitor data, keyword data, trend information, audience research, or other externally sourced claims:\n\n- State the source or research basis\n- Include a date reference where available\n- Distinguish researched facts from strategic recommendations\n- Never present assumptions as facts\n\n---\n\n## 5. No Fabricated Data\n\nNever fabricate:\n\n- Subscriber counts\n- View counts\n- Search volumes\n- Competition scores\n- Audience demographics\n- Trends\n- Revenue estimates\n- Competitor information\n- Platform statistics\n\nWhen data cannot be verified, explicitly state that it is unavailable and provide a reasoned strategic estimate only when useful.\n\n---\n\n## 6. Completeness Check\n\nBefore ending the response, internally verify that all **9 sections, A through I**, are complete.\n\nConfirm that every subsection has been addressed.\n\nDo not omit sections because of output length.\n\n---\n\n# BANNED PHRASES\n\nNever use these phrases:\n\n- \"It depends\"\n- \"This varies\"\n- \"Generally speaking\"\n- \"You should consider\"\n- \"Make sure to\"\n\nReplace hedging language with **direct, confident, expert recommendations**.\n\n---\n\n# FINAL OUTPUT\n\nClose the entire strategy with a section titled:\n\n# WHAT'S NEXT\n\nList the **5 most important actions to take within the first 48 hours** after receiving this strategy.\n\nPrioritize actions by impact and urgency.\n\nEach action must be specific, executable, and tied directly to {NICHE}, {PRIMARY_AUDIENCE}, and {BRAND_NAME}.",
-    "source": "resources/ai-faceless-youtube-masterclass.html#resource-prompt-1",
-    "sourceUrl": "resources/ai-faceless-youtube-masterclass.html#resource-prompt-1",
+    "source": "sessions/week-1-day-1/index.html#resource-prompt-1",
+    "sourceUrl": "sessions/week-1-day-1/index.html#resource-prompt-1",
     "fields": [
       {
         "token": "{NICHE}",
@@ -86,8 +86,8 @@
     "id": "prompt-vault-week-1-day-2-02-keep-the-spoken-story-natural",
     "title": "Viral Short → scene-by-scene JSON prompt",
     "text": "I have the transcript of a viral YouTube Short.\nI want you to write step-by-step JSON prompts by dividing the entire script into sequential scenes for Google Veo 3.1 video generation.\nSTRICT INSTRUCTIONS:\n1. Divide the script into 5 to 8 second visual scenes.\n2. In each scene prompt, describe ONLY: visual action, subject movements, camera angles (close-up, pan, tracking), lighting mood, and atmospheric environment.\n3. Include specific Sound Effects (SFX) in each scene prompt.\n4. DO NOT include any dialogue, narration, or voiceover text inside the video prompts. Spoken dialogue is handled separately.\nOUTPUT FORMAT (JSON):\n[\n  {\n    \"scene_number\": 1,\n    \"duration\": \"5s\",\n    \"visual_prompt\": \"Cinematic close-up of [character action], dramatic low-key moonlight, volumetric shadows, high temporal coherence.\",\n    \"camera_movement\": \"Slow forward tracking shot\",\n    \"sound_effects\": \"Eerie wind whistling, distant owl hooting\"\n  }\n]",
-    "source": "resources/ai-faceless-youtube-masterclass.html#resource-prompt-2",
-    "sourceUrl": "resources/ai-faceless-youtube-masterclass.html#resource-prompt-2",
+    "source": "sessions/week-1-day-1/index.html#resource-prompt-2",
+    "sourceUrl": "sessions/week-1-day-1/index.html#resource-prompt-2",
     "fields": [
       {
         "token": "[character action]",
@@ -104,7 +104,7 @@
     "title": "Choose Your Channel Direction",
     "text": "Look for evidence before committing. A sold channel is a signal that the category has passed a proof-of-concept stage.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "playbook.html",
+    "sourceUrl": "sessions/week-1-day-1/playbook.html",
     "fields": []
   },
   {
@@ -114,7 +114,7 @@
     "title": "Run the God Prompt",
     "text": "If you do not know the audience or channel name yet, state that clearly in the variables and ask the research to investigate or suggest them.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "playbook.html",
+    "sourceUrl": "sessions/week-1-day-1/playbook.html",
     "fields": []
   },
   {
@@ -124,7 +124,7 @@
     "title": "Finalize the Channel Identity",
     "text": "At this stage, focus on the channel name, UVP, tagline and mission. Positioning statement and tone or voice can wait.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "playbook.html",
+    "sourceUrl": "sessions/week-1-day-1/playbook.html",
     "fields": []
   },
   {
@@ -134,7 +134,7 @@
     "title": "Create the First Brand Assets",
     "text": "For the profile picture, copy B1, B2 and B3 into ChatGPT, add the channel name, choose image creation with Auto and a 1:1 format, then create the banner in Canva.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "playbook.html",
+    "sourceUrl": "sessions/week-1-day-1/playbook.html",
     "fields": []
   },
   {
@@ -164,7 +164,7 @@
     "title": "Create Your First Shot",
     "text": "Start with a prepared image or frame, add the prompt, choose the frame workflow, and generate the shot.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-2-day-1/playbook.html",
+    "sourceUrl": "sessions/week-1-day-2/playbook.html",
     "fields": []
   },
   {
@@ -174,7 +174,7 @@
     "title": "Build the Audio Layer",
     "text": "Paste your transcript into Text to Speech, test voices, choose a voice that fits the story, and generate the audio.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-2-day-1/playbook.html",
+    "sourceUrl": "sessions/week-1-day-2/playbook.html",
     "fields": []
   },
   {
@@ -184,7 +184,7 @@
     "title": "Editing Essentials: Finish One Short",
     "text": "Place the shot and audio on the timeline, adjust audio when needed, and get a complete first draft rather than waiting for perfection.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-2-day-1/playbook.html",
+    "sourceUrl": "sessions/week-1-day-2/playbook.html",
     "fields": []
   },
   {
@@ -194,7 +194,7 @@
     "title": "Publish for Seven Days",
     "text": "Your goal is consistency. After publishing, observe which topics, scripts or approaches perform better and use those signals for the next set of shots.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-2-day-1/playbook.html",
+    "sourceUrl": "sessions/week-1-day-2/playbook.html",
     "fields": []
   },
   {
@@ -224,7 +224,7 @@
     "title": "Finish the Remaining Frames",
     "text": "Keep the hero image as the visual anchor and use the most recent relevant frame when creating the next angle.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-2-day-2/playbook.html",
+    "sourceUrl": "sessions/week-2-day-1/playbook.html",
     "fields": []
   },
   {
@@ -234,7 +234,7 @@
     "title": "Create the Full Frame Sequence",
     "text": "Move deliberately from wide or aerial framing toward mid, close-up and extreme close-up while protecting continuity.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-2-day-2/playbook.html",
+    "sourceUrl": "sessions/week-2-day-1/playbook.html",
     "fields": []
   },
   {
@@ -244,7 +244,7 @@
     "title": "Generate Image-to-Video Shots",
     "text": "Use Start and End Frame Animation only when the two frames are meaningfully related. Otherwise, use the start frame only.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-2-day-2/playbook.html",
+    "sourceUrl": "sessions/week-2-day-1/playbook.html",
     "fields": []
   },
   {
@@ -254,7 +254,7 @@
     "title": "Review and Iterate",
     "text": "Generate at 720p first, keep the strongest variation, and upscale only the shots worth keeping.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-2-day-2/playbook.html",
+    "sourceUrl": "sessions/week-2-day-1/playbook.html",
     "fields": []
   },
   {
@@ -284,7 +284,7 @@
     "title": "Create the Character Foundation",
     "text": "Use Flow and the Image option with Nano Banana Pro. If the face drifts, tag the uploaded reference and reinforce facial-feature retention.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-3-day-1/playbook.html",
+    "sourceUrl": "sessions/week-2-day-2/playbook.html",
     "fields": []
   },
   {
@@ -294,7 +294,7 @@
     "title": "Create the Visual Language",
     "text": "Keep the palette and mood board aligned with the brand brief so the visual language is established before screenplay generation.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-3-day-1/playbook.html",
+    "sourceUrl": "sessions/week-2-day-2/playbook.html",
     "fields": []
   },
   {
@@ -304,7 +304,7 @@
     "title": "Generate and Review the Screenplay",
     "text": "Use the structured method when professional alignment matters. The direct method is faster, but the structured method gives the model more context.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-3-day-1/playbook.html",
+    "sourceUrl": "sessions/week-2-day-2/playbook.html",
     "fields": []
   },
   {
@@ -314,7 +314,7 @@
     "title": "Build the Structured Shot List",
     "text": "Move from story to executable shots. Keep the shot list, references and project assets together so later A-roll, B-roll and generation stay organized.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-3-day-1/playbook.html",
+    "sourceUrl": "sessions/week-2-day-2/playbook.html",
     "fields": []
   },
   {
@@ -344,7 +344,7 @@
     "title": "Build the character and costume",
     "text": "Choose an original hero name and personality, gather several clear photos from different angles, then use the demonstrated image workflow to build and refine a stable landscape character sheet. Keep the raw personal references private. Review: The face, costume, emblem, materials, and color palette read consistently across the useful character views.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-3-day-2/playbook.html",
+    "sourceUrl": "sessions/week-3-day-1/playbook.html",
     "fields": []
   },
   {
@@ -354,7 +354,7 @@
     "title": "Design the hero base",
     "text": "Collect reference photos of one real building or place from multiple angles. Generate a matching base/location sheet. If the background overwhelms the hero setting, simplify the composition and refocus on the building. Review: The images represent the same recognizable location from coherent angles, with the architecture legible and useful as a teaser setting.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-3-day-2/playbook.html",
+    "sourceUrl": "sessions/week-3-day-1/playbook.html",
     "fields": []
   },
   {
@@ -364,7 +364,7 @@
     "title": "Create title artwork",
     "text": "Use the character sheet as a reference to create a hero title/emblem that fits the costume. Start against a plain black background, then remove that background to make a transparent PNG for editing. Review: The hero name is readable, the lettering/emblem suits the costume, and the exported title asset has a clean transparent background.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-3-day-2/playbook.html",
+    "sourceUrl": "sessions/week-3-day-1/playbook.html",
     "fields": []
   },
   {
@@ -374,7 +374,7 @@
     "title": "Generate the A-roll",
     "text": "Generate teaser shots with text plus assigned character and location references, following the reference workflow from class. Do not use start/end frames for this method. Try an establishing view, hero reveal, and hero action. Repeat a prompt for alternate takes when useful. Review: The generated takes preserve the assigned hero and location, communicate a clear sequence of teaser moments, and give you usable alternatives for the edit.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-3-day-2/playbook.html",
+    "sourceUrl": "sessions/week-3-day-1/playbook.html",
     "fields": []
   },
   {
@@ -384,7 +384,7 @@
     "title": "Add B-roll and sound",
     "text": "Create supporting details such as title animation or a close-up on the hero at the rooftop/base. Keep the shot shape consistent with the rest of the teaser. Review generated sound effects and do not rely on generated music as the background score. Review: Supporting shots add detail without breaking visual continuity. Sound effects are intentional and the edit has a deliberate audio choice.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-3-day-2/playbook.html",
+    "sourceUrl": "sessions/week-3-day-1/playbook.html",
     "fields": []
   },
   {
@@ -394,7 +394,7 @@
     "title": "Edit in Filmora",
     "text": "Save your Filmora project. Import and arrange the best A-roll and B-roll in a clear sequence, place the transparent title above the footage, remove black gaps, and align sound effects and publishable music to the picture. Review: The saved timeline has a clear reveal, legible title, intentional cuts, complete picture, and balanced sound.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-3-day-2/playbook.html",
+    "sourceUrl": "sessions/week-3-day-1/playbook.html",
     "fields": []
   },
   {
@@ -404,7 +404,7 @@
     "title": "Export, review, and share",
     "text": "Export using the settings available in your workflow. Open the exported file, watch it from first frame to last, correct any issue, then submit the finished teaser to the cohort group by the end of the session day. Review: The exported teaser plays through cleanly and the submitted item is the finished video rather than raw personal references.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-3-day-2/playbook.html",
+    "sourceUrl": "sessions/week-3-day-1/playbook.html",
     "fields": []
   },
   {
@@ -434,7 +434,7 @@
     "title": "Lock the hero reference",
     "text": "Use the existing superhero identity and clean, well-lit photos from several angles to build a production character sheet with Nano Banana Pro in Flow or OpenArt. Use the official cohort prompt, which is not reproduced here because its full text was not supplied. Review: The face still looks like you, anatomy is clean, and the costume and photoreal style stay consistent across views.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-4-day-1/playbook.html",
+    "sourceUrl": "sessions/week-3-day-2/playbook.html",
     "fields": []
   },
   {
@@ -444,7 +444,7 @@
     "title": "Build one recognizable base",
     "text": "Choose one real building or structure, collect reference photos from useful angles, and use the supplied architecture-sheet prompt in the demonstrated reference workflow. Review: The same structure is obvious across angles and background buildings do not steal focus.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-4-day-1/playbook.html",
+    "sourceUrl": "sessions/week-3-day-2/playbook.html",
     "fields": []
   },
   {
@@ -454,7 +454,7 @@
     "title": "Create the title asset",
     "text": "Use the character sheet as a style reference and the official class title prompt. Match the hero emblem, glow, material and typography; remove the background and save a transparent PNG. Review: The title is readable, fits the hero identity, and its PNG has clean transparent edges.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-4-day-1/playbook.html",
+    "sourceUrl": "sessions/week-3-day-2/playbook.html",
     "fields": []
   },
   {
@@ -464,7 +464,7 @@
     "title": "Generate the hero A-roll",
     "text": "In OpenArt Video, use Text with reference and Seedance 2.0. Attach the character and, where needed, architecture sheets. Adapt the official prompt to remove instructor-specific details and retag references to your assets. Review: Establishing, rescue and action moments preserve the hero and setting; useful variations are ready for the edit.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-4-day-1/playbook.html",
+    "sourceUrl": "sessions/week-3-day-2/playbook.html",
     "fields": []
   },
   {
@@ -474,7 +474,7 @@
     "title": "Generate purposeful B-roll",
     "text": "List the missing editing beats first. Use the class examples for title, atmosphere or rooftop detail, with the stated tools and settings. Keep generated audio off unless a shot benefits from it. Review: Every supporting shot has a clear editing purpose, fits the hero and location, and avoids random filler.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-4-day-1/playbook.html",
+    "sourceUrl": "sessions/week-3-day-2/playbook.html",
     "fields": []
   },
   {
@@ -484,7 +484,7 @@
     "title": "Edit the teaser",
     "text": "Create a 16:9 Filmora project. Import only useful fragments, build a rising reveal, place the transparent title over a strong frame, and align music and effects with the picture. Review: The edit has a clear escalation, clean cuts, legible title placement, and sound that supports the reveal.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-4-day-1/playbook.html",
+    "sourceUrl": "sessions/week-3-day-2/playbook.html",
     "fields": []
   },
   {
@@ -494,7 +494,7 @@
     "title": "Review, export and share",
     "text": "Review once for continuity, once for pacing and cuts, and once for audio. Export the finished teaser, watch it from first frame to last, then publish and submit the proof in Homework. Review: The exported 16:9 teaser plays cleanly, the project is saved, and the submitted link points to the finished video.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-4-day-1/playbook.html",
+    "sourceUrl": "sessions/week-3-day-2/playbook.html",
     "fields": []
   },
   {
@@ -524,7 +524,7 @@
     "title": "Macro texture: image-1-start",
     "text": "Macro product photography. Extreme close-up on the brushed \"Sunset Orange\" titanium edge of a smartphone strictly matching [@refimage]. The phone rests seamlessly against pitch black background. A single, sharp volumetric studio light sweeps across the metallic texture. Cinematic depth of field, 8k resolution, photorealistic.",
     "source": "https://canva.link/mc32a4pth7zt23x",
-    "sourceUrl": "sessions/week-4-day-2/playbook.html#image-1-start",
+    "sourceUrl": "sessions/week-4-day-1/playbook.html#image-1-start",
     "fields": []
   },
   {
@@ -534,7 +534,7 @@
     "title": "Macro texture: image-1-end",
     "text": "Macro product photography. Extreme close-up of the exact same futuristic smartphone chassis [ @refimage] The phone remains horizontal, resting flat. The frame focuses on the intersection of the flat orange titanium side rail and the frosted back glass. The dramatic studio edge lighting has moved and is now strictly at the top edge, leaving the bottom rail in soft shadow. High-resolution, photorealistic.",
     "source": "https://canva.link/mc32a4pth7zt23x",
-    "sourceUrl": "sessions/week-4-day-2/playbook.html#image-1-end",
+    "sourceUrl": "sessions/week-4-day-1/playbook.html#image-1-end",
     "fields": []
   },
   {
@@ -544,7 +544,7 @@
     "title": "Macro texture: video-1",
     "text": "High-end commercial macro product videography, signature Apple spec ad aesthetic. Extreme close-up on a sleek, brushed copper-titanium smartphone side rail, highlighting a smooth pill-shaped tactile button. Pure pitch-black background. Cinematic, slow-motion camera movement: begin with a slow, sweeping pan to the right and a slight tilt upward, gliding along the phone's contoured edge. As the camera orbits, seamlessly rack focus to reveal a massive, ultra-premium triple-lens rear camera array set in a raised metallic island. The lighting is dramatic, low-key studio lighting with narrow strip softboxes creating luxurious, gliding specular highlights that roll smoothly across the brushed metal and matte glass surfaces during the movement. Ultra-photorealistic, 8k resolution, shallow depth of field, sophisticated, sleek, and highly polished tech aesthetic.",
     "source": "https://canva.link/ihgf909jzcap7xu",
-    "sourceUrl": "sessions/week-4-day-2/playbook.html#video-1",
+    "sourceUrl": "sessions/week-4-day-1/playbook.html#video-1",
     "fields": []
   },
   {
@@ -554,7 +554,7 @@
     "title": "Fine detail: image-2-start",
     "text": "High end tech product photography. Close up shot of the exact same futuristic smartphone chassis bottomside view of [@refimage] The phone remain in exact same flat position, levitating in the exact center of the frame in pitch black background. The frame focuses on the intersection of the flat orange titanium side rail with has titanium texture. The dramatic studio edge lighting has moved and is now strictly at the top edge, leaving the bottom rail in soft shadow with titanium texture. High-resolution, photorealistic.",
     "source": "https://canva.link/mc32a4pth7zt23x",
-    "sourceUrl": "sessions/week-4-day-2/playbook.html#image-2-start",
+    "sourceUrl": "sessions/week-4-day-1/playbook.html#image-2-start",
     "fields": []
   },
   {
@@ -564,7 +564,7 @@
     "title": "Fine detail: image-2-end",
     "text": "Extreme macro close-up of a smartphone's bottom-right corner, shot from slightly below and looking upward in a dynamic, skewed perspective. The bottom face of the phone recedes away from the lens into a shallow depth of field with soft bokeh. Moody, dramatic product-render lighting with a sharp specular highlight glowing along the top outer edge against a pure pitch-black background. CRITICAL DETAIL ADHERENCE: Strictly replicate the exact materials and structural components from the provided reference. Maintain the exact brushed copper metallic finish, the distinct vertical antenna band intersecting the curved edge, the central charging port, the flanking screws, and the precise symmetrical speaker grill holes. 1:1 material and component matching required. [@refimage]",
     "source": "https://canva.link/mc32a4pth7zt23x",
-    "sourceUrl": "sessions/week-4-day-2/playbook.html#image-2-end",
+    "sourceUrl": "sessions/week-4-day-1/playbook.html#image-2-end",
     "fields": []
   },
   {
@@ -574,7 +574,7 @@
     "title": "Fine detail: video-2",
     "text": "High-end commercial macro product videography, signature Apple spec ad aesthetic. Begin on a dynamic, diagonally angled extreme close-up of a sleek, brushed copper-titanium smartphone's bottom edge, sharply focusing on the precision-milled speaker grills and USB-C port. Pure pitch-black background. Cinematic, slow-motion camera movement: execute a buttery-smooth dolly out (pull back) while simultaneously rotating the camera to level the z-axis. As the camera pulls back, the focal plane expands. The movement resolves seamlessly into a perfectly symmetrical, centered wide profile shot of the phone's bottom horizontal edge floating in the dark void. Dramatic, low-key studio lighting with narrow strip softboxes creates luxurious, gliding specular highlights that roll across the brushed metal during the spatial transition. Ultra-photorealistic, 8k resolution, flawless metallic textures, sophisticated and highly polished tech aesthetic.",
     "source": "https://canva.link/ihgf909jzcap7xu",
-    "sourceUrl": "sessions/week-4-day-2/playbook.html#video-2",
+    "sourceUrl": "sessions/week-4-day-1/playbook.html#video-2",
     "fields": []
   },
   {
@@ -584,7 +584,7 @@
     "title": "Camera assembly: image-3-start",
     "text": "Exploded view of three detached smartphone camera lenses floating in mid-air directly above their empty circular sockets, The phone body must match the reference [@refimage] with 100% accuracy: - Wide rectangular camera bump spanning nearly the full width of the phone - Orange titanium matte finish - Exactly 3 lens openings in this layout: two lenses side by side on the top row (left and right), one large lens on the bottom-left of the bump - A small circular flash on the top-right of the bump - A small microphone dot below the flash - A small circular black sensor below microphone dot [@refimage].The elements such as - The floating lens modules feature brushed orange titanium outer rings and deep black glass elements with subtle reflections. High-end product macro photography, dramatic cinematic rim lighting outlining the metallic edges, dark void background, photorealistic 3D render style, sharp focus on the hovering lenses, 8k resolution, highly detailed",
     "source": "https://canva.link/mc32a4pth7zt23x",
-    "sourceUrl": "sessions/week-4-day-2/playbook.html#image-3-start",
+    "sourceUrl": "sessions/week-4-day-1/playbook.html#image-3-start",
     "fields": []
   },
   {
@@ -594,7 +594,7 @@
     "title": "Camera assembly: image-3-end",
     "text": "I am attaching mutliple reference photo of a phone [@refimage01, @refimage02]. Recreate ONLY the phone body in this image — do not add any exploded components or floating parts. The phone body must match the reference with 100% accuracy: - Wide rectangular camera bump spanning nearly the full width of the phone - Orange titanium matte finish - Exactly 3 lens openings in this layout: two lenses side by side on the top row (left and right), one large lens on the bottom-left of the bump - A small circular flash on the top-right of the bump - A small microphone dot below the flash Photorealistic 3D render, pure black background, dramatic studio lighting, 9:16 portrait, angled back view from slightly above.",
     "source": "https://canva.link/mc32a4pth7zt23x",
-    "sourceUrl": "sessions/week-4-day-2/playbook.html#image-3-end",
+    "sourceUrl": "sessions/week-4-day-1/playbook.html#image-3-end",
     "fields": []
   },
   {
@@ -604,7 +604,7 @@
     "title": "Camera assembly: video-3",
     "text": "High-end commercial tech ad. STRONG, CONTINUOUS DOLLY OUT CAMERA MOVEMENT. The scene begins as a tight, extreme macro close-up on three detached smartphone camera lenses floating just above a copper-titanium phone body. Simultaneously, two actions occur: First, the camera continuously PULLS BACKWARD (dolly out) at a smooth, cinematic speed, progressively widening the field of view. Second, as the camera pulls back, the three floating lenses fluidly glide downward, seating perfectly into their recesses. By the end of the dolly-out movement, the frame has widened to reveal the fully assembled camera module and the upper half of the sleek orange smartphone floating in a pitch-black void. Dramatic studio softbox lighting creates moving specular highlights that roll across the brushed metal as the camera moves backwards. 8k resolution, ultra-photorealistic, flawless Apple-style aesthetic.",
     "source": "https://canva.link/ihgf909jzcap7xu",
-    "sourceUrl": "sessions/week-4-day-2/playbook.html#video-3",
+    "sourceUrl": "sessions/week-4-day-1/playbook.html#video-3",
     "fields": []
   },
   {
@@ -614,7 +614,7 @@
     "title": "Camera assembly: video-3-reverse",
     "text": "Begin with the complete camera system and smoothly separate the three lens modules upward into an exploded technical view. Keep all components locked to the correct positions and orientation.",
     "source": "Official Week 4 Day 2 video prompt bank, Google Doc: https://docs.google.com/document/d/1HrEnL8BjgZ-XeP_YdPiVG2CwH0quYRSmbXS4zTscR9o/edit",
-    "sourceUrl": "sessions/week-4-day-2/playbook.html#video-3-reverse",
+    "sourceUrl": "sessions/week-4-day-1/playbook.html#video-3-reverse",
     "fields": []
   },
   {
@@ -624,7 +624,7 @@
     "title": "Slim side: image-4-start",
     "text": "High end tech product photography. Mid level shot of the exact same futuristic smartphone chassis side view of [ @ref image] The phone remains vertical, levitating in the exact center of the frame, covering 70% of the frame. The frame focuses on the intersection of the flat orange titanium side rail. The dramatic studio edge lighting has moved and is now strictly at the top edge, leaving the bottom rail in soft shadow. High-resolution, photorealistic.",
     "source": "https://canva.link/mc32a4pth7zt23x",
-    "sourceUrl": "sessions/week-4-day-2/playbook.html#image-4-start",
+    "sourceUrl": "sessions/week-4-day-1/playbook.html#image-4-start",
     "fields": []
   },
   {
@@ -634,7 +634,7 @@
     "title": "Slim side: video-4",
     "text": "High-end commercial tech spec ad. Start exactly with the provided side-profile image. CONTINUOUS DOLLY OUT AND SLIDE DOWN: As the camera smoothly and continuously pulls backward (dolly out), the copper-titanium smartphone slowly and elegantly glides vertically downward, eventually exiting the bottom of the frame completely, leaving only a dark void. ENVIRONMENT: Infinite, matte black void. STRICTLY NO floor, NO glossy surfaces, and NO ground reflections beneath the phone. LIGHTING: Ultra-soft, diffused studio edge-light that fades naturally as the phone descends into the darkness. STRICTLY NO lens flares, NO hard specular highlights, and NO blooming. 8k resolution, flawless metallic textures, minimalist and highly polished Apple aesthetic.",
     "source": "https://canva.link/ihgf909jzcap7xu",
-    "sourceUrl": "sessions/week-4-day-2/playbook.html#video-4",
+    "sourceUrl": "sessions/week-4-day-1/playbook.html#video-4",
     "fields": []
   },
   {
@@ -644,7 +644,7 @@
     "title": "Light reveal: image-5-start",
     "text": "Close-up angled back view (45-degree isometric angle) of the 'Sunset Orange' smartphone chassis [ @ref_image]. The camera bump island is visible. The scene is heavily shadowed, almost pitch black. Only a faint, subtle edge light strictly catches the very outermost rim of the uppermost titanium camera lens ring. The rest of the solid camera bump and phone are in complete shadow. Against a pitch black background. High-end tech commercial aesthetic.",
     "source": "https://canva.link/mc32a4pth7zt23x",
-    "sourceUrl": "sessions/week-4-day-2/playbook.html#image-5-start",
+    "sourceUrl": "sessions/week-4-day-1/playbook.html#image-5-start",
     "fields": []
   },
   {
@@ -654,7 +654,7 @@
     "title": "Light reveal: image-5-end",
     "text": "Close-up angled back view (45-degree isometric angle) of the 'Sunset Orange' smartphone chassis [ @ref_image]. The camera bump island is visible. A bright, dramatic overhead studio light now fully illuminates the solid orange titanium camera bump island and the frosted glass back. The lighting perfectly catches the metallic rings of all three camera modules. High-resolution, photorealistic.",
     "source": "https://canva.link/mc32a4pth7zt23x",
-    "sourceUrl": "sessions/week-4-day-2/playbook.html#image-5-end",
+    "sourceUrl": "sessions/week-4-day-1/playbook.html#image-5-end",
     "fields": []
   },
   {
@@ -664,7 +664,7 @@
     "title": "Light reveal: video-5",
     "text": "Static camera. A luxurious, buttery-smooth transition from deep shadow to soft, elegant studio lighting. The illumination fades up globally and organically. A large, extremely soft, diffused white reflection gracefully and slowly rolls across the frosted glass and titanium camera bump, revealing the premium materials. Strictly NO harsh sweeping spotlights, absolutely NO cheap starburst lens flares, and NO laser wipe effects. Masterful, high-end tech commercial lighting design, realistic and premium.",
     "source": "https://canva.link/ihgf909jzcap7xu",
-    "sourceUrl": "sessions/week-4-day-2/playbook.html#video-5",
+    "sourceUrl": "sessions/week-4-day-1/playbook.html#video-5",
     "fields": []
   },
   {
@@ -674,7 +674,7 @@
     "title": "Optional outro: image-6-start",
     "text": "Perfectly centred back view (portrait orientation) of the smartphone [ @refimage]. The phone stands perfectly vertical. A soft, diffused overhead studio light highlights the design against pitch black background. Symmetrical, bold editorial tech photography. The phone fills 60% of the frame.",
     "source": "https://canva.link/mc32a4pth7zt23x",
-    "sourceUrl": "sessions/week-4-day-2/playbook.html#image-6-start",
+    "sourceUrl": "sessions/week-4-day-1/playbook.html#image-6-start",
     "fields": []
   },
   {
@@ -684,7 +684,7 @@
     "title": "Optional outro: video-6",
     "text": "Slow, buttery smooth, and perfectly centered camera push-in (dolly forward) towards the back of the 'Sunset Orange' smartphone. **CRITICAL ENVIRONMENT LOCK:** The phone remains suspended in an infinite pitch-black void. Strictly NO ground plane, NO floor, NO table, and NO reflective base should appear at the bottom of the frame at any point. **CINEMATIC LIGHTING TRANSITION:** As the camera slowly pushes in, a luxurious, soft overhead studio light cinematically fades up from pure darkness. It creates a beautiful, elegant, and glowing top-light reflection exclusively along the upper curved titanium edge of the phone. The lighting transition is moody and dramatic, focusing the viewer's attention purely on that premium top reflection, while the lower half of the phone remains rich and perfectly shadowed. High-end, premium Apple commercial aesthetic.",
     "source": "https://canva.link/ihgf909jzcap7xu",
-    "sourceUrl": "sessions/week-4-day-2/playbook.html#video-6",
+    "sourceUrl": "sessions/week-4-day-1/playbook.html#video-6",
     "fields": []
   },
   {
@@ -694,7 +694,7 @@
     "title": "Plan a product spec ad: universal shot list",
     "text": "Role: Act as an expert commercial director and cinematographer.\nTask: Please generate a highly detailed and visually compelling spec ad shot list for a product based on the information provided below.\nProduct Details:\nProduct: [Insert Product Name & Brief Description, e.g., 'Aura: A sleek, noise-canceling over-ear headphone designed for audiophiles']\nReference Link / Inspiration: [Insert Link to a mood board, reference video, or competitor ad, e.g., 'https://youtube.com/example-ad or \"Similar to the classic Apple iPod silhouette ads\"']\nStyle & Tone of Video: [Insert desired style, e.g., 'Fast-paced, neon-lit, high energy, quick cuts, cyberpunk aesthetic']\nDuration Required: [Insert duration, e.g., '30 seconds', '15 seconds', '1 minute']\nOutput Requirements: Please structure the shot list clearly in a table or structured list format. For each shot, provide the following details:\nShot Number & Duration: (e.g., Shot 1, 0:00-0:03)\nShot Size & Angle: (e.g., Extreme Close-Up, Low Angle, Tracking Shot)\nVisual Action: Exactly what is happening on screen, including lighting cues, camera movement (pan, tilt, dolly), and talent action.\nAudio / SFX / VO: Music cues, specific sound effects, and any Voiceover (VO) or on-screen text/graphics.\nEnsure the pacing matches the requested duration and the visual descriptions clearly translate the requested style and tone. Conclude with a brief summary of the overarching color palette and lighting setup required for the shoot.",
     "source": "https://docs.google.com/document/d/1s2gyTbEztiguWZxnJR6N92hS393GReBILk3u4SEWvnc/edit",
-    "sourceUrl": "sessions/week-4-day-2/playbook.html#universal-spec-ad-shot-list",
+    "sourceUrl": "sessions/week-4-day-1/playbook.html#universal-spec-ad-shot-list",
     "fields": [
       {
         "token": "[Insert Product Name & Brief Description, e.g., 'Aura: A sleek, noise-canceling over-ear headphone designed for audiophiles']",
@@ -720,7 +720,7 @@
     "title": "Set the brief",
     "text": "Write a one-line brief: orange iPhone 17 Pro, camera-focused, premium spec ad. Set the core deliverable to ten seconds, 9:16, no more than five shots, no added text or voiceover. Use the shot plan below to assign each beat a purpose. Review: The last beat pays off the camera feature. Use the universal shot-list helper: replace product, reference, style and duration, then save a timed table with shot size, visual action, audio cues, palette and lighting.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-4-day-2/playbook.html",
+    "sourceUrl": "sessions/week-4-day-1/playbook.html",
     "fields": []
   },
   {
@@ -730,7 +730,7 @@
     "title": "Anchor the product",
     "text": "Open the reference gallery below and the full angle pool. Use the top-back image for the macro setup and clear camera references for assembly. Choose a matching bottom angle for fine detail. Save references in one project folder, with a folder for each shot. Do not upload the entire pool to every generation. Review: Lens layout, ports, antenna bands and orange finish are readable in the assigned references.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-4-day-2/playbook.html",
+    "sourceUrl": "sessions/week-4-day-1/playbook.html",
     "fields": []
   },
   {
@@ -740,7 +740,7 @@
     "title": "Approve the stills",
     "text": "Create a fresh Flow project or open the image workspace in OpenArt. Select Nano Banana Pro and upload the shot’s references. Use the matching image prompt. Generate 9:16, except the macro end: 16:9, then rotate for the vertical workflow. For fine detail, approve the end frame first, then build the matching start from it. For the slim side and optional outro, generate only the start frame. For the other setups, approve both. Compare hardware, pose and finish. Download each approved frame immediately into its shot folder. Review: The product geometry agrees across each pair.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-4-day-2/playbook.html",
+    "sourceUrl": "sessions/week-4-day-1/playbook.html",
     "fields": []
   },
   {
@@ -750,7 +750,7 @@
     "title": "Test and polish motion",
     "text": "Choose the frame-based video workflow and Kling 3.0. Attach the approved start and end where the setup uses both. Use the matching motion prompt. Test at lower quality; the demonstrated setup was five seconds, 720p and audio off, where available. Use only a start frame for slim side and optional outro. The side-entry workaround animates an exit and reverses it in edit. Review the full clip for warped edges, flicker and lens drift. Keep useful seconds and retry only the failed motion. Once the move works, upscale the final approved clip with OpenArt’s upscaler. Review: Each beat has a stable part you can cut into the film. Follow the updated Canva prompts: macro tracking, fine-detail pullback, lens seating, side exit and static light reveal. Check actual endpoints before motion. The optional outro prompt body specifies a push-in despite its conflicting heading.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-4-day-2/playbook.html",
+    "sourceUrl": "sessions/week-4-day-1/playbook.html",
     "fields": []
   },
   {
@@ -760,7 +760,7 @@
     "title": "Cut the ten-second core",
     "text": "Set a vertical project, save it and import the approved clips. Place macro, form, technology, combining and reveal beats on the timeline. Use the plan as a guide, not a reason to keep weak frames. Trim bad entrances and exits. Use clean hard cuts rather than adding transitions to hide problems. Open Speed → Speed Ramping and tune the curve to each move. Raise overly slow sections toward 1x as demonstrated. Reverse the side-exit clip if using that workaround. Keep the optional outro outside the ten-second core. Review: The phone remains recognizable and every shot adds momentum.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-4-day-2/playbook.html",
+    "sourceUrl": "sessions/week-4-day-1/playbook.html",
     "fields": []
   },
   {
@@ -770,7 +770,7 @@
     "title": "Build the sound",
     "text": "Audition tech-house, cyberpunk or minimal electronic tracks. Pick a useful 10 to 15-second section and mark its beats. Align macro movement, lens assembly and the reveal to those beat points. Trim the final audio to the ad. Place quiet texture on the macro, clicks on lens movement, a controlled transition whoosh and one final hit. Lower the music under key SFX, keep reverb restrained and finish with a clean tail. Confirm the platform’s current licence if you will publish the film. Review: Clicks land on visible actions and the reveal has one clear payoff.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-4-day-2/playbook.html",
+    "sourceUrl": "sessions/week-4-day-1/playbook.html",
     "fields": []
   },
   {
@@ -780,7 +780,7 @@
     "title": "Export and watch",
     "text": "Make restrained colour and contrast adjustments for continuity. Export the ten-second vertical core using available editor settings. MP4 was demonstrated. Open the file outside the editor and watch it without skipping. Check hardware, flicker, black gaps, sync and ending. Fix anything broken, export again and repeat the complete playback. Share the finished film in the cohort group as demonstrated. Keep proof and reflection for the Homework Doc using the official Homework link on this Playbook. Review: The exported file plays cleanly from first frame to last.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-4-day-2/playbook.html",
+    "sourceUrl": "sessions/week-4-day-1/playbook.html",
     "fields": []
   },
   {
@@ -810,7 +810,7 @@
     "title": "Rough-sketch demonstration prompt",
     "text": "Convert this rough sketch to an ultra realistic 4K quality image of a contemporary style house with pastel color tones, also add a loan to the front garden. Strictly don’t change the structural details from the given drawing.",
     "source": "Advanced Real estate Video production - rough-sketch demonstration",
-    "sourceUrl": "sessions/week-5-day-1/index.html#prompt-rough-sketch",
+    "sourceUrl": "sessions/week-4-day-2/index.html#prompt-rough-sketch",
     "fields": []
   },
   {
@@ -820,7 +820,7 @@
     "title": "Generic FPV walkthrough prompt",
     "text": "A smooth, steady and slow FPV drone moves through video of a luxury real estate property. The FPV drone starts from a wide angle into the start image and does a slow dolly in, then gradually increases the speed and enters to the end frame, then does a dollyout and a jib up to reveal a wide angle of end frame. Keep the natural parallax of objects and materials within, strictly don't change any features or objects from the reference image. there is no need to show the drone, it should be a complete FPV visual.",
     "source": "Advanced Real estate Video production - supplied generic FPV prompt",
-    "sourceUrl": "sessions/week-5-day-1/index.html#prompt-generic-fpv",
+    "sourceUrl": "sessions/week-4-day-2/index.html#prompt-generic-fpv",
     "fields": []
   },
   {
@@ -830,7 +830,7 @@
     "title": "Omni Flash prompt 1 - courtyard start frame",
     "text": "[Start Frame: Provided Image] Seamless first-person view (FPV) drone shot beginning exactly from this courtyard perspective. The camera lifts smoothly and moves along a dynamic, continuous flight path.\n\nMaintaining 100% structural and architectural consistency of the environment: the drone skims low over the circular stone fountain with cascading water, banking gently to the right. It sweeps smoothly past the active fire pit and over the manicured green lawn, maintaining the light-beige neo-classical luxury villa on the left and the lush palm trees on the right.\n\nThe flight continues through the courtyard, executing a precise cinematic curve around the modern wooden pergola and towards the circular cutout wall featuring the manicured bonsai tree.\n\nStyle and Technicals: Hyper-realistic, fluid FPV drone physics, organic motion blur during fast banks, continuous one-take sequence, volumetric golden hour morning sunlight casting long shadows, 8k resolution, photorealistic textures. No cuts, no warping.",
     "source": "Advanced Real estate Video production - New Omni Flash prompt 1",
-    "sourceUrl": "sessions/week-5-day-1/index.html#prompt-omni-courtyard",
+    "sourceUrl": "sessions/week-4-day-2/index.html#prompt-omni-courtyard",
     "fields": [
       {
         "token": "[Start Frame: Provided Image]",
@@ -846,7 +846,7 @@
     "title": "Omni Flash prompt 2 - generic FPV",
     "text": "[Start Frame: Provided Image] Realistic, fluid first-person view (FPV) drone fly-through shot starting exactly from the perspective and geometry defined by the input image.\n\nStructural Integrity: The generation must maintain absolute architectural accuracy and geometric consistency of all buildings, structures, walls, and landscape features visible in the initial frame. All architectural elements must remain completely rigid and physically static, with zero morphing, warping, stretching, or changing shapes as the camera moves past them.\n\nMotion: The camera glides smoothly and dynamically along a continuous, stable aerial trajectory, strictly through open spaces (not passing through solid walls). Realistically simulate parallax and lens distortion appropriate for an FPV drone.\n\nExclusions & Quality: Clean cinematic output. Absolutely no visible interface elements, no red lines, no drawn path overlays, no brush strokes, and no motion trail artifacts. Professional 4k drone stabilization, crisp textures, natural lighting, and photorealistic depth of field.",
     "source": "Advanced Real estate Video production - New Omni Flash prompt 2",
-    "sourceUrl": "sessions/week-5-day-1/index.html#prompt-omni-generic",
+    "sourceUrl": "sessions/week-4-day-2/index.html#prompt-omni-generic",
     "fields": [
       {
         "token": "[Start Frame: Provided Image]",
@@ -862,7 +862,7 @@
     "title": "Omni Flash prompt 3 - geotagging",
     "text": "[Start Frame: Uploaded Image/Coordinates] First-person view (FPV) drone fly-through animation sequence beginning exactly from the camera perspective, depth parameters, and spatial coordinate layout defined by the source image at coordinates [INSERT LATITUDE, LONGITUDE].\n\nCRITICAL ENVIRONMENT CONSTRAINT: The model must maintain 100% geometric, structural, and environmental fidelity to the provided start frame. The underlying terrain, layout, elements, and horizons of this [INSERT LANDSCAPE TYPE: e.g., open desert field / rocky canyon / dense forest] must remain completely rigid, unmutated, and physically static. Zero morphing, zero hallucinating of new buildings, zero warping of existing landmarks, and zero structural shifting as the camera translates through space.\n\nFLIGHT PATH & KINETICS: Execute a continuous, single-take aerial camera movement following the user-drawn trajectory path. The drone must glide smoothly over [INSERT FOCUS ELEMENT: e.g., the open dirt path / the grassy plain], simulating realistic drone aerodynamics, smooth bank compensation, subtle natural motion blur on fast turns, and real-world lens parallax.\n\nMANDATORY ARTIFACT EXCLUSION: The final video must be a clean, cinematic photographic render. Systematically eliminate all user interface overlays, brush stroke artifacts, drawn lines, colored paths, or motion path tracking indicators from the output frames.",
     "source": "Advanced Real estate Video production - New Omni Flash prompt 3",
-    "sourceUrl": "sessions/week-5-day-1/index.html#prompt-omni-geotagging",
+    "sourceUrl": "sessions/week-4-day-2/index.html#prompt-omni-geotagging",
     "fields": [
       {
         "token": "[Start Frame: Uploaded Image/Coordinates]",
@@ -893,7 +893,7 @@
     "title": "Reference preparation recipe",
     "text": "Select the property images your team will use. If a file is WebP and the next tool will not accept it, convert it to PNG or JPEG and confirm the converted image opens before generation.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-5-day-1/playbook.html",
+    "sourceUrl": "sessions/week-4-day-2/playbook.html",
     "fields": []
   },
   {
@@ -903,7 +903,7 @@
     "title": "Additional-view recipe",
     "text": "When the walkthrough needs another view, ask Nano Banana or GPT Image 2 to keep the same property, building and structure while creating the needed angle or a 16:9 composition. Review the result for property continuity before animation.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-5-day-1/playbook.html",
+    "sourceUrl": "sessions/week-4-day-2/playbook.html",
     "fields": []
   },
   {
@@ -913,7 +913,7 @@
     "title": "Motion test recipe",
     "text": "Choose start-only or start-and-end image-to-video based on the shot. Test a purposeful camera move, then reject or revise any result that changes the architecture, passes through solid walls or breaks the visual continuity of the property.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-5-day-1/playbook.html",
+    "sourceUrl": "sessions/week-4-day-2/playbook.html",
     "fields": []
   },
   {
@@ -923,7 +923,7 @@
     "title": "Team edit recipe",
     "text": "Arrange the approved motion clips into one real-estate walkthrough in Filmora, add music and trim away beauty-shot filler. Keep the final team film to about one minute or less.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-5-day-1/playbook.html",
+    "sourceUrl": "sessions/week-4-day-2/playbook.html",
     "fields": []
   },
   {
@@ -953,7 +953,7 @@
     "title": "Hero prompt for script and screenplay",
     "text": "I have attached the script. Also ref images of the cinematic style which I want in terms of lighting and cinematogrphy. Remember this is a complete end to end AI production. Now you act as a world class Film director, and come up with a complete shot list table which also has prompts required for each shots image generations. Also remember I have character sheet for main characters. so in the prompts include placeholders whenever a main character is coming. The lighting coloring should be consistent throughout. Also individual prompts for main elemnts such as Gandiva, the game board, chariot wheel etc. The shot list should look world class like the horiziontal shot list they use in hollywood for production.",
     "source": "Mahabharata workflow presentation by Mithun Palliyalil, Canva",
-    "sourceUrl": "sessions/week-5-day-2/playbook.html#resource-prompt-1",
+    "sourceUrl": "sessions/week-5-day-1/playbook.html#resource-prompt-1",
     "fields": []
   },
   {
@@ -963,7 +963,7 @@
     "title": "Arjuna character sheet prompt",
     "text": "Ultra-photorealistic character sheet of Arjuna from the Mahabharata. CRITICAL: The character's face, facial features, and skin tone MUST strictly match ONLY @image1 @image2 @image3 @image4 . Do not alter the face. The character's hairstyle should match @image6 . The outfit should exactly match @image5 (use this reference for clothing and armor ONLY, ignore the face in this reference). Features realistic ancient Indian warrior attire, authentic metal armor, woven fabrics, and ornate jewelry suitable for a live-action historical epic. Neutral, heroic expression. Cinematic studio lighting, realistic shadows, hyper-detailed skin texture with visible pores, subsurface scattering, and natural imperfections. Include full character turnaround: Front view (neutral pose), Left side profile, Right side profile, 3/4 angle view. Add expression sheet: Neutral, Slight smile, Confident smile, Serious/Battle-ready, Confused. Add detail callouts: Close-up of eyes (accurate color, iris detail, and shape), realistic hair texture, and intricate armor/fabric material details. Style: 100% photorealistic, live-action cinema, 8k resolution, highly detailed photography, neutral grey background, consistent proportions across all views.",
     "source": "Mahabharata workflow presentation by Mithun Palliyalil, Canva",
-    "sourceUrl": "sessions/week-5-day-2/index.html",
+    "sourceUrl": "sessions/week-5-day-1/index.html",
     "fields": []
   },
   {
@@ -973,7 +973,7 @@
     "title": "Draupadi character sheet prompt",
     "text": "Ultra-photorealistic character sheet of Draupadi (Panchali) from the Mahabharata. CRITICAL: The character's face, facial features, and skin tone MUST strictly match ONLY [ @image1 @image2 @image3 ]. Maintain the exact bone structure, iris detail, and facial proportions. Character Sheet Layout: Full turnaround including Front view (regal standing pose), Left side profile, Right side profile, and 3/4 angle view. Add an expression sheet: Serene/Regal, Gentle smile, Commandingly serious, Emotional/Vulnerable, and Intense/Determined. Costume & Hair (Cinematic Reconstruction): An elaborate, high-end ancient Indian royal ensemble. She wears a fine silk sari in deep crimson and gold (symbolising her birth from fire), draped elegantly in a classical Vedic style. The fabric should have visible thread-work, intricate golden embroidery, and a realistic weight. Her hair is iconic: long, thick, raven-black, and wavy, flowing down to her waist but styled with a gold Maang Tikka and pearls. Jewellery: Authentic ancient Indian temple jewellery in 22k gold, including a heavy Choker and long Haar necklaces, intricate Bajuband (armlets), Kangan (bangles), and a traditional nose ring (Nath). All jewellery must have realistic metallic reflections and gemstone inlays (rubies and pearls). Technical Style: 100% photorealistic, live-action cinema quality, hyper-detailed skin texture with visible pores and natural imperfections, subsurface scattering for realistic skin glow. 8k resolution, cinematic studio lighting with soft shadows, neutral grey background, consistent proportions across all views. Detail Callouts: Close-up of the eyes (matching the likeness reference), macro view of the golden embroidery on the silk, and a detailed view of the intricate gold jewellery.",
     "source": "Mahabharata workflow presentation by Mithun Palliyalil, Canva",
-    "sourceUrl": "sessions/week-5-day-2/index.html",
+    "sourceUrl": "sessions/week-5-day-1/index.html",
     "fields": []
   },
   {
@@ -983,7 +983,7 @@
     "title": "Kunti Devi character sheet prompt",
     "text": "Kunti Devi (The Rajmata) Theme: Dignity, wisdom, maternal strength, and understated royalty. Ultra-photorealistic character sheet of Kunti Devi from the Mahabharata. CRITICAL: The character's face and skin tone MUST strictly match ONLY [ @image1 @image2 @image3 ]. Her expression should carry the weight of her history-wise and slightly sorrowful but very dignified. Costume: A sophisticated, high-end silk sari in ivory and muted gold (Rajmata style). The fabric should have a soft, realistic sheen and intricate hand-woven textures. She wears the pallu elegantly over her head. Jewelry: Sophisticated and traditional ancient Indian jewelry-a single heavy gold necklace, simple but large gold earrings (Karnaphool), and traditional bangles. No crown, but a subtle gold headpiece (Maang Tikka) visible under the sari veil. Layout: Full turnaround (Front, Side, Back, 3/4). Expression sheet: Serene/Wise, Sorrowful/Reflective, Maternal smile, Commanding presence. Style: 100% photorealistic, soft studio lighting, 8k resolution, hyper-detailed silk textures and aged, realistic skin, neutral grey background.",
     "source": "Mahabharata workflow presentation by Mithun Palliyalil, Canva",
-    "sourceUrl": "sessions/week-5-day-2/index.html",
+    "sourceUrl": "sessions/week-5-day-1/index.html",
     "fields": []
   },
   {
@@ -993,7 +993,7 @@
     "title": "Character sheet close-up prompt",
     "text": "Ultra-realistic professional studio portrait of the same person in the same costume, clean minimal background, soft neutral tones (white/grey), high-end fashion photography, sharp facial details, natural skin texture, soft diffused studio lighting, subtle shadows, centered composition, 85mm lens, shallow depth of field, no distractions, no props, polished and elegant look. Strictly should look like the person from the attached reference.",
     "source": "Mahabharata workflow presentation by Mithun Palliyalil, Canva",
-    "sourceUrl": "sessions/week-5-day-2/playbook.html#resource-prompt-5",
+    "sourceUrl": "sessions/week-5-day-1/playbook.html#resource-prompt-5",
     "fields": []
   },
   {
@@ -1003,7 +1003,7 @@
     "title": "Story and screenplay",
     "text": "Record the assigned story and reference, the team’s creative approach, the approved screenplay link or text, and changes made during review.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-5-day-2/playbook.html",
+    "sourceUrl": "sessions/week-5-day-1/playbook.html",
     "fields": []
   },
   {
@@ -1013,7 +1013,7 @@
     "title": "References and shared look",
     "text": "Add optional character, prop and background references where they help. Record the shared visual reference and lighting or color notes.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-5-day-2/playbook.html",
+    "sourceUrl": "sessions/week-5-day-1/playbook.html",
     "fields": []
   },
   {
@@ -1023,7 +1023,7 @@
     "title": "Production sheet",
     "text": "Create one row per shot with scene, narrative action, camera and movement, lighting and color, image prompt, sound or dialogue, and duration. Coordinate the image-generation and video-generation leads on the same plan.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-5-day-2/playbook.html",
+    "sourceUrl": "sessions/week-5-day-1/playbook.html",
     "fields": []
   },
   {
@@ -1033,7 +1033,7 @@
     "title": "Review and handoff",
     "text": "Use the final review checklist, note what will carry into the next production stage, and capture the team’s reflection.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-5-day-2/playbook.html",
+    "sourceUrl": "sessions/week-5-day-1/playbook.html",
     "fields": []
   },
   {
@@ -1063,7 +1063,7 @@
     "title": "Hero prompt for script and screenplay / shot list",
     "text": "I have attached the script. Also ref images of the cinematic style which I want in terms of lighting and cinematogrphy. Remember this is a complete end to end AI production. Now you act as a world class Film director, and come up with a complete shot list table which also has prompts required for each shots image generations. Also remember I have character sheet for main characters. so in the prompts include placeholders whenever a main character is coming. The lighting coloring should be consistent throughout. Also individual prompts for main elemnts such as Gandiva, the game board, chariot wheel etc. The shot list should look world class like the horiziontal shot list they use in hollywood for production.",
     "source": "https://canva.link/3b9f4amvav9gwy8",
-    "sourceUrl": "sessions/week-6-day-1/index.html#prompt-shot-list",
+    "sourceUrl": "sessions/week-5-day-2/index.html#prompt-shot-list",
     "fields": []
   },
   {
@@ -1073,7 +1073,7 @@
     "title": "Arjuna character sheet prompt",
     "text": "Ultra-photorealistic character sheet of Arjuna from the Mahabharata. CRITICAL: The character's face, facial features, and skin tone MUST strictly match ONLY @image1 @image2 @image3 @image4. Do not alter the face. The character's hairstyle should match @image6. The outfit should exactly match @image5 (use this reference for clothing and armor ONLY, ignore the face in this reference). Features realistic ancient Indian warrior attire, authentic metal armor, woven fabrics, and ornate jewelry suitable for a live-action historical epic. Neutral, heroic expression. Cinematic studio lighting, realistic shadows, hyper-detailed skin texture with visible pores, subsurface scattering, and natural imperfections. Include full character turnaround: Front view (neutral pose), Left side profile, Right side profile, 3/4 angle view. Add expression sheet: Neutral, Slight smile, Confident smile, Serious/Battle-ready, Confused. Add detail callouts: Close-up of eyes (accurate color, iris detail, and shape), realistic hair texture, and intricate armor/fabric material details. Style: 100% photorealistic, live-action cinema, 8k resolution, highly detailed photography, neutral grey background, consistent proportions across all views.",
     "source": "https://canva.link/3b9f4amvav9gwy8",
-    "sourceUrl": "sessions/week-6-day-1/index.html#prompt-arjuna-character-sheet",
+    "sourceUrl": "sessions/week-5-day-2/index.html#prompt-arjuna-character-sheet",
     "fields": []
   },
   {
@@ -1083,7 +1083,7 @@
     "title": "Draupadi (Panchali) character sheet prompt",
     "text": "Ultra-photorealistic character sheet of Draupadi (Panchali) from the Mahabharata. CRITICAL: The character's face, facial features, and skin tone MUST strictly match ONLY [@image1 @image2 @image3]. Maintain the exact bone structure, iris detail, and facial proportions. Character Sheet Layout: Full turnaround including Front view (regal standing pose), Left side profile, Right side profile, and 3/4 angle view. Add an expression sheet: Serene/Regal, Gentle smile, Commandingly serious, Emotional/Vulnerable, and Intense/Determined. Costume & Hair (Cinematic Reconstruction): An elaborate, high-end ancient Indian royal ensemble. She wears a fine silk sari in deep crimson and gold (symbolising her birth from fire), draped elegantly in a classical Vedic style. The fabric should have visible thread-work, intricate golden embroidery, and a realistic weight. Her hair is iconic: long, thick, raven-black, and wavy, flowing down to her waist but styled with a gold Maang Tikka and pearls. Jewellery: Authentic ancient Indian temple jewellery in 22k gold, including a heavy Choker and long Haar necklaces, intricate Bajuband (armlets), Kangan (bangles), and a traditional nose ring (Nath). All jewellery must have realistic metallic reflections and gemstone inlays (rubies and pearls). Technical Style: 100% photorealistic, live-action cinema quality, hyper-detailed skin texture with visible pores and natural imperfections, subsurface scattering for realistic skin glow. 8k resolution, cinematic studio lighting with soft shadows, neutral grey background, consistent proportions across all views. Detail Callouts: Close-up of the eyes (matching the likeness reference), macro view of the golden embroidery on the silk, and a detailed view of the intricate gold jewellery.",
     "source": "https://canva.link/3b9f4amvav9gwy8",
-    "sourceUrl": "sessions/week-6-day-1/index.html#prompt-draupadi-character-sheet",
+    "sourceUrl": "sessions/week-5-day-2/index.html#prompt-draupadi-character-sheet",
     "fields": []
   },
   {
@@ -1093,7 +1093,7 @@
     "title": "Kunti Devi (The Rajmata) character sheet prompt",
     "text": "Kunti Devi (The Rajmata) Theme: Dignity, wisdom, maternal strength, and understated royalty. Ultra-photorealistic character sheet of Kunti Devi from the Mahabharata. CRITICAL: The character's face and skin tone MUST strictly match ONLY [@image1 @image2 @image3]. Her expression should carry the weight of her history-wise and slightly sorrowful but very dignified. Costume: A sophisticated, high-end silk sari in ivory and muted gold (Rajmata style). The fabric should have a soft, realistic sheen and intricate hand-woven textures. She wears the pallu elegantly over her head. Jewelry: Sophisticated and traditional ancient Indian jewelry-a single heavy gold necklace, simple but large gold earrings (Karnaphool), and traditional bangles. No crown, but a subtle gold headpiece (Maang Tikka) visible under the sari veil. Layout: Full turnaround (Front, Side, Back, 3/4). Expression sheet: Serene/Wise, Sorrowful/Reflective, Maternal smile, Commanding presence. Style: 100% photorealistic, soft studio lighting, 8k resolution, hyper-detailed silk textures and aged, realistic skin, neutral grey background.",
     "source": "https://canva.link/3b9f4amvav9gwy8",
-    "sourceUrl": "sessions/week-6-day-1/index.html#prompt-kunti-character-sheet",
+    "sourceUrl": "sessions/week-5-day-2/index.html#prompt-kunti-character-sheet",
     "fields": []
   },
   {
@@ -1103,7 +1103,7 @@
     "title": "Character sheet close-up prompt",
     "text": "Ultra-realistic professional studio portrait of the same person in the same costume, clean minimal background, soft neutral tones (white/grey), high-end fashion photography, sharp facial details, natural skin texture, soft diffused studio lighting, subtle shadows, centered composition, 85mm lens, shallow depth of field, no distractions, no props, polished and elegant look. Strictly should look like the person from the attached reference.",
     "source": "https://canva.link/3b9f4amvav9gwy8",
-    "sourceUrl": "sessions/week-6-day-1/index.html#prompt-character-closeup",
+    "sourceUrl": "sessions/week-5-day-2/index.html#prompt-character-closeup",
     "fields": []
   },
   {
@@ -1113,7 +1113,7 @@
     "title": "Prepare the character reference pack",
     "text": "Start from the team’s approved face and costume images. Adapt the Canva character-sheet prompt to the correct character and image references. Check the face, outfit, turnaround, and expression views against the source images.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-6-day-1/playbook.html",
+    "sourceUrl": "sessions/week-5-day-2/playbook.html",
     "fields": []
   },
   {
@@ -1123,7 +1123,7 @@
     "title": "Prepare the prop reference pack",
     "text": "Use the production shot list and the Mahabharatha Project (BMAM) sheet’s prop entries to select only the objects used by your team. For each object, record its name, source reference, scene use, and the unresolved visual details. Do not invent an official prompt when one has not been supplied.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-6-day-1/playbook.html",
+    "sourceUrl": "sessions/week-5-day-2/playbook.html",
     "fields": []
   },
   {
@@ -1133,7 +1133,7 @@
     "title": "Revise and select image generations",
     "text": "For each revision, state one visible mismatch, change the prompt or reference that addresses it, and save the before/after versions. Keep the selected version only when the reference, scale, composition, and intended story beat are clear.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-6-day-1/playbook.html",
+    "sourceUrl": "sessions/week-5-day-2/playbook.html",
     "fields": []
   },
   {
@@ -1143,7 +1143,7 @@
     "title": "Test motion and repair the edit",
     "text": "Check identity, anatomy, scale, direction, and physical movement. If the model misses the motion, try a focused prompt/reference change; if the result is still useful but imperfect, test a precise edit repair and label the shot as an approximation.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-6-day-1/playbook.html",
+    "sourceUrl": "sessions/week-5-day-2/playbook.html",
     "fields": []
   },
   {
@@ -1153,7 +1153,7 @@
     "title": "Hand off the team’s approved materials",
     "text": "Share the approved sheets, selected images and clips, version notes, open questions, and next owner with your team. Ask at least one teammate to review the choices before the production handoff.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-6-day-1/playbook.html",
+    "sourceUrl": "sessions/week-5-day-2/playbook.html",
     "fields": []
   },
   {
@@ -1183,7 +1183,7 @@
     "title": "Character reference image prompt",
     "text": "Create an original on-camera creator for a vertical product advertisement. Audience: [intended audience]. Creator: [appearance and wardrobe]. Setting: [simple location]. Frame from mid-torso at eye level with soft practical light and a calm background. Keep the same face, hairstyle, wardrobe, and camera angle across four variations. Do not add logos, package text, unsupported claims, or additional people.",
     "source": "BUILD MY AI MOVIE STUDIO practice prompt, written for this workflow. Replace every bracketed field before use.",
-    "sourceUrl": "sessions/week-6-day-2/index.html#resource-prompt-1",
+    "sourceUrl": "sessions/week-6-day-1/index.html#resource-prompt-1",
     "fields": [
       {
         "token": "[intended audience]",
@@ -1209,7 +1209,7 @@
     "title": "Product-in-hand image prompt",
     "text": "Create one 9:16 advertisement still using [saved_character_reference] and [approved_product_reference]. Show the creator holding [product] naturally at chest height with the supplied package facing camera. Preserve the product silhouette, color, and exact label from the reference. Use [setting], [lighting], and [camera framing]. Keep hands anatomically natural. Do not invent label text, logos, benefits, or claims.",
     "source": "BUILD MY AI MOVIE STUDIO practice prompt, written for this workflow. Replace every bracketed field before use.",
-    "sourceUrl": "sessions/week-6-day-2/index.html#resource-prompt-2",
+    "sourceUrl": "sessions/week-6-day-1/index.html#resource-prompt-2",
     "fields": [
       {
         "token": "[saved_character_reference]",
@@ -1250,7 +1250,7 @@
     "title": "Talking A-roll prompt",
     "text": "Use [approved_product_frame] as the first frame. The creator looks into the camera and speaks this approved script exactly: “[approved_script]”. Keep the same face, hair, clothing, room, and product details from the first frame. Use a natural conversational delivery, subtle gestures, clear dialogue, and one continuous take. Do not add dialogue, captions, logos, or product claims.",
     "source": "BUILD MY AI MOVIE STUDIO practice prompt, written for this workflow. Replace every bracketed field before use.",
-    "sourceUrl": "sessions/week-6-day-2/index.html#resource-prompt-3",
+    "sourceUrl": "sessions/week-6-day-1/index.html#resource-prompt-3",
     "fields": [
       {
         "token": "[approved_product_frame]",
@@ -1271,7 +1271,7 @@
     "title": "Product close-up B-roll prompt",
     "text": "Create a vertical close-up of [approved_product] using [product_reference] for exact packaging and [hero_frame] for lighting and color. Show [one useful product detail or action] with a steady camera and realistic hands if needed. Keep the label unchanged and readable. Do not add extra packaging, text, effects, or unsupported claims.",
     "source": "BUILD MY AI MOVIE STUDIO practice prompt, written for this workflow. Replace every bracketed field before use.",
-    "sourceUrl": "sessions/week-6-day-2/index.html#resource-prompt-4",
+    "sourceUrl": "sessions/week-6-day-1/index.html#resource-prompt-4",
     "fields": [
       {
         "token": "[approved_product]",
@@ -1302,7 +1302,7 @@
     "title": "Product-use B-roll prompt",
     "text": "Create a short vertical clip showing [specific, truthful product-use action] in [setting], guided by [approved_product_reference] and [hero_frame]. Keep the package, label, lighting, and surface details consistent. Show only the action described; avoid before-and-after implications or unverified benefits. Use a stable close-up and natural motion.",
     "source": "BUILD MY AI MOVIE STUDIO practice prompt, written for this workflow. Replace every bracketed field before use.",
-    "sourceUrl": "sessions/week-6-day-2/index.html#resource-prompt-5",
+    "sourceUrl": "sessions/week-6-day-1/index.html#resource-prompt-5",
     "fields": [
       {
         "token": "[specific, truthful product-use action]",
@@ -1333,7 +1333,7 @@
     "title": "Character and reference",
     "text": "Record the character path, intended audience, any authorized reference-image links, the saved character name, and how you judged continuity.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-6-day-2/playbook.html",
+    "sourceUrl": "sessions/week-6-day-1/playbook.html",
     "fields": []
   },
   {
@@ -1343,7 +1343,7 @@
     "title": "Product-in-hand frame",
     "text": "Link the product reference and selected hero image. Record the exact label text and what you checked for face, product, and lighting consistency.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-6-day-2/playbook.html",
+    "sourceUrl": "sessions/week-6-day-1/playbook.html",
     "fields": []
   },
   {
@@ -1353,7 +1353,7 @@
     "title": "Talking A-roll",
     "text": "Record the approved dialogue, the evidence or authorization for product claims, the start-frame choice, and your review of speech, face, hands, audio, and continuity.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-6-day-2/playbook.html",
+    "sourceUrl": "sessions/week-6-day-1/playbook.html",
     "fields": []
   },
   {
@@ -1363,7 +1363,7 @@
     "title": "Supporting B-roll",
     "text": "Link the close-up image and any product-use clip. Explain where each insert supports the message and note any mode or reference adjustment.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-6-day-2/playbook.html",
+    "sourceUrl": "sessions/week-6-day-1/playbook.html",
     "fields": []
   },
   {
@@ -1373,7 +1373,7 @@
     "title": "Edited ad and reflection",
     "text": "Link the final vertical export. Record your review notes, first fix, what worked, what needed another pass, and where you shared it using the current cohort instructions.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-6-day-2/playbook.html",
+    "sourceUrl": "sessions/week-6-day-1/playbook.html",
     "fields": []
   },
   {
@@ -1403,7 +1403,7 @@
     "title": "Prepare the reference portrait",
     "text": "Use the prior session's multi-angle photos to create and review a clean, front-facing portrait. Record the source and selected image links, likeness check, and first correction.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-7-day-1/playbook.html",
+    "sourceUrl": "sessions/week-6-day-2/playbook.html",
     "fields": []
   },
   {
@@ -1413,7 +1413,7 @@
     "title": "Test Google Flow",
     "text": "Upload the portrait in a new Flow project, attach and preview a template voice, tag the saved character, and use the class Agent settings. Review the scene plan and credit request before approving generation. Record the character, video, voice and issue notes.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-7-day-1/playbook.html",
+    "sourceUrl": "sessions/week-6-day-2/playbook.html",
     "fields": []
   },
   {
@@ -1423,7 +1423,7 @@
     "title": "Test the video-trained avatar",
     "text": "Use the instructor-shared avatar tool link. Provide your own clear training footage, follow the current consent and verification steps, create a short test, and review identity, voice, lip movement and framing. Record the result link and first fix.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-7-day-1/playbook.html",
+    "sourceUrl": "sessions/week-6-day-2/playbook.html",
     "fields": []
   },
   {
@@ -1433,7 +1433,7 @@
     "title": "Compare and save",
     "text": "Compare both outputs, record which retained your face and voice more clearly, note one failure and first fix, and organize the candidate you plan to carry into the later portfolio session.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-7-day-1/playbook.html",
+    "sourceUrl": "sessions/week-6-day-2/playbook.html",
     "fields": []
   },
   {
@@ -1463,7 +1463,7 @@
     "title": "Diagnose and protect the project",
     "text": "Save a separate Filmora working project. Link your rough cut and identify the most useful finishing problems with timestamps. Record the intended audience, message and frame shape.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-7-day-3/playbook.html",
+    "sourceUrl": "sessions/week-7-day-1/playbook.html",
     "fields": []
   },
   {
@@ -1473,7 +1473,7 @@
     "title": "Select usable frames and build the story",
     "text": "Create a clean assembly from usable source ranges. Save a before/after example of a trimmed glitch or stalled movement, and explain why the new cut works.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-7-day-3/playbook.html",
+    "sourceUrl": "sessions/week-7-day-1/playbook.html",
     "fields": []
   },
   {
@@ -1483,7 +1483,7 @@
     "title": "Repair motion and connect shots",
     "text": "Repair a motion or continuity issue with a trim, alternate angle, cutaway, reverse or uniform-speed adjustment. Record the chosen technique, its reason and what you checked.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-7-day-3/playbook.html",
+    "sourceUrl": "sessions/week-7-day-1/playbook.html",
     "fields": []
   },
   {
@@ -1493,7 +1493,7 @@
     "title": "Shape rhythm and speed ramps",
     "text": "Mark useful musical accents and compare a speed ramp with the original on a suitable shot. Keep the better version. For a calm scene, record why natural timing works better; do not add a ramp just to complete an exercise.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-7-day-3/playbook.html",
+    "sourceUrl": "sessions/week-7-day-1/playbook.html",
     "fields": []
   },
   {
@@ -1503,7 +1503,7 @@
     "title": "Animate graphics with purpose",
     "text": "Use a title or graphic only where it helps the film. Review safe margins and readability; demonstrate a restrained keyframed change when useful, or record why a static treatment is better.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-7-day-3/playbook.html",
+    "sourceUrl": "sessions/week-7-day-1/playbook.html",
     "fields": []
   },
   {
@@ -1513,7 +1513,7 @@
     "title": "Build sound in layers",
     "text": "Build and review separate voice, music and SFX layers as your film requires. Record one sound placement, its timing, and the level/fade change that improved it. Retain the audio source and license record.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-7-day-3/playbook.html",
+    "sourceUrl": "sessions/week-7-day-1/playbook.html",
     "fields": []
   },
   {
@@ -1523,7 +1523,7 @@
     "title": "Bridge scenes and protect dialogue",
     "text": "Try a J-cut or L-cut where it improves continuity and compare it with a clean cut. Protect dialogue using volume automation or available ducking. For a film without speech, record the music/ambience transition decision instead.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-7-day-3/playbook.html",
+    "sourceUrl": "sessions/week-7-day-1/playbook.html",
     "fields": []
   },
   {
@@ -1533,7 +1533,7 @@
     "title": "Match colour and finish text",
     "text": "Compare a mismatched join before and after correction. Record the reference and changes. Proofread retained titles/captions, check their timing and review them at phone size.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-7-day-3/playbook.html",
+    "sourceUrl": "sessions/week-7-day-1/playbook.html",
     "fields": []
   },
   {
@@ -1543,7 +1543,7 @@
     "title": "Export and inspect the actual file",
     "text": "Export the finished film, watch the actual file outside Filmora and record its settings and any issue corrected. Save the editable project with its source-media location.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-7-day-3/playbook.html",
+    "sourceUrl": "sessions/week-7-day-1/playbook.html",
     "fields": []
   },
   {
@@ -1553,7 +1553,7 @@
     "title": "Compare, explain and hand off",
     "text": "Link the rough cut, final film and project backup. Explain the strongest before/after editing decisions, record any N/A techniques and identify one next correction. Follow the current cohort hand-in instructions.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-7-day-3/playbook.html",
+    "sourceUrl": "sessions/week-7-day-1/playbook.html",
     "fields": []
   },
   {
@@ -1583,7 +1583,7 @@
     "title": "Candle object reference image",
     "text": "change the pen into a flaming candle",
     "source": "AI VFX USE CASES, Object Replacement; supplied Google Doc",
-    "sourceUrl": "sessions/week-8-day-2/index.html",
+    "sourceUrl": "sessions/week-7-day-2/index.html",
     "fields": []
   },
   {
@@ -1593,7 +1593,7 @@
     "title": "Replace the pen with the candle in the base video",
     "text": "replace the pen with the candle from @Image1  and have the man move the candle around with a realistic glow from the candle. Strictly no changes to the original video other than the candle glowing.",
     "source": "AI VFX USE CASES, Object Replacement; supplied Google Doc",
-    "sourceUrl": "sessions/week-8-day-2/index.html#prompt-object-candle-replacement",
+    "sourceUrl": "sessions/week-7-day-2/index.html#prompt-object-candle-replacement",
     "fields": []
   },
   {
@@ -1603,7 +1603,7 @@
     "title": "Boxing scene reference image",
     "text": "Strictly without making any changes to characters face, change [main image] into a international comptetive boxing ring with lights all around and crowd in the gallery who are out of focus. Keep teh character body position as of the reference image but change the costume to make him a international mua thai boxer. change the photos x and y orientation if needed but make sure the physics is accurate. Composite the scene to perfectly blend the character into the scene. The output should be extremely photorealistic ultraHD, with color and lighting ref of movies such as CREED3",
     "source": "AI VFX USE CASES, Advanced Scene Context & Characters; supplied Google Doc",
-    "sourceUrl": "sessions/week-8-day-2/index.html#prompt-boxing-scene-reference",
+    "sourceUrl": "sessions/week-7-day-2/index.html#prompt-boxing-scene-reference",
     "fields": [
       {
         "token": "[main image]",
@@ -1619,7 +1619,7 @@
     "title": "Animate the boxing character with the source motion",
     "text": "Animate the character in @image1 with the same motion as the character in the [@Video ]",
     "source": "AI VFX USE CASES, Advanced Scene Context & Characters; supplied Google Doc",
-    "sourceUrl": "sessions/week-8-day-2/index.html#prompt-boxing-motion-transfer",
+    "sourceUrl": "sessions/week-7-day-2/index.html#prompt-boxing-motion-transfer",
     "fields": []
   },
   {
@@ -1629,7 +1629,7 @@
     "title": "Scene replacement image for the staircase shot",
     "text": "Change the scene in Snapshot_1.PNG character climbing stairs  of a partially destroyed building in a war zone, change the costume of the character to a modern special force themed camouflage military uniform including helmet and communication devices, replace the gun in his M7_Rifle.png. Strictly don't make any changes to the facial feature. Strictly don't change the camera angle and camera position of Snapshot_1.PNG follow the exact angle and camera postion, just change the gun, the characters costume and the background. The output must be extremely photorealistic and ultraHD with light and color reference from movies like \"the covenant\" that based",
     "source": "AI VFX USE CASES, Advanced Scene Context & Characters; supplied Google Doc",
-    "sourceUrl": "sessions/week-8-day-2/index.html#prompt-staircase-scene-reference",
+    "sourceUrl": "sessions/week-7-day-2/index.html#prompt-staircase-scene-reference",
     "fields": []
   },
   {
@@ -1639,7 +1639,7 @@
     "title": "Video-to-video scene change with props",
     "text": "Use Video1 as the base video. Transform the subject into an Indonesian WWII soldier wearing a worn military uniform matching Image2 (mud-stained fabric, field belt, consistent texture). Replace the weapon with an M1 Garand matching Image1 (wood stock, correct scale and grip).Change the environment into a muddy WWII battlefield inspired by Image3 destroyed buildings, scattered debris, wet ground with puddles, light smoke drifting. Maintain original motion and timing from Video1. Opening frames use Image3 environment tone as initial background reference.Lighting: overcast daylight, soft shadows, diffused through smoke Style: grounded WWII realism, slightly desaturated color grading Quality: consistent character identity, stable wardrobe and weapon details Constraints: preserve original camera motion, no added cuts, no extra characters beyond source, no reflections",
     "source": "AI VFX USE CASES, Video Prompt 1 (with props required); supplied Google Doc",
-    "sourceUrl": "sessions/week-8-day-2/index.html#prompt-soldier-scene-props",
+    "sourceUrl": "sessions/week-7-day-2/index.html#prompt-soldier-scene-props",
     "fields": []
   },
   {
@@ -1649,7 +1649,7 @@
     "title": "Video-to-video scene change with a reference image",
     "text": "Use @ref _video as the base video. Transform the subject into an American soldier wearing a military uniform matching @image1 (consistent texture, exact facial features, exact weapon). Opening frames use @image1 environment tone as background reference. Lighting: overcast daylight, soft shadows, diffused through smoke Style: realism, slightly desaturated color grading Quality: consistent character identity, stable wardrobe and weapon details Constraints: preserve original camera motion, no added cuts, no extra characters beyond source, no reflections",
     "source": "AI VFX USE CASES, Video prompt 2 (with ref image, no props required); supplied Google Doc",
-    "sourceUrl": "sessions/week-8-day-2/index.html#prompt-soldier-scene-reference",
+    "sourceUrl": "sessions/week-7-day-2/index.html#prompt-soldier-scene-reference",
     "fields": []
   },
   {
@@ -1659,7 +1659,7 @@
     "title": "Redesign the vehicle interior while preserving the source subject",
     "text": "Keep the character from [@video] as it is, including body movements, and strictly keep the facial features as it is in [@video]. Now change the car interior to that of an ultra luxury sports car [@car interior image], relight the scene accordingly, including natural motion and parallax.",
     "source": "AI VFX USE CASES, Entire scene change; supplied Google Doc",
-    "sourceUrl": "sessions/week-8-day-2/index.html#prompt-car-interior-redesign",
+    "sourceUrl": "sessions/week-7-day-2/index.html#prompt-car-interior-redesign",
     "fields": []
   },
   {
@@ -1669,7 +1669,7 @@
     "title": "Optional motion-transfer prompt",
     "text": "Optional: Camera having slight handheld type motion. A POV shot an international muay thai championship in which the opponent is looking at the camera and calling for a fight. The audiences in the background are cheering them heavily, and the projection lights are moving. The background must have natural movements.",
     "source": "AI VFX USE CASES, Day 2 - Advanced VFX, Motion Transfer; supplied Google Doc",
-    "sourceUrl": "sessions/week-8-day-2/index.html#prompt-motion-transfer-optional",
+    "sourceUrl": "sessions/week-7-day-2/index.html#prompt-motion-transfer-optional",
     "fields": []
   },
   {
@@ -1679,7 +1679,7 @@
     "title": "Ask Gemini to describe a clip for Vidu Q2",
     "text": "I am recreating this scene using Vidu Q2 elements to video feature, I have created a plain background image, a new character image, and also have a screen grab of this video as reference. Now you describe the short in a prompt format so that I can copy paste it to Vidu Q2 elements to video, also include ref anchors in the prompt to attach correct ref. Describe everything 100% accurately with the video.",
     "source": "AI VFX USE CASES, Elements/Reference to video; supplied Google Doc",
-    "sourceUrl": "sessions/week-8-day-2/index.html#prompt-gemini-elements-description",
+    "sourceUrl": "sessions/week-7-day-2/index.html#prompt-gemini-elements-description",
     "fields": []
   },
   {
@@ -1689,7 +1689,7 @@
     "title": "Enhance a background without changing the reference",
     "text": "Give a high quality version of this same image, without any changes to actual @ref_image",
     "source": "AI VFX USE CASES, Elements/Reference to video; supplied Google Doc",
-    "sourceUrl": "sessions/week-8-day-2/index.html#prompt-background-enhancement",
+    "sourceUrl": "sessions/week-7-day-2/index.html#prompt-background-enhancement",
     "fields": []
   },
   {
@@ -1699,7 +1699,7 @@
     "title": "Sample Vidu Q2 elements-to-video prompt",
     "text": "Generate a cinematic action sequence combining the environment of [background_image_ref] with the exact subject from [character_image_ref], strictly adhering to the motion, timing, and framing of [screen_grab_ref].\nSetting: A dramatic night scene filled with thick, atmospheric smoke and dust. The background features an old, gothic stone church structure outlined by draped strings of glowing yellow fairy lights. The dusty ground is scattered with distinct, intense pools of burning fire. The ambient lighting is warm, driven by flickering orange and yellow firelight against the dark night.\nCharacter: The subject is an Indian man strictly matching [character_image_ref]—it is crucial that his facial features, specifically his clear aviator glasses, mustache, and goatee, remain consistent without morphing. He wears a highly detailed, tactical full-body red armor suit with raised muscle panels, glowing red-orange light strips, and a metallic gold \"E\" emblem on the chest.\nAction & Camera: The scene begins dynamically as the character drops rapidly down from out of frame. He lands heavily in the center of the frame in a deep, bent-knee crouch, kicking up a cloud of dust on impact. From this crouch, he immediately rises and squares his shoulders directly to the camera, entering a tense, wide-legged power stance with arms slightly flared out. Once fully standing and front-facing, he aggressively uses his hands to pull a red cloth mask up to cover his mouth and nose, locking his eyes into an intense, piercing stare directly at the lens. The camera executes a smooth, continuous dolly-in (pushing forward) throughout the entire sequence, closing in on his face and upper body as the ground fires continuously burn around him.",
     "source": "AI VFX USE CASES, Prompt sample for Vidu Q2 Elements to Video; supplied Google Doc",
-    "sourceUrl": "sessions/week-8-day-2/index.html#prompt-vidu-elements-sample",
+    "sourceUrl": "sessions/week-7-day-2/index.html#prompt-vidu-elements-sample",
     "fields": [
       {
         "token": "[background_image_ref]",
@@ -1725,7 +1725,7 @@
     "title": "Choose and scope one effect",
     "text": "Choose one demonstrated VFX use case that fits footage you can access. Record the base shot, the intended transformation, the details that must stay stable, and why the selected route fits the material.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-8-day-2/playbook.html",
+    "sourceUrl": "sessions/week-7-day-2/playbook.html",
     "fields": []
   },
   {
@@ -1735,7 +1735,7 @@
     "title": "Prepare a compatible reference set",
     "text": "Gather and label the source video or screenshot and the subject, prop, costume, character, matte, or background references needed for your selected route. Record what each asset should control and check that the references do not conflict.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-8-day-2/playbook.html",
+    "sourceUrl": "sessions/week-7-day-2/playbook.html",
     "fields": []
   },
   {
@@ -1745,7 +1745,7 @@
     "title": "Run one video transformation test",
     "text": "Select a source-backed tool and mode for the transformation, make a working prompt from the supplied prompt packet, attach the correct references, and generate a test. Record the exact tool, model, mode, inputs, and prompt version you used.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-8-day-2/playbook.html",
+    "sourceUrl": "sessions/week-7-day-2/playbook.html",
     "fields": []
   },
   {
@@ -1755,7 +1755,7 @@
     "title": "Review the full result and choose a first fix",
     "text": "Compare the result with the source across identity, movement, timing, camera, lighting, scene, props, and unwanted changes. Save a link to the selected output, describe one observed problem, and record the first correction that addresses that evidence.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-8-day-2/playbook.html",
+    "sourceUrl": "sessions/week-7-day-2/playbook.html",
     "fields": []
   },
   {
@@ -1895,7 +1895,7 @@
     "title": "Portfolio website master prompt",
     "text": "Build a premium, multi-page portfolio website for an AI Video Creator with a modern, high-end, minimalist dark aesthetic. The site requires a dynamic content architecture (CMS/Backend capability) so that all text, categories, and project video links can be updated easily.\n\nImplement a global, persistent Navigation Bar linking the three main pages: Home, Projects, and About.\n\n### Global Interactive Feature:\n- Lead Capture Popup: Trigger a sleek modal form exactly 5 seconds after the user lands on the website. Fields required: Name, Phone, Email ID, and Query. It must include a close button and smooth fade-in animation.\n\n---\n\n### PAGE 1: Homepage (Route: `/` or Home)\n1. Hero Section: Full-screen or large aspect-ratio video/image container with a clean text overlay for a cinematic title and subtitle.\n2. Client Logo Ticker: A seamless, horizontal infinitely auto-scrolling row of client or brand logos.\n3. Brief Bio: A two-column layout featuring a professional photo on one side and a brief, elegant \"About Me\" introduction on the other.\n4. Awards & Recognitions: A minimalist section displaying industry benchmarks, awards, or feature highlights.\n5. Reviews: A high-end carousel or clean grid showcasing brief client review cards.\n\n---\n\n### PAGE 2: Projects Page (Route: `/projects`)\n1. Banner: A premium header banner with bold typography and a text description introducing the portfolio body of work.\n2. Layout System: A two-column setup for maximum utility.\n   - Left Sidebar: A clean dropdown menu to filter projects by Category.\n   - Main Grid: A responsive gallery grid displaying multiple project cards.\n3. Project Cards & Video Handling: Each card must fetch its data dynamically. The card displays a thumbnail wrapper that, when clicked, opens or plays an embedded YouTube video link (optimized for Unlisted YouTube video embeds).\n4. Metadata Toggle: Under each video, include a subtle UI toggle that reveals the technical prompt specifications or JSON metadata for that project.\n\n---\n\n### PAGE 3: About Me Page (Route: `/about`)\n1. Detailed Bio: An expanded narrative layout paired with a striking, high-fidelity profile image.\n2. Workflows Section: A dedicated, auto-sliding asset grid titled \"Workflows\" displaying behind-the-scenes proof, node structures, or generation stages.\n3. Detailed Testimonials: A deep-dive section for long-form client testimonials and quotes.\n4. Benchmarks & Accolades: A final structured grid highlighting key artistic milestones and industry recognition.\n\n---\n\n### Backend & Content Management Requirements:\n- If building in Framer: Structure this layout to perfectly map to Framer Collections (CMS) for the Projects grid and text blocks.\n- If building in Lovable / v0: Create a centralized, editable local state configuration file (or connect to a Supabase database schema) and generate a hidden or password-protected \"/admin\" dashboard view. This dashboard must allow me to:\n  1. Add, edit, or delete project cards (Fields: Title, Category, YouTube Link, and Specs JSON).\n  2. Modify the main text fields and descriptions across the Homepage, Projects page, and About page.\n\nStyling: Use Tailwind CSS, premium typography, and smooth page transitions via Framer Motion to give it an elite, cinematic production studio feel.",
     "source": "https://docs.google.com/document/d/1VZuptSviE23csN0jOk4MyxYDOtqQ_9KmFMc7v6H2dXc",
-    "sourceUrl": "sessions/week-7-day-2/index.html#prompt-portfolio-website-master",
+    "sourceUrl": "sessions/week-8-day-2/index.html#prompt-portfolio-website-master",
     "fields": []
   },
   {
@@ -1905,7 +1905,7 @@
     "title": "Choose and tailor",
     "text": "Choose Framer, Lovable, or v0 for your needs. Personalize the source master prompt with your real identity, audience, services, projects, and visual direction. Remove conflicting platform, CMS, backend, or styling requirements. Record the builder and your key edits.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-7-day-2/playbook.html",
+    "sourceUrl": "sessions/week-8-day-2/playbook.html",
     "fields": []
   },
   {
@@ -1915,7 +1915,7 @@
     "title": "Plan and generate",
     "text": "Review the proposed Home, Projects, and About pages and interactions before building when your tool offers planning. Generate a first draft and note what the tool understood or missed.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-7-day-2/playbook.html",
+    "sourceUrl": "sessions/week-8-day-2/playbook.html",
     "fields": []
   },
   {
@@ -1925,7 +1925,7 @@
     "title": "Add portfolio material",
     "text": "Replace available placeholders with accurate profile, project, media, services, and other authorized details. Keep a simple mapping from each placeholder to its replacement asset or video link.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-7-day-2/playbook.html",
+    "sourceUrl": "sessions/week-8-day-2/playbook.html",
     "fields": []
   },
   {
@@ -1935,7 +1935,7 @@
     "title": "Review and revise",
     "text": "Check navigation, category filtering, project video playback, requested interactions, and desktop/mobile layouts. Record the preview or published link, observed issue, first grouped correction, and what you would carry forward.",
     "source": "Practice recipe from the session homework workflow.",
-    "sourceUrl": "sessions/week-7-day-2/playbook.html",
+    "sourceUrl": "sessions/week-8-day-2/playbook.html",
     "fields": []
   },
   {
